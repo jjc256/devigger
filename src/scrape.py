@@ -254,6 +254,8 @@ def process_markets(markets_data, result, special_to_parent):
                             prices[0].pop("participantId")
                             prices[1].pop("participantId")
                             existing_market["prices"] = prices
+                            existing_market["limit"] = market.get("limits", [{}])[
+                                0].get("amount")
 
 
 def pinnacle_nba():
