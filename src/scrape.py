@@ -135,10 +135,11 @@ def fanduel_nba():
         process_fanduel_markets(markets, seen_event_ids, result)
 
         # Save the result to a file
-        # with open('example_data.json', 'w') as f:
-        #    json.dump(result, f, indent=4)
+        # with open('example_fanduel.json', 'w') as f:
+        #     json.dump(result, f, indent=4)
 
         # print(result)  # Print or process the result as needed
+        return result
 
 
 def process_matchups(matchups_data):
@@ -298,8 +299,9 @@ def pinnacle_nba():
         process_markets(markets_data, result, special_to_parent)
 
         # Save the result to a file
-        with open('example_pinnacle.json', 'w') as f:
-            json.dump(result, f, indent=4)
+        # with open('example_pinnacle.json', 'w') as f:
+        #     json.dump(result, f, indent=4)
+    return result
 
 
 # fanduel_nba()
