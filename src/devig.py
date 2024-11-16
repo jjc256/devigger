@@ -1,4 +1,10 @@
 import math
+from enum import Enum
+
+
+class DevigMethod(Enum):
+    MULTIPLICATIVE = 1
+    POWER = 2
 
 
 def get_confidence_value(limit):
@@ -18,3 +24,34 @@ def get_confidence_value(limit):
     elif limit > max_limit:
         limit = max_limit
     return 1 + 9 * (math.log(limit / min_limit) / math.log(max_limit / min_limit))
+
+
+def american_to_probability(odds):
+    """
+    Convert American odds to a probability.
+
+    Args:
+        odds (int): The American odds.
+
+    Returns:
+        float: The probability.
+    """
+    if odds > 0:
+        return 100 / (odds + 100)
+    return -odds / (-odds + 100)
+
+
+def devig(odds1, odds2, method):
+    prob1 = american_to_probability(odds1)
+    prob2 = american_to_probability(odds2)
+    if method == DevigMethod.MULTIPLICATIVE:
+        return prob1 / (prob1 + prob2), prob2 / (prob1 + prob2)
+    elif method == DevigMethod.POWER:
+        def equation(p):
+            return math.pow(prob1, p) + math.pow(prob2, p) - 1
+
+        p = 1
+        while equation(p) > 0:
+            p += 0.005
+
+        return math.pow(prob1, p), math.pow(prob2, p)
