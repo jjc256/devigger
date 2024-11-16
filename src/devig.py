@@ -42,6 +42,17 @@ def american_to_probability(odds):
 
 
 def devig(odds1, odds2, method):
+    """
+    Calculate the devigged probabilities for two odds.
+
+    Args:
+        odds1 (int): The first odds.
+        odds2 (int): The second odds.
+        method (DevigMethod): The method to use for devigging.
+
+    Returns:
+        tuple: The devigged probabilities for the two odds.
+    """
     prob1 = american_to_probability(odds1)
     prob2 = american_to_probability(odds2)
     if method == DevigMethod.MULTIPLICATIVE:
