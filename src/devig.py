@@ -12,7 +12,7 @@ def get_confidence_value(limit):
         float: The confidence value.
     """
     min_limit = 250
-    max_limit = 1500
+    max_limit = 3000
     if limit < min_limit:
         limit = min_limit
     elif limit > max_limit:

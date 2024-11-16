@@ -256,6 +256,18 @@ def process_markets(markets_data, result, special_to_parent):
                             existing_market["prices"] = prices
                             existing_market["limit"] = market.get("limits", [{}])[
                                 0].get("amount")
+        elif market.get("key").startswith("s;0;ou;") and market.get("matchupId") in result:
+            parts = market.get("key").split(";")
+            prices = market.get("prices")
+            if len(parts) == 4 and len(prices) == 2:
+                threshold = parts[3]
+                market_info = {
+                    "description": "total points",
+                    "threshold": threshold,
+                    "prices": prices,
+                    "limit": market.get("limits", [{}])[0].get("amount")
+                }
+                result[market.get("matchupId")]["markets"].append(market_info)
 
 
 def pinnacle_nba():
@@ -291,4 +303,4 @@ def pinnacle_nba():
 
 
 # fanduel_nba()
-pinnacle_nba()
+# pinnacle_nba()
