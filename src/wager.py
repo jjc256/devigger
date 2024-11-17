@@ -7,6 +7,12 @@ class StatCategory(Enum):
     THREE_PT = 3
     DOUBLE_DOUBLE = 4
     PRA = 5
+    ASSISTS = 6
+
+    def pretty_name(self):
+        if self == StatCategory.THREE_PT:
+            return "Threes"
+        return self.name.capitalize()
 
 
 class OverUnder(Enum):
@@ -62,7 +68,7 @@ class Moneyline(Wager):
         """
         Provide a pretty string representation of the Moneyline object.
         """
-        return f"Game: {self.game}, Team: {self.team}, FanDuel Odds: {self.fanduel_odds}"
+        return f"{self.team} Moneyline {self.team} @ {self.opponent}"
 
 
 class PlayerProps(Wager):
@@ -76,7 +82,9 @@ class PlayerProps(Wager):
         :param pinnacle_limit: The limit from Pinnacle (integer).
         :param player: The name of the player (string).
         :param stat: The stat category (StatCategory).
+        :type stat: StatCategory
         :param over_under: The over/under (OverUnder).
+        :type over_under: OverUnder
         :param value: The value (float).
         :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
         """
@@ -99,7 +107,7 @@ class PlayerProps(Wager):
         """
         Provide a pretty string representation of the PlayerProps object.
         """
-        return f"Game: {self.game}, Player: {self.player}, {self.value}+ {self.stat.lower()}, FanDuel Odds: {self.fanduel_odds}"
+        return f"{self.player} {self.value}+ {self.stat.pretty_name()} {self.game}"
 
 
 class TeamTotal(Wager):
@@ -134,7 +142,7 @@ class TeamTotal(Wager):
         """
         Provide a pretty string representation of the TeamTotal object.
         """
-        return f"Game: {self.game}, Team: {self.team}, {self.over_under.capitalize()} {self.value} points, FanDuel Odds: {self.fanduel_odds}"
+        return f"{self.team} {self.over_under.name.capitalize()} {self.value} points {self.game}"
 
 
 class Spread(Wager):
@@ -169,7 +177,7 @@ class Spread(Wager):
         """
         Provide a pretty string representation of the Spread object.
         """
-        return f"Game: {self.game}, Team: {self.team}, Spread: {'+' if self.spread > 0 else ''}{self.spread}, FanDuel Odds: {self.fanduel_odds}"
+        return f"{self.team} {'+' if self.spread > 0 else ''}{self.spread} Handicap {self.opponent} @ {self.team}"
 
 
 class TotalPoints(Wager):
@@ -202,4 +210,4 @@ class TotalPoints(Wager):
         """
         Provide a pretty string representation of the TotalPoints object.
         """
-        return f"Game: {self.game}, {self.over_under.capitalize()} {self.value} points, FanDuel Odds: {self.fanduel_odds}"
+        return f"{self.over_under.name.capitalize()} {self.value} Total Points {self.game}"
