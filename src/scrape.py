@@ -250,13 +250,14 @@ def process_markets(markets_data, result, special_to_parent):
                     for existing_market in result[parent_matchup_id]["markets"]:
                         market_id = existing_market.get("id")
                         if market_id == matchup_id:
+                            if prices[0].get("participantId", 0) > prices[1].get("participantId", 0):
+                                prices[0], prices[1] = prices[1], prices[0]
                             prices[0]["designation"] = "over"
                             prices[1]["designation"] = "under"
                             prices[0].pop("participantId")
                             prices[1].pop("participantId")
                             existing_market["prices"] = prices
-                            existing_market["limit"] = market.get("limits", [{}])[
-                                0].get("amount")
+                            existing_market["limit"] = market.get("limits", [{}])[0].get("amount")
         elif market.get("key").startswith("s;0;ou;") and market.get("matchupId") in result:
             parts = market.get("key").split(";")
             prices = market.get("prices")

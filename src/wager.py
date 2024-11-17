@@ -9,24 +9,31 @@ class StatCategory(Enum):
     PRA = 5
 
 
+class OverUnder(Enum):
+    OVER = 1
+    UNDER = 2
+
+
 class Wager:
-    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int):
+    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_opposing_odds: int, pinnacle_limit: int):
         """
         Initialize a Wager object.
 
         :param game: The name of the game (string).
         :param fanduel_odds: The odds from FanDuel (integer).
         :param pinnacle_odds: The odds from Pinnacle (integer).
+        :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
         :param pinnacle_limit: The limit from Pinnacle (integer).
         """
         self.game = game
         self.fanduel_odds = fanduel_odds
         self.pinnacle_odds = pinnacle_odds
+        self.pinnacle_opposing_odds = pinnacle_opposing_odds
         self.pinnacle_limit = pinnacle_limit
 
 
 class Moneyline(Wager):
-    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, team: str, opponent: str):
+    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, team: str, opponent: str, pinnacle_opposing_odds: int):
         """
         Initialize a Moneyline object, extending Wager with team and opponent fields.
 
@@ -36,8 +43,10 @@ class Moneyline(Wager):
         :param pinnacle_limit: The limit from Pinnacle (integer).
         :param team: The name of the team (string).
         :param opponent: The name of the opponent team (string).
+        :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
         """
-        super().__init__(game, fanduel_odds, pinnacle_odds, pinnacle_limit)
+        super().__init__(game, fanduel_odds, pinnacle_odds,
+                         pinnacle_opposing_odds, pinnacle_limit)
         self.team = team
         self.opponent = opponent
 
@@ -47,11 +56,17 @@ class Moneyline(Wager):
         """
         return (f"Moneyline(game={self.game}, team={self.team}, opponent={self.opponent}, "
                 f"fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
-                f"pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit})")
+
+    def pretty(self):
+        """
+        Provide a pretty string representation of the Moneyline object.
+        """
+        return f"Game: {self.game}, Team: {self.team}, FanDuel Odds: {self.fanduel_odds}"
 
 
 class PlayerProps(Wager):
-    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, player: str, stat: StatCategory, over_under: str, value: float):
+    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, player: str, stat: StatCategory, over_under: OverUnder, value: float, pinnacle_opposing_odds: int):
         """
         Initialize a PlayerProps object, extending Wager with player, over_under, and value fields.
 
@@ -61,10 +76,12 @@ class PlayerProps(Wager):
         :param pinnacle_limit: The limit from Pinnacle (integer).
         :param player: The name of the player (string).
         :param stat: The stat category (StatCategory).
-        :param over_under: The over/under (string).
+        :param over_under: The over/under (OverUnder).
         :param value: The value (float).
+        :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
         """
-        super().__init__(game, fanduel_odds, pinnacle_odds, pinnacle_limit)
+        super().__init__(game, fanduel_odds, pinnacle_odds,
+                         pinnacle_opposing_odds, pinnacle_limit)
         self.player = player
         self.over_under = over_under
         self.stat = stat
@@ -74,13 +91,19 @@ class PlayerProps(Wager):
         """
         Provide a string representation of the PlayerProps object.
         """
-        return (f"PlayerProps(game={self.game}, player={self.player}, over_under={self.over_under}, "
+        return (f"PlayerProps(game={self.game}, player={self.player}, stat={self.stat}, over_under={self.over_under}, "
                 f"value={self.value}, fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
-                f"pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit})")
+
+    def pretty(self):
+        """
+        Provide a pretty string representation of the PlayerProps object.
+        """
+        return f"Game: {self.game}, Player: {self.player}, {self.value}+ {self.stat.lower()}, FanDuel Odds: {self.fanduel_odds}"
 
 
 class TeamTotal(Wager):
-    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, team: str, over_under: str, value: float):
+    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, team: str, over_under: OverUnder, value: float, pinnacle_opposing_odds: int):
         """
         Initialize a TeamTotal object, extending Wager with team, over_under, and value fields.
 
@@ -89,10 +112,12 @@ class TeamTotal(Wager):
         :param pinnacle_odds: The odds from Pinnacle (integer).
         :param pinnacle_limit: The limit from Pinnacle (integer).
         :param team: The name of the team (string).
-        :param over_under: The over/under (string).
+        :param over_under: The over/under (OverUnder).
         :param value: The value (float).
+        :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
         """
-        super().__init__(game, fanduel_odds, pinnacle_odds, pinnacle_limit)
+        super().__init__(game, fanduel_odds, pinnacle_odds,
+                         pinnacle_opposing_odds, pinnacle_limit)
         self.team = team
         self.over_under = over_under
         self.value = value
@@ -103,11 +128,17 @@ class TeamTotal(Wager):
         """
         return (f"TeamTotal(game={self.game}, team={self.team}, over_under={self.over_under}, "
                 f"value={self.value}, fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
-                f"pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit})")
+
+    def pretty(self):
+        """
+        Provide a pretty string representation of the TeamTotal object.
+        """
+        return f"Game: {self.game}, Team: {self.team}, {self.over_under.capitalize()} {self.value} points, FanDuel Odds: {self.fanduel_odds}"
 
 
 class Spread(Wager):
-    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, team: str, opponent: str, spread: float):
+    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, team: str, opponent: str, spread: float, pinnacle_opposing_odds: int):
         """
         Initialize a Spread object, extending Wager with team, opponent, and spread fields.
 
@@ -118,8 +149,10 @@ class Spread(Wager):
         :param team: The name of the team (string).
         :param opponent: The name of the opponent team (string).
         :param spread: The spread (float).
+        :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
         """
-        super().__init__(game, fanduel_odds, pinnacle_odds, pinnacle_limit)
+        super().__init__(game, fanduel_odds, pinnacle_odds,
+                         pinnacle_opposing_odds, pinnacle_limit)
         self.team = team
         self.opponent = opponent
         self.spread = spread
@@ -130,11 +163,17 @@ class Spread(Wager):
         """
         return (f"Spread(game={self.game}, team={self.team}, opponent={self.opponent}, "
                 f"spread={self.spread}, fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
-                f"pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit})")
+
+    def pretty(self):
+        """
+        Provide a pretty string representation of the Spread object.
+        """
+        return f"Game: {self.game}, Team: {self.team}, Spread: {'+' if self.spread > 0 else ''}{self.spread}, FanDuel Odds: {self.fanduel_odds}"
 
 
 class TotalPoints(Wager):
-    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, over_under: str, value: float):
+    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, over_under: OverUnder, value: float, pinnacle_opposing_odds: int):
         """
         Initialize a TotalPoints object, extending Wager with over_under and value fields.
 
@@ -142,10 +181,12 @@ class TotalPoints(Wager):
         :param fanduel_odds: The odds from FanDuel (integer).
         :param pinnacle_odds: The odds from Pinnacle (integer).
         :param pinnacle_limit: The limit from Pinnacle (integer).
-        :param over_under: The over/under (string).
+        :param over_under: The over/under (OverUnder).
         :param value: The value (float).
+        :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
         """
-        super().__init__(game, fanduel_odds, pinnacle_odds, pinnacle_limit)
+        super().__init__(game, fanduel_odds, pinnacle_odds,
+                         pinnacle_opposing_odds, pinnacle_limit)
         self.over_under = over_under
         self.value = value
 
@@ -155,4 +196,10 @@ class TotalPoints(Wager):
         """
         return (f"TotalPoints(game={self.game}, over_under={self.over_under}, "
                 f"value={self.value}, fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
-                f"pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit})")
+
+    def pretty(self):
+        """
+        Provide a pretty string representation of the TotalPoints object.
+        """
+        return f"Game: {self.game}, {self.over_under.capitalize()} {self.value} points, FanDuel Odds: {self.fanduel_odds}"

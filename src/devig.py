@@ -18,7 +18,7 @@ def get_confidence_value(limit):
         float: The confidence value.
     """
     min_limit = 250
-    max_limit = 3000
+    max_limit = 10000
     if limit < min_limit:
         limit = min_limit
     elif limit > max_limit:
@@ -56,7 +56,7 @@ def devig(odds1, odds2, method):
     prob1 = american_to_probability(odds1)
     prob2 = american_to_probability(odds2)
     if method == DevigMethod.MULTIPLICATIVE:
-        return prob1 / (prob1 + prob2), prob2 / (prob1 + prob2)
+        return prob1 / (prob1 + prob2)
     elif method == DevigMethod.POWER:
         def equation(p):
             return math.pow(prob1, p) + math.pow(prob2, p) - 1
@@ -65,4 +65,18 @@ def devig(odds1, odds2, method):
         while equation(p) > 0:
             p += 0.005
 
-        return math.pow(prob1, p), math.pow(prob2, p)
+        return math.pow(prob1, p)
+
+
+def kelly_criterion(true_prob, fanduel_prob):
+    """
+    Calculate the optimal bet size using the Kelly criterion.
+
+    Args:
+        true_prob (float): The true probability of the event.
+        fanduel_prob (float): The probability implied by the FanDuel odds.
+
+    Returns:
+        float: The optimal bet size as a fraction of the bankroll.
+    """
+    return true_prob - (1 - true_prob) / (1 / fanduel_prob - 1)
