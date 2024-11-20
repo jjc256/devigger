@@ -1,7 +1,14 @@
 import tkinter as tk
-from src.scrape import fanduel_nba, pinnacle_nba, fanduel_nfl, pinnacle_nfl, fanduel_nhl, pinnacle_nhl
+from src.scrape import *
 from src.wager import Moneyline, PlayerProps, TeamTotal, Spread, TotalPoints, StatCategory, OverUnder, PlayerPropsYes
 from src.devig import devig, DevigMethod, american_to_probability, kelly_criterion, get_confidence_value
+
+
+def game_names_equal(game1, game2):
+    team1_1, team1_2 = game1.split(" @ ")
+    team2_1, team2_2 = game2.split(" @ ")
+
+    return (team1_1 in team2_1 or team2_1 in team1_1) and (team1_2 in team2_2 or team2_2 in team1_2)
 
 
 def wagers():
@@ -9,12 +16,16 @@ def wagers():
     pinnacle = {
         **pinnacle_nba(),
         **pinnacle_nfl(),
-        **pinnacle_nhl()
+        **pinnacle_nhl(),
+        **pinnacle_ncaaf(),
+        **pinnacle_ncaab()
     }
     fanduel = {
         **fanduel_nba(),
         **fanduel_nfl(),
-        **fanduel_nhl()
+        **fanduel_nhl(),
+        **fanduel_ncaaf(),
+        **fanduel_ncaab()
     }
 
     common_wagers = []
@@ -28,7 +39,7 @@ def wagers():
 
         # Find the corresponding game in Fanduel data
         for fanduel_id in fanduel:
-            if fanduel[fanduel_id]["name"] == name:
+            if game_names_equal(name, fanduel[fanduel_id]["name"]):
                 fanduel_game = fanduel[fanduel_id]
                 break
 

@@ -95,6 +95,18 @@ def process_fanduel_markets(markets, seen_event_ids, result):
             result[event_id]["markets"].append(market_info)
 
 
+def save_result_to_file(result, filename):
+    """
+    Saves the result to a JSON file.
+
+    Args:
+        result (dict): The result data to save.
+        filename (str): The name of the file to save the result to.
+    """
+    with open('src/example_json/' + filename, 'w') as f:
+        json.dump(result, f, indent=4)
+
+
 def fanduel_nba():
     """
     Fetches and processes NBA data from Fanduel.
@@ -134,11 +146,7 @@ def fanduel_nba():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        # Save the result to a file
-        # with open('example_fanduel.json', 'w') as f:
-        #     json.dump(result, f, indent=4)
-
-        # print(result)  # Print or process the result as needed
+        # save_result_to_file(result, 'example_fanduel_nba.json')
         return result
 
 
@@ -180,11 +188,7 @@ def fanduel_nfl():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        # Save the result to a file
-        # with open('example_fanduel_nfl.json', 'w') as f:
-        #     json.dump(result, f, indent=4)
-
-        # print(result)  # Print or process the result as needed
+        # save_result_to_file(result, 'example_fanduel_nfl.json')
         return result
 
 
@@ -227,11 +231,96 @@ def fanduel_nhl():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        # Save the result to a file
-        # with open('example_fanduel_nhl.json', 'w') as f:
-        #     json.dump(result, f, indent=4)
+        # save_result_to_file(result, 'example_fanduel_nhl.json')
+        return result
 
-        # print(result)  # Print or process the result as needed
+
+def fanduel_ncaaf():
+    """
+    Fetches and processes NCAAF data from Fanduel.
+    """
+    url = 'https://sbapi.ny.sportsbook.fanduel.com/api/content-managed-page'
+    api_key = os.getenv('FANDUEL_API_KEY')
+    params = {
+        'page': 'CUSTOM',
+        'customPageId': 'ncaaf',
+        'pbHorizontal': 'false',
+        '_ak': api_key,
+        'timezone': 'America/New_York'
+    }
+
+    headers = {
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+        'dnt': '1',
+        'if-none-match': 'W/"a73bb-bqV9yd4R3uJGX5TnE8+f776CCtc"',
+        'origin': 'https://sportsbook.fanduel.com',
+        'priority': 'u=1, i',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+    }
+
+    data = get_response(url, headers, params)
+    if data:
+        # Get all events from the attachments section
+        rows = data.get("layout", {}).get("coupons", {}).get(
+            "2", {}).get("display", [])[0].get("rows", [])
+        result, seen_event_ids = process_fanduel_rows(rows, data)
+        markets = data.get("attachments", {}).get("markets", {})
+        process_fanduel_markets(markets, seen_event_ids, result)
+
+        # save_result_to_file(result, 'example_fanduel_ncaaf.json')
+        return result
+
+
+def fanduel_ncaab():
+    """
+    Fetches and processes NCAAB data from Fanduel.
+    """
+    url = 'https://sbapi.ny.sportsbook.fanduel.com/api/content-managed-page'
+    api_key = os.getenv('FANDUEL_API_KEY')
+    params = {
+        'page': 'CUSTOM',
+        'customPageId': 'ncaab',
+        'pbHorizontal': 'false',
+        '_ak': api_key,
+        'timezone': 'America/New_York'
+    }
+
+    headers = {
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+        'dnt': '1',
+        'if-none-match': 'W/"a73bb-bqV9yd4R3uJGX5TnE8+f776CCtc"',
+        'origin': 'https://sportsbook.fanduel.com',
+        'priority': 'u=1, i',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+    }
+
+    data = get_response(url, headers, params)
+    if data:
+        # Get all events from the attachments section
+        rows = []
+        for display in data.get("layout", {}).get("coupons", {}).get("9411", {}).get("display", []):
+            rows.extend(display.get("rows", []))
+        result, seen_event_ids = process_fanduel_rows(rows, data)
+        markets = data.get("attachments", {}).get("markets", {})
+        process_fanduel_markets(markets, seen_event_ids, result)
+
+        save_result_to_file(result, 'example_fanduel_ncaab.json')
         return result
 
 
@@ -405,9 +494,7 @@ def pinnacle_nba():
         special_to_parent = process_specials(matchups_data, result)
         process_markets(markets_data, result, special_to_parent)
 
-        # Save the result to a file
-        # with open('example_pinnacle_nba.json', 'w') as f:
-        #     json.dump(result, f, indent=4)
+        # save_result_to_file(result, 'example_pinnacle_nba.json')
     return result
 
 
@@ -438,9 +525,7 @@ def pinnacle_nfl():
         special_to_parent = process_specials(matchups_data, result)
         process_markets(markets_data, result, special_to_parent)
 
-        # Save the result to a file
-        with open('example_pinnacle_nfl.json', 'w') as f:
-            json.dump(result, f, indent=4)
+        # save_result_to_file(result, 'example_pinnacle_nfl.json')
     return result
 
 
@@ -471,15 +556,75 @@ def pinnacle_nhl():
         special_to_parent = process_specials(matchups_data, result)
         process_markets(markets_data, result, special_to_parent)
 
-        # Save the result to a file
-        # with open('example_pinnacle_nhl.json', 'w') as f:
-        #     json.dump(result, f, indent=4)
+        # save_result_to_file(result, 'example_pinnacle_nhl.json')
+    return result
+
+
+def pinnacle_ncaaf():
+    """
+    Fetches and processes NCAAF data from Pinnacle.
+    """
+    headers = {
+        'sec-ch-ua-platform': 'Windows',
+        'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
+        'Referer': 'https://www.pinnacle.com/',
+        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'X-API-Key': os.getenv('PINNACLE_API_KEY'),
+        'sec-ch-ua-mobile': '?0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'DNT': '1',
+        'Content-Type': 'application/json'
+    }
+
+    matchups_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/880/matchups?brandId=0', headers)
+    markets_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/880/markets/straight', headers)
+
+    if matchups_data and markets_data:
+        result = process_matchups(matchups_data)
+        special_to_parent = process_specials(matchups_data, result)
+        process_markets(markets_data, result, special_to_parent)
+
+        save_result_to_file(result, 'example_pinnacle_ncaaf.json')
+    return result
+
+
+def pinnacle_ncaab():
+    """
+    Fetches and processes NCAAB data from Pinnacle.
+    """
+    headers = {
+        'sec-ch-ua-platform': 'Windows',
+        'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
+        'Referer': 'https://www.pinnacle.com/',
+        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'X-API-Key': os.getenv('PINNACLE_API_KEY'),
+        'sec-ch-ua-mobile': '?0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'DNT': '1',
+        'Content-Type': 'application/json'
+    }
+
+    matchups_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/493/matchups?brandId=0', headers)
+    markets_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/493/markets/straight', headers)
+
+    if matchups_data and markets_data:
+        result = process_matchups(matchups_data)
+        special_to_parent = process_specials(matchups_data, result)
+        process_markets(markets_data, result, special_to_parent)
+
+        save_result_to_file(result, 'example_pinnacle_ncaab.json')
     return result
 
 
 def print_market_types():
     """
-    Prints all the possible market types in example_fanduel_nfl.json.
+    Prints all the possible market types in example_fanduel_nhl.json.
     """
     with open('example_fanduel_nhl.json', 'r') as f:
         data = json.load(f)
@@ -502,3 +647,7 @@ def print_market_types():
 # print_market_types()
 # fanduel_nhl()
 # pinnacle_nhl()
+# fanduel_ncaaf()
+# pinnacle_ncaaf()
+# fanduel_ncaab()
+pinnacle_ncaab()
