@@ -8,10 +8,19 @@ class StatCategory(Enum):
     DOUBLE_DOUBLE = 4
     PRA = 5
     ASSISTS = 6
+    FIRST_TD = 7
+    ANYTIME_TD = 8
+    LONGEST_RECEPTION = 9
 
     def pretty_name(self):
         if self == StatCategory.THREE_PT:
             return "Threes"
+        elif self == StatCategory.FIRST_TD:
+            return "First Touchdown"
+        elif self == StatCategory.ANYTIME_TD:
+            return "Anytime Touchdown"
+        elif self == StatCategory.LONGEST_RECEPTION:
+            return "Longest Reception"
         return self.name.capitalize()
 
 
@@ -108,6 +117,40 @@ class PlayerProps(Wager):
         Provide a pretty string representation of the PlayerProps object.
         """
         return f"{self.player} {self.value}+ {self.stat.pretty_name()} {self.game}"
+
+
+class PlayerPropsYes(Wager):
+    def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, player: str, stat: StatCategory, pinnacle_opposing_odds: int):
+        """
+        Initialize a PlayerPropsYesNo object, extending Wager with player and yes_no fields.
+
+        :param game: The name of the game (string).
+        :param fanduel_odds: The odds from FanDuel (integer).
+        :param pinnacle_odds: The odds from Pinnacle (integer).
+        :param pinnacle_limit: The limit from Pinnacle (integer).
+        :param player: The name of the player (string).
+        :param stat: The stat category (StatCategory).
+        :type stat: StatCategory
+        :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
+        """
+        super().__init__(game, fanduel_odds, pinnacle_odds,
+                         pinnacle_opposing_odds, pinnacle_limit)
+        self.player = player
+        self.stat = stat
+
+    def __repr__(self):
+        """
+        Provide a string representation of the PlayerPropsYesNo object.
+        """
+        return (f"PlayerPropsYesNo(game={self.game}, player={self.player}, stat={self.stat}, "
+                f"fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
+                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit})")
+
+    def pretty(self):
+        """
+        Provide a pretty string representation of the PlayerPropsYesNo object.
+        """
+        return f"{self.player} {self.stat.pretty_name()} {self.game}"
 
 
 class TeamTotal(Wager):

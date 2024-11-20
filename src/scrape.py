@@ -181,7 +181,54 @@ def fanduel_nfl():
         process_fanduel_markets(markets, seen_event_ids, result)
 
         # Save the result to a file
-        with open('example_fanduel_nfl.json', 'w') as f:
+        # with open('example_fanduel_nfl.json', 'w') as f:
+        #     json.dump(result, f, indent=4)
+
+        # print(result)  # Print or process the result as needed
+        return result
+
+
+def fanduel_nhl():
+    """
+    Fetches and processes NHL data from Fanduel.
+    """
+    url = 'https://sbapi.ny.sportsbook.fanduel.com/api/content-managed-page'
+    api_key = os.getenv('FANDUEL_API_KEY')
+    params = {
+        'page': 'CUSTOM',
+        'customPageId': 'nhl',
+        'pbHorizontal': 'false',
+        '_ak': api_key,
+        'timezone': 'America/New_York'
+    }
+
+    headers = {
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+        'dnt': '1',
+        'if-none-match': 'W/"a73bb-bqV9yd4R3uJGX5TnE8+f776CCtc"',
+        'origin': 'https://sportsbook.fanduel.com',
+        'priority': 'u=1, i',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+    }
+
+    data = get_response(url, headers, params)
+    if data:
+        rows = data.get("layout", {}).get("coupons", {}).get(
+            "35876", {}).get("display", [])[0].get("rows", [])
+        result, seen_event_ids = process_fanduel_rows(rows, data)
+        markets = data.get("attachments", {}).get("markets", {})
+        process_fanduel_markets(markets, seen_event_ids, result)
+
+        # Save the result to a file
+        with open('example_fanduel_nhl.json', 'w') as f:
             json.dump(result, f, indent=4)
 
         # print(result)  # Print or process the result as needed
@@ -200,8 +247,11 @@ def process_matchups(matchups_data):
     """
     result = {}
     for matchup in matchups_data:
+        parent = matchup.get("parentId")
+        if parent is not None:
+            continue
         participants = matchup.get("participants", [])
-        if len(participants) == 2:
+        if len(participants) == 2 and "(" not in participants[0].get("name"):
             home = participants[0]
             away = participants[1]
             if home.get("alignment") == "home" and away.get("alignment") == "away":
@@ -238,7 +288,7 @@ def process_specials(matchups_data, result):
                 market_info["id"] = matchup["id"]
                 market_info["description"] = description
                 special_to_parent[matchup["id"]] = matchup_id
-        if matchup_id in result:
+        if matchup_id in result and description and "Range" not in description:
             result[matchup_id]["markets"].append(market_info)
     # print(special_to_parent)
     return special_to_parent
@@ -254,13 +304,13 @@ def process_markets(markets_data, result, special_to_parent):
         special_to_parent (dict): A dictionary with special IDs as keys and their parent IDs as values.
     """
     for market in markets_data:
-        if market.get("key") == "s;0;m" and market.get("matchupId") in result and prices[0].get("points") is None:
-            prices = market.get("prices")
-            if len(prices) == 2:
-                continue
+        prices = market.get("prices")
+        if (market.get("key") == "s;0;m"
+            and (market.get("matchupId") in result)
+                and prices[0].get("points") is None):
             market_info = {
                 "description": "moneyline",
-                "prices": market.get("prices"),
+                "prices": prices,
                 "limit": market.get("limits", [{}])[0].get("amount")
             }
             result[market.get("matchupId")]["markets"].append(market_info)
@@ -273,12 +323,11 @@ def process_markets(markets_data, result, special_to_parent):
                     "description": "team total",
                     "team": team,
                     "threshold": threshold,
-                    "prices": market.get("prices"),
+                    "prices": prices,
                     "limit": market.get("limits", [{}])[0].get("amount")
                 }
                 result[market.get("matchupId")]["markets"].append(market_info)
         elif market.get("key").startswith("s;0;s;") and market.get("matchupId") in result:
-            prices = market.get("prices")
             for price in prices:
                 if "points" in price:
                     price["handicap"] = price.pop("points")
@@ -292,11 +341,10 @@ def process_markets(markets_data, result, special_to_parent):
             result[market.get("matchupId")]["markets"].append(market_info)
 
         # Add processing for over/under markets
-        elif ((market.get("key") == "s;0;ou"
-                or market.get("key") == "s;0;m" and market.get("prices")[0].get("points") is not None)
+        elif (((market.get("key") == "s;0;ou" and "points" in prices[0])
+                or (market.get("key") == "s;0;m" or market.get("key") == "s;1;m"))
               and special_to_parent.get(market.get("matchupId")) in result):
             matchup_id = market.get("matchupId")
-            prices = market.get("prices")
             if len(prices) == 2:
                 parent_matchup_id = special_to_parent.get(matchup_id)
                 if parent_matchup_id:
@@ -306,12 +354,12 @@ def process_markets(markets_data, result, special_to_parent):
                             if prices[0].get("participantId", 0) > prices[1].get("participantId", 0):
                                 prices[0], prices[1] = prices[1], prices[0]
                             prices[0]["designation"] = "over" if market.get(
-                                "key") == "s;0;ou" else "yes"
+                                "key") == "s;0;ou" else "odd" if market.get("key") == "s;1;m" else "yes"
                             prices[1]["designation"] = "under" if market.get(
-                                "key") == "s;0;ou" else "no"
+                                "key") == "s;0;ou" else "even" if market.get("key") == "s;1;m" else "no"
                             prices[0].pop("participantId")
                             prices[1].pop("participantId")
-                            if market.get("key") == "s;0;m":
+                            if market.get("key") != "s;0;ou" and "points" in prices[0]:
                                 prices[0].pop("points")
                                 prices[1].pop("points")
                             existing_market["prices"] = prices
@@ -319,7 +367,6 @@ def process_markets(markets_data, result, special_to_parent):
         # Add processing for total points markets
         elif market.get("key").startswith("s;0;ou;") and market.get("matchupId") in result:
             parts = market.get("key").split(";")
-            prices = market.get("prices")
             if len(parts) == 4 and len(prices) == 2:
                 threshold = parts[3]
                 market_info = {
@@ -397,6 +444,39 @@ def pinnacle_nfl():
     return result
 
 
+def pinnacle_nhl():
+    """
+    Fetches and processes NHL data from Pinnacle.
+    """
+    headers = {
+        'sec-ch-ua-platform': 'Windows',
+        'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
+        'Referer': 'https://www.pinnacle.com/',
+        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'X-API-Key': os.getenv('PINNACLE_API_KEY'),
+        'sec-ch-ua-mobile': '?0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'DNT': '1',
+        'Content-Type': 'application/json'
+    }
+
+    matchups_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/1456/matchups?brandId=0', headers)
+    markets_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/1456/markets/straight', headers)
+
+    if matchups_data and markets_data:
+        result = process_matchups(matchups_data)
+        special_to_parent = process_specials(matchups_data, result)
+        process_markets(markets_data, result, special_to_parent)
+
+        # Save the result to a file
+        with open('example_pinnacle_nhl.json', 'w') as f:
+            json.dump(result, f, indent=4)
+    return result
+
+
 def print_market_types():
     """
     Prints all the possible market types in example_fanduel_nfl.json.
@@ -418,5 +498,7 @@ def print_market_types():
 # fanduel_nba()
 # pinnacle_nba()
 # fanduel_nfl()
-pinnacle_nfl()
+# pinnacle_nfl()
 # print_market_types()
+# fanduel_nhl()
+pinnacle_nhl()

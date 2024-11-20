@@ -1,14 +1,13 @@
 import tkinter as tk
-from tkinter import messagebox
-from src.scrape import fanduel_nba, pinnacle_nba
-from src.wager import Moneyline, PlayerProps, TeamTotal, Spread, TotalPoints, StatCategory, OverUnder
+from src.scrape import fanduel_nba, pinnacle_nba, fanduel_nfl, pinnacle_nfl
+from src.wager import Moneyline, PlayerProps, TeamTotal, Spread, TotalPoints, StatCategory, OverUnder, PlayerPropsYes
 from src.devig import devig, DevigMethod, american_to_probability, kelly_criterion, get_confidence_value
 
 
 def wagers():
     # Fetch data from Pinnacle and Fanduel
-    pinnacle = pinnacle_nba()
-    fanduel = fanduel_nba()
+    pinnacle = {**pinnacle_nba(), **pinnacle_nfl()}
+    fanduel = {**fanduel_nba(), **fanduel_nfl()}
 
     common_wagers = []
 
@@ -54,7 +53,7 @@ def wagers():
                             common_wagers.append(away_moneyline)
                             break
                 elif description == "handicap":
-                    home_handicap = abs(pinnacle_wager["prices"][0]["handicap"])
+                    home_handicap = pinnacle_wager["prices"][0]["handicap"]
                     # Find the corresponding market in Fanduel game
                     for fanduel_wager in fanduel_game["markets"]:
                         if fanduel_wager["marketType"] == "MATCH_HANDICAP_(2-WAY)" and fanduel_wager["runners"][1]["handicap"] == home_handicap:
@@ -101,26 +100,33 @@ def wagers():
                     pass
                 elif " (" in description and description.endswith(")"):
                     # Check for player props markets (e.g., "Player Name (Category)")
-                    player_name, raw_category = description.split(" (")
+                    player_name, raw_category = description.rsplit(" (", 1)
                     category = raw_category.rstrip(")")
                     category = category.rstrip(")")
                     fanduel_category_map = {
                         "Assists": "TO_RECORD_{}+_ASSISTS",
                         "3 Point FG": "{}+_MADE_THREES",
                         "Points": "TO_SCORE_{}+_POINTS",
-                        "Rebounds": "TO_SCORE_{}+_REBOUNDS"
+                        "Rebounds": "TO_SCORE_{}+_REBOUNDS",
+                        "1st TD Scorer": "FIRST_TOUCHDOWN_SCORER",
+                        "Anytime TD": "ANY_TIME_TOUCHDOWN_SCORER",
+                        "Longest Reception": "PLAYERS_WITH_{}+_YARDS_RECEPTION"
                     }
                     # Round N up to the nearest integer
-                    N = int(pinnacle_wager["prices"][0]["points"] + 1)
+                    if "points" in pinnacle_wager["prices"][0]:
+                        N = int(pinnacle_wager["prices"][0]["points"] + 1)
                     fanduel_category_template = fanduel_category_map.get(category)
                     stat_category = (
                         StatCategory.POINTS if category == "Points" else
                         StatCategory.REBOUNDS if category == "Rebounds" else
                         StatCategory.THREE_PT if category == "3 Point FG" else
-                        StatCategory.ASSISTS if category == "Assists"
+                        StatCategory.ASSISTS if category == "Assists" else
+                        StatCategory.FIRST_TD if category == "1st TD Scorer" else
+                        StatCategory.ANYTIME_TD if category == "Anytime TD" else
+                        StatCategory.LONGEST_RECEPTION if category == "Longest Reception"
                         else None
                     )
-                    if fanduel_category_template:
+                    if fanduel_category_template and "{}" in fanduel_category_template:
                         for fanduel_wager in fanduel_game["markets"]:
                             if fanduel_wager["marketType"] != fanduel_category_template.format(N):
                                 continue
@@ -138,6 +144,27 @@ def wagers():
                                             player_name, stat_category, OverUnder.OVER, N, pinnacle_under_odds
                                         )
                                         common_wagers.append(player_props_over)
+                                        break
+                    # yes/no player props
+                    elif fanduel_category_template:
+                        for fanduel_wager in fanduel_game["markets"]:
+                            if fanduel_wager["marketType"] != fanduel_category_template.format(N):
+                                continue
+                            for runner in fanduel_wager["runners"]:
+                                if fanduel_wager["marketType"].startswith(fanduel_category_template.split("{}")[0]):
+                                    if runner["runnerName"] == player_name:
+                                        pinnacle_yes_odds = pinnacle_wager["prices"][0]["price"]
+                                        pinnacle_no_odds = pinnacle_wager["prices"][1]["price"]
+                                        fanduel_odds = runner["winRunnerOdds"]
+                                        pinnacle_limit = pinnacle_wager["limit"]
+
+                                        # Create player props yes object
+                                        player_props_yes = PlayerPropsYes(
+                                            name, fanduel_odds, pinnacle_yes_odds, pinnacle_limit,
+                                            player_name, stat_category, pinnacle_no_odds
+                                        )
+
+                                        common_wagers.append(player_props_yes)
                                         break
     return common_wagers
 
@@ -167,7 +194,7 @@ def change_devig_method(devig_method, common_wagers):
         if true_prob > fanduel_prob:
             ev = (true_prob - fanduel_prob) / fanduel_prob * 100
             kelly_percentage = kelly_criterion(true_prob, fanduel_prob) * 100
-            risk_percentage = kelly_percentage * get_confidence_value(wager.pinnacle_limit) / 5
+            risk_percentage = kelly_percentage * get_confidence_value(wager.pinnacle_limit)
             good_bets.append((wager, ev, risk_percentage))
 
     return good_bets
@@ -216,7 +243,7 @@ def reload_data(root, canvas, scrollable_frame, devig_method):
         bet_frame.pack_propagate(False)  # Prevent the frame from resizing to fit its content
 
         bet_label = tk.Label(
-            bet_frame, text=f"{wager.pretty().replace(',', '\n')}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}%", wraplength=260, justify="left")
+            bet_frame, text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}%", wraplength=260, justify="left")
         bet_label.pack(expand=True)
 
         copy_button = tk.Button(bet_frame, text="Copy",
@@ -277,7 +304,7 @@ def main():
     devig_dropdown.pack(pady=10)
 
     reload_button = tk.Button(root, text="Reload Data", command=lambda: reload_data(
-        canvas, scrollable_frame, DevigMethod[devig_method.get()]))
+        root, canvas, scrollable_frame, DevigMethod[devig_method.get()]))
     reload_button.pack(pady=10)
 
     reload_data(root, canvas, scrollable_frame, DevigMethod.POWER)

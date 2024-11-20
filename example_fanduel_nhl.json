@@ -1,0 +1,2597 @@
+{
+    "33799390": {
+        "name": "Carolina Hurricanes @ Philadelphia Flyers",
+        "markets": [
+            {
+                "marketType": "ANY_TIME_GOAL_SCORER",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Sebastian Aho (CAR)",
+                        "winRunnerOdds": 150
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Andrei Svechnikov",
+                        "winRunnerOdds": 175
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Travis Konecny",
+                        "winRunnerOdds": 180
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Martin Necas",
+                        "winRunnerOdds": 180
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Owen Tippett",
+                        "winRunnerOdds": 250
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jack Roslovic",
+                        "winRunnerOdds": 280
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jackson Blake",
+                        "winRunnerOdds": 360
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Matvei Michkov",
+                        "winRunnerOdds": 370
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Sean Couturier",
+                        "winRunnerOdds": 370
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jesperi Kotkaniemi",
+                        "winRunnerOdds": 390
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Eric Robinson",
+                        "winRunnerOdds": 390
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jordan Staal",
+                        "winRunnerOdds": 390
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jordan Martinook",
+                        "winRunnerOdds": 400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Joel Farabee",
+                        "winRunnerOdds": 420
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Shayne Gostisbehere",
+                        "winRunnerOdds": 430
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Anthony Richard",
+                        "winRunnerOdds": 440
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tyson Foerster",
+                        "winRunnerOdds": 450
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "William Carrier",
+                        "winRunnerOdds": 450
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Brent Burns",
+                        "winRunnerOdds": 500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jack Drury",
+                        "winRunnerOdds": 500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Scott Laughton",
+                        "winRunnerOdds": 500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Bobby Brink",
+                        "winRunnerOdds": 550
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Noah Cates",
+                        "winRunnerOdds": 650
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tyson Jost",
+                        "winRunnerOdds": 650
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Ryan Poehling",
+                        "winRunnerOdds": 650
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jaccob Slavin",
+                        "winRunnerOdds": 700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dmitry Orlov",
+                        "winRunnerOdds": 850
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Travis Sanheim",
+                        "winRunnerOdds": 850
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Garnet Hathaway",
+                        "winRunnerOdds": 900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Egor Zamula",
+                        "winRunnerOdds": 1000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jalen Chatfield",
+                        "winRunnerOdds": 1100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Sean Walker",
+                        "winRunnerOdds": 1100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Rasmus Ristolainen",
+                        "winRunnerOdds": 1200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Erik Johnson",
+                        "winRunnerOdds": 1500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nick Seeler",
+                        "winRunnerOdds": 1600
+                    }
+                ]
+            },
+            {
+                "marketType": "FIRST_GOAL_SCORER",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Sebastian Aho (CAR)",
+                        "winRunnerOdds": 1100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Martin Necas",
+                        "winRunnerOdds": 1200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Andrei Svechnikov",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Travis Konecny",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Owen Tippett",
+                        "winRunnerOdds": 1700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jack Roslovic",
+                        "winRunnerOdds": 1800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Eric Robinson",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jackson Blake",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tyson Foerster",
+                        "winRunnerOdds": 2300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Matvei Michkov",
+                        "winRunnerOdds": 2300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jordan Martinook",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jesperi Kotkaniemi",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Anthony Richard",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Sean Couturier",
+                        "winRunnerOdds": 2500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Joel Farabee",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "William Carrier",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jordan Staal",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Shayne Gostisbehere",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Brent Burns",
+                        "winRunnerOdds": 2800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jack Drury",
+                        "winRunnerOdds": 3000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Bobby Brink",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Scott Laughton",
+                        "winRunnerOdds": 3200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jaccob Slavin",
+                        "winRunnerOdds": 3400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Ryan Poehling",
+                        "winRunnerOdds": 3600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tyson Jost",
+                        "winRunnerOdds": 3700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Noah Cates",
+                        "winRunnerOdds": 4000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dmitry Orlov",
+                        "winRunnerOdds": 4500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Travis Sanheim",
+                        "winRunnerOdds": 4700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Egor Zamula",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Garnet Hathaway",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jalen Chatfield",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Sean Walker",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Erik Johnson",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Rasmus Ristolainen",
+                        "winRunnerOdds": 6500
+                    }
+                ]
+            },
+            {
+                "marketType": "60_MIN_CORRECT_SCORE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 1-0",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 2-0",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 2-1",
+                        "winRunnerOdds": 3000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 3-0",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 3-1",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 3-2",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 4-0",
+                        "winRunnerOdds": 4100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 4-1",
+                        "winRunnerOdds": 1600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 4-2",
+                        "winRunnerOdds": 1800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 4-3",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 5-0",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 5-1",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 5-2",
+                        "winRunnerOdds": 1500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 5-3",
+                        "winRunnerOdds": 2300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 5-4",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 6-0",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 6-1",
+                        "winRunnerOdds": 4400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 6-2",
+                        "winRunnerOdds": 3600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 6-3",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 6-4",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 6-5",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 7-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 7-1",
+                        "winRunnerOdds": 8500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 7-2",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 7-3",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 7-4",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 7-5",
+                        "winRunnerOdds": 13000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes 7-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 0-0",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 1-1",
+                        "winRunnerOdds": 2900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 2-2",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 3-3",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 4-4",
+                        "winRunnerOdds": 2300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 5-5",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 6-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 7-7",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 1-0",
+                        "winRunnerOdds": 17000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 2-0",
+                        "winRunnerOdds": 11000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 2-1",
+                        "winRunnerOdds": 4500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 3-0",
+                        "winRunnerOdds": 8500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 3-1",
+                        "winRunnerOdds": 3600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 3-2",
+                        "winRunnerOdds": 3200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 4-0",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 4-1",
+                        "winRunnerOdds": 3600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 4-2",
+                        "winRunnerOdds": 2800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 4-3",
+                        "winRunnerOdds": 3700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 5-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 5-1",
+                        "winRunnerOdds": 8500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 5-2",
+                        "winRunnerOdds": 3700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 5-3",
+                        "winRunnerOdds": 4300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 5-4",
+                        "winRunnerOdds": 8000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 6-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 6-1",
+                        "winRunnerOdds": 17000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 6-2",
+                        "winRunnerOdds": 8000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 6-3",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 6-4",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 6-5",
+                        "winRunnerOdds": 19000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 7-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 7-1",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 7-2",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 7-3",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 7-4",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 7-5",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers 7-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Any Other Score",
+                        "winRunnerOdds": 2400
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 6.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -104
+                    },
+                    {
+                        "handicap": 6.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -118
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -1.5,
+                        "runnerName": "Carolina Hurricanes",
+                        "winRunnerOdds": 110
+                    },
+                    {
+                        "handicap": 1.5,
+                        "runnerName": "Philadelphia Flyers",
+                        "winRunnerOdds": -134
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Carolina Hurricanes",
+                        "winRunnerOdds": -230
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Philadelphia Flyers",
+                        "winRunnerOdds": 188
+                    }
+                ]
+            }
+        ]
+    },
+    "33799389": {
+        "name": "Vegas Golden Knights @ Toronto Maple Leafs",
+        "markets": [
+            {
+                "marketType": "ANY_TIME_GOAL_SCORER",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "William Nylander",
+                        "winRunnerOdds": 140
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "John Tavares",
+                        "winRunnerOdds": 165
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Mitchell Marner",
+                        "winRunnerOdds": 180
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jack Eichel",
+                        "winRunnerOdds": 190
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Matthew Knies",
+                        "winRunnerOdds": 240
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Pavel Dorofeyev",
+                        "winRunnerOdds": 260
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tomas Hertl",
+                        "winRunnerOdds": 300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Bobby Mcmann",
+                        "winRunnerOdds": 310
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "William Karlsson",
+                        "winRunnerOdds": 330
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Ivan Barbashev",
+                        "winRunnerOdds": 360
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nicolas Roy",
+                        "winRunnerOdds": 400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Max Domi",
+                        "winRunnerOdds": 400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nicholas Robertson",
+                        "winRunnerOdds": 450
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tanner Pearson",
+                        "winRunnerOdds": 450
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Brett Howden",
+                        "winRunnerOdds": 460
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Alex Steeves",
+                        "winRunnerOdds": 490
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Alexander Holtz",
+                        "winRunnerOdds": 500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Keegan Kolesar",
+                        "winRunnerOdds": 550
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Pontus Holmberg",
+                        "winRunnerOdds": 600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Fraser Minten",
+                        "winRunnerOdds": 600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Noah Hanifin",
+                        "winRunnerOdds": 650
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Connor Dewar",
+                        "winRunnerOdds": 700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Shea Theodore",
+                        "winRunnerOdds": 700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Alex Pietrangelo",
+                        "winRunnerOdds": 750
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Morgan Rielly",
+                        "winRunnerOdds": 750
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Cole Schwindt",
+                        "winRunnerOdds": 850
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Oliver Ekman-Larsson",
+                        "winRunnerOdds": 850
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Steven Lorentz",
+                        "winRunnerOdds": 850
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jonas Rondbjerg",
+                        "winRunnerOdds": 850
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jake McCabe",
+                        "winRunnerOdds": 1200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Brayden McNabb",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Kaedan Korczak",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Zach Whitecloud",
+                        "winRunnerOdds": 1600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jani Hakanpaa",
+                        "winRunnerOdds": 1700
+                    }
+                ]
+            },
+            {
+                "marketType": "FIRST_GOAL_SCORER",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "William Nylander",
+                        "winRunnerOdds": 1000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "John Tavares",
+                        "winRunnerOdds": 1100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Mitchell Marner",
+                        "winRunnerOdds": 1200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jack Eichel",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Matthew Knies",
+                        "winRunnerOdds": 1500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Pavel Dorofeyev",
+                        "winRunnerOdds": 1600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Bobby Mcmann",
+                        "winRunnerOdds": 1800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tomas Hertl",
+                        "winRunnerOdds": 1800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "William Karlsson",
+                        "winRunnerOdds": 2000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Ivan Barbashev",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Max Domi",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nicolas Roy",
+                        "winRunnerOdds": 2500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tanner Pearson",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nicholas Robertson",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Brett Howden",
+                        "winRunnerOdds": 2800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Alexander Holtz",
+                        "winRunnerOdds": 2900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Alex Steeves",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Pontus Holmberg",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Fraser Minten",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Keegan Kolesar",
+                        "winRunnerOdds": 3400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Connor Dewar",
+                        "winRunnerOdds": 3400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Noah Hanifin",
+                        "winRunnerOdds": 3500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Morgan Rielly",
+                        "winRunnerOdds": 3600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Shea Theodore",
+                        "winRunnerOdds": 3800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jonas Rondbjerg",
+                        "winRunnerOdds": 4200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Alex Pietrangelo",
+                        "winRunnerOdds": 4300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Steven Lorentz",
+                        "winRunnerOdds": 4300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Cole Schwindt",
+                        "winRunnerOdds": 4500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Oliver Ekman-Larsson",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Jake McCabe",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Kaedan Korczak",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Brayden McNabb",
+                        "winRunnerOdds": 7500
+                    }
+                ]
+            },
+            {
+                "marketType": "60_MIN_CORRECT_SCORE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 1-0",
+                        "winRunnerOdds": 13000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 2-0",
+                        "winRunnerOdds": 8500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 2-1",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 3-0",
+                        "winRunnerOdds": 4600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 3-1",
+                        "winRunnerOdds": 2800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 3-2",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 4-0",
+                        "winRunnerOdds": 8500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 4-1",
+                        "winRunnerOdds": 2500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 4-2",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 4-3",
+                        "winRunnerOdds": 3200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 5-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 5-1",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 5-2",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 5-3",
+                        "winRunnerOdds": 3600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 5-4",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 6-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 6-1",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 6-2",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 6-3",
+                        "winRunnerOdds": 4800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 6-4",
+                        "winRunnerOdds": 8500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 6-5",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 7-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 7-1",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 7-2",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 7-3",
+                        "winRunnerOdds": 13000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 7-4",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 7-5",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights 7-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 0-0",
+                        "winRunnerOdds": 13000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 1-1",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 2-2",
+                        "winRunnerOdds": 1200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 3-3",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 4-4",
+                        "winRunnerOdds": 2500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 5-5",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 6-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 7-7",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 1-0",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 2-0",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 2-1",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 3-0",
+                        "winRunnerOdds": 4000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 3-1",
+                        "winRunnerOdds": 2000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 3-2",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 4-0",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 4-1",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 4-2",
+                        "winRunnerOdds": 1900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 4-3",
+                        "winRunnerOdds": 2800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 5-0",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 5-1",
+                        "winRunnerOdds": 3800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 5-2",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 5-3",
+                        "winRunnerOdds": 3000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 5-4",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 6-0",
+                        "winRunnerOdds": 13000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 6-1",
+                        "winRunnerOdds": 9000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 6-2",
+                        "winRunnerOdds": 4500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 6-3",
+                        "winRunnerOdds": 3700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 6-4",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 6-5",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 7-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 7-1",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 7-2",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 7-3",
+                        "winRunnerOdds": 9000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 7-4",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 7-5",
+                        "winRunnerOdds": 19000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 7-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Any Other Score",
+                        "winRunnerOdds": 3700
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vegas Golden Knights",
+                        "winRunnerOdds": 112
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs",
+                        "winRunnerOdds": -134
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 1.5,
+                        "runnerName": "Vegas Golden Knights",
+                        "winRunnerOdds": -225
+                    },
+                    {
+                        "handicap": -1.5,
+                        "runnerName": "Toronto Maple Leafs",
+                        "winRunnerOdds": 180
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 6.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": 114
+                    },
+                    {
+                        "handicap": 6.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -140
+                    }
+                ]
+            }
+        ]
+    },
+    "33799392": {
+        "name": "San Jose Sharks @ Dallas Stars",
+        "markets": [
+            {
+                "marketType": "60_MIN_CORRECT_SCORE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 1-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 2-0",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 2-1",
+                        "winRunnerOdds": 4500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 3-0",
+                        "winRunnerOdds": 13000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 3-1",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 3-2",
+                        "winRunnerOdds": 3900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 4-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 4-1",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 4-2",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 4-3",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 5-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 5-1",
+                        "winRunnerOdds": 14000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 5-2",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 5-3",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 5-4",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 6-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 6-1",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 6-2",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 6-3",
+                        "winRunnerOdds": 11000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 6-4",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 6-5",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 7-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 7-1",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 7-2",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 7-3",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 7-4",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 7-5",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks 7-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 0-0",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 1-1",
+                        "winRunnerOdds": 3000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 2-2",
+                        "winRunnerOdds": 1600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 3-3",
+                        "winRunnerOdds": 1700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 4-4",
+                        "winRunnerOdds": 3400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 5-5",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 6-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 7-7",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 1-0",
+                        "winRunnerOdds": 9000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 2-0",
+                        "winRunnerOdds": 4600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 2-1",
+                        "winRunnerOdds": 2900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 3-0",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 3-1",
+                        "winRunnerOdds": 1900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 3-2",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 4-0",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 4-1",
+                        "winRunnerOdds": 1000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 4-2",
+                        "winRunnerOdds": 1700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 4-3",
+                        "winRunnerOdds": 3000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 5-0",
+                        "winRunnerOdds": 3600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 5-1",
+                        "winRunnerOdds": 1500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 5-2",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 5-3",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 5-4",
+                        "winRunnerOdds": 9000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 6-0",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 6-1",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 6-2",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 6-3",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 6-4",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 6-5",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 7-0",
+                        "winRunnerOdds": 9500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 7-1",
+                        "winRunnerOdds": 4800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 7-2",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 7-3",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 7-4",
+                        "winRunnerOdds": 8500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 7-5",
+                        "winRunnerOdds": 18000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 7-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Any Other Score",
+                        "winRunnerOdds": 1800
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Jose Sharks",
+                        "winRunnerOdds": 350
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars",
+                        "winRunnerOdds": -465
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 6.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": 114
+                    },
+                    {
+                        "handicap": 6.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -140
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 1.5,
+                        "runnerName": "San Jose Sharks",
+                        "winRunnerOdds": 138
+                    },
+                    {
+                        "handicap": -1.5,
+                        "runnerName": "Dallas Stars",
+                        "winRunnerOdds": -170
+                    }
+                ]
+            }
+        ]
+    },
+    "33799393": {
+        "name": "Nashville Predators @ Seattle Kraken",
+        "markets": [
+            {
+                "marketType": "60_MIN_CORRECT_SCORE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 1-0",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 2-0",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 2-1",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 3-0",
+                        "winRunnerOdds": 4300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 3-1",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 3-2",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 4-0",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 4-1",
+                        "winRunnerOdds": 1800
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 4-2",
+                        "winRunnerOdds": 2000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 4-3",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 5-0",
+                        "winRunnerOdds": 9500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 5-1",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 5-2",
+                        "winRunnerOdds": 2000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 5-3",
+                        "winRunnerOdds": 3200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 5-4",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 6-0",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 6-1",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 6-2",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 6-3",
+                        "winRunnerOdds": 4000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 6-4",
+                        "winRunnerOdds": 8000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 6-5",
+                        "winRunnerOdds": 18000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 7-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 7-1",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 7-2",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 7-3",
+                        "winRunnerOdds": 11000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 7-4",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 7-5",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators 7-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 0-0",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 1-1",
+                        "winRunnerOdds": 2300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 2-2",
+                        "winRunnerOdds": 1100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 3-3",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 4-4",
+                        "winRunnerOdds": 3000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 5-5",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 6-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 7-7",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 1-0",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 2-0",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 2-1",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 3-0",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 3-1",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 3-2",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 4-0",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 4-1",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 4-2",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 4-3",
+                        "winRunnerOdds": 3000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 5-0",
+                        "winRunnerOdds": 14000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 5-1",
+                        "winRunnerOdds": 4700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 5-2",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 5-3",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 5-4",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 6-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 6-1",
+                        "winRunnerOdds": 11000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 6-2",
+                        "winRunnerOdds": 7500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 6-3",
+                        "winRunnerOdds": 4500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 6-4",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 6-5",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 7-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 7-1",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 7-2",
+                        "winRunnerOdds": 16000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 7-3",
+                        "winRunnerOdds": 13000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 7-4",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 7-5",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken 7-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Any Other Score",
+                        "winRunnerOdds": 4400
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 5.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -128
+                    },
+                    {
+                        "handicap": 5.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": 104
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -1.5,
+                        "runnerName": "Nashville Predators",
+                        "winRunnerOdds": 184
+                    },
+                    {
+                        "handicap": 1.5,
+                        "runnerName": "Seattle Kraken",
+                        "winRunnerOdds": -230
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nashville Predators",
+                        "winRunnerOdds": -134
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Seattle Kraken",
+                        "winRunnerOdds": 112
+                    }
+                ]
+            }
+        ]
+    },
+    "33799397": {
+        "name": "Buffalo Sabres @ Los Angeles Kings",
+        "markets": [
+            {
+                "marketType": "60_MIN_CORRECT_SCORE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 1-0",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 2-0",
+                        "winRunnerOdds": 8000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 2-1",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 3-0",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 3-1",
+                        "winRunnerOdds": 2900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 3-2",
+                        "winRunnerOdds": 2300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 4-0",
+                        "winRunnerOdds": 11000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 4-1",
+                        "winRunnerOdds": 2900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 4-2",
+                        "winRunnerOdds": 2300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 4-3",
+                        "winRunnerOdds": 3200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 5-0",
+                        "winRunnerOdds": 17000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 5-1",
+                        "winRunnerOdds": 4900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 5-2",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 5-3",
+                        "winRunnerOdds": 3500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 5-4",
+                        "winRunnerOdds": 9500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 6-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 6-1",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 6-2",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 6-3",
+                        "winRunnerOdds": 4500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 6-4",
+                        "winRunnerOdds": 9000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 6-5",
+                        "winRunnerOdds": 17000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 7-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 7-1",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 7-2",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 7-3",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 7-4",
+                        "winRunnerOdds": 13000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 7-5",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres 7-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 0-0",
+                        "winRunnerOdds": 16000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 1-1",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 2-2",
+                        "winRunnerOdds": 1200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 3-3",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 4-4",
+                        "winRunnerOdds": 2500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 5-5",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 6-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tie 7-7",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 1-0",
+                        "winRunnerOdds": 11000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 2-0",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 2-1",
+                        "winRunnerOdds": 2900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 3-0",
+                        "winRunnerOdds": 3400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 3-1",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 3-2",
+                        "winRunnerOdds": 2000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 4-0",
+                        "winRunnerOdds": 4300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 4-1",
+                        "winRunnerOdds": 1700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 4-2",
+                        "winRunnerOdds": 1900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 4-3",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 5-0",
+                        "winRunnerOdds": 9000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 5-1",
+                        "winRunnerOdds": 3000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 5-2",
+                        "winRunnerOdds": 1900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 5-3",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 5-4",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 6-0",
+                        "winRunnerOdds": 13000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 6-1",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 6-2",
+                        "winRunnerOdds": 3900
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 6-3",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 6-4",
+                        "winRunnerOdds": 7500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 6-5",
+                        "winRunnerOdds": 16000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 7-0",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 7-1",
+                        "winRunnerOdds": 13000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 7-2",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 7-3",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 7-4",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 7-5",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings 7-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Any Other Score",
+                        "winRunnerOdds": 3500
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 6.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": 116
+                    },
+                    {
+                        "handicap": 6.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -142
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Buffalo Sabres",
+                        "winRunnerOdds": 130
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Los Angeles Kings",
+                        "winRunnerOdds": -156
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 1.5,
+                        "runnerName": "Buffalo Sabres",
+                        "winRunnerOdds": -194
+                    },
+                    {
+                        "handicap": -1.5,
+                        "runnerName": "Los Angeles Kings",
+                        "winRunnerOdds": 156
+                    }
+                ]
+            }
+        ]
+    }
+}

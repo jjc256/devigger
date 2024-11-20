@@ -1,0 +1,10 @@
+Longest Completion x
+Receptions x
+Kicking Points x
+Receiving Yards
+1st TD Scorer y
+Last TD Scorer x
+Anytime TD y
+Rushing Yards x
+Pass Attempts x
+Longest Reception y
