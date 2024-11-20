@@ -11,6 +11,7 @@ class StatCategory(Enum):
     FIRST_TD = 7
     ANYTIME_TD = 8
     LONGEST_RECEPTION = 9
+    ANYTIME_GOAL = 10
 
     def pretty_name(self):
         if self == StatCategory.THREE_PT:
@@ -21,6 +22,8 @@ class StatCategory(Enum):
             return "Anytime Touchdown"
         elif self == StatCategory.LONGEST_RECEPTION:
             return "Longest Reception"
+        elif self == StatCategory.ANYTIME_GOAL:
+            return "Anytime Goal Scorer"
         return self.name.capitalize()
 
 

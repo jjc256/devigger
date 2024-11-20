@@ -1,13 +1,21 @@
 import tkinter as tk
-from src.scrape import fanduel_nba, pinnacle_nba, fanduel_nfl, pinnacle_nfl
+from src.scrape import fanduel_nba, pinnacle_nba, fanduel_nfl, pinnacle_nfl, fanduel_nhl, pinnacle_nhl
 from src.wager import Moneyline, PlayerProps, TeamTotal, Spread, TotalPoints, StatCategory, OverUnder, PlayerPropsYes
 from src.devig import devig, DevigMethod, american_to_probability, kelly_criterion, get_confidence_value
 
 
 def wagers():
     # Fetch data from Pinnacle and Fanduel
-    pinnacle = {**pinnacle_nba(), **pinnacle_nfl()}
-    fanduel = {**fanduel_nba(), **fanduel_nfl()}
+    pinnacle = {
+        **pinnacle_nba(),
+        **pinnacle_nfl(),
+        **pinnacle_nhl()
+    }
+    fanduel = {
+        **fanduel_nba(),
+        **fanduel_nfl(),
+        **fanduel_nhl()
+    }
 
     common_wagers = []
 
@@ -110,7 +118,8 @@ def wagers():
                         "Rebounds": "TO_SCORE_{}+_REBOUNDS",
                         "1st TD Scorer": "FIRST_TOUCHDOWN_SCORER",
                         "Anytime TD": "ANY_TIME_TOUCHDOWN_SCORER",
-                        "Longest Reception": "PLAYERS_WITH_{}+_YARDS_RECEPTION"
+                        "Longest Reception": "PLAYERS_WITH_{}+_YARDS_RECEPTION",
+                        "Goals": "placeholder"
                     }
                     # Round N up to the nearest integer
                     if "points" in pinnacle_wager["prices"][0]:
@@ -123,7 +132,8 @@ def wagers():
                         StatCategory.ASSISTS if category == "Assists" else
                         StatCategory.FIRST_TD if category == "1st TD Scorer" else
                         StatCategory.ANYTIME_TD if category == "Anytime TD" else
-                        StatCategory.LONGEST_RECEPTION if category == "Longest Reception"
+                        StatCategory.LONGEST_RECEPTION if category == "Longest Reception" else
+                        StatCategory.ANYTIME_GOAL if category == "Goals"
                         else None
                     )
                     if fanduel_category_template and "{}" in fanduel_category_template:
@@ -147,11 +157,11 @@ def wagers():
                                         break
                     # yes/no player props
                     elif fanduel_category_template:
-                        for fanduel_wager in fanduel_game["markets"]:
-                            if fanduel_wager["marketType"] != fanduel_category_template.format(N):
-                                continue
-                            for runner in fanduel_wager["runners"]:
-                                if fanduel_wager["marketType"].startswith(fanduel_category_template.split("{}")[0]):
+                        if category == "Goals" and N == 1:
+                            for fanduel_wager in fanduel_game["markets"]:
+                                if fanduel_wager["marketType"] != "ANY_TIME_GOAL_SCORER":
+                                    continue
+                                for runner in fanduel_wager["runners"]:
                                     if runner["runnerName"] == player_name:
                                         pinnacle_yes_odds = pinnacle_wager["prices"][0]["price"]
                                         pinnacle_no_odds = pinnacle_wager["prices"][1]["price"]
@@ -166,6 +176,27 @@ def wagers():
 
                                         common_wagers.append(player_props_yes)
                                         break
+
+                        else:
+                            for fanduel_wager in fanduel_game["markets"]:
+                                if fanduel_wager["marketType"] != fanduel_category_template.format(N):
+                                    continue
+                                for runner in fanduel_wager["runners"]:
+                                    if fanduel_wager["marketType"].startswith(fanduel_category_template.split("{}")[0]):
+                                        if runner["runnerName"] == player_name:
+                                            pinnacle_yes_odds = pinnacle_wager["prices"][0]["price"]
+                                            pinnacle_no_odds = pinnacle_wager["prices"][1]["price"]
+                                            fanduel_odds = runner["winRunnerOdds"]
+                                            pinnacle_limit = pinnacle_wager["limit"]
+
+                                            # Create player props yes object
+                                            player_props_yes = PlayerPropsYes(
+                                                name, fanduel_odds, pinnacle_yes_odds, pinnacle_limit,
+                                                player_name, stat_category, pinnacle_no_odds
+                                            )
+
+                                            common_wagers.append(player_props_yes)
+                                            break
     return common_wagers
 
 

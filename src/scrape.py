@@ -228,8 +228,8 @@ def fanduel_nhl():
         process_fanduel_markets(markets, seen_event_ids, result)
 
         # Save the result to a file
-        with open('example_fanduel_nhl.json', 'w') as f:
-            json.dump(result, f, indent=4)
+        # with open('example_fanduel_nhl.json', 'w') as f:
+        #     json.dump(result, f, indent=4)
 
         # print(result)  # Print or process the result as needed
         return result
@@ -472,8 +472,8 @@ def pinnacle_nhl():
         process_markets(markets_data, result, special_to_parent)
 
         # Save the result to a file
-        with open('example_pinnacle_nhl.json', 'w') as f:
-            json.dump(result, f, indent=4)
+        # with open('example_pinnacle_nhl.json', 'w') as f:
+        #     json.dump(result, f, indent=4)
     return result
 
 
@@ -481,7 +481,7 @@ def print_market_types():
     """
     Prints all the possible market types in example_fanduel_nfl.json.
     """
-    with open('example_fanduel_nfl.json', 'r') as f:
+    with open('example_fanduel_nhl.json', 'r') as f:
         data = json.load(f)
 
     market_types = set()
@@ -490,7 +490,7 @@ def print_market_types():
             market_types.add(market.get('marketType'))
 
     for market_type in sorted(market_types):
-        with open('nfl_market_types.txt', 'w') as f:
+        with open('nhl_market_types.txt', 'w') as f:
             for market_type in sorted(market_types):
                 f.write(market_type + '\n')
 
@@ -501,4 +501,4 @@ def print_market_types():
 # pinnacle_nfl()
 # print_market_types()
 # fanduel_nhl()
-pinnacle_nhl()
+# pinnacle_nhl()
