@@ -1,1604 +1,4 @@
 {
-    "33800974": {
-        "name": "Charleston @ Citadel",
-        "markets": [
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 147.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 147.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": -11.5,
-                        "runnerName": "Charleston",
-                        "winRunnerOdds": -120
-                    },
-                    {
-                        "handicap": 11.5,
-                        "runnerName": "Citadel",
-                        "winRunnerOdds": -102
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Charleston",
-                        "winRunnerOdds": -1500
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Citadel",
-                        "winRunnerOdds": 790
-                    }
-                ]
-            }
-        ]
-    },
-    "33800219": {
-        "name": "Purdue Fort Wayne @ Penn State",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 16.5,
-                        "runnerName": "Purdue Fort Wayne",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": -16.5,
-                        "runnerName": "Penn State",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Purdue Fort Wayne",
-                        "winRunnerOdds": 1000
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Penn State",
-                        "winRunnerOdds": -2100
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 159.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 159.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            }
-        ]
-    },
-    "33800254": {
-        "name": "Jacksonville @ Virginia Tech",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 13.5,
-                        "runnerName": "Jacksonville",
-                        "winRunnerOdds": -102
-                    },
-                    {
-                        "handicap": -13.5,
-                        "runnerName": "Virginia Tech",
-                        "winRunnerOdds": -120
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 135.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 135.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Jacksonville",
-                        "winRunnerOdds": 800
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Virginia Tech",
-                        "winRunnerOdds": -1400
-                    }
-                ]
-            }
-        ]
-    },
-    "33800227": {
-        "name": "New Mexico State @ Dayton",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 15.5,
-                        "runnerName": "New Mexico State",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": -15.5,
-                        "runnerName": "Dayton",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 142.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 142.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "New Mexico State",
-                        "winRunnerOdds": 1000
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Dayton",
-                        "winRunnerOdds": -2100
-                    }
-                ]
-            }
-        ]
-    },
-    "33801039": {
-        "name": "Elon @ Northern Illinois",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": -1.5,
-                        "runnerName": "Elon",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "handicap": 1.5,
-                        "runnerName": "Northern Illinois",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 143.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -114
-                    },
-                    {
-                        "handicap": 143.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Elon",
-                        "winRunnerOdds": -134
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Northern Illinois",
-                        "winRunnerOdds": 110
-                    }
-                ]
-            }
-        ]
-    },
-    "33801176": {
-        "name": "Coppin State @ George Mason",
-        "markets": [
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 134.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -104
-                    },
-                    {
-                        "handicap": 134.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -115
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 28.5,
-                        "runnerName": "Coppin State",
-                        "winRunnerOdds": -105
-                    },
-                    {
-                        "handicap": -28.5,
-                        "runnerName": "George Mason",
-                        "winRunnerOdds": -115
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Coppin State",
-                        "winRunnerOdds": 5500
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "George Mason",
-                        "winRunnerOdds": -100000
-                    }
-                ]
-            }
-        ]
-    },
-    "33801022": {
-        "name": "South Dakota @ Western Michigan",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": -1.5,
-                        "runnerName": "South Dakota",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 1.5,
-                        "runnerName": "Western Michigan",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "South Dakota",
-                        "winRunnerOdds": -128
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Western Michigan",
-                        "winRunnerOdds": 104
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 154.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "handicap": 154.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -104
-                    }
-                ]
-            }
-        ]
-    },
-    "33801104": {
-        "name": "Austin Peay @ Morehead State",
-        "markets": [
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Austin Peay",
-                        "winRunnerOdds": -122
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Morehead State",
-                        "winRunnerOdds": 100
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": -1.5,
-                        "runnerName": "Austin Peay",
-                        "winRunnerOdds": -106
-                    },
-                    {
-                        "handicap": 1.5,
-                        "runnerName": "Morehead State",
-                        "winRunnerOdds": -114
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 137.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 137.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            }
-        ]
-    },
-    "33800982": {
-        "name": "Detroit Mercy @ Ball State",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 11.5,
-                        "runnerName": "Detroit Mercy",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": -11.5,
-                        "runnerName": "Ball State",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Detroit Mercy",
-                        "winRunnerOdds": 590
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Ball State",
-                        "winRunnerOdds": -950
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 145.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "handicap": 145.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            }
-        ]
-    },
-    "33801107": {
-        "name": "Lafayette College @ Rhode Island",
-        "markets": [
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Lafayette College",
-                        "winRunnerOdds": 1120
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Rhode Island",
-                        "winRunnerOdds": -3000
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 15.5,
-                        "runnerName": "Lafayette College",
-                        "winRunnerOdds": -108
-                    },
-                    {
-                        "handicap": -15.5,
-                        "runnerName": "Rhode Island",
-                        "winRunnerOdds": -112
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 147.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -105
-                    },
-                    {
-                        "handicap": 147.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -114
-                    }
-                ]
-            }
-        ]
-    },
-    "33801105": {
-        "name": "Abilene Christian @ Kennesaw State",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 4.5,
-                        "runnerName": "Abilene Christian",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "handicap": -4.5,
-                        "runnerName": "Kennesaw State",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Abilene Christian",
-                        "winRunnerOdds": 152
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Kennesaw State",
-                        "winRunnerOdds": -188
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 156.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -114
-                    },
-                    {
-                        "handicap": 156.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            }
-        ]
-    },
-    "33801114": {
-        "name": "Morgan State @ North Carolina A&T",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 6.5,
-                        "runnerName": "Morgan State",
-                        "winRunnerOdds": -112
-                    },
-                    {
-                        "handicap": -6.5,
-                        "runnerName": "North Carolina A&T",
-                        "winRunnerOdds": -108
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Morgan State",
-                        "winRunnerOdds": 260
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "North Carolina A&T",
-                        "winRunnerOdds": -340
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 160.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -106
-                    },
-                    {
-                        "handicap": 160.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -113
-                    }
-                ]
-            }
-        ]
-    },
-    "33801103": {
-        "name": "Maine @ Richmond",
-        "markets": [
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Maine",
-                        "winRunnerOdds": 320
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Richmond",
-                        "winRunnerOdds": -430
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 8.5,
-                        "runnerName": "Maine",
-                        "winRunnerOdds": -112
-                    },
-                    {
-                        "handicap": -8.5,
-                        "runnerName": "Richmond",
-                        "winRunnerOdds": -108
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 129.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 129.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            }
-        ]
-    },
-    "33801106": {
-        "name": "Towson @ Nicholls",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": -2.5,
-                        "runnerName": "Towson",
-                        "winRunnerOdds": -114
-                    },
-                    {
-                        "handicap": 2.5,
-                        "runnerName": "Nicholls",
-                        "winRunnerOdds": -106
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 137.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -108
-                    },
-                    {
-                        "handicap": 137.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -111
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Towson",
-                        "winRunnerOdds": -162
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Nicholls",
-                        "winRunnerOdds": 132
-                    }
-                ]
-            }
-        ]
-    },
-    "33800261": {
-        "name": "Southern University @ Texas A&M",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 25.5,
-                        "runnerName": "Southern University",
-                        "winRunnerOdds": -105
-                    },
-                    {
-                        "handicap": -25.5,
-                        "runnerName": "Texas A&M",
-                        "winRunnerOdds": -115
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Southern University",
-                        "winRunnerOdds": 3500
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Texas A&M",
-                        "winRunnerOdds": -10000
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 143.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "handicap": 143.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            }
-        ]
-    },
-    "33800236": {
-        "name": "Merrimack @ Rutgers",
-        "markets": [
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Merrimack",
-                        "winRunnerOdds": 1400
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Rutgers",
-                        "winRunnerOdds": -4000
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 18.5,
-                        "runnerName": "Merrimack",
-                        "winRunnerOdds": -102
-                    },
-                    {
-                        "handicap": -18.5,
-                        "runnerName": "Rutgers",
-                        "winRunnerOdds": -120
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 134.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -108
-                    },
-                    {
-                        "handicap": 134.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -112
-                    }
-                ]
-            }
-        ]
-    },
-    "33801027": {
-        "name": "Arkansas Little Rock @ Tulsa",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 12.5,
-                        "runnerName": "Arkansas Little Rock",
-                        "winRunnerOdds": -105
-                    },
-                    {
-                        "handicap": -12.5,
-                        "runnerName": "Tulsa",
-                        "winRunnerOdds": -115
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Arkansas Little Rock",
-                        "winRunnerOdds": 710
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Tulsa",
-                        "winRunnerOdds": -1250
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 150.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 150.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            }
-        ]
-    },
-    "33801112": {
-        "name": "Jackson State @ Western Kentucky",
-        "markets": [
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Jackson State",
-                        "winRunnerOdds": 1120
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Western Kentucky",
-                        "winRunnerOdds": -3000
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 15.5,
-                        "runnerName": "Jackson State",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": -15.5,
-                        "runnerName": "Western Kentucky",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 151.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -104
-                    },
-                    {
-                        "handicap": 151.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -115
-                    }
-                ]
-            }
-        ]
-    },
-    "33801021": {
-        "name": "Southern Miss @ South Dakota State",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 6.5,
-                        "runnerName": "Southern Miss",
-                        "winRunnerOdds": -114
-                    },
-                    {
-                        "handicap": -6.5,
-                        "runnerName": "South Dakota State",
-                        "winRunnerOdds": -106
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 153.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -114
-                    },
-                    {
-                        "handicap": 153.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Southern Miss",
-                        "winRunnerOdds": 235
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "South Dakota State",
-                        "winRunnerOdds": -300
-                    }
-                ]
-            }
-        ]
-    },
-    "33802776": {
-        "name": "Maryland-Eastern Shore @ Murray State",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 25.5,
-                        "runnerName": "Maryland-Eastern Shore",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": -25.5,
-                        "runnerName": "Murray State",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Maryland-Eastern Shore",
-                        "winRunnerOdds": 2800
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Murray State",
-                        "winRunnerOdds": -10000
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 147.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -106
-                    },
-                    {
-                        "handicap": 147.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -114
-                    }
-                ]
-            }
-        ]
-    },
-    "33800231": {
-        "name": "Mt. St. Mary's @ Georgetown",
-        "markets": [
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 144.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -106
-                    },
-                    {
-                        "handicap": 144.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -114
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Mt. St. Mary's",
-                        "winRunnerOdds": 800
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Georgetown",
-                        "winRunnerOdds": -1400
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 14.5,
-                        "runnerName": "Mt. St. Mary's",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "handicap": -14.5,
-                        "runnerName": "Georgetown",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            }
-        ]
-    },
-    "33800225": {
-        "name": "Long Beach State @ Gonzaga",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 33.5,
-                        "runnerName": "Long Beach State",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": -33.5,
-                        "runnerName": "Gonzaga",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 151.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -114
-                    },
-                    {
-                        "handicap": 151.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -106
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Long Beach State",
-                        "winRunnerOdds": 4000
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Gonzaga",
-                        "winRunnerOdds": -100000
-                    }
-                ]
-            }
-        ]
-    },
-    "33800218": {
-        "name": "Cal Poly @ Arizona State",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 16.5,
-                        "runnerName": "Cal Poly",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": -16.5,
-                        "runnerName": "Arizona State",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 153.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "handicap": 153.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Cal Poly",
-                        "winRunnerOdds": 1060
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Arizona State",
-                        "winRunnerOdds": -2500
-                    }
-                ]
-            }
-        ]
-    },
-    "33800217": {
-        "name": "Illinois @ Alabama",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 8.5,
-                        "runnerName": "Illinois",
-                        "winRunnerOdds": -114
-                    },
-                    {
-                        "handicap": -8.5,
-                        "runnerName": "Alabama",
-                        "winRunnerOdds": -106
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 168.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 168.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Illinois",
-                        "winRunnerOdds": 290
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Alabama",
-                        "winRunnerOdds": -375
-                    }
-                ]
-            }
-        ]
-    },
-    "33801026": {
-        "name": "UC Davis @ Grand Canyon",
-        "markets": [
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 152.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 152.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 16.5,
-                        "runnerName": "UC Davis",
-                        "winRunnerOdds": -105
-                    },
-                    {
-                        "handicap": -16.5,
-                        "runnerName": "Grand Canyon",
-                        "winRunnerOdds": -115
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "UC Davis",
-                        "winRunnerOdds": 1120
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Grand Canyon",
-                        "winRunnerOdds": -3000
-                    }
-                ]
-            }
-        ]
-    },
-    "33800262": {
-        "name": "Norfolk State @ Stanford",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 20.5,
-                        "runnerName": "Norfolk State",
-                        "winRunnerOdds": -118
-                    },
-                    {
-                        "handicap": -20.5,
-                        "runnerName": "Stanford",
-                        "winRunnerOdds": -104
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Norfolk State",
-                        "winRunnerOdds": 1600
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Stanford",
-                        "winRunnerOdds": -4500
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 142.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 142.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            }
-        ]
-    },
-    "33800234": {
-        "name": "UTEP @ UC Santa Barbara",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 5.5,
-                        "runnerName": "UTEP",
-                        "winRunnerOdds": -102
-                    },
-                    {
-                        "handicap": -5.5,
-                        "runnerName": "UC Santa Barbara",
-                        "winRunnerOdds": -120
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 146.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "handicap": 146.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "UTEP",
-                        "winRunnerOdds": 202
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "UC Santa Barbara",
-                        "winRunnerOdds": -250
-                    }
-                ]
-            }
-        ]
-    },
-    "33800221": {
-        "name": "Pepperdine @ UNLV",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 15.5,
-                        "runnerName": "Pepperdine",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "handicap": -15.5,
-                        "runnerName": "UNLV",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Pepperdine",
-                        "winRunnerOdds": 920
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "UNLV",
-                        "winRunnerOdds": -1800
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 146.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 146.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            }
-        ]
-    },
-    "33800233": {
-        "name": "San Jose St @ USC",
-        "markets": [
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 142.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 142.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 17.5,
-                        "runnerName": "San Jose St",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": -17.5,
-                        "runnerName": "USC",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "San Jose St",
-                        "winRunnerOdds": 1200
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "USC",
-                        "winRunnerOdds": -3000
-                    }
-                ]
-            }
-        ]
-    },
-    "33801173": {
-        "name": "Prairie View A&M @ Fresno State",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 13.5,
-                        "runnerName": "Prairie View A&M",
-                        "winRunnerOdds": -102
-                    },
-                    {
-                        "handicap": -13.5,
-                        "runnerName": "Fresno State",
-                        "winRunnerOdds": -120
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 155.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -112
-                    },
-                    {
-                        "handicap": 155.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -112
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Prairie View A&M",
-                        "winRunnerOdds": 790
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Fresno State",
-                        "winRunnerOdds": -1500
-                    }
-                ]
-            }
-        ]
-    },
-    "33801025": {
-        "name": "Northern Colorado @ California Baptist",
-        "markets": [
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 151.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": 151.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -114
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Northern Colorado",
-                        "winRunnerOdds": 184
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "California Baptist",
-                        "winRunnerOdds": -230
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 4.5,
-                        "runnerName": "Northern Colorado",
-                        "winRunnerOdds": -102
-                    },
-                    {
-                        "handicap": -4.5,
-                        "runnerName": "California Baptist",
-                        "winRunnerOdds": -120
-                    }
-                ]
-            }
-        ]
-    },
-    "33800220": {
-        "name": "Idaho State @ UCLA",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "runners": [
-                    {
-                        "handicap": 24.5,
-                        "runnerName": "Idaho State",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "handicap": -24.5,
-                        "runnerName": "UCLA",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Idaho State",
-                        "winRunnerOdds": 3000
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "UCLA",
-                        "winRunnerOdds": -10000
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "runners": [
-                    {
-                        "handicap": 130.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "handicap": 130.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            }
-        ]
-    },
     "33803108": {
         "name": "James Madison @ UIC",
         "markets": [
@@ -1606,14 +6,14 @@
                 "marketType": "MATCH_HANDICAP_(2-WAY)",
                 "runners": [
                     {
-                        "handicap": -2.5,
+                        "handicap": -3.5,
                         "runnerName": "James Madison",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -102
                     },
                     {
-                        "handicap": 2.5,
+                        "handicap": 3.5,
                         "runnerName": "UIC",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -120
                     }
                 ]
             },
@@ -1621,14 +21,14 @@
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
                 "runners": [
                     {
-                        "handicap": 144.5,
+                        "handicap": 145.5,
                         "runnerName": "Over",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -105
                     },
                     {
-                        "handicap": 144.5,
+                        "handicap": 145.5,
                         "runnerName": "Under",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -115
                     }
                 ]
             },
@@ -1638,12 +38,12 @@
                     {
                         "handicap": 0,
                         "runnerName": "James Madison",
-                        "winRunnerOdds": -140
+                        "winRunnerOdds": -152
                     },
                     {
                         "handicap": 0,
                         "runnerName": "UIC",
-                        "winRunnerOdds": 116
+                        "winRunnerOdds": 126
                     }
                 ]
             }
@@ -1723,12 +123,12 @@
                     {
                         "handicap": 0,
                         "runnerName": "Miami",
-                        "winRunnerOdds": -530
+                        "winRunnerOdds": -550
                     },
                     {
                         "handicap": 0,
                         "runnerName": "Drake",
-                        "winRunnerOdds": 390
+                        "winRunnerOdds": 400
                     }
                 ]
             },
@@ -1736,12 +136,12 @@
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
                 "runners": [
                     {
-                        "handicap": 143.5,
+                        "handicap": 142.5,
                         "runnerName": "Over",
                         "winRunnerOdds": -115
                     },
                     {
-                        "handicap": 143.5,
+                        "handicap": 142.5,
                         "runnerName": "Under",
                         "winRunnerOdds": -105
                     }
@@ -1758,12 +158,12 @@
                     {
                         "handicap": -1.5,
                         "runnerName": "La Salle",
-                        "winRunnerOdds": 100
+                        "winRunnerOdds": -110
                     },
                     {
                         "handicap": 1.5,
                         "runnerName": "UC San Diego",
-                        "winRunnerOdds": -122
+                        "winRunnerOdds": -110
                     }
                 ]
             },
@@ -1771,14 +171,14 @@
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
                 "runners": [
                     {
-                        "handicap": 140.5,
+                        "handicap": 143.5,
                         "runnerName": "Over",
-                        "winRunnerOdds": -115
+                        "winRunnerOdds": -110
                     },
                     {
-                        "handicap": 140.5,
+                        "handicap": 143.5,
                         "runnerName": "Under",
-                        "winRunnerOdds": -105
+                        "winRunnerOdds": -110
                     }
                 ]
             },
@@ -1788,12 +188,12 @@
                     {
                         "handicap": 0,
                         "runnerName": "La Salle",
-                        "winRunnerOdds": -111
+                        "winRunnerOdds": -122
                     },
                     {
                         "handicap": 0,
                         "runnerName": "UC San Diego",
-                        "winRunnerOdds": -108
+                        "winRunnerOdds": 102
                     }
                 ]
             }
@@ -1806,14 +206,14 @@
                 "marketType": "MATCH_HANDICAP_(2-WAY)",
                 "runners": [
                     {
-                        "handicap": -8.5,
+                        "handicap": -9.5,
                         "runnerName": "South Florida",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -102
                     },
                     {
-                        "handicap": 8.5,
+                        "handicap": 9.5,
                         "runnerName": "Portland",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -120
                     }
                 ]
             },
@@ -1823,12 +223,12 @@
                     {
                         "handicap": 0,
                         "runnerName": "South Florida",
-                        "winRunnerOdds": -385
+                        "winRunnerOdds": -430
                     },
                     {
                         "handicap": 0,
                         "runnerName": "Portland",
-                        "winRunnerOdds": 300
+                        "winRunnerOdds": 330
                     }
                 ]
             },
@@ -1836,12 +236,12 @@
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
                 "runners": [
                     {
-                        "handicap": 145.5,
+                        "handicap": 146.5,
                         "runnerName": "Over",
                         "winRunnerOdds": -110
                     },
                     {
-                        "handicap": 145.5,
+                        "handicap": 146.5,
                         "runnerName": "Under",
                         "winRunnerOdds": -110
                     }
@@ -1856,14 +256,14 @@
                 "marketType": "MATCH_HANDICAP_(2-WAY)",
                 "runners": [
                     {
-                        "handicap": -2.5,
+                        "handicap": -1.5,
                         "runnerName": "Oklahoma State",
-                        "winRunnerOdds": -104
+                        "winRunnerOdds": -110
                     },
                     {
-                        "handicap": 2.5,
+                        "handicap": 1.5,
                         "runnerName": "Florida Atlantic",
-                        "winRunnerOdds": -118
+                        "winRunnerOdds": -110
                     }
                 ]
             },
@@ -1871,12 +271,12 @@
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
                 "runners": [
                     {
-                        "handicap": 162.5,
+                        "handicap": 161.5,
                         "runnerName": "Over",
                         "winRunnerOdds": -110
                     },
                     {
-                        "handicap": 162.5,
+                        "handicap": 161.5,
                         "runnerName": "Under",
                         "winRunnerOdds": -110
                     }
@@ -1888,12 +288,12 @@
                     {
                         "handicap": 0,
                         "runnerName": "Oklahoma State",
-                        "winRunnerOdds": -128
+                        "winRunnerOdds": -120
                     },
                     {
                         "handicap": 0,
                         "runnerName": "Florida Atlantic",
-                        "winRunnerOdds": 106
+                        "winRunnerOdds": 100
                     }
                 ]
             }
@@ -1906,14 +306,14 @@
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
                 "runners": [
                     {
-                        "handicap": 132.5,
+                        "handicap": 134.5,
                         "runnerName": "Over",
-                        "winRunnerOdds": -115
+                        "winRunnerOdds": -110
                     },
                     {
-                        "handicap": 132.5,
+                        "handicap": 134.5,
                         "runnerName": "Under",
-                        "winRunnerOdds": -105
+                        "winRunnerOdds": -110
                     }
                 ]
             },
@@ -1923,12 +323,12 @@
                     {
                         "handicap": 0,
                         "runnerName": "East Carolina",
-                        "winRunnerOdds": -170
+                        "winRunnerOdds": -152
                     },
                     {
                         "handicap": 0,
                         "runnerName": "Jacksonville State",
-                        "winRunnerOdds": 140
+                        "winRunnerOdds": 126
                     }
                 ]
             },
@@ -1938,12 +338,12 @@
                     {
                         "handicap": -3.5,
                         "runnerName": "East Carolina",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -102
                     },
                     {
                         "handicap": 3.5,
                         "runnerName": "Jacksonville State",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -120
                     }
                 ]
             }
@@ -1956,14 +356,14 @@
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
                 "runners": [
                     {
-                        "handicap": 125.5,
+                        "handicap": 124.5,
                         "runnerName": "Over",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -115
                     },
                     {
-                        "handicap": 125.5,
+                        "handicap": 124.5,
                         "runnerName": "Under",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -105
                     }
                 ]
             },
@@ -1973,12 +373,12 @@
                     {
                         "handicap": 0,
                         "runnerName": "Seton Hall",
-                        "winRunnerOdds": 220
+                        "winRunnerOdds": 255
                     },
                     {
                         "handicap": 0,
                         "runnerName": "VCU",
-                        "winRunnerOdds": -275
+                        "winRunnerOdds": -320
                     }
                 ]
             },
@@ -1986,13 +386,163 @@
                 "marketType": "MATCH_HANDICAP_(2-WAY)",
                 "runners": [
                     {
-                        "handicap": 6.5,
+                        "handicap": 7.5,
                         "runnerName": "Seton Hall",
                         "winRunnerOdds": -110
                     },
                     {
-                        "handicap": -6.5,
+                        "handicap": -7.5,
                         "runnerName": "VCU",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            }
+        ]
+    },
+    "33803631": {
+        "name": "Monmouth @ Youngstown State",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 148.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 148.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -114
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 5.5,
+                        "runnerName": "Monmouth",
+                        "winRunnerOdds": -120
+                    },
+                    {
+                        "handicap": -5.5,
+                        "runnerName": "Youngstown State",
+                        "winRunnerOdds": -102
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Monmouth",
+                        "winRunnerOdds": 198
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Youngstown State",
+                        "winRunnerOdds": -250
+                    }
+                ]
+            }
+        ]
+    },
+    "33803636": {
+        "name": "Bradley @ Texas State",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Bradley",
+                        "winRunnerOdds": -300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Texas State",
+                        "winRunnerOdds": 235
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 137.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -106
+                    },
+                    {
+                        "handicap": 137.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -118
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -6.5,
+                        "runnerName": "Bradley",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "handicap": 6.5,
+                        "runnerName": "Texas State",
+                        "winRunnerOdds": -105
+                    }
+                ]
+            }
+        ]
+    },
+    "33803111": {
+        "name": "Toledo @ Stetson",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Toledo",
+                        "winRunnerOdds": -1000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Stetson",
+                        "winRunnerOdds": 640
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -13.5,
+                        "runnerName": "Toledo",
+                        "winRunnerOdds": -104
+                    },
+                    {
+                        "handicap": 13.5,
+                        "runnerName": "Stetson",
+                        "winRunnerOdds": -118
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 154.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 154.5,
+                        "runnerName": "Under",
                         "winRunnerOdds": -110
                     }
                 ]
@@ -2006,12 +556,12 @@
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
                 "runners": [
                     {
-                        "handicap": 147.5,
+                        "handicap": 145.5,
                         "runnerName": "Over",
                         "winRunnerOdds": -115
                     },
                     {
-                        "handicap": 147.5,
+                        "handicap": 145.5,
                         "runnerName": "Under",
                         "winRunnerOdds": -105
                     }
@@ -2023,12 +573,12 @@
                     {
                         "handicap": 16.5,
                         "runnerName": "UNC Greensboro",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -102
                     },
                     {
                         "handicap": -16.5,
                         "runnerName": "Indiana",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -120
                     }
                 ]
             },
@@ -2038,12 +588,1062 @@
                     {
                         "handicap": 0,
                         "runnerName": "UNC Greensboro",
-                        "winRunnerOdds": 1100
+                        "winRunnerOdds": 1200
                     },
                     {
                         "handicap": 0,
                         "runnerName": "Indiana",
-                        "winRunnerOdds": -2500
+                        "winRunnerOdds": -3000
+                    }
+                ]
+            }
+        ]
+    },
+    "33803096": {
+        "name": "Mercer @ South Carolina",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 151.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 151.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 18.5,
+                        "runnerName": "Mercer",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "handicap": -18.5,
+                        "runnerName": "South Carolina",
+                        "winRunnerOdds": -105
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Mercer",
+                        "winRunnerOdds": 1280
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "South Carolina",
+                        "winRunnerOdds": -3500
+                    }
+                ]
+            }
+        ]
+    },
+    "33804036": {
+        "name": "N.J.I.T @ Bucknell",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "N.J.I.T",
+                        "winRunnerOdds": 680
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Bucknell",
+                        "winRunnerOdds": -1200
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 13.5,
+                        "runnerName": "N.J.I.T",
+                        "winRunnerOdds": -108
+                    },
+                    {
+                        "handicap": -13.5,
+                        "runnerName": "Bucknell",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 133.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -118
+                    },
+                    {
+                        "handicap": 133.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -106
+                    }
+                ]
+            }
+        ]
+    },
+    "33803629": {
+        "name": "Eastern Michigan @ Oakland",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Eastern Michigan",
+                        "winRunnerOdds": 300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Oakland",
+                        "winRunnerOdds": -400
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 130.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -112
+                    },
+                    {
+                        "handicap": 130.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 7.5,
+                        "runnerName": "Eastern Michigan",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": -7.5,
+                        "runnerName": "Oakland",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            }
+        ]
+    },
+    "33804035": {
+        "name": "Bryant @ Stonehill",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -11.5,
+                        "runnerName": "Bryant",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 11.5,
+                        "runnerName": "Stonehill",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Bryant",
+                        "winRunnerOdds": -1050
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Stonehill",
+                        "winRunnerOdds": 650
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 149.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -112
+                    },
+                    {
+                        "handicap": 149.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            }
+        ]
+    },
+    "33804037": {
+        "name": "Radford @ Clemson",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Radford",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Clemson",
+                        "winRunnerOdds": -4500
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 147.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 147.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -114
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 19.5,
+                        "runnerName": "Radford",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "handicap": -19.5,
+                        "runnerName": "Clemson",
+                        "winRunnerOdds": -105
+                    }
+                ]
+            }
+        ]
+    },
+    "33803113": {
+        "name": "Vanderbilt @ Nevada",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 3.5,
+                        "runnerName": "Vanderbilt",
+                        "winRunnerOdds": -108
+                    },
+                    {
+                        "handicap": -3.5,
+                        "runnerName": "Nevada",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vanderbilt",
+                        "winRunnerOdds": 142
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Nevada",
+                        "winRunnerOdds": -172
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 147.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "handicap": 147.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -105
+                    }
+                ]
+            }
+        ]
+    },
+    "33804031": {
+        "name": "Presbyterian @ Stephen F Austin",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 136.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -116
+                    },
+                    {
+                        "handicap": 136.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -108
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 8.5,
+                        "runnerName": "Presbyterian",
+                        "winRunnerOdds": -105
+                    },
+                    {
+                        "handicap": -8.5,
+                        "runnerName": "Stephen F Austin",
+                        "winRunnerOdds": -115
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Presbyterian",
+                        "winRunnerOdds": 330
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Stephen F Austin",
+                        "winRunnerOdds": -450
+                    }
+                ]
+            }
+        ]
+    },
+    "33804032": {
+        "name": "SE Missouri State @ Central Arkansas",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -1.5,
+                        "runnerName": "SE Missouri State",
+                        "winRunnerOdds": -108
+                    },
+                    {
+                        "handicap": 1.5,
+                        "runnerName": "Central Arkansas",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 148.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -116
+                    },
+                    {
+                        "handicap": 148.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -108
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "SE Missouri State",
+                        "winRunnerOdds": -122
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Central Arkansas",
+                        "winRunnerOdds": 100
+                    }
+                ]
+            }
+        ]
+    },
+    "33803101": {
+        "name": "Oral Roberts @ Ole Miss",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 20.5,
+                        "runnerName": "Oral Roberts",
+                        "winRunnerOdds": -104
+                    },
+                    {
+                        "handicap": -20.5,
+                        "runnerName": "Ole Miss",
+                        "winRunnerOdds": -118
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 148.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 148.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Oral Roberts",
+                        "winRunnerOdds": 1600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Ole Miss",
+                        "winRunnerOdds": -4500
+                    }
+                ]
+            }
+        ]
+    },
+    "33804049": {
+        "name": "Texas A&M Commerce @ Oklahoma",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Texas A&M Commerce",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Oklahoma",
+                        "winRunnerOdds": -100000
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 27.5,
+                        "runnerName": "Texas A&M Commerce",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": -27.5,
+                        "runnerName": "Oklahoma",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 144.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -112
+                    },
+                    {
+                        "handicap": 144.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            }
+        ]
+    },
+    "33803628": {
+        "name": "Lindenwood @ Valparaiso",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 144.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -112
+                    },
+                    {
+                        "handicap": 144.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Lindenwood",
+                        "winRunnerOdds": 410
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Valparaiso",
+                        "winRunnerOdds": -590
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 10.5,
+                        "runnerName": "Lindenwood",
+                        "winRunnerOdds": -108
+                    },
+                    {
+                        "handicap": -10.5,
+                        "runnerName": "Valparaiso",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            }
+        ]
+    },
+    "33804044": {
+        "name": "Central Conn. State @ Sacred Heart",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -3.5,
+                        "runnerName": "Central Conn. State",
+                        "winRunnerOdds": -105
+                    },
+                    {
+                        "handicap": 3.5,
+                        "runnerName": "Sacred Heart",
+                        "winRunnerOdds": -115
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Central Conn. State",
+                        "winRunnerOdds": -170
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Sacred Heart",
+                        "winRunnerOdds": 138
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 142.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -106
+                    },
+                    {
+                        "handicap": 142.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -118
+                    }
+                ]
+            }
+        ]
+    },
+    "33803637": {
+        "name": "Princeton @ Wright State",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 152.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -114
+                    },
+                    {
+                        "handicap": 152.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Princeton",
+                        "winRunnerOdds": -325
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Wright State",
+                        "winRunnerOdds": 250
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -6.5,
+                        "runnerName": "Princeton",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "handicap": 6.5,
+                        "runnerName": "Wright State",
+                        "winRunnerOdds": -105
+                    }
+                ]
+            }
+        ]
+    },
+    "33803102": {
+        "name": "Tarleton State @ Michigan",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 30.5,
+                        "runnerName": "Tarleton State",
+                        "winRunnerOdds": -102
+                    },
+                    {
+                        "handicap": -30.5,
+                        "runnerName": "Michigan",
+                        "winRunnerOdds": -120
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 145.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "handicap": 145.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -105
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tarleton State",
+                        "winRunnerOdds": 4000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Michigan",
+                        "winRunnerOdds": -100000
+                    }
+                ]
+            }
+        ]
+    },
+    "33804042": {
+        "name": "Grambling State @ New Mexico",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Grambling State",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "New Mexico",
+                        "winRunnerOdds": -4500
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 150.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -112
+                    },
+                    {
+                        "handicap": 150.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 18.5,
+                        "runnerName": "Grambling State",
+                        "winRunnerOdds": -104
+                    },
+                    {
+                        "handicap": -18.5,
+                        "runnerName": "New Mexico",
+                        "winRunnerOdds": -118
+                    }
+                ]
+            }
+        ]
+    },
+    "33803117": {
+        "name": "Texas Tech @ Saint Joseph's",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Texas Tech",
+                        "winRunnerOdds": -600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Saint Joseph's",
+                        "winRunnerOdds": 430
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -10.5,
+                        "runnerName": "Texas Tech",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 10.5,
+                        "runnerName": "Saint Joseph's",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 147.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 147.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            }
+        ]
+    },
+    "33803511": {
+        "name": "Tennessee @ Virginia",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Tennessee",
+                        "winRunnerOdds": -1000
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Virginia",
+                        "winRunnerOdds": 640
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -12.5,
+                        "runnerName": "Tennessee",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 12.5,
+                        "runnerName": "Virginia",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 125.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 125.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            }
+        ]
+    },
+    "33803486": {
+        "name": "Eastern Washington @ Washington State",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Eastern Washington",
+                        "winRunnerOdds": 530
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Washington State",
+                        "winRunnerOdds": -780
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 11.5,
+                        "runnerName": "Eastern Washington",
+                        "winRunnerOdds": -102
+                    },
+                    {
+                        "handicap": -11.5,
+                        "runnerName": "Washington State",
+                        "winRunnerOdds": -118
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 159.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 159.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            }
+        ]
+    },
+    "33803106": {
+        "name": "Air Force @ California",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Air Force",
+                        "winRunnerOdds": 1060
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "California",
+                        "winRunnerOdds": -2300
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 137.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 137.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 16.5,
+                        "runnerName": "Air Force",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "handicap": -16.5,
+                        "runnerName": "California",
+                        "winRunnerOdds": -105
+                    }
+                ]
+            }
+        ]
+    },
+    "33803105": {
+        "name": "Oregon @ Oregon State",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 139.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 139.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -6.5,
+                        "runnerName": "Oregon",
+                        "winRunnerOdds": -102
+                    },
+                    {
+                        "handicap": 6.5,
+                        "runnerName": "Oregon State",
+                        "winRunnerOdds": -120
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Oregon",
+                        "winRunnerOdds": -250
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Oregon State",
+                        "winRunnerOdds": 202
+                    }
+                ]
+            }
+        ]
+    },
+    "33803104": {
+        "name": "Memphis @ San Francisco",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -1.5,
+                        "runnerName": "Memphis",
+                        "winRunnerOdds": -105
+                    },
+                    {
+                        "handicap": 1.5,
+                        "runnerName": "San Francisco",
+                        "winRunnerOdds": -115
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 154.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "handicap": 154.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -105
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Memphis",
+                        "winRunnerOdds": -118
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "San Francisco",
+                        "winRunnerOdds": -102
                     }
                 ]
             }

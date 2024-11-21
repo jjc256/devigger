@@ -1,0 +1,452 @@
+{
+    "33758880": {
+        "name": "Slovan Bratislava v AC Milan",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Slovan Bratislava",
+                        "winRunnerOdds": 1100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 550
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "AC Milan",
+                        "winRunnerOdds": -460
+                    }
+                ]
+            }
+        ]
+    },
+    "33758887": {
+        "name": "Sporting Lisbon v Arsenal",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Sporting Lisbon",
+                        "winRunnerOdds": 200
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 250
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Arsenal",
+                        "winRunnerOdds": 130
+                    }
+                ]
+            }
+        ]
+    },
+    "33758888": {
+        "name": "Man City v Feyenoord",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Man City",
+                        "winRunnerOdds": -600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Feyenoord",
+                        "winRunnerOdds": 1400
+                    }
+                ]
+            }
+        ]
+    },
+    "33758889": {
+        "name": "Bayern Munich v Paris St-G",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Bayern Munich",
+                        "winRunnerOdds": -160
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 340
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Paris St-G",
+                        "winRunnerOdds": 390
+                    }
+                ]
+            }
+        ]
+    },
+    "33758890": {
+        "name": "Inter v RB Leipzig",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Inter",
+                        "winRunnerOdds": -230
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 370
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "RB Leipzig",
+                        "winRunnerOdds": 550
+                    }
+                ]
+            }
+        ]
+    },
+    "33758891": {
+        "name": "Leverkusen v Red Bull Salzburg",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Leverkusen",
+                        "winRunnerOdds": -500
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Red Bull Salzburg",
+                        "winRunnerOdds": 1300
+                    }
+                ]
+            }
+        ]
+    },
+    "33758894": {
+        "name": "Young Boys v Atalanta",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Young Boys",
+                        "winRunnerOdds": 600
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 390
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Atalanta",
+                        "winRunnerOdds": -230
+                    }
+                ]
+            }
+        ]
+    },
+    "33758895": {
+        "name": "Sparta Prague v Atletico Madrid",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Sparta Prague",
+                        "winRunnerOdds": 440
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Atletico Madrid",
+                        "winRunnerOdds": -155
+                    }
+                ]
+            }
+        ]
+    },
+    "33758901": {
+        "name": "Crvena Zvezda v Stuttgart",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Crvena Zvezda",
+                        "winRunnerOdds": 370
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Stuttgart",
+                        "winRunnerOdds": -145
+                    }
+                ]
+            }
+        ]
+    },
+    "33758904": {
+        "name": "Celtic v Club Brugge",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Celtic",
+                        "winRunnerOdds": 100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 270
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Club Brugge",
+                        "winRunnerOdds": 260
+                    }
+                ]
+            }
+        ]
+    },
+    "33758909": {
+        "name": "Dinamo Zagreb v Dortmund",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dinamo Zagreb",
+                        "winRunnerOdds": 340
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Dortmund",
+                        "winRunnerOdds": -135
+                    }
+                ]
+            }
+        ]
+    },
+    "33758910": {
+        "name": "Liverpool v Real Madrid",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Liverpool",
+                        "winRunnerOdds": 100
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 270
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Real Madrid",
+                        "winRunnerOdds": 250
+                    }
+                ]
+            }
+        ]
+    },
+    "33758912": {
+        "name": "Bologna v Lille",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Bologna",
+                        "winRunnerOdds": 145
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 230
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Lille",
+                        "winRunnerOdds": 190
+                    }
+                ]
+            }
+        ]
+    },
+    "33758913": {
+        "name": "Aston Villa v Juventus",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Aston Villa",
+                        "winRunnerOdds": 140
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 230
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Juventus",
+                        "winRunnerOdds": 200
+                    }
+                ]
+            }
+        ]
+    },
+    "33758914": {
+        "name": "Monaco v Benfica",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Monaco",
+                        "winRunnerOdds": 115
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 260
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Benfica",
+                        "winRunnerOdds": 220
+                    }
+                ]
+            }
+        ]
+    },
+    "33758922": {
+        "name": "PSV v Shakhtar",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "PSV",
+                        "winRunnerOdds": -250
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 390
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Shakhtar",
+                        "winRunnerOdds": 650
+                    }
+                ]
+            }
+        ]
+    },
+    "33759278": {
+        "name": "Sturm Graz v Girona",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Sturm Graz",
+                        "winRunnerOdds": 220
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 280
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Girona",
+                        "winRunnerOdds": 110
+                    }
+                ]
+            }
+        ]
+    },
+    "33762541": {
+        "name": "Barcelona v Brest",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Barcelona",
+                        "winRunnerOdds": -750
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 750
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Brest",
+                        "winRunnerOdds": 1800
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,13 +1,19 @@
 import tkinter as tk
 from src.scrape import *
-from src.wager import Moneyline, PlayerProps, TeamTotal, Spread, TotalPoints, StatCategory, OverUnder, PlayerPropsYes
-from src.devig import devig, DevigMethod, american_to_probability, kelly_criterion, get_confidence_value
+from src.wager import *
+from src.devig import *
+from datetime import datetime
 
 
 def game_names_equal(game1, game2):
-    team1_1, team1_2 = game1.split(" @ ")
-    team2_1, team2_2 = game2.split(" @ ")
-
+    if " @ " in game1:
+        team1_1, team1_2 = game1.split(" @ ")
+    elif " v " in game1:
+        team1_1, team1_2 = game1.split(" v ")
+    if " @ " in game2:
+        team2_1, team2_2 = game2.split(" @ ")
+    elif " v " in game2:
+        team2_1, team2_2 = game2.split(" v ")
     return (team1_1 in team2_1 or team2_1 in team1_1) and (team1_2 in team2_2 or team2_2 in team1_2)
 
 
@@ -18,14 +24,16 @@ def wagers():
         **pinnacle_nfl(),
         **pinnacle_nhl(),
         **pinnacle_ncaaf(),
-        **pinnacle_ncaab()
+        **pinnacle_ncaab(),
+        **pinnacle_ucl()
     }
     fanduel = {
         **fanduel_nba(),
         **fanduel_nfl(),
         **fanduel_nhl(),
         **fanduel_ncaaf(),
-        **fanduel_ncaab()
+        **fanduel_ncaab(),
+        **fanduel_ucl()
     }
 
     common_wagers = []
@@ -34,7 +42,7 @@ def wagers():
     for pinnacle_id in pinnacle:
         pinnacle_game = pinnacle[pinnacle_id]
         name = pinnacle_game["name"]
-        away_team, home_team = name.split(" @ ")
+        away_team, home_team = name.split(" @ ") if " @ " in name else name.split(" v ")[::-1]
         fanduel_game = None
 
         # Find the corresponding game in Fanduel data
@@ -62,14 +70,39 @@ def wagers():
 
                             # Create home moneyline object
                             home_moneyline = Moneyline(
-                                name, fanduel_home_odds, pinnacle_home_odds, pinnacle_limit, home_team, away_team, pinnacle_away_odds)
+                                name, fanduel_home_odds, pinnacle_home_odds, pinnacle_limit, home_team, away_team, pinnacle_away_odds, 0)
 
                             # Create away moneyline object
                             away_moneyline = Moneyline(
-                                name, fanduel_away_odds, pinnacle_away_odds, pinnacle_limit, away_team, home_team, pinnacle_home_odds)
+                                name, fanduel_away_odds, pinnacle_away_odds, pinnacle_limit, away_team, home_team, pinnacle_home_odds, 0)
 
                             common_wagers.append(home_moneyline)
                             common_wagers.append(away_moneyline)
+                            break
+                        elif fanduel_wager["marketType"] == "WIN-DRAW-WIN":
+                            pinnacle_home_odds = pinnacle_wager["prices"][0]["price"]
+                            pinnacle_away_odds = pinnacle_wager["prices"][1]["price"]
+                            pinnacle_draw_odds = pinnacle_wager["prices"][2]["price"]
+                            fanduel_home_odds = fanduel_wager["runners"][0]["winRunnerOdds"]
+                            fanduel_away_odds = fanduel_wager["runners"][2]["winRunnerOdds"]
+                            fanduel_draw_odds = fanduel_wager["runners"][1]["winRunnerOdds"]
+                            pinnacle_limit = pinnacle_wager["limit"]
+
+                            # Create home moneyline object
+                            home_moneyline = Moneyline(
+                                name, fanduel_home_odds, pinnacle_home_odds, pinnacle_limit, home_team, away_team, pinnacle_away_odds, pinnacle_draw_odds)
+
+                            # Create away moneyline object
+                            away_moneyline = Moneyline(
+                                name, fanduel_away_odds, pinnacle_away_odds, pinnacle_limit, away_team, home_team, pinnacle_home_odds, pinnacle_draw_odds)
+
+                            # Create draw moneyline object
+                            draw_moneyline = Draw(
+                                name, fanduel_draw_odds, pinnacle_draw_odds, pinnacle_home_odds, pinnacle_away_odds, pinnacle_limit)
+
+                            common_wagers.append(home_moneyline)
+                            common_wagers.append(away_moneyline)
+                            common_wagers.append(draw_moneyline)
                             break
                 elif description == "handicap":
                     home_handicap = pinnacle_wager["prices"][0]["handicap"]
@@ -216,7 +249,14 @@ def display_good_bets(devig_method=DevigMethod.POWER):
     good_bets = []
 
     for wager in common_wagers:
-        true_prob = devig(wager.pinnacle_odds, wager.pinnacle_opposing_odds, devig_method)
+        if " @ " in wager.game:
+            true_prob = devig(wager.pinnacle_odds, wager.pinnacle_opposing_odds, devig_method)
+        elif isinstance(wager, Draw):
+            true_prob = devig3(wager.pinnacle_odds, wager.pinnacle_home_odds,
+                               wager.pinnacle_away_odds, devig_method)
+        elif isinstance(wager, Moneyline):
+            true_prob = devig3(wager.pinnacle_odds, wager.pinnacle_opposing_odds,
+                               wager.pinnacle_draw_odds, devig_method)
         fanduel_prob = american_to_probability(wager.fanduel_odds)
         if true_prob > fanduel_prob:
             ev = (true_prob - fanduel_prob) / fanduel_prob * 100
@@ -231,7 +271,11 @@ def change_devig_method(devig_method, common_wagers):
     good_bets = []
 
     for wager in common_wagers:
-        true_prob = devig(wager.pinnacle_odds, wager.pinnacle_opposing_odds, devig_method)
+        if " @ " in wager.game:
+            true_prob = devig(wager.pinnacle_odds, wager.pinnacle_opposing_odds, devig_method)
+        else:
+            true_prob = devig3(wager.pinnacle_draw_odds, wager.pinnacle_home_odds,
+                               wager.pinnacle_away_odds, devig_method)
         fanduel_prob = american_to_probability(wager.fanduel_odds)
         if true_prob > fanduel_prob:
             ev = (true_prob - fanduel_prob) / fanduel_prob * 100
@@ -289,7 +333,12 @@ def reload_data(root, canvas, scrollable_frame, devig_method):
         bet_label.pack(expand=True)
 
         copy_button = tk.Button(bet_frame, text="Copy",
-                                command=lambda wager=wager: copy_to_clipboard(root, wager.pretty()))
+                                command=lambda wager=wager: copy_to_clipboard(root, str(datetime.today().strftime("%m/%d/%Y"))
+                                                                              + chr(9) +
+                                                                              wager.pretty()
+                                                                              + chr(9) +
+                                                                              str(wager.fanduel_odds)
+                                                                              + chr(9) + str(int(risk_percentage / 100 * 500) + 1)))
         copy_button.pack(pady=5)
 
         bet_frame.bind("<Button-1>", lambda event, wager=wager, ev=ev, risk_percentage=risk_percentage,

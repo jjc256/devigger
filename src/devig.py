@@ -68,6 +68,36 @@ def devig(odds1, odds2, method):
         return math.pow(prob1, p)
 
 
+def devig3(odds1, odds2, odds3, method):
+    """
+    Calculate the devigged probabilities for three odds.
+
+    Args:
+        odds1 (int): The first odds.
+        odds2 (int): The second odds.
+        odds3 (int): The third odds.
+        method (DevigMethod): The method to use for devigging.
+
+    Returns:
+        tuple: The devigged probabilities for the three odds.
+    """
+    prob1 = american_to_probability(odds1)
+    prob2 = american_to_probability(odds2)
+    prob3 = american_to_probability(odds3)
+
+    if method == DevigMethod.MULTIPLICATIVE:
+        return prob1 / (prob1 + prob2 + prob3)
+    elif method == DevigMethod.POWER:
+        def equation(p):
+            return math.pow(prob1, p) + math.pow(prob2, p) + math.pow(prob3, p) - 1
+
+        p = 1
+        while equation(p) > 0:
+            p += 0.005
+
+        return math.pow(prob1, p)
+
+
 def kelly_criterion(true_prob, fanduel_prob):
     """
     Calculate the optimal bet size using the Kelly criterion.
