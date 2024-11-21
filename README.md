@@ -22,13 +22,9 @@ A Python application that analyzes betting odds from FanDuel and Pinnacle to fin
   - True probabilities using devigging methods
   - Expected Value (EV)
   - Kelly Criterion for optimal bet sizing
-  - Risk percentage based on book limits
+  - Risk percentage based on Kelly Criterion book limits
 - GUI interface with:
-  - Sortable bets by EV/Risk
+  - Sortable bets by risk percentage
   - Detailed bet information
   - Copy to clipboard functionality
   - Refresh capabilities
-
-## Note
-
-For sports, such as soccer, where names are listed home team first, for the sake of easiness, we always list away team first.

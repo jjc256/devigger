@@ -333,12 +333,13 @@ def reload_data(root, canvas, scrollable_frame, devig_method):
         bet_label.pack(expand=True)
 
         copy_button = tk.Button(bet_frame, text="Copy",
-                                command=lambda wager=wager: copy_to_clipboard(root, str(datetime.today().strftime("%m/%d/%Y"))
-                                                                              + chr(9) +
-                                                                              wager.pretty()
-                                                                              + chr(9) +
-                                                                              str(wager.fanduel_odds)
-                                                                              + chr(9) + str(int(risk_percentage / 100 * 500) + 1)))
+                                command=lambda wager=wager, risk_percentage=risk_percentage: copy_to_clipboard(root, str(datetime.today().strftime("%m/%d/%Y"))
+                                                                                                               + chr(9) +
+                                                                                                               wager.pretty()
+                                                                                                               + chr(9) +
+                                                                                                               str(
+                                                                                                                   wager.fanduel_odds)
+                                                                                                               + chr(9) + str(int(risk_percentage / 100 * 500 + 1))))
         copy_button.pack(pady=5)
 
         bet_frame.bind("<Button-1>", lambda event, wager=wager, ev=ev, risk_percentage=risk_percentage,

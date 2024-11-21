@@ -320,7 +320,7 @@ def fanduel_ncaab():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        save_result_to_file(result, 'example_fanduel_ncaab.json')
+        # save_result_to_file(result, 'example_fanduel_ncaab.json')
         return result
 
 
