@@ -1,0 +1,135 @@
+{
+    "1600930704": {
+        "name": "Malmo IF v Timra IK",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -103
+                    },
+                    {
+                        "designation": "away",
+                        "price": -117
+                    }
+                ],
+                "limit": 250
+            }
+        ]
+    },
+    "1600919699": {
+        "name": "Farjestads BK v HV 71",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -464
+                    },
+                    {
+                        "designation": "away",
+                        "price": 298
+                    }
+                ],
+                "limit": 250
+            }
+        ]
+    },
+    "1600943732": {
+        "name": "HC Orebro v Linkopings HC",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -155
+                    },
+                    {
+                        "designation": "away",
+                        "price": 122
+                    }
+                ],
+                "limit": 250
+            }
+        ]
+    },
+    "1600925699": {
+        "name": "Leksands IF v Lulea",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -112
+                    },
+                    {
+                        "designation": "away",
+                        "price": -112
+                    }
+                ],
+                "limit": 250
+            }
+        ]
+    },
+    "1600946769": {
+        "name": "Vaxjo Lakers v MODO Hockey",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -371
+                    },
+                    {
+                        "designation": "away",
+                        "price": 253
+                    }
+                ],
+                "limit": 250
+            }
+        ]
+    },
+    "1600918457": {
+        "name": "Brynas IF v Skelleftea AIK",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -159
+                    },
+                    {
+                        "designation": "away",
+                        "price": 125
+                    }
+                ],
+                "limit": 250
+            }
+        ]
+    },
+    "1600925700": {
+        "name": "Frolunda HC v Rogle BK",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -210
+                    },
+                    {
+                        "designation": "away",
+                        "price": 160
+                    }
+                ],
+                "limit": 250
+            }
+        ]
+    }
+}

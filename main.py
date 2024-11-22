@@ -25,7 +25,9 @@ def wagers():
         **pinnacle_nhl(),
         **pinnacle_ncaaf(),
         **pinnacle_ncaab(),
-        **pinnacle_ucl()
+        **pinnacle_ucl(),
+        **pinnacle_epl(),
+        **pinnacle_shl()
     }
     fanduel = {
         **fanduel_nba(),
@@ -33,7 +35,9 @@ def wagers():
         **fanduel_nhl(),
         **fanduel_ncaaf(),
         **fanduel_ncaab(),
-        **fanduel_ucl()
+        **fanduel_ucl(),
+        **fanduel_epl(),
+        **fanduel_shl()
     }
 
     common_wagers = []
@@ -64,8 +68,10 @@ def wagers():
                         if fanduel_wager["marketType"] == "MONEY_LINE":
                             pinnacle_home_odds = pinnacle_wager["prices"][0]["price"]
                             pinnacle_away_odds = pinnacle_wager["prices"][1]["price"]
-                            fanduel_home_odds = fanduel_wager["runners"][1]["winRunnerOdds"]
-                            fanduel_away_odds = fanduel_wager["runners"][0]["winRunnerOdds"]
+                            home_index = 1 if " @ " in name else 0
+                            fanduel_home_odds = fanduel_wager["runners"][home_index]["winRunnerOdds"]
+                            fanduel_away_odds = fanduel_wager["runners"][1 -
+                                                                         home_index]["winRunnerOdds"]
                             pinnacle_limit = pinnacle_wager["limit"]
 
                             # Create home moneyline object
@@ -168,6 +174,8 @@ def wagers():
                     # Round N up to the nearest integer
                     if "points" in pinnacle_wager["prices"][0]:
                         N = int(pinnacle_wager["prices"][0]["points"] + 1)
+                    else:
+                        continue
                     fanduel_category_template = fanduel_category_map.get(category)
                     stat_category = (
                         StatCategory.POINTS if category == "Points" else
@@ -339,7 +347,7 @@ def reload_data(root, canvas, scrollable_frame, devig_method):
                                                                                                                + chr(9) +
                                                                                                                str(
                                                                                                                    wager.fanduel_odds)
-                                                                                                               + chr(9) + str(int(risk_percentage / 100 * 500 + 1))))
+                                                                                                               + chr(9) + str(int(2 * risk_percentage / 100 * 500 + 1) / 2)))
         copy_button.pack(pady=5)
 
         bet_frame.bind("<Button-1>", lambda event, wager=wager, ev=ev, risk_percentage=risk_percentage,

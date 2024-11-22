@@ -78,7 +78,7 @@ class Moneyline(Wager):
                 f"fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
                 f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, " +
                 (f"pinnacle_draw_odds={self.pinnacle_draw_odds}, " if " v " in self.game else "") +
-                "pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_limit={self.pinnacle_limit})")
 
     def pretty(self):
         """

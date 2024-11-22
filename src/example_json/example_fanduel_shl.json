@@ -1,0 +1,352 @@
+{
+    "33805990": {
+        "name": "Brynas IF v Skelleftea AIK",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -0.5,
+                        "runnerName": "Brynas IF",
+                        "winRunnerOdds": 114
+                    },
+                    {
+                        "handicap": 0.5,
+                        "runnerName": "Skelleftea AIK",
+                        "winRunnerOdds": -140
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Brynas IF",
+                        "winRunnerOdds": -144
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Skelleftea AIK",
+                        "winRunnerOdds": 118
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 5.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": 110
+                    },
+                    {
+                        "handicap": 5.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -134
+                    }
+                ]
+            }
+        ]
+    },
+    "33805991": {
+        "name": "HC Orebro v Linkopings HC",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -0.5,
+                        "runnerName": "HC Orebro",
+                        "winRunnerOdds": 110
+                    },
+                    {
+                        "handicap": 0.5,
+                        "runnerName": "Linkopings HC",
+                        "winRunnerOdds": -134
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "HC Orebro",
+                        "winRunnerOdds": -150
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Linkopings HC",
+                        "winRunnerOdds": 122
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 4.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -144
+                    },
+                    {
+                        "handicap": 4.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": 118
+                    }
+                ]
+            }
+        ]
+    },
+    "33805992": {
+        "name": "Malmo IF v Timraa IK",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 5.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": 126
+                    },
+                    {
+                        "handicap": 5.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -154
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Malmo IF",
+                        "winRunnerOdds": -104
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Timraa IK",
+                        "winRunnerOdds": -118
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 0.5,
+                        "runnerName": "Malmo IF",
+                        "winRunnerOdds": -170
+                    },
+                    {
+                        "handicap": -0.5,
+                        "runnerName": "Timraa IK",
+                        "winRunnerOdds": 138
+                    }
+                ]
+            }
+        ]
+    },
+    "33805994": {
+        "name": "Frolunda HC v Rogle BK",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Frolunda HC",
+                        "winRunnerOdds": -184
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Rogle BK",
+                        "winRunnerOdds": 148
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 4.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -140
+                    },
+                    {
+                        "handicap": 4.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": 112
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -0.5,
+                        "runnerName": "Frolunda HC",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 0.5,
+                        "runnerName": "Rogle BK",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            }
+        ]
+    },
+    "33805996": {
+        "name": "Vaxjo Lakers v MODO Hockey",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -1.5,
+                        "runnerName": "Vaxjo Lakers",
+                        "winRunnerOdds": -102
+                    },
+                    {
+                        "handicap": 1.5,
+                        "runnerName": "MODO Hockey",
+                        "winRunnerOdds": -120
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 5.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": 110
+                    },
+                    {
+                        "handicap": 5.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -134
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Vaxjo Lakers",
+                        "winRunnerOdds": -300
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "MODO Hockey",
+                        "winRunnerOdds": 235
+                    }
+                ]
+            }
+        ]
+    },
+    "33805999": {
+        "name": "Farjestads BK v HV71",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": -1.5,
+                        "runnerName": "Farjestads BK",
+                        "winRunnerOdds": -142
+                    },
+                    {
+                        "handicap": 1.5,
+                        "runnerName": "HV71",
+                        "winRunnerOdds": 116
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 5.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -158
+                    },
+                    {
+                        "handicap": 5.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": 128
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Farjestads BK",
+                        "winRunnerOdds": -385
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "HV71",
+                        "winRunnerOdds": 290
+                    }
+                ]
+            }
+        ]
+    },
+    "33806000": {
+        "name": "Leksands IF v Lulea HC",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "runners": [
+                    {
+                        "handicap": 4.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -154
+                    },
+                    {
+                        "handicap": 4.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": 126
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "runners": [
+                    {
+                        "handicap": 0.5,
+                        "runnerName": "Leksands IF",
+                        "winRunnerOdds": -184
+                    },
+                    {
+                        "handicap": -0.5,
+                        "runnerName": "Lulea HC",
+                        "winRunnerOdds": 148
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "runners": [
+                    {
+                        "handicap": 0,
+                        "runnerName": "Leksands IF",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "handicap": 0,
+                        "runnerName": "Lulea HC",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            }
+        ]
+    }
+}
