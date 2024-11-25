@@ -265,6 +265,8 @@ def display_good_bets(devig_method=DevigMethod.POWER):
         elif isinstance(wager, Moneyline):
             true_prob = devig3(wager.pinnacle_odds, wager.pinnacle_opposing_odds,
                                wager.pinnacle_draw_odds, devig_method)
+        if (wager.fanduel_odds is None):
+            continue
         fanduel_prob = american_to_probability(wager.fanduel_odds)
         if true_prob > fanduel_prob:
             ev = (true_prob - fanduel_prob) / fanduel_prob * 100

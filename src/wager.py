@@ -21,7 +21,7 @@ class StatCategory(Enum):
         elif self == StatCategory.ANYTIME_TD:
             return "Anytime Touchdown"
         elif self == StatCategory.LONGEST_RECEPTION:
-            return "Longest Reception"
+            return "Yards Longest Reception"
         elif self == StatCategory.ANYTIME_GOAL:
             return "Anytime Goal Scorer"
         return self.name.capitalize()

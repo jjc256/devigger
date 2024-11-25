@@ -5,6 +5,7 @@ A Python application that analyzes betting odds from FanDuel and Pinnacle to fin
 ## Features
 
 - Scrapes real-time odds from FanDuel and Pinnacle sportsbooks
+- Only shows games from the current day to ensure Pinnacle's odds are closer to true market odds, reducing risk
 - Supports multiple sports:
   - NBA (Basketball)
   - NFL (American Football)
@@ -12,6 +13,8 @@ A Python application that analyzes betting odds from FanDuel and Pinnacle to fin
   - NCAAF (College Football)
   - NCAAB (College Basketball) 
   - UEFA Champions League (Soccer)
+  - EPL (Soccer)
+  - SHL (Hockey)
 - Analyzes various bet types:
   - Moneylines
   - Point Spreads

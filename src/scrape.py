@@ -1,7 +1,7 @@
 import requests
 import os
 import json  # Add import for json module
-from bs4 import BeautifulSoup
+import datetime
 
 
 def get_response(url, headers, params=None):
@@ -61,9 +61,14 @@ def process_fanduel_rows(rows, data):
         if event_id:
             name = data.get("attachments", {}).get(
                 "events", {}).get(str(event_id), {}).get("name")
-            if " @ " in name or " v " in name:
-                result[event_id] = {"name": name}
-                seen_event_ids.add(event_id)
+            date = data.get("attachments", {}).get(
+                "events", {}).get(str(event_id), {}).get("openDate")
+            if (" @ " in name or " v " in name):
+                event_date = datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%S.000Z")
+                event_date = event_date.replace(tzinfo=datetime.timezone.utc).astimezone(tz=None)
+                if event_date.date() == datetime.date.today():
+                    result[event_id] = {"name": name}
+                    seen_event_ids.add(event_id)
     return result, seen_event_ids
 
 
@@ -705,7 +710,9 @@ def pinnacle_ncaaf():
         process_markets(markets_data, result, special_to_parent)
 
         # save_result_to_file(result, 'example_pinnacle_ncaaf.json')
-    return result
+        return result
+    else:
+        return {}
 
 
 def pinnacle_ncaab():
