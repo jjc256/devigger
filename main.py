@@ -5,6 +5,9 @@ from src.devig import *
 from datetime import datetime
 
 
+BANKROLL = 500
+
+
 def game_names_equal(game1, game2):
     if " @ " in game1:
         team1_1, team1_2 = game1.split(" @ ")
@@ -349,7 +352,7 @@ def reload_data(root, canvas, scrollable_frame, devig_method):
                                                                                                                + chr(9) +
                                                                                                                str(
                                                                                                                    wager.fanduel_odds)
-                                                                                                               + chr(9) + str(int(2 * risk_percentage / 100 * 500 + 1) / 2)))
+                                                                                                               + chr(9) + str(int(2 * risk_percentage / 100 * BANKROLL + 1) / 2)))
         copy_button.pack(pady=5)
 
         bet_frame.bind("<Button-1>", lambda event, wager=wager, ev=ev, risk_percentage=risk_percentage,
