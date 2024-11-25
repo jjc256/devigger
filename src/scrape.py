@@ -446,6 +446,45 @@ def fanduel_shl():
         return result
 
 
+def fanduel_nla():
+    """
+    Fetches and processes Swiss National League A (NLA) data from Fanduel.
+    """
+    url = 'https://sbapi.ny.sportsbook.fanduel.com/api/competition-page'
+    api_key = os.getenv('FANDUEL_API_KEY')
+    params = {
+        '_ak': api_key,
+        'eventTypeId': '7524',
+        'competitionId': '11480943'
+    }
+
+    headers = {
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9',
+        'dnt': '1',
+        'origin': 'https://sportsbook.fanduel.com',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+    }
+
+    data = get_response(url, headers, params)
+    if data:
+        # Get all events from the events section
+        rows = list(data.get("attachments", {}).get("events", {}).values())
+        result, seen_event_ids = process_fanduel_rows(rows, data)
+        markets = data.get("attachments", {}).get("markets", {})
+        process_fanduel_markets(markets, seen_event_ids, result)
+
+        # save_result_to_file(result, 'example_fanduel_nla.json')
+        return result
+
+
 def process_matchups(matchups_data, switch_home_away=False):
     """
     Processes the matchups data from Pinnacle to extract matchup IDs and names.
@@ -836,6 +875,37 @@ def pinnacle_shl():
         process_markets(markets_data, result, special_to_parent)
 
         # save_result_to_file(result, 'example_pinnacle_shl.json')
+        return result
+
+
+def pinnacle_nla():
+    """
+    Fetches and processes Swiss National League A (NLA) data from Pinnacle.
+    """
+    headers = {
+        'sec-ch-ua-platform': 'Windows',
+        'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
+        'Referer': 'https://www.pinnacle.com/',
+        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'X-API-Key': os.getenv('PINNACLE_API_KEY'),
+        'sec-ch-ua-mobile': '?0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'DNT': '1',
+        'Content-Type': 'application/json'
+    }
+
+    matchups_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/1532/matchups?brandId=0', headers)
+    markets_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/1532/markets/straight', headers)
+
+    if matchups_data and markets_data:
+        result = process_matchups(matchups_data, switch_home_away=True)
+        special_to_parent = process_specials(matchups_data, result)
+        process_markets(markets_data, result, special_to_parent)
+
+        # save_result_to_file(result, 'example_pinnacle_nla.json')
         return result
 
 

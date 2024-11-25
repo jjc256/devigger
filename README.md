@@ -15,6 +15,7 @@ A Python application that analyzes betting odds from FanDuel and Pinnacle to fin
   - UEFA Champions League (Soccer)
   - EPL (Soccer)
   - SHL (Hockey)
+  - NLA (Hockey)
 - Analyzes various bet types:
   - Moneylines
   - Point Spreads

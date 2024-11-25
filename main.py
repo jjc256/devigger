@@ -30,7 +30,8 @@ def wagers():
         **pinnacle_ncaab(),
         **pinnacle_ucl(),
         **pinnacle_epl(),
-        **pinnacle_shl()
+        **pinnacle_shl(),
+        **pinnacle_nla()
     }
     fanduel = {
         **fanduel_nba(),
@@ -40,7 +41,8 @@ def wagers():
         **fanduel_ncaab(),
         **fanduel_ucl(),
         **fanduel_epl(),
-        **fanduel_shl()
+        **fanduel_shl(),
+        **fanduel_nla()
     }
 
     common_wagers = []
