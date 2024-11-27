@@ -86,10 +86,12 @@ def process_fanduel_markets(markets, seen_event_ids, result):
         if event_id in seen_event_ids:
             market_info = {
                 "marketType": market.get("marketType"),
+                "externalMarketId": market.get("associatedMarkets")[0].get("externalMarketId"),
                 "runners": []
             }
             for runner in market.get("runners", []):
                 runner_info = {
+                    "selectionId": runner.get("selectionId"),
                     "handicap": runner.get("handicap"),
                     "runnerName": runner.get("runnerName"),
                     "winRunnerOdds": runner.get("winRunnerOdds", {}).get("americanDisplayOdds", {}).get("americanOdds")
@@ -112,7 +114,7 @@ def save_result_to_file(result, filename):
         json.dump(result, f, indent=4)
 
 
-def fanduel_nba():
+def fanduel_nba(save_to_file=False):
     """
     Fetches and processes NBA data from Fanduel.
     """
@@ -151,11 +153,12 @@ def fanduel_nba():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        # save_result_to_file(result, 'example_fanduel_nba.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_nba.json')
         return result
 
 
-def fanduel_nfl():
+def fanduel_nfl(save_to_file=False):
     """
     Fetches and processes NFL data from Fanduel.
     """
@@ -193,11 +196,12 @@ def fanduel_nfl():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        # save_result_to_file(result, 'example_fanduel_nfl.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_nfl.json')
         return result
 
 
-def fanduel_nhl():
+def fanduel_nhl(save_to_file=False):
     """
     Fetches and processes NHL data from Fanduel.
     """
@@ -236,11 +240,12 @@ def fanduel_nhl():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        # save_result_to_file(result, 'example_fanduel_nhl.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_nhl.json')
         return result
 
 
-def fanduel_ncaaf():
+def fanduel_ncaaf(save_to_file=False):
     """
     Fetches and processes NCAAF data from Fanduel.
     """
@@ -280,11 +285,12 @@ def fanduel_ncaaf():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        # save_result_to_file(result, 'example_fanduel_ncaaf.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_ncaaf.json')
         return result
 
 
-def fanduel_ncaab():
+def fanduel_ncaab(save_to_file=False):
     """
     Fetches and processes NCAAB data from Fanduel.
     """
@@ -325,11 +331,12 @@ def fanduel_ncaab():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        # save_result_to_file(result, 'example_fanduel_ncaab.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_ncaab.json')
         return result
 
 
-def fanduel_ucl():
+def fanduel_ucl(save_to_file=False):
     """
     Fetches and processes UEFA Champions League data from Fanduel.
     """
@@ -364,11 +371,12 @@ def fanduel_ucl():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        # save_result_to_file(result, 'example_fanduel_ucl.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_ucl.json')
         return result
 
 
-def fanduel_epl():
+def fanduel_epl(save_to_file=False):
     """
     Fetches and processes English Premier League data from Fanduel.
     """
@@ -403,11 +411,12 @@ def fanduel_epl():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        # save_result_to_file(result, 'example_fanduel_epl.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_epl.json')
         return result
 
 
-def fanduel_shl():
+def fanduel_shl(save_to_file=False):
     """
     Fetches and processes Swedish Hockey League (SHL) data from Fanduel.
     """
@@ -442,11 +451,12 @@ def fanduel_shl():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        # save_result_to_file(result, 'example_fanduel_shl.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_shl.json')
         return result
 
 
-def fanduel_nla():
+def fanduel_nla(save_to_file=False):
     """
     Fetches and processes Swiss National League A (NLA) data from Fanduel.
     """
@@ -481,7 +491,8 @@ def fanduel_nla():
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
 
-        # save_result_to_file(result, 'example_fanduel_nla.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_nla.json')
         return result
 
 
@@ -628,7 +639,7 @@ def process_markets(markets_data, result, special_to_parent):
                 result[market.get("matchupId")]["markets"].append(market_info)
 
 
-def pinnacle_nba():
+def pinnacle_nba(save_to_file=False):
     """
     Fetches and processes NBA data from Pinnacle.
     """
@@ -655,12 +666,13 @@ def pinnacle_nba():
         special_to_parent = process_specials(matchups_data, result)
         process_markets(markets_data, result, special_to_parent)
 
-        # save_result_to_file(result, 'example_pinnacle_nba.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_nba.json')
         return result
     return {}
 
 
-def pinnacle_nfl():
+def pinnacle_nfl(save_to_file=False):
     """
     Fetches and processes NFL data from Pinnacle.
     """
@@ -687,12 +699,13 @@ def pinnacle_nfl():
         special_to_parent = process_specials(matchups_data, result)
         process_markets(markets_data, result, special_to_parent)
 
-        # save_result_to_file(result, 'example_pinnacle_nfl.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_nfl.json')
         return result
     return {}
 
 
-def pinnacle_nhl():
+def pinnacle_nhl(save_to_file=False):
     """
     Fetches and processes NHL data from Pinnacle.
     """
@@ -719,12 +732,13 @@ def pinnacle_nhl():
         special_to_parent = process_specials(matchups_data, result)
         process_markets(markets_data, result, special_to_parent)
 
-        # save_result_to_file(result, 'example_pinnacle_nhl.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_nhl.json')
         return result
     return {}
 
 
-def pinnacle_ncaaf():
+def pinnacle_ncaaf(save_to_file=False):
     """
     Fetches and processes NCAAF data from Pinnacle.
     """
@@ -751,12 +765,13 @@ def pinnacle_ncaaf():
         special_to_parent = process_specials(matchups_data, result)
         process_markets(markets_data, result, special_to_parent)
 
-        # save_result_to_file(result, 'example_pinnacle_ncaaf.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_ncaaf.json')
         return result
     return {}
 
 
-def pinnacle_ncaab():
+def pinnacle_ncaab(save_to_file=False):
     """
     Fetches and processes NCAAB data from Pinnacle.
     """
@@ -783,12 +798,13 @@ def pinnacle_ncaab():
         special_to_parent = process_specials(matchups_data, result)
         process_markets(markets_data, result, special_to_parent)
 
-        # save_result_to_file(result, 'example_pinnacle_ncaab.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_ncaab.json')
         return result
     return {}
 
 
-def pinnacle_ucl():
+def pinnacle_ucl(save_to_file=False):
     """
     Fetches and processes UEFA Champions League data from Pinnacle.
     """
@@ -815,12 +831,13 @@ def pinnacle_ucl():
         special_to_parent = process_specials(matchups_data, result)
         process_markets(markets_data, result, special_to_parent)
 
-        # save_result_to_file(result, 'example_pinnacle_ucl.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_ucl.json')
         return result
     return {}
 
 
-def pinnacle_epl():
+def pinnacle_epl(save_to_file=False):
     """
     Fetches and processes English Premier League data from Pinnacle.
     """
@@ -847,12 +864,13 @@ def pinnacle_epl():
         special_to_parent = process_specials(matchups_data, result)
         process_markets(markets_data, result, special_to_parent)
 
-        # save_result_to_file(result, 'example_pinnacle_epl.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_epl.json')
         return result
     return {}
 
 
-def pinnacle_shl():
+def pinnacle_shl(save_to_file=False):
     """
     Fetches and processes Swedish Hockey League data from Pinnacle.
     """
@@ -879,12 +897,13 @@ def pinnacle_shl():
         special_to_parent = process_specials(matchups_data, result)
         process_markets(markets_data, result, special_to_parent)
 
-        # save_result_to_file(result, 'example_pinnacle_shl.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_shl.json')
         return result
     return {}
 
 
-def pinnacle_nla():
+def pinnacle_nla(save_to_file=False):
     """
     Fetches and processes Swiss National League A (NLA) data from Pinnacle.
     """
@@ -911,7 +930,8 @@ def pinnacle_nla():
         special_to_parent = process_specials(matchups_data, result)
         process_markets(markets_data, result, special_to_parent)
 
-        # save_result_to_file(result, 'example_pinnacle_nla.json')
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_nla.json')
         return result
     return {}
 
@@ -932,3 +952,16 @@ def print_market_types():
         with open('nhl_market_types.txt', 'w') as f:
             for market_type in sorted(market_types):
                 f.write(market_type + '\n')
+
+
+# Call all fanduel functions and save results when executed directly
+if __name__ == "__main__":
+    fanduel_nba(save_to_file=True)
+    fanduel_nfl(save_to_file=True)
+    fanduel_nhl(save_to_file=True)
+    fanduel_ncaaf(save_to_file=True)
+    fanduel_ncaab(save_to_file=True)
+    fanduel_ucl(save_to_file=True)
+    fanduel_epl(save_to_file=True)
+    fanduel_shl(save_to_file=True)
+    fanduel_nla(save_to_file=True)

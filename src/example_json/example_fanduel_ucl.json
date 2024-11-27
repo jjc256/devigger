@@ -1,224 +1,28 @@
 {
-    "33758880": {
-        "name": "Slovan Bratislava v AC Milan",
-        "markets": [
-            {
-                "marketType": "WIN-DRAW-WIN",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Slovan Bratislava",
-                        "winRunnerOdds": 1100
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Draw",
-                        "winRunnerOdds": 550
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "AC Milan",
-                        "winRunnerOdds": -460
-                    }
-                ]
-            }
-        ]
-    },
-    "33758887": {
-        "name": "Sporting Lisbon v Arsenal",
-        "markets": [
-            {
-                "marketType": "WIN-DRAW-WIN",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Sporting Lisbon",
-                        "winRunnerOdds": 200
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Draw",
-                        "winRunnerOdds": 250
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Arsenal",
-                        "winRunnerOdds": 130
-                    }
-                ]
-            }
-        ]
-    },
-    "33758888": {
-        "name": "Man City v Feyenoord",
-        "markets": [
-            {
-                "marketType": "WIN-DRAW-WIN",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Man City",
-                        "winRunnerOdds": -600
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Draw",
-                        "winRunnerOdds": 600
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Feyenoord",
-                        "winRunnerOdds": 1400
-                    }
-                ]
-            }
-        ]
-    },
-    "33758889": {
-        "name": "Bayern Munich v Paris St-G",
-        "markets": [
-            {
-                "marketType": "WIN-DRAW-WIN",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Bayern Munich",
-                        "winRunnerOdds": -160
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Draw",
-                        "winRunnerOdds": 340
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Paris St-G",
-                        "winRunnerOdds": 390
-                    }
-                ]
-            }
-        ]
-    },
-    "33758890": {
-        "name": "Inter v RB Leipzig",
-        "markets": [
-            {
-                "marketType": "WIN-DRAW-WIN",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Inter",
-                        "winRunnerOdds": -230
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Draw",
-                        "winRunnerOdds": 370
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "RB Leipzig",
-                        "winRunnerOdds": 550
-                    }
-                ]
-            }
-        ]
-    },
-    "33758891": {
-        "name": "Leverkusen v Red Bull Salzburg",
-        "markets": [
-            {
-                "marketType": "WIN-DRAW-WIN",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Leverkusen",
-                        "winRunnerOdds": -500
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Draw",
-                        "winRunnerOdds": 600
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Red Bull Salzburg",
-                        "winRunnerOdds": 1300
-                    }
-                ]
-            }
-        ]
-    },
-    "33758894": {
-        "name": "Young Boys v Atalanta",
-        "markets": [
-            {
-                "marketType": "WIN-DRAW-WIN",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Young Boys",
-                        "winRunnerOdds": 600
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Draw",
-                        "winRunnerOdds": 390
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Atalanta",
-                        "winRunnerOdds": -230
-                    }
-                ]
-            }
-        ]
-    },
-    "33758895": {
-        "name": "Sparta Prague v Atletico Madrid",
-        "markets": [
-            {
-                "marketType": "WIN-DRAW-WIN",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Sparta Prague",
-                        "winRunnerOdds": 440
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Draw",
-                        "winRunnerOdds": 300
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Atletico Madrid",
-                        "winRunnerOdds": -155
-                    }
-                ]
-            }
-        ]
-    },
     "33758901": {
         "name": "Crvena Zvezda v Stuttgart",
         "markets": [
             {
                 "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.462648451",
                 "runners": [
                     {
+                        "selectionId": 6399,
                         "handicap": 0,
                         "runnerName": "Crvena Zvezda",
-                        "winRunnerOdds": 370
+                        "winRunnerOdds": 290
                     },
                     {
+                        "selectionId": 58805,
                         "handicap": 0,
                         "runnerName": "Draw",
-                        "winRunnerOdds": 300
+                        "winRunnerOdds": 280
                     },
                     {
+                        "selectionId": 44519,
                         "handicap": 0,
                         "runnerName": "Stuttgart",
-                        "winRunnerOdds": -145
+                        "winRunnerOdds": -115
                     }
                 ]
             }
@@ -229,21 +33,25 @@
         "markets": [
             {
                 "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.462648904",
                 "runners": [
                     {
+                        "selectionId": 52495022,
                         "handicap": 0,
                         "runnerName": "Celtic",
-                        "winRunnerOdds": 100
+                        "winRunnerOdds": 105
                     },
                     {
+                        "selectionId": 58805,
                         "handicap": 0,
                         "runnerName": "Draw",
-                        "winRunnerOdds": 270
+                        "winRunnerOdds": 260
                     },
                     {
+                        "selectionId": 10762,
                         "handicap": 0,
                         "runnerName": "Club Brugge",
-                        "winRunnerOdds": 260
+                        "winRunnerOdds": 240
                     }
                 ]
             }
@@ -254,21 +62,25 @@
         "markets": [
             {
                 "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.462649244",
                 "runners": [
                     {
+                        "selectionId": 52628041,
                         "handicap": 0,
                         "runnerName": "Dinamo Zagreb",
-                        "winRunnerOdds": 340
+                        "winRunnerOdds": 370
                     },
                     {
+                        "selectionId": 58805,
                         "handicap": 0,
                         "runnerName": "Draw",
-                        "winRunnerOdds": 300
+                        "winRunnerOdds": 320
                     },
                     {
+                        "selectionId": 44785,
                         "handicap": 0,
                         "runnerName": "Dortmund",
-                        "winRunnerOdds": -135
+                        "winRunnerOdds": -150
                     }
                 ]
             }
@@ -279,21 +91,25 @@
         "markets": [
             {
                 "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.462649414",
                 "runners": [
                     {
+                        "selectionId": 56323,
                         "handicap": 0,
                         "runnerName": "Liverpool",
-                        "winRunnerOdds": 100
+                        "winRunnerOdds": -145
                     },
                     {
+                        "selectionId": 58805,
                         "handicap": 0,
                         "runnerName": "Draw",
-                        "winRunnerOdds": 270
+                        "winRunnerOdds": 310
                     },
                     {
+                        "selectionId": 2426,
                         "handicap": 0,
                         "runnerName": "Real Madrid",
-                        "winRunnerOdds": 250
+                        "winRunnerOdds": 360
                     }
                 ]
             }
@@ -304,21 +120,25 @@
         "markets": [
             {
                 "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.462649585",
                 "runners": [
                     {
+                        "selectionId": 199545,
                         "handicap": 0,
                         "runnerName": "Bologna",
-                        "winRunnerOdds": 145
+                        "winRunnerOdds": 140
                     },
                     {
+                        "selectionId": 58805,
                         "handicap": 0,
                         "runnerName": "Draw",
-                        "winRunnerOdds": 230
+                        "winRunnerOdds": 220
                     },
                     {
+                        "selectionId": 44790,
                         "handicap": 0,
                         "runnerName": "Lille",
-                        "winRunnerOdds": 190
+                        "winRunnerOdds": 210
                     }
                 ]
             }
@@ -329,21 +149,25 @@
         "markets": [
             {
                 "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.462649594",
                 "runners": [
                     {
+                        "selectionId": 63908,
                         "handicap": 0,
                         "runnerName": "Aston Villa",
-                        "winRunnerOdds": 140
+                        "winRunnerOdds": 135
                     },
                     {
+                        "selectionId": 58805,
                         "handicap": 0,
                         "runnerName": "Draw",
-                        "winRunnerOdds": 230
+                        "winRunnerOdds": 210
                     },
                     {
+                        "selectionId": 52475015,
                         "handicap": 0,
                         "runnerName": "Juventus",
-                        "winRunnerOdds": 200
+                        "winRunnerOdds": 220
                     }
                 ]
             }
@@ -354,21 +178,25 @@
         "markets": [
             {
                 "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.462649757",
                 "runners": [
                     {
+                        "selectionId": 361706,
                         "handicap": 0,
                         "runnerName": "Monaco",
-                        "winRunnerOdds": 115
+                        "winRunnerOdds": 135
                     },
                     {
+                        "selectionId": 58805,
                         "handicap": 0,
                         "runnerName": "Draw",
-                        "winRunnerOdds": 260
+                        "winRunnerOdds": 250
                     },
                     {
+                        "selectionId": 48783,
                         "handicap": 0,
                         "runnerName": "Benfica",
-                        "winRunnerOdds": 220
+                        "winRunnerOdds": 195
                     }
                 ]
             }
@@ -379,21 +207,25 @@
         "markets": [
             {
                 "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.462650575",
                 "runners": [
                     {
+                        "selectionId": 48451,
                         "handicap": 0,
                         "runnerName": "PSV",
                         "winRunnerOdds": -250
                     },
                     {
+                        "selectionId": 58805,
                         "handicap": 0,
                         "runnerName": "Draw",
                         "winRunnerOdds": 390
                     },
                     {
+                        "selectionId": 52495027,
                         "handicap": 0,
                         "runnerName": "Shakhtar",
-                        "winRunnerOdds": 650
+                        "winRunnerOdds": 600
                     }
                 ]
             }
@@ -404,46 +236,25 @@
         "markets": [
             {
                 "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.462670329",
                 "runners": [
                     {
+                        "selectionId": 71085,
                         "handicap": 0,
                         "runnerName": "Sturm Graz",
-                        "winRunnerOdds": 220
+                        "winRunnerOdds": 230
                     },
                     {
+                        "selectionId": 58805,
                         "handicap": 0,
                         "runnerName": "Draw",
                         "winRunnerOdds": 280
                     },
                     {
+                        "selectionId": 968185,
                         "handicap": 0,
                         "runnerName": "Girona",
-                        "winRunnerOdds": 110
-                    }
-                ]
-            }
-        ]
-    },
-    "33762541": {
-        "name": "Barcelona v Brest",
-        "markets": [
-            {
-                "marketType": "WIN-DRAW-WIN",
-                "runners": [
-                    {
-                        "handicap": 0,
-                        "runnerName": "Barcelona",
-                        "winRunnerOdds": -750
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Draw",
-                        "winRunnerOdds": 750
-                    },
-                    {
-                        "handicap": 0,
-                        "runnerName": "Brest",
-                        "winRunnerOdds": 1800
+                        "winRunnerOdds": 105
                     }
                 ]
             }
