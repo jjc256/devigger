@@ -3,6 +3,7 @@ from src.scrape import *
 from src.wager import *
 from src.devig import *
 from datetime import datetime
+import webbrowser  # Add this at the top with other imports
 
 
 BANKROLL = 2500
@@ -70,6 +71,7 @@ def wagers():
                 if description == "moneyline":
                     # Find the corresponding market in Fanduel game
                     for fanduel_wager in fanduel_game["markets"]:
+                        external_market_id = fanduel_wager["externalMarketId"]
                         if fanduel_wager["marketType"] == "MONEY_LINE":
                             pinnacle_home_odds = pinnacle_wager["prices"][0]["price"]
                             pinnacle_away_odds = pinnacle_wager["prices"][1]["price"]
@@ -78,14 +80,19 @@ def wagers():
                             fanduel_away_odds = fanduel_wager["runners"][1 -
                                                                          home_index]["winRunnerOdds"]
                             pinnacle_limit = pinnacle_wager["limit"]
+                            home_selection_id = fanduel_wager["runners"][home_index]["selectionId"]
+                            away_selection_id = fanduel_wager["runners"][1 -
+                                                                         home_index]["selectionId"]
 
                             # Create home moneyline object
                             home_moneyline = Moneyline(
-                                name, fanduel_home_odds, pinnacle_home_odds, pinnacle_limit, home_team, away_team, pinnacle_away_odds, 0)
+                                name, fanduel_home_odds, pinnacle_home_odds, pinnacle_limit,
+                                home_team, away_team, pinnacle_away_odds, 0, external_market_id, home_selection_id)
 
                             # Create away moneyline object
                             away_moneyline = Moneyline(
-                                name, fanduel_away_odds, pinnacle_away_odds, pinnacle_limit, away_team, home_team, pinnacle_home_odds, 0)
+                                name, fanduel_away_odds, pinnacle_away_odds, pinnacle_limit,
+                                away_team, home_team, pinnacle_home_odds, 0, external_market_id, away_selection_id)
 
                             common_wagers.append(home_moneyline)
                             common_wagers.append(away_moneyline)
@@ -99,17 +106,26 @@ def wagers():
                             fanduel_draw_odds = fanduel_wager["runners"][1]["winRunnerOdds"]
                             pinnacle_limit = pinnacle_wager["limit"]
 
+                            home_selection_id = fanduel_wager["runners"][0]["selectionId"]
+                            away_selection_id = fanduel_wager["runners"][2]["selectionId"]
+                            draw_selection_id = fanduel_wager["runners"][1]["selectionId"]
+
                             # Create home moneyline object
                             home_moneyline = Moneyline(
-                                name, fanduel_home_odds, pinnacle_home_odds, pinnacle_limit, home_team, away_team, pinnacle_away_odds, pinnacle_draw_odds)
+                                name, fanduel_home_odds, pinnacle_home_odds, pinnacle_limit,
+                                home_team, away_team, pinnacle_away_odds, pinnacle_draw_odds,
+                                external_market_id, home_selection_id)
 
                             # Create away moneyline object
                             away_moneyline = Moneyline(
-                                name, fanduel_away_odds, pinnacle_away_odds, pinnacle_limit, away_team, home_team, pinnacle_home_odds, pinnacle_draw_odds)
+                                name, fanduel_away_odds, pinnacle_away_odds, pinnacle_limit,
+                                away_team, home_team, pinnacle_home_odds, pinnacle_draw_odds,
+                                external_market_id, away_selection_id)
 
                             # Create draw moneyline object
                             draw_moneyline = Draw(
-                                name, fanduel_draw_odds, pinnacle_draw_odds, pinnacle_home_odds, pinnacle_away_odds, pinnacle_limit)
+                                name, fanduel_draw_odds, pinnacle_draw_odds, pinnacle_home_odds,
+                                pinnacle_away_odds, pinnacle_limit, external_market_id, draw_selection_id)
 
                             common_wagers.append(home_moneyline)
                             common_wagers.append(away_moneyline)
@@ -119,6 +135,7 @@ def wagers():
                     home_handicap = pinnacle_wager["prices"][0]["handicap"]
                     # Find the corresponding market in Fanduel game
                     for fanduel_wager in fanduel_game["markets"]:
+                        external_market_id = fanduel_wager["externalMarketId"]
                         if fanduel_wager["marketType"] == "MATCH_HANDICAP_(2-WAY)" and fanduel_wager["runners"][1]["handicap"] == home_handicap:
                             pinnacle_home_odds = pinnacle_wager["prices"][0]["price"]
                             pinnacle_away_odds = pinnacle_wager["prices"][1]["price"]
@@ -126,13 +143,18 @@ def wagers():
                             fanduel_away_odds = fanduel_wager["runners"][0]["winRunnerOdds"]
                             pinnacle_limit = pinnacle_wager["limit"]
 
+                            home_selection_id = fanduel_wager["runners"][1]["selectionId"]
+                            away_selection_id = fanduel_wager["runners"][0]["selectionId"]
+
                             # Create home spread object
                             home_spread = Spread(
-                                name, fanduel_home_odds, pinnacle_home_odds, pinnacle_limit, home_team, away_team, home_handicap, pinnacle_away_odds)
+                                name, fanduel_home_odds, pinnacle_home_odds, pinnacle_limit,
+                                home_team, away_team, home_handicap, pinnacle_away_odds, external_market_id, home_selection_id)
 
                             # Create away spread object
                             away_spread = Spread(
-                                name, fanduel_away_odds, pinnacle_away_odds, pinnacle_limit, away_team, home_team, -home_handicap, pinnacle_home_odds)
+                                name, fanduel_away_odds, pinnacle_away_odds, pinnacle_limit,
+                                away_team, home_team, -home_handicap, pinnacle_home_odds, external_market_id, away_selection_id)
 
                             common_wagers.append(home_spread)
                             common_wagers.append(away_spread)
@@ -140,6 +162,7 @@ def wagers():
                 elif description == "total points":
                     threshold = float(pinnacle_wager["threshold"])
                     for fanduel_wager in fanduel_game["markets"]:
+                        external_market_id = fanduel_wager["externalMarketId"]
                         if fanduel_wager["marketType"] == "TOTAL_POINTS_(OVER/UNDER)" and threshold == fanduel_wager["runners"][0]["handicap"]:
                             pinnacle_over_odds = pinnacle_wager["prices"][0]["price"]
                             pinnacle_under_odds = pinnacle_wager["prices"][1]["price"]
@@ -147,13 +170,18 @@ def wagers():
                             fanduel_under_odds = fanduel_wager["runners"][1]["winRunnerOdds"]
                             pinnacle_limit = pinnacle_wager["limit"]
 
+                            over_selection_id = fanduel_wager["runners"][0]["selectionId"]
+                            under_selection_id = fanduel_wager["runners"][1]["selectionId"]
+
                             # Create over total points object
                             over_total_points = TotalPoints(
-                                name, fanduel_over_odds, pinnacle_over_odds, pinnacle_limit, OverUnder.OVER, threshold, pinnacle_under_odds)
+                                name, fanduel_over_odds, pinnacle_over_odds, pinnacle_limit, OverUnder.OVER,
+                                threshold, pinnacle_under_odds, external_market_id, over_selection_id)
 
                             # Create under total points object
                             under_total_points = TotalPoints(
-                                name, fanduel_under_odds, pinnacle_under_odds, pinnacle_limit, OverUnder.UNDER, threshold, pinnacle_over_odds)
+                                name, fanduel_under_odds, pinnacle_under_odds, pinnacle_limit, OverUnder.UNDER,
+                                threshold, pinnacle_over_odds, external_market_id, under_selection_id)
 
                             common_wagers.append(over_total_points)
                             common_wagers.append(under_total_points)
@@ -195,6 +223,7 @@ def wagers():
                     )
                     if fanduel_category_template and "{}" in fanduel_category_template:
                         for fanduel_wager in fanduel_game["markets"]:
+                            external_market_id = fanduel_wager["externalMarketId"]
                             if fanduel_wager["marketType"] != fanduel_category_template.format(N):
                                 continue
                             for runner in fanduel_wager["runners"]:
@@ -205,10 +234,13 @@ def wagers():
                                         fanduel_odds = runner["winRunnerOdds"]
                                         pinnacle_limit = pinnacle_wager["limit"]
 
+                                        over_selection_id = runner["selectionId"]
+
                                         # Create player props over object
                                         player_props_over = PlayerProps(
                                             name, fanduel_odds, pinnacle_over_odds, pinnacle_limit,
-                                            player_name, stat_category, OverUnder.OVER, N, pinnacle_under_odds
+                                            player_name, stat_category, OverUnder.OVER, N, pinnacle_under_odds,
+                                            external_market_id, over_selection_id
                                         )
                                         common_wagers.append(player_props_over)
                                         break
@@ -216,6 +248,7 @@ def wagers():
                     elif fanduel_category_template:
                         if category == "Goals" and N == 1:
                             for fanduel_wager in fanduel_game["markets"]:
+                                external_market_id
                                 if fanduel_wager["marketType"] != "ANY_TIME_GOAL_SCORER":
                                     continue
                                 for runner in fanduel_wager["runners"]:
@@ -225,10 +258,12 @@ def wagers():
                                         fanduel_odds = runner["winRunnerOdds"]
                                         pinnacle_limit = pinnacle_wager["limit"]
 
+                                        yes_selection_id = fanduel_wager["runners"][0]["selectionId"]
+
                                         # Create player props yes object
                                         player_props_yes = PlayerPropsYes(
                                             name, fanduel_odds, pinnacle_yes_odds, pinnacle_limit,
-                                            player_name, stat_category, pinnacle_no_odds
+                                            player_name, stat_category, pinnacle_no_odds, external_market_id, yes_selection_id
                                         )
 
                                         common_wagers.append(player_props_yes)
@@ -236,6 +271,7 @@ def wagers():
 
                         else:
                             for fanduel_wager in fanduel_game["markets"]:
+                                external_market_id = fanduel_wager["externalMarketId"]
                                 if fanduel_wager["marketType"] != fanduel_category_template.format(N):
                                     continue
                                 for runner in fanduel_wager["runners"]:
@@ -246,10 +282,12 @@ def wagers():
                                             fanduel_odds = runner["winRunnerOdds"]
                                             pinnacle_limit = pinnacle_wager["limit"]
 
+                                            yes_selection_id = fanduel_wager["runners"][0]["selectionId"]
+
                                             # Create player props yes object
                                             player_props_yes = PlayerPropsYes(
                                                 name, fanduel_odds, pinnacle_yes_odds, pinnacle_limit,
-                                                player_name, stat_category, pinnacle_no_odds
+                                                player_name, stat_category, pinnacle_no_odds, external_market_id, yes_selection_id
                                             )
 
                                             common_wagers.append(player_props_yes)
@@ -328,6 +366,11 @@ def copy_to_clipboard(root, text):
     root.update()  # now it stays on the clipboard after the window is closed
 
 
+def open_betslip(external_market_id, selection_id):
+    url = f"https://sportsbook.fanduel.com/addToBetslip?marketId[0]={external_market_id}&selectionId[0]={selection_id}"
+    webbrowser.open_new_tab(url)
+
+
 def reload_data(root, canvas, scrollable_frame, devig_method):
     for widget in scrollable_frame.winfo_children():
         widget.destroy()
@@ -340,14 +383,23 @@ def reload_data(root, canvas, scrollable_frame, devig_method):
     for wager, ev, risk_percentage in good_bets:
         bet_frame = tk.Frame(scrollable_frame, borderwidth=2,
                              relief="groove", width=280, height=200)
+        # Add background color if FanDuel odds meet condition
+        if wager.fanduel_odds <= -120:
+            bet_frame.configure(bg="#90ee90")
+
         bet_frame.grid(row=row, column=col, padx=5, pady=5)
-        bet_frame.pack_propagate(False)  # Prevent the frame from resizing to fit its content
+        bet_frame.pack_propagate(False)
 
         bet_label = tk.Label(
-            bet_frame, text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}%", wraplength=260, justify="left")
+            bet_frame, text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}%",
+            wraplength=260, justify="left",
+            bg=bet_frame.cget("bg"))  # Match label background to frame
         bet_label.pack(expand=True)
 
-        copy_button = tk.Button(bet_frame, text="Copy",
+        button_frame = tk.Frame(bet_frame, bg=bet_frame.cget("bg"))  # Match button frame background
+        button_frame.pack(pady=5)
+
+        copy_button = tk.Button(button_frame, text="Copy",
                                 command=lambda wager=wager, risk_percentage=risk_percentage: copy_to_clipboard(root, str(datetime.today().strftime("%m/%d/%Y"))
                                                                                                                + chr(9) +
                                                                                                                wager.pretty()
@@ -355,7 +407,11 @@ def reload_data(root, canvas, scrollable_frame, devig_method):
                                                                                                                str(
                                                                                                                    wager.fanduel_odds)
                                                                                                                + chr(9) + str(int(2 * risk_percentage / 100 * BANKROLL + 1) / 2)))
-        copy_button.pack(pady=5)
+        copy_button.pack(side="left", padx=2)
+
+        place_bet_button = tk.Button(button_frame, text="Place Bet",
+                                     command=lambda w=wager: open_betslip(w.external_market_id, w.selection_id))
+        place_bet_button.pack(side="left", padx=2)
 
         bet_frame.bind("<Button-1>", lambda event, wager=wager, ev=ev, risk_percentage=risk_percentage,
                        bet_label=bet_label: toggle_details(event, wager, ev, risk_percentage, bet_label))
