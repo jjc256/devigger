@@ -656,7 +656,8 @@ def pinnacle_nba():
         process_markets(markets_data, result, special_to_parent)
 
         # save_result_to_file(result, 'example_pinnacle_nba.json')
-    return result
+        return result
+    return {}
 
 
 def pinnacle_nfl():
@@ -687,7 +688,8 @@ def pinnacle_nfl():
         process_markets(markets_data, result, special_to_parent)
 
         # save_result_to_file(result, 'example_pinnacle_nfl.json')
-    return result
+        return result
+    return {}
 
 
 def pinnacle_nhl():
@@ -718,7 +720,8 @@ def pinnacle_nhl():
         process_markets(markets_data, result, special_to_parent)
 
         # save_result_to_file(result, 'example_pinnacle_nhl.json')
-    return result
+        return result
+    return {}
 
 
 def pinnacle_ncaaf():
@@ -750,8 +753,7 @@ def pinnacle_ncaaf():
 
         # save_result_to_file(result, 'example_pinnacle_ncaaf.json')
         return result
-    else:
-        return {}
+    return {}
 
 
 def pinnacle_ncaab():
@@ -782,7 +784,8 @@ def pinnacle_ncaab():
         process_markets(markets_data, result, special_to_parent)
 
         # save_result_to_file(result, 'example_pinnacle_ncaab.json')
-    return result
+        return result
+    return {}
 
 
 def pinnacle_ucl():
@@ -814,6 +817,7 @@ def pinnacle_ucl():
 
         # save_result_to_file(result, 'example_pinnacle_ucl.json')
         return result
+    return {}
 
 
 def pinnacle_epl():
@@ -845,6 +849,7 @@ def pinnacle_epl():
 
         # save_result_to_file(result, 'example_pinnacle_epl.json')
         return result
+    return {}
 
 
 def pinnacle_shl():
@@ -876,6 +881,7 @@ def pinnacle_shl():
 
         # save_result_to_file(result, 'example_pinnacle_shl.json')
         return result
+    return {}
 
 
 def pinnacle_nla():
@@ -907,6 +913,7 @@ def pinnacle_nla():
 
         # save_result_to_file(result, 'example_pinnacle_nla.json')
         return result
+    return {}
 
 
 def print_market_types():

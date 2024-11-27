@@ -5,7 +5,7 @@ from src.devig import *
 from datetime import datetime
 
 
-BANKROLL = 500
+BANKROLL = 2500
 
 
 def game_names_equal(game1, game2):
