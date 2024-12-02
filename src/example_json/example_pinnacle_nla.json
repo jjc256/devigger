@@ -1,115 +1,115 @@
 {
-    "1601216579": {
-        "name": "MODO Hockey v HV 71",
+    "1601222499": {
+        "name": "EV Zug v ZSC Lions",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": -147
+                        "price": -131
                     },
                     {
                         "designation": "away",
-                        "price": 119
+                        "price": 108
                     }
                 ],
-                "limit": 500
+                "limit": 125
             }
         ]
     },
-    "1601215880": {
-        "name": "HC Orebro v Frolunda HC",
+    "1601222500": {
+        "name": "HC Lausanne v HC Davos",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": -120
+                        "price": -122
                     },
                     {
                         "designation": "away",
-                        "price": -103
+                        "price": 101
                     }
                 ],
-                "limit": 500
+                "limit": 125
             }
         ]
     },
-    "1601216581": {
-        "name": "Leksands IF v Brynas IF",
+    "1601263872": {
+        "name": "SCL Tigers v HC Ambri-Piotta",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": 107
+                        "price": -126
                     },
                     {
                         "designation": "away",
-                        "price": -132
+                        "price": 104
                     }
                 ],
-                "limit": 500
+                "limit": 50
             }
         ]
     },
-    "1601216057": {
-        "name": "Lulea v Rogle BK",
+    "1601263880": {
+        "name": "HC Ajoie v HC Lugano",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": -220
+                        "price": 170
                     },
                     {
                         "designation": "away",
-                        "price": 169
+                        "price": -215
                     }
                 ],
-                "limit": 500
+                "limit": 50
             }
         ]
     },
-    "1601215879": {
-        "name": "Malmo IF v Farjestads BK",
+    "1601263875": {
+        "name": "Rapperswil-Jona Lakers v Geneve-Servette HC",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": 184
+                        "price": -116
                     },
                     {
                         "designation": "away",
-                        "price": -242
+                        "price": -105
                     }
                 ],
-                "limit": 500
+                "limit": 50
             }
         ]
     },
-    "1601216056": {
-        "name": "Vaxjo Lakers v Timra IK",
+    "1601263879": {
+        "name": "EHC Biel v SC Bern",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": -153
+                        "price": -107
                     },
                     {
                         "designation": "away",
-                        "price": 123
+                        "price": -114
                     }
                 ],
-                "limit": 500
+                "limit": 50
             }
         ]
     }

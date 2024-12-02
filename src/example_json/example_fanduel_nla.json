@@ -1,105 +1,69 @@
 {
-    "33815685": {
-        "name": "SC Bern v HC Ajoie Porrentruy",
+    "33818601": {
+        "name": "HC Lausanne v HC Davos",
         "markets": [
             {
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.466122832",
+                "externalMarketId": "42.466394583",
                 "runners": [
                     {
                         "selectionId": 7017911,
                         "handicap": 5.5,
                         "runnerName": "Over",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -102
                     },
                     {
                         "selectionId": 7017912,
                         "handicap": 5.5,
                         "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.466120739",
-                "runners": [
-                    {
-                        "selectionId": 248670,
-                        "handicap": 0,
-                        "runnerName": "SC Bern",
-                        "winRunnerOdds": -590
-                    },
-                    {
-                        "selectionId": 40512757,
-                        "handicap": 0,
-                        "runnerName": "HC Ajoie Porrentruy",
-                        "winRunnerOdds": 410
+                        "winRunnerOdds": -120
                     }
                 ]
             },
             {
                 "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.466122873",
+                "externalMarketId": "42.466394628",
                 "runners": [
                     {
-                        "selectionId": 248670,
-                        "handicap": -2.5,
-                        "runnerName": "SC Bern",
-                        "winRunnerOdds": 108
+                        "selectionId": 243253,
+                        "handicap": -0.5,
+                        "runnerName": "HC Lausanne",
+                        "winRunnerOdds": 126
                     },
                     {
-                        "selectionId": 40512757,
-                        "handicap": 2.5,
-                        "runnerName": "HC Ajoie Porrentruy",
-                        "winRunnerOdds": -132
+                        "selectionId": 296189,
+                        "handicap": 0.5,
+                        "runnerName": "HC Davos",
+                        "winRunnerOdds": -154
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.466302361",
+                "runners": [
+                    {
+                        "selectionId": 243253,
+                        "handicap": 0,
+                        "runnerName": "HC Lausanne",
+                        "winRunnerOdds": -130
+                    },
+                    {
+                        "selectionId": 296189,
+                        "handicap": 0,
+                        "runnerName": "HC Davos",
+                        "winRunnerOdds": 106
                     }
                 ]
             }
         ]
     },
-    "33815726": {
-        "name": "HC Davos v HC Ambri-Piotta",
+    "33818607": {
+        "name": "EV Zug v ZSC Lions Zurich",
         "markets": [
             {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.466122834",
-                "runners": [
-                    {
-                        "selectionId": 296189,
-                        "handicap": 0,
-                        "runnerName": "HC Davos",
-                        "winRunnerOdds": -205
-                    },
-                    {
-                        "selectionId": 7719432,
-                        "handicap": 0,
-                        "runnerName": "HC Ambri-Piotta",
-                        "winRunnerOdds": 164
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.466219751",
-                "runners": [
-                    {
-                        "selectionId": 296189,
-                        "handicap": -0.5,
-                        "runnerName": "HC Davos",
-                        "winRunnerOdds": -128
-                    },
-                    {
-                        "selectionId": 7719432,
-                        "handicap": 0.5,
-                        "runnerName": "HC Ambri-Piotta",
-                        "winRunnerOdds": 104
-                    }
-                ]
-            },
-            {
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.466219678",
+                "externalMarketId": "42.466395166",
                 "runners": [
                     {
                         "selectionId": 7017911,
@@ -114,63 +78,40 @@
                         "winRunnerOdds": -130
                     }
                 ]
-            }
-        ]
-    },
-    "33815980": {
-        "name": "Geneve-Servette HC v HC Fribourg-Gotteron",
-        "markets": [
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.466219713",
-                "runners": [
-                    {
-                        "selectionId": 7017911,
-                        "handicap": 4.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -142
-                    },
-                    {
-                        "selectionId": 7017912,
-                        "handicap": 4.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": 116
-                    }
-                ]
             },
             {
                 "marketType": "MONEY_LINE",
-                "externalMarketId": "42.466139162",
+                "externalMarketId": "42.466313035",
                 "runners": [
                     {
-                        "selectionId": 7718956,
+                        "selectionId": 243251,
                         "handicap": 0,
-                        "runnerName": "Geneve-Servette HC",
-                        "winRunnerOdds": -124
+                        "runnerName": "EV Zug",
+                        "winRunnerOdds": -130
                     },
                     {
-                        "selectionId": 7719276,
+                        "selectionId": 3493885,
                         "handicap": 0,
-                        "runnerName": "HC Fribourg-Gotteron",
-                        "winRunnerOdds": 102
+                        "runnerName": "ZSC Lions Zurich",
+                        "winRunnerOdds": 106
                     }
                 ]
             },
             {
                 "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.466219700",
+                "externalMarketId": "42.466395197",
                 "runners": [
                     {
-                        "selectionId": 7718956,
+                        "selectionId": 243251,
                         "handicap": -0.5,
-                        "runnerName": "Geneve-Servette HC",
-                        "winRunnerOdds": 132
+                        "runnerName": "EV Zug",
+                        "winRunnerOdds": 126
                     },
                     {
-                        "selectionId": 7719276,
+                        "selectionId": 3493885,
                         "handicap": 0.5,
-                        "runnerName": "HC Fribourg-Gotteron",
-                        "winRunnerOdds": -162
+                        "runnerName": "ZSC Lions Zurich",
+                        "winRunnerOdds": -154
                     }
                 ]
             }

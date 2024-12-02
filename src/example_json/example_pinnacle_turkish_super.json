@@ -1,0 +1,4884 @@
+{
+    "1601039354": {
+        "name": "Samsunspor v Bodrumspor",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -151
+                    },
+                    {
+                        "designation": "away",
+                        "price": 442
+                    },
+                    {
+                        "designation": "draw",
+                        "price": 271
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": -107
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": -115
+                    }
+                ],
+                "limit": 150
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "0.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 0.5,
+                        "price": -139
+                    },
+                    {
+                        "designation": "under",
+                        "points": 0.5,
+                        "price": 112
+                    }
+                ],
+                "limit": 150
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -113,
+                        "handicap": -0.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": -103,
+                        "handicap": 0.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 285,
+                        "handicap": -1.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": -370,
+                        "handicap": 1.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 205,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -257,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 167,
+                        "handicap": -1.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": -202,
+                        "handicap": 1.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 127,
+                        "handicap": -1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -151,
+                        "handicap": 1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -151,
+                        "handicap": -0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 126,
+                        "handicap": 0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -220,
+                        "handicap": -0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": 181,
+                        "handicap": 0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -406,
+                        "handicap": 0.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 310,
+                        "handicap": -0.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -505,
+                        "handicap": 0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": 374,
+                        "handicap": -0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "total points",
+                "threshold": "2.25",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.25,
+                        "price": -112
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.25,
+                        "price": -106
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 291
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -393
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "2.75",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.75,
+                        "price": 151
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.75,
+                        "price": -185
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": 115
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": -140
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "2.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.0,
+                        "price": -164
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.0,
+                        "price": 134
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "1.75",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.75,
+                        "price": -214
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.75,
+                        "price": 173
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": -269
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": 209
+                    }
+                ],
+                "limit": 450
+            }
+        ]
+    },
+    "1601058026": {
+        "name": "Istanbul Basaksehir v Goztepe",
+        "markets": [
+            {
+                "id": 1601254037,
+                "description": "Odd/Even / Total Goals"
+            },
+            {
+                "id": 1601254176,
+                "description": "Draw No Bet 1st Half",
+                "prices": [
+                    {
+                        "price": -146,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": 114,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253883,
+                "description": "Draw No Bet",
+                "prices": [
+                    {
+                        "price": -151,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 122,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253807,
+                "description": "3-Way Handicap Istanbul Basaksehir -3"
+            },
+            {
+                "id": 1601254201,
+                "description": "Istanbul Basaksehir To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": 102,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -131,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253869,
+                "description": "Goztepe Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": 105,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -130,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254008,
+                "description": "First Team To Score"
+            },
+            {
+                "id": 1601253936,
+                "description": "Istanbul Basaksehir Goals 1st Half"
+            },
+            {
+                "id": 1601254222,
+                "description": "Winner/Total Goals"
+            },
+            {
+                "id": 1601253908,
+                "description": "Istanbul Basaksehir Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": -101,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -122,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253929,
+                "description": "Both Teams To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": 367,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -541,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253954,
+                "description": "Correct Score"
+            },
+            {
+                "id": 1601254125,
+                "description": "Total Goals Odd/Even 1st Half",
+                "prices": [
+                    {
+                        "price": 108,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -139,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254074,
+                "description": "Goztepe To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 488,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -715,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253824,
+                "description": "Both Teams To Score/Winner"
+            },
+            {
+                "id": 1601254080,
+                "description": "Istanbul Basaksehir To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 342,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -468,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253861,
+                "description": "First Team To Score 1st Half"
+            },
+            {
+                "id": 1601254190,
+                "description": "Either Team To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": -260,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": 195,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253835,
+                "description": "Exact Total Goals"
+            },
+            {
+                "id": 1601254208,
+                "description": "Winning Margin"
+            },
+            {
+                "id": 1601253919,
+                "description": "Winning Margin 1st Half"
+            },
+            {
+                "id": 1601253814,
+                "description": "Half-Time/Full-Time"
+            },
+            {
+                "id": 1601254142,
+                "description": "3-Way Handicap Istanbul Basaksehir -2"
+            },
+            {
+                "id": 1601254109,
+                "description": "Total Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": 102,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -126,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254089,
+                "description": "Goztepe To Score?",
+                "prices": [
+                    {
+                        "price": -283,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 219,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253783,
+                "description": "Correct Score 1st Half"
+            },
+            {
+                "id": 1601254052,
+                "description": "Double Chance"
+            },
+            {
+                "id": 1601254166,
+                "description": "Goztepe Goals 1st Half"
+            },
+            {
+                "id": 1601253843,
+                "description": "Both Teams To Score/Total Goals"
+            },
+            {
+                "id": 1601253946,
+                "description": "Double Chance 1st Half"
+            },
+            {
+                "id": 1601253900,
+                "description": "3-Way Handicap Istanbul Basaksehir +2"
+            },
+            {
+                "id": 1601253800,
+                "description": "Istanbul Basaksehir To Win to Nil? 1st Half",
+                "prices": [
+                    {
+                        "price": 234,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -319,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254132,
+                "description": "3-Way Handicap Istanbul Basaksehir -1"
+            },
+            {
+                "id": 1601254149,
+                "description": "Exact Total Goals 1st Half"
+            },
+            {
+                "id": 1601254115,
+                "description": "Both Teams To Score?",
+                "prices": [
+                    {
+                        "price": -141,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 114,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253773,
+                "description": "Either Team To Score?",
+                "prices": [
+                    {
+                        "price": -1484,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 871,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253875,
+                "description": "Istanbul Basaksehir To Score?",
+                "prices": [
+                    {
+                        "price": -393,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 294,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253811,
+                "description": "Goztepe To Win to Nil? 1st Half",
+                "prices": [
+                    {
+                        "price": 319,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -457,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254183,
+                "description": "Goztepe To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": 131,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -169,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253776,
+                "description": "Goztepe Goals"
+            },
+            {
+                "id": 1601253890,
+                "description": "Istanbul Basaksehir Goals"
+            },
+            {
+                "id": 1601253853,
+                "description": "3-Way Handicap Istanbul Basaksehir +1"
+            },
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 142
+                    },
+                    {
+                        "designation": "away",
+                        "price": 220
+                    },
+                    {
+                        "designation": "draw",
+                        "price": 209
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": 133
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": -165
+                    }
+                ],
+                "limit": 150
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": 184
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": -234
+                    }
+                ],
+                "limit": 150
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 106,
+                        "handicap": -0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": -124,
+                        "handicap": 0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 347,
+                        "handicap": -1.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": -462,
+                        "handicap": 1.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 298,
+                        "handicap": -1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -389,
+                        "handicap": 1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 194,
+                        "handicap": -0.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": -236,
+                        "handicap": 0.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 142,
+                        "handicap": -0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -170,
+                        "handicap": 0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -147,
+                        "handicap": 0.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 124,
+                        "handicap": -0.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -209,
+                        "handicap": 0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": 172,
+                        "handicap": -0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -275,
+                        "handicap": 0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 218,
+                        "handicap": -0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -405,
+                        "handicap": 0.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": 309,
+                        "handicap": -0.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "total points",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": 101
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": -120
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "4.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 4.5,
+                        "price": 584
+                    },
+                    {
+                        "designation": "under",
+                        "points": 4.5,
+                        "price": -926
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 243
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -318
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "3.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.0,
+                        "price": 178
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.0,
+                        "price": -220
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "2.75",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.75,
+                        "price": 128
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.75,
+                        "price": -156
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "2.25",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.25,
+                        "price": -134
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.25,
+                        "price": 110
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "2.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.0,
+                        "price": -204
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.0,
+                        "price": 165
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": -328
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": 249
+                    }
+                ],
+                "limit": 450
+            }
+        ]
+    },
+    "1601137713": {
+        "name": "Galatasaray v Eyupspor",
+        "markets": [
+            {
+                "id": 1601329016,
+                "description": "Eyupspor Goals"
+            },
+            {
+                "id": 1601329060,
+                "description": "Galatasaray To Win to Nil? 1st Half",
+                "prices": [
+                    {
+                        "price": -108,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -121,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329456,
+                "description": "3-Way Handicap Galatasaray -2"
+            },
+            {
+                "id": 1601329404,
+                "description": "First Team To Score"
+            },
+            {
+                "id": 1601329482,
+                "description": "Either Team To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": -531,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": 353,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329216,
+                "description": "Eyupspor Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": 128,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -162,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329192,
+                "description": "3-Way Handicap Galatasaray +1"
+            },
+            {
+                "id": 1601329499,
+                "description": "Winner/Total Goals"
+            },
+            {
+                "id": 1601329485,
+                "description": "Galatasaray To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": -305,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": 220,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329416,
+                "description": "Odd/Even / Total Goals"
+            },
+            {
+                "id": 1601329437,
+                "description": "Galatasaray To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 148,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -189,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329443,
+                "description": "Total Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": -109,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -115,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329408,
+                "description": "3-Way Handicap Galatasaray -6"
+            },
+            {
+                "id": 1601329470,
+                "description": "Eyupspor Goals 1st Half"
+            },
+            {
+                "id": 1601329034,
+                "description": "Correct Score 1st Half"
+            },
+            {
+                "id": 1601329334,
+                "description": "Winning Margin 1st Half"
+            },
+            {
+                "id": 1601329434,
+                "description": "Eyupspor To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 1868,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -4722,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329093,
+                "description": "Eyupspor To Win to Nil? 1st Half",
+                "prices": [
+                    {
+                        "price": 774,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -1486,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329158,
+                "description": "Exact Total Goals"
+            },
+            {
+                "id": 1601329449,
+                "description": "Total Goals Odd/Even 1st Half",
+                "prices": [
+                    {
+                        "price": -104,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -125,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329272,
+                "description": "Galatasaray To Score?",
+                "prices": [
+                    {
+                        "price": -2427,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 1193,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329421,
+                "description": "3-Way Handicap Galatasaray -4"
+            },
+            {
+                "id": 1601329290,
+                "description": "Galatasaray Goals"
+            },
+            {
+                "id": 1601329344,
+                "description": "Galatasaray Goals 1st Half"
+            },
+            {
+                "id": 1601329203,
+                "description": "First Team To Score 1st Half"
+            },
+            {
+                "id": 1601329440,
+                "description": "Eyupspor To Score?",
+                "prices": [
+                    {
+                        "price": -169,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 133,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329466,
+                "description": "3-Way Handicap Galatasaray -5"
+            },
+            {
+                "id": 1601329175,
+                "description": "Both Teams To Score/Total Goals"
+            },
+            {
+                "id": 1601329446,
+                "description": "Both Teams To Score?",
+                "prices": [
+                    {
+                        "price": -146,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 116,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329082,
+                "description": "3-Way Handicap Galatasaray -3"
+            },
+            {
+                "id": 1601329476,
+                "description": "Draw No Bet 1st Half",
+                "prices": [
+                    {
+                        "price": -697,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": 439,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329350,
+                "description": "Double Chance 1st Half"
+            },
+            {
+                "id": 1601329341,
+                "description": "Both Teams To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": 303,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -442,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329479,
+                "description": "Eyupspor To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": 194,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -264,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329460,
+                "description": "Exact Total Goals 1st Half"
+            },
+            {
+                "id": 1601329354,
+                "description": "Correct Score"
+            },
+            {
+                "id": 1601329425,
+                "description": "Double Chance"
+            },
+            {
+                "id": 1601329122,
+                "description": "Both Teams To Score/Winner"
+            },
+            {
+                "id": 1601329452,
+                "description": "3-Way Handicap Galatasaray -1"
+            },
+            {
+                "id": 1601329488,
+                "description": "Winning Margin"
+            },
+            {
+                "id": 1601329281,
+                "description": "Draw No Bet",
+                "prices": [
+                    {
+                        "price": -1165,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 696,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329322,
+                "description": "Galatasaray Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": -110,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -114,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601329102,
+                "description": "Half-Time/Full-Time"
+            },
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -394
+                    },
+                    {
+                        "designation": "away",
+                        "price": 835
+                    },
+                    {
+                        "designation": "draw",
+                        "price": 531
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -130
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": 103
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "0.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 0.5,
+                        "price": -162
+                    },
+                    {
+                        "designation": "under",
+                        "points": 0.5,
+                        "price": 128
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -118,
+                        "handicap": -1.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": -101,
+                        "handicap": 1.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 218,
+                        "handicap": -2.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": -282,
+                        "handicap": 2.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 168,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -211,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 140,
+                        "handicap": -2.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": -172,
+                        "handicap": 2.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 111,
+                        "handicap": -2.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -135,
+                        "handicap": 2.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -148,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 122,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -196,
+                        "handicap": -1.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": 159,
+                        "handicap": 1.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -290,
+                        "handicap": -1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 224,
+                        "handicap": 1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -345,
+                        "handicap": -0.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": 262,
+                        "handicap": 0.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "total points",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": -116
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -105
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": 410
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": -615
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "4.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 4.5,
+                        "price": 195
+                    },
+                    {
+                        "designation": "under",
+                        "points": 4.5,
+                        "price": -254
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "4.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 4.0,
+                        "price": 141
+                    },
+                    {
+                        "designation": "under",
+                        "points": 4.0,
+                        "price": -175
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "3.75",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.75,
+                        "price": 107
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.75,
+                        "price": -132
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "3.25",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.25,
+                        "price": -149
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.25,
+                        "price": 120
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "3.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.0,
+                        "price": -206
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.0,
+                        "price": 164
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -298
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": 224
+                    }
+                ],
+                "limit": 300
+            }
+        ]
+    },
+    "1601058017": {
+        "name": "Alanyaspor v Trabzonspor",
+        "markets": [
+            {
+                "id": 1601254323,
+                "description": "Total Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": -103,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -120,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254267,
+                "description": "Alanyaspor To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": 105,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -135,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254088,
+                "description": "Correct Score 1st Half"
+            },
+            {
+                "id": 1601253852,
+                "description": "Double Chance 1st Half"
+            },
+            {
+                "id": 1601254108,
+                "description": "Trabzonspor To Score?",
+                "prices": [
+                    {
+                        "price": -311,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 238,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254148,
+                "description": "3-Way Handicap Alanyaspor -1"
+            },
+            {
+                "id": 1601254044,
+                "description": "Alanyaspor Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": -100,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -123,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253860,
+                "description": "3-Way Handicap Alanyaspor +1"
+            },
+            {
+                "id": 1601254051,
+                "description": "Half-Time/Full-Time"
+            },
+            {
+                "id": 1601254158,
+                "description": "Trabzonspor To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": 118,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -152,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254207,
+                "description": "Total Goals Odd/Even 1st Half",
+                "prices": [
+                    {
+                        "price": 108,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -138,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254141,
+                "description": "Draw No Bet 1st Half",
+                "prices": [
+                    {
+                        "price": -126,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -101,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253868,
+                "description": "Alanyaspor To Score?",
+                "prices": [
+                    {
+                        "price": -357,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 270,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254065,
+                "description": "Either Team To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": -272,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": 203,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254270,
+                "description": "Correct Score"
+            },
+            {
+                "id": 1601254333,
+                "description": "Trabzonspor To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 418,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -592,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253945,
+                "description": "3-Way Handicap Alanyaspor -3"
+            },
+            {
+                "id": 1601254025,
+                "description": "Winning Margin 1st Half"
+            },
+            {
+                "id": 1601253874,
+                "description": "Both Teams To Score/Total Goals"
+            },
+            {
+                "id": 1601254258,
+                "description": "Alanyaspor Goals 1st Half"
+            },
+            {
+                "id": 1601254320,
+                "description": "Draw No Bet",
+                "prices": [
+                    {
+                        "price": -124,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 101,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254165,
+                "description": "First Team To Score 1st Half"
+            },
+            {
+                "id": 1601254114,
+                "description": "Alanyaspor Goals"
+            },
+            {
+                "id": 1601254079,
+                "description": "Exact Total Goals 1st Half"
+            },
+            {
+                "id": 1601253899,
+                "description": "Double Chance"
+            },
+            {
+                "id": 1601254036,
+                "description": "Both Teams To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": 355,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -519,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253889,
+                "description": "Either Team To Score?",
+                "prices": [
+                    {
+                        "price": -1672,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 953,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254014,
+                "description": "Trabzonspor Goals"
+            },
+            {
+                "id": 1601253918,
+                "description": "Both Teams To Score?",
+                "prices": [
+                    {
+                        "price": -137,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 110,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254073,
+                "description": "Trabzonspor To Win to Nil? 1st Half",
+                "prices": [
+                    {
+                        "price": 291,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -411,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254131,
+                "description": "Trabzonspor Goals 1st Half"
+            },
+            {
+                "id": 1601254326,
+                "description": "3-Way Handicap Alanyaspor +2"
+            },
+            {
+                "id": 1601254264,
+                "description": "Alanyaspor To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 359,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -495,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601253907,
+                "description": "Exact Total Goals"
+            },
+            {
+                "id": 1601254221,
+                "description": "Both Teams To Score/Winner"
+            },
+            {
+                "id": 1601254175,
+                "description": "3-Way Handicap Alanyaspor -2"
+            },
+            {
+                "id": 1601254253,
+                "description": "Odd/Even / Total Goals"
+            },
+            {
+                "id": 1601254235,
+                "description": "Winner/Total Goals"
+            },
+            {
+                "id": 1601254330,
+                "description": "Trabzonspor Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": 103,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -127,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254007,
+                "description": "Alanyaspor To Win to Nil? 1st Half",
+                "prices": [
+                    {
+                        "price": 254,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -350,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601254242,
+                "description": "Winning Margin"
+            },
+            {
+                "id": 1601253882,
+                "description": "First Team To Score"
+            },
+            {
+                "id": 1601253928,
+                "description": "3-Way Handicap Alanyaspor +3"
+            },
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 150
+                    },
+                    {
+                        "designation": "away",
+                        "price": 178
+                    },
+                    {
+                        "designation": "draw",
+                        "price": 244
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": 141
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": -177
+                    }
+                ],
+                "limit": 150
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": 160
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": -201
+                    }
+                ],
+                "limit": 150
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -121,
+                        "handicap": 0.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 103,
+                        "handicap": -0.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 313,
+                        "handicap": -1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -411,
+                        "handicap": 1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 203,
+                        "handicap": -0.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": -254,
+                        "handicap": 0.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 150,
+                        "handicap": -0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -181,
+                        "handicap": 0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 116,
+                        "handicap": -0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": -139,
+                        "handicap": 0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -169,
+                        "handicap": 0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": 141,
+                        "handicap": -0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -216,
+                        "handicap": 0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 178,
+                        "handicap": -0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -309,
+                        "handicap": 0.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": 243,
+                        "handicap": -0.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -518,
+                        "handicap": 1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 383,
+                        "handicap": -1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "total points",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -105
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": -113
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "4.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 4.5,
+                        "price": 528
+                    },
+                    {
+                        "designation": "under",
+                        "points": 4.5,
+                        "price": -814
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 230
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -299
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "3.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.0,
+                        "price": 166
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.0,
+                        "price": -204
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "2.75",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.75,
+                        "price": 120
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.75,
+                        "price": -146
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "2.25",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.25,
+                        "price": -143
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.25,
+                        "price": 118
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "2.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.0,
+                        "price": -219
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.0,
+                        "price": 177
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": -347
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": 262
+                    }
+                ],
+                "limit": 450
+            }
+        ]
+    },
+    "1601045673": {
+        "name": "Adana Demirspor v Konyaspor",
+        "markets": [
+            {
+                "id": 1601248629,
+                "description": "Adana Demirspor To Score?",
+                "prices": [
+                    {
+                        "price": -253,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 198,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601249053,
+                "description": "Total Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": -105,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -118,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248618,
+                "description": "3-Way Handicap Adana Demirspor +1"
+            },
+            {
+                "id": 1601248771,
+                "description": "Adana Demirspor To Win to Nil? 1st Half",
+                "prices": [
+                    {
+                        "price": 369,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -544,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248646,
+                "description": "First Team To Score"
+            },
+            {
+                "id": 1601248983,
+                "description": "Odd/Even / Total Goals"
+            },
+            {
+                "id": 1601248994,
+                "description": "Adana Demirspor To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 591,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -904,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248611,
+                "description": "Double Chance 1st Half"
+            },
+            {
+                "id": 1601248931,
+                "description": "Konyaspor To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": -117,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -109,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248965,
+                "description": "Winner/Total Goals"
+            },
+            {
+                "id": 1601248654,
+                "description": "Either Team To Score?",
+                "prices": [
+                    {
+                        "price": -1854,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 1029,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248988,
+                "description": "Adana Demirspor Goals 1st Half"
+            },
+            {
+                "id": 1601248955,
+                "description": "Total Goals Odd/Even 1st Half",
+                "prices": [
+                    {
+                        "price": 107,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -137,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248841,
+                "description": "Exact Total Goals 1st Half"
+            },
+            {
+                "id": 1601248920,
+                "description": "3-Way Handicap Adana Demirspor -1"
+            },
+            {
+                "id": 1601249063,
+                "description": "Konyaspor To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 279,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -370,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248934,
+                "description": "First Team To Score 1st Half"
+            },
+            {
+                "id": 1601248972,
+                "description": "Winning Margin"
+            },
+            {
+                "id": 1601249000,
+                "description": "Correct Score"
+            },
+            {
+                "id": 1601248851,
+                "description": "Correct Score 1st Half"
+            },
+            {
+                "id": 1601248897,
+                "description": "Konyaspor Goals 1st Half"
+            },
+            {
+                "id": 1601248880,
+                "description": "Adana Demirspor Goals"
+            },
+            {
+                "id": 1601248825,
+                "description": "Either Team To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": -282,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": 210,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248890,
+                "description": "3-Way Handicap Adana Demirspor +4"
+            },
+            {
+                "id": 1601248997,
+                "description": "Adana Demirspor To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": 141,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -183,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248787,
+                "description": "Winning Margin 1st Half"
+            },
+            {
+                "id": 1601248906,
+                "description": "Draw No Bet 1st Half",
+                "prices": [
+                    {
+                        "price": 146,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -189,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601249050,
+                "description": "Draw No Bet",
+                "prices": [
+                    {
+                        "price": 168,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -211,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248805,
+                "description": "Adana Demirspor Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": 107,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -133,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248777,
+                "description": "Konyaspor Goals"
+            },
+            {
+                "id": 1601248874,
+                "description": "Konyaspor To Score?",
+                "prices": [
+                    {
+                        "price": -504,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 364,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248958,
+                "description": "Both Teams To Score/Winner"
+            },
+            {
+                "id": 1601249060,
+                "description": "Konyaspor Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": -106,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -117,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248811,
+                "description": "Half-Time/Full-Time"
+            },
+            {
+                "id": 1601248799,
+                "description": "Both Teams To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": 355,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -520,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601249056,
+                "description": "3-Way Handicap Adana Demirspor +2"
+            },
+            {
+                "id": 1601248832,
+                "description": "Konyaspor To Win to Nil? 1st Half",
+                "prices": [
+                    {
+                        "price": 200,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -267,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248938,
+                "description": "3-Way Handicap Adana Demirspor -2"
+            },
+            {
+                "id": 1601248727,
+                "description": "Both Teams To Score?",
+                "prices": [
+                    {
+                        "price": -142,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 115,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "id": 1601248737,
+                "description": "3-Way Handicap Adana Demirspor +3"
+            },
+            {
+                "id": 1601248707,
+                "description": "Double Chance"
+            },
+            {
+                "id": 1601248715,
+                "description": "Exact Total Goals"
+            },
+            {
+                "id": 1601248635,
+                "description": "Both Teams To Score/Total Goals"
+            },
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 266
+                    },
+                    {
+                        "designation": "away",
+                        "price": 103
+                    },
+                    {
+                        "designation": "draw",
+                        "price": 251
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "0.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 0.5,
+                        "price": -253
+                    },
+                    {
+                        "designation": "under",
+                        "points": 0.5,
+                        "price": 198
+                    }
+                ],
+                "limit": 150
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": 102
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": -126
+                    }
+                ],
+                "limit": 150
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -121,
+                        "handicap": 0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 104,
+                        "handicap": -0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 263,
+                        "handicap": -0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -339,
+                        "handicap": 0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 217,
+                        "handicap": -0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": -273,
+                        "handicap": 0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 170,
+                        "handicap": 0.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -206,
+                        "handicap": -0.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 111,
+                        "handicap": 0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": -132,
+                        "handicap": -0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -164,
+                        "handicap": 0.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": 137,
+                        "handicap": -0.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -248,
+                        "handicap": 1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 202,
+                        "handicap": -1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -311,
+                        "handicap": 1.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": 244,
+                        "handicap": -1.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -371,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 286,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 900
+            },
+            {
+                "description": "total points",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -114
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": -105
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "4.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 4.5,
+                        "price": 508
+                    },
+                    {
+                        "designation": "under",
+                        "points": 4.5,
+                        "price": -774
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 219
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -283
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "3.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.0,
+                        "price": 154
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.0,
+                        "price": -189
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "2.75",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.75,
+                        "price": 112
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.75,
+                        "price": -135
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "2.25",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.25,
+                        "price": -155
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.25,
+                        "price": 128
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "2.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.0,
+                        "price": -241
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.0,
+                        "price": 194
+                    }
+                ],
+                "limit": 450
+            },
+            {
+                "description": "total points",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": -376
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": 280
+                    }
+                ],
+                "limit": 450
+            }
+        ]
+    },
+    "1601014616": {
+        "name": "Antalyaspor v Sivasspor",
+        "markets": [
+            {
+                "id": 1601217686,
+                "description": "3-Way Handicap Antalyaspor -1"
+            },
+            {
+                "id": 1601217409,
+                "description": "Double Chance 1st Half"
+            },
+            {
+                "id": 1601217819,
+                "description": "Sivasspor Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": 111,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -134,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217532,
+                "description": "Antalyaspor To Win to Nil? 1st Half",
+                "prices": [
+                    {
+                        "price": 207,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -271,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217637,
+                "description": "Sivasspor To Win to Nil? 1st Half",
+                "prices": [
+                    {
+                        "price": 365,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -522,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217605,
+                "description": "Both Teams To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": 372,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -532,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217683,
+                "description": "Draw No Bet 1st Half",
+                "prices": [
+                    {
+                        "price": -179,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": 141,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217416,
+                "description": "3-Way Handicap Antalyaspor +1"
+            },
+            {
+                "id": 1601217822,
+                "description": "Sivasspor To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 557,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -808,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217731,
+                "description": "Winning Margin"
+            },
+            {
+                "id": 1601217697,
+                "description": "3-Way Handicap Antalyaspor -2"
+            },
+            {
+                "id": 1601217443,
+                "description": "First Team To Score"
+            },
+            {
+                "id": 1601217753,
+                "description": "Antalyaspor To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 284,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -368,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217677,
+                "description": "Sivasspor Goals 1st Half"
+            },
+            {
+                "id": 1601217459,
+                "description": "Double Chance"
+            },
+            {
+                "id": 1601217631,
+                "description": "Either Team To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": -271,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": 206,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217717,
+                "description": "Both Teams To Score/Winner"
+            },
+            {
+                "id": 1601217666,
+                "description": "Antalyaspor Goals"
+            },
+            {
+                "id": 1601217538,
+                "description": "Sivasspor Goals"
+            },
+            {
+                "id": 1601217724,
+                "description": "Winner/Total Goals"
+            },
+            {
+                "id": 1601217756,
+                "description": "Antalyaspor To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": -111,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -113,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217714,
+                "description": "Total Goals Odd/Even 1st Half",
+                "prices": [
+                    {
+                        "price": 108,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -136,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217815,
+                "description": "3-Way Handicap Antalyaspor +2"
+            },
+            {
+                "id": 1601217424,
+                "description": "Antalyaspor To Score?",
+                "prices": [
+                    {
+                        "price": -449,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 338,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217747,
+                "description": "Antalyaspor Goals 1st Half"
+            },
+            {
+                "id": 1601217812,
+                "description": "Total Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": -103,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -118,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217690,
+                "description": "Sivasspor To Score? 1st Half",
+                "prices": [
+                    {
+                        "price": 144,
+                        "designation": "odd"
+                    },
+                    {
+                        "price": -183,
+                        "designation": "even"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217640,
+                "description": "Exact Total Goals 1st Half"
+            },
+            {
+                "id": 1601217595,
+                "description": "Winning Margin 1st Half"
+            },
+            {
+                "id": 1601217646,
+                "description": "Correct Score 1st Half"
+            },
+            {
+                "id": 1601217434,
+                "description": "Both Teams To Score/Total Goals"
+            },
+            {
+                "id": 1601217515,
+                "description": "3-Way Handicap Antalyaspor -3"
+            },
+            {
+                "id": 1601217742,
+                "description": "Odd/Even / Total Goals"
+            },
+            {
+                "id": 1601217481,
+                "description": "Both Teams To Score?",
+                "prices": [
+                    {
+                        "price": -132,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 109,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217693,
+                "description": "First Team To Score 1st Half"
+            },
+            {
+                "id": 1601217466,
+                "description": "Exact Total Goals"
+            },
+            {
+                "id": 1601217618,
+                "description": "Half-Time/Full-Time"
+            },
+            {
+                "id": 1601217759,
+                "description": "Correct Score"
+            },
+            {
+                "id": 1601217809,
+                "description": "Draw No Bet",
+                "prices": [
+                    {
+                        "price": -194,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 158,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217452,
+                "description": "Either Team To Score?",
+                "prices": [
+                    {
+                        "price": -1672,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 996,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217611,
+                "description": "Antalyaspor Goals Odd/Even",
+                "prices": [
+                    {
+                        "price": -103,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -117,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "id": 1601217663,
+                "description": "Sivasspor To Score?",
+                "prices": [
+                    {
+                        "price": -245,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 196,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 125
+            },
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 110
+                    },
+                    {
+                        "designation": "away",
+                        "price": 254
+                    },
+                    {
+                        "designation": "draw",
+                        "price": 243
+                    }
+                ],
+                "limit": 1200
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": 111
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": -135
+                    }
+                ],
+                "limit": 200
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "0.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 0.5,
+                        "price": -245
+                    },
+                    {
+                        "designation": "under",
+                        "points": 0.5,
+                        "price": 196
+                    }
+                ],
+                "limit": 200
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -121,
+                        "handicap": -0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": 106,
+                        "handicap": 0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1200
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 262,
+                        "handicap": -1.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": -329,
+                        "handicap": 1.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1200
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 218,
+                        "handicap": -1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -269,
+                        "handicap": 1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1200
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 148,
+                        "handicap": -0.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": -174,
+                        "handicap": 0.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1200
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 110,
+                        "handicap": -0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -129,
+                        "handicap": 0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1200
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -190,
+                        "handicap": 0.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 161,
+                        "handicap": -0.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1200
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -251,
+                        "handicap": 0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": 209,
+                        "handicap": -0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1200
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -317,
+                        "handicap": 0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 254,
+                        "handicap": -0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1200
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -470,
+                        "handicap": 0.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": 361,
+                        "handicap": -0.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1200
+            },
+            {
+                "description": "total points",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -105
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": -111
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "total points",
+                "threshold": "4.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 4.5,
+                        "price": 550
+                    },
+                    {
+                        "designation": "under",
+                        "points": 4.5,
+                        "price": -821
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "total points",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 232
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -295
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "total points",
+                "threshold": "3.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.0,
+                        "price": 167
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.0,
+                        "price": -201
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "total points",
+                "threshold": "2.75",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.75,
+                        "price": 120
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.75,
+                        "price": -143
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "total points",
+                "threshold": "2.25",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.25,
+                        "price": -142
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.25,
+                        "price": 120
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "total points",
+                "threshold": "2.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.0,
+                        "price": -217
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.0,
+                        "price": 179
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "total points",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": -341
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": 264
+                    }
+                ],
+                "limit": 600
+            }
+        ]
+    },
+    "1601195041": {
+        "name": "Hatayspor v Besiktas",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 309
+                    },
+                    {
+                        "designation": "away",
+                        "price": -122
+                    },
+                    {
+                        "designation": "draw",
+                        "price": 286
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "0.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 0.5,
+                        "price": -237
+                    },
+                    {
+                        "designation": "under",
+                        "points": 0.5,
+                        "price": 187
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": -120
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": -103
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 103,
+                        "handicap": 0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -121,
+                        "handicap": -0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 306,
+                        "handicap": -0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -401,
+                        "handicap": 0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 259,
+                        "handicap": -0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": -333,
+                        "handicap": 0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 213,
+                        "handicap": 0.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -262,
+                        "handicap": -0.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 139,
+                        "handicap": 0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": -167,
+                        "handicap": -0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -128,
+                        "handicap": 0.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": 108,
+                        "handicap": -0.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -187,
+                        "handicap": 1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 155,
+                        "handicap": -1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -241,
+                        "handicap": 1.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": 193,
+                        "handicap": -1.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -294,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 232,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "total points",
+                "threshold": "2.75",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.75,
+                        "price": -103
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.75,
+                        "price": -115
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "4.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 4.5,
+                        "price": 443
+                    },
+                    {
+                        "designation": "under",
+                        "points": 4.5,
+                        "price": -651
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 190
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -242
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "3.25",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.25,
+                        "price": 161
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.25,
+                        "price": -198
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "3.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.0,
+                        "price": 130
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.0,
+                        "price": -158
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -131
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": 108
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "2.25",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.25,
+                        "price": -178
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.25,
+                        "price": 145
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": -416
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": 306
+                    }
+                ],
+                "limit": 300
+            }
+        ]
+    },
+    "1601195026": {
+        "name": "Fenerbahce v Gaziantep",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -399
+                    },
+                    {
+                        "designation": "away",
+                        "price": 799
+                    },
+                    {
+                        "designation": "draw",
+                        "price": 556
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -107
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": -118
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "0.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 0.5,
+                        "price": -133
+                    },
+                    {
+                        "designation": "under",
+                        "points": 0.5,
+                        "price": 106
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -110,
+                        "handicap": -1.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": -108,
+                        "handicap": 1.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 234,
+                        "handicap": -2.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": -304,
+                        "handicap": 2.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 178,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -225,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 149,
+                        "handicap": -2.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": -183,
+                        "handicap": 2.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 120,
+                        "handicap": -2.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -145,
+                        "handicap": 2.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -140,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 115,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -187,
+                        "handicap": -1.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": 152,
+                        "handicap": 1.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -285,
+                        "handicap": -1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 221,
+                        "handicap": 1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -345,
+                        "handicap": -0.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": 262,
+                        "handicap": 0.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "total points",
+                "threshold": "3.25",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.25,
+                        "price": -112
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.25,
+                        "price": -108
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": 554
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": -905
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "4.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 4.5,
+                        "price": 255
+                    },
+                    {
+                        "designation": "under",
+                        "points": 4.5,
+                        "price": -345
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "3.75",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.75,
+                        "price": 141
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.75,
+                        "price": -176
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 111
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -137
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "3.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.0,
+                        "price": -153
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.0,
+                        "price": 124
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "2.75",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.75,
+                        "price": -192
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.75,
+                        "price": 154
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -235
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": 182
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": -744
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": 477
+                    }
+                ],
+                "limit": 300
+            }
+        ]
+    },
+    "1601128192": {
+        "name": "Caykur Rizespor v Kayserispor",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -119
+                    },
+                    {
+                        "designation": "away",
+                        "price": 334
+                    },
+                    {
+                        "designation": "draw",
+                        "price": 257
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": -121
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": -102
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "0.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 0.5,
+                        "price": -228
+                    },
+                    {
+                        "designation": "under",
+                        "points": 0.5,
+                        "price": 180
+                    }
+                ],
+                "limit": 100
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -117,
+                        "handicap": -0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 101,
+                        "handicap": 0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 229,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -290,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 192,
+                        "handicap": -1.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": -240,
+                        "handicap": 1.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 156,
+                        "handicap": -1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -188,
+                        "handicap": 1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 110,
+                        "handicap": -0.75,
+                        "team": "home"
+                    },
+                    {
+                        "price": -131,
+                        "handicap": 0.75,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -166,
+                        "handicap": -0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": 139,
+                        "handicap": 0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -277,
+                        "handicap": 0.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 224,
+                        "handicap": -0.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -358,
+                        "handicap": 0.25,
+                        "team": "home"
+                    },
+                    {
+                        "price": 277,
+                        "handicap": -0.25,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -438,
+                        "handicap": 0.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 331,
+                        "handicap": -0.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 600
+            },
+            {
+                "description": "total points",
+                "threshold": "2.75",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.75,
+                        "price": 102
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.75,
+                        "price": -121
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "4.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 4.5,
+                        "price": 455
+                    },
+                    {
+                        "designation": "under",
+                        "points": 4.5,
+                        "price": -674
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 194
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -247
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "3.25",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.25,
+                        "price": 166
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.25,
+                        "price": -204
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "3.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.0,
+                        "price": 135
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.0,
+                        "price": -165
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -125
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": 103
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "2.25",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.25,
+                        "price": -170
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.25,
+                        "price": 139
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "total points",
+                "threshold": "1.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 1.5,
+                        "price": -405
+                    },
+                    {
+                        "designation": "under",
+                        "points": 1.5,
+                        "price": 299
+                    }
+                ],
+                "limit": 300
+            }
+        ]
+    }
+}

@@ -1,1 +1,356 @@
-{}
+{
+    "33820696": {
+        "name": "Leksands IF v Brynas IF",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.466433311",
+                "runners": [
+                    {
+                        "selectionId": 221649,
+                        "handicap": 0,
+                        "runnerName": "Leksands IF",
+                        "winRunnerOdds": 104
+                    },
+                    {
+                        "selectionId": 61438,
+                        "handicap": 0,
+                        "runnerName": "Brynas IF",
+                        "winRunnerOdds": -128
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.466433900",
+                "runners": [
+                    {
+                        "selectionId": 221649,
+                        "handicap": 0.5,
+                        "runnerName": "Leksands IF",
+                        "winRunnerOdds": -158
+                    },
+                    {
+                        "selectionId": 61438,
+                        "handicap": -0.5,
+                        "runnerName": "Brynas IF",
+                        "winRunnerOdds": 128
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.466433897",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 4.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -154
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 4.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": 126
+                    }
+                ]
+            }
+        ]
+    },
+    "33820697": {
+        "name": "Lulea HC v Rogle BK",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.466433315",
+                "runners": [
+                    {
+                        "selectionId": 53178912,
+                        "handicap": 0,
+                        "runnerName": "Lulea HC",
+                        "winRunnerOdds": -215
+                    },
+                    {
+                        "selectionId": 4138401,
+                        "handicap": 0,
+                        "runnerName": "Rogle BK",
+                        "winRunnerOdds": 172
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.466434191",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 4.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -144
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 4.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": 118
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.466434196",
+                "runners": [
+                    {
+                        "selectionId": 53178912,
+                        "handicap": -0.5,
+                        "runnerName": "Lulea HC",
+                        "winRunnerOdds": -128
+                    },
+                    {
+                        "selectionId": 4138401,
+                        "handicap": 0.5,
+                        "runnerName": "Rogle BK",
+                        "winRunnerOdds": 104
+                    }
+                ]
+            }
+        ]
+    },
+    "33820700": {
+        "name": "Vaxjo Lakers v Timraa IK",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.466433608",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 4.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -144
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 4.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": 118
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.466433348",
+                "runners": [
+                    {
+                        "selectionId": 539706,
+                        "handicap": 0,
+                        "runnerName": "Vaxjo Lakers",
+                        "winRunnerOdds": -140
+                    },
+                    {
+                        "selectionId": 10659460,
+                        "handicap": 0,
+                        "runnerName": "Timraa IK",
+                        "winRunnerOdds": 114
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.466433623",
+                "runners": [
+                    {
+                        "selectionId": 539706,
+                        "handicap": -0.5,
+                        "runnerName": "Vaxjo Lakers",
+                        "winRunnerOdds": 118
+                    },
+                    {
+                        "selectionId": 10659460,
+                        "handicap": 0.5,
+                        "runnerName": "Timraa IK",
+                        "winRunnerOdds": -144
+                    }
+                ]
+            }
+        ]
+    },
+    "33820701": {
+        "name": "Malmo IF v Farjestads BK",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.466433837",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 5.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 5.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -105
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.466433404",
+                "runners": [
+                    {
+                        "selectionId": 61436,
+                        "handicap": 0,
+                        "runnerName": "Malmo IF",
+                        "winRunnerOdds": 168
+                    },
+                    {
+                        "selectionId": 61442,
+                        "handicap": 0,
+                        "runnerName": "Farjestads BK",
+                        "winRunnerOdds": -210
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.466433815",
+                "runners": [
+                    {
+                        "selectionId": 61436,
+                        "handicap": 0.5,
+                        "runnerName": "Malmo IF",
+                        "winRunnerOdds": 104
+                    },
+                    {
+                        "selectionId": 61442,
+                        "handicap": -0.5,
+                        "runnerName": "Farjestads BK",
+                        "winRunnerOdds": -128
+                    }
+                ]
+            }
+        ]
+    },
+    "33820703": {
+        "name": "HC Orebro v Frolunda HC",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.466433554",
+                "runners": [
+                    {
+                        "selectionId": 3808601,
+                        "handicap": -0.5,
+                        "runnerName": "HC Orebro",
+                        "winRunnerOdds": 140
+                    },
+                    {
+                        "selectionId": 927578,
+                        "handicap": 0.5,
+                        "runnerName": "Frolunda HC",
+                        "winRunnerOdds": -172
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.466433522",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 4.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -122
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 4.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": 100
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.466433431",
+                "runners": [
+                    {
+                        "selectionId": 3808601,
+                        "handicap": 0,
+                        "runnerName": "HC Orebro",
+                        "winRunnerOdds": -118
+                    },
+                    {
+                        "selectionId": 927578,
+                        "handicap": 0,
+                        "runnerName": "Frolunda HC",
+                        "winRunnerOdds": -104
+                    }
+                ]
+            }
+        ]
+    },
+    "33820704": {
+        "name": "MODO Hockey v HV71",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.466434407",
+                "runners": [
+                    {
+                        "selectionId": 61437,
+                        "handicap": -0.5,
+                        "runnerName": "MODO Hockey",
+                        "winRunnerOdds": 120
+                    },
+                    {
+                        "selectionId": 1357305,
+                        "handicap": 0.5,
+                        "runnerName": "HV71",
+                        "winRunnerOdds": -148
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.466434373",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 5.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -112
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 5.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.466433437",
+                "runners": [
+                    {
+                        "selectionId": 61437,
+                        "handicap": 0,
+                        "runnerName": "MODO Hockey",
+                        "winRunnerOdds": -138
+                    },
+                    {
+                        "selectionId": 1357305,
+                        "handicap": 0,
+                        "runnerName": "HV71",
+                        "winRunnerOdds": 112
+                    }
+                ]
+            }
+        ]
+    }
+}

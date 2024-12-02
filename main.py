@@ -6,7 +6,7 @@ from datetime import datetime
 import webbrowser  # Add this at the top with other imports
 
 
-BANKROLL = 2500
+BANKROLL = 288
 
 
 def game_names_equal(game1, game2):
@@ -32,7 +32,11 @@ def wagers():
         **pinnacle_ucl(),
         **pinnacle_epl(),
         **pinnacle_shl(),
-        **pinnacle_nla()
+        **pinnacle_nla(),
+        **pinnacle_turkish_first(),
+        **pinnacle_turkish_super(),
+        **pinnacle_j1(),
+        **pinnacle_ligue1()
     }
     fanduel = {
         **fanduel_nba(),
@@ -43,7 +47,11 @@ def wagers():
         **fanduel_ucl(),
         **fanduel_epl(),
         **fanduel_shl(),
-        **fanduel_nla()
+        **fanduel_nla(),
+        **fanduel_turkish_first(),
+        **fanduel_turkish_super(),
+        **fanduel_j1(),
+        **fanduel_ligue1()
     }
 
     common_wagers = []

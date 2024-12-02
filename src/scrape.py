@@ -2,6 +2,7 @@ import requests
 import os
 import json  # Add import for json module
 import datetime
+import time
 
 
 def get_response(url, headers, params=None):
@@ -16,11 +17,14 @@ def get_response(url, headers, params=None):
     Returns:
         dict: The JSON response if the request is successful, otherwise None.
     """
+    if "competition" in url:
+        time.sleep(5)
     response = requests.get(url, headers=headers, params=params)
     if response.status_code == 200:
         return response.json()
     else:
-        print(f"Request failed with status code: {response.status_code}")
+        print(
+            f"FanDuel request failed with status code: {response.status_code}. ID: {params.get('competitionId')}")
         return None
 
 
@@ -39,7 +43,7 @@ def get_response_no_params(url, headers):
     if response.status_code == 200:
         return response.json()
     else:
-        print(f"Request failed with status code: {response.status_code}")
+        print(f"Pinnacle request failed with status code: {response.status_code}")
         return None
 
 
@@ -65,8 +69,8 @@ def process_fanduel_rows(rows, data):
                 "events", {}).get(str(event_id), {}).get("openDate")
             if (" @ " in name or " v " in name):
                 event_date = datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%S.000Z")
-                event_date = event_date.replace(tzinfo=datetime.timezone.utc).astimezone(tz=None)
-                if event_date.date() == datetime.date.today():
+                event_date_seconds = event_date.timestamp()
+                if event_date_seconds > datetime.datetime.now().timestamp() and event_date_seconds < (datetime.datetime.now() + datetime.timedelta(hours=24)).timestamp():
                     result[event_id] = {"name": name}
                     seen_event_ids.add(event_id)
     return result, seen_event_ids
@@ -136,13 +140,13 @@ def fanduel_nba(save_to_file=False):
         'origin': 'https://sportsbook.fanduel.com',
         'priority': 'u=1, i',
         'referer': 'https://sportsbook.fanduel.com/',
-        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
     }
 
     data = get_response(url, headers, params)
@@ -180,13 +184,13 @@ def fanduel_nfl(save_to_file=False):
         'origin': 'https://sportsbook.fanduel.com',
         'priority': 'u=1, i',
         'referer': 'https://sportsbook.fanduel.com/',
-        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
     }
 
     data = get_response(url, headers, params)
@@ -223,13 +227,13 @@ def fanduel_nhl(save_to_file=False):
         'origin': 'https://sportsbook.fanduel.com',
         'priority': 'u=1, i',
         'referer': 'https://sportsbook.fanduel.com/',
-        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
     }
 
     data = get_response(url, headers, params)
@@ -267,13 +271,13 @@ def fanduel_ncaaf(save_to_file=False):
         'origin': 'https://sportsbook.fanduel.com',
         'priority': 'u=1, i',
         'referer': 'https://sportsbook.fanduel.com/',
-        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
     }
 
     data = get_response(url, headers, params)
@@ -312,13 +316,13 @@ def fanduel_ncaab(save_to_file=False):
         'origin': 'https://sportsbook.fanduel.com',
         'priority': 'u=1, i',
         'referer': 'https://sportsbook.fanduel.com/',
-        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
     }
 
     data = get_response(url, headers, params)
@@ -354,13 +358,13 @@ def fanduel_ucl(save_to_file=False):
         'dnt': '1',
         'origin': 'https://sportsbook.fanduel.com',
         'referer': 'https://sportsbook.fanduel.com/',
-        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
     }
 
     data = get_response(url, headers, params)
@@ -394,13 +398,13 @@ def fanduel_epl(save_to_file=False):
         'dnt': '1',
         'origin': 'https://sportsbook.fanduel.com',
         'referer': 'https://sportsbook.fanduel.com/',
-        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
     }
 
     data = get_response(url, headers, params)
@@ -434,13 +438,13 @@ def fanduel_shl(save_to_file=False):
         'dnt': '1',
         'origin': 'https://sportsbook.fanduel.com',
         'referer': 'https://sportsbook.fanduel.com/',
-        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
     }
 
     data = get_response(url, headers, params)
@@ -474,13 +478,13 @@ def fanduel_nla(save_to_file=False):
         'dnt': '1',
         'origin': 'https://sportsbook.fanduel.com',
         'referer': 'https://sportsbook.fanduel.com/',
-        'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"',
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
     }
 
     data = get_response(url, headers, params)
@@ -494,6 +498,128 @@ def fanduel_nla(save_to_file=False):
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_nla.json')
         return result
+
+
+def fanduel_turkish_first(save_to_file=False):
+    """
+    Fetches and processes Turkish 1st League data from Fanduel.
+    """
+    url = 'https://sbapi.il.sportsbook.fanduel.com/api/competition-page'
+    api_key = os.getenv('FANDUEL_API_KEY')
+    params = {
+        '_ak': api_key,
+        'eventTypeId': '1',
+        'competitionId': '175680'
+    }
+
+    headers = {
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9',
+        'dnt': '1',
+        'origin': 'https://sportsbook.fanduel.com',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    }
+
+    data = get_response(url, headers, params)
+    if data:
+        # Get all events from the events section
+        rows = list(data.get("attachments", {}).get("events", {}).values())
+        result, seen_event_ids = process_fanduel_rows(rows, data)
+        markets = data.get("attachments", {}).get("markets", {})
+        process_fanduel_markets(markets, seen_event_ids, result)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_turkish_first.json')
+        return result
+    return {}
+
+
+def fanduel_turkish_super(save_to_file=False):
+    """
+    Fetches and processes Turkish Super League data from Fanduel.
+    """
+    url = 'https://sbapi.il.sportsbook.fanduel.com/api/competition-page'
+    api_key = os.getenv('FANDUEL_API_KEY')
+    params = {
+        '_ak': api_key,
+        'eventTypeId': '1',
+        'competitionId': '194215'
+    }
+
+    headers = {
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9',
+        'dnt': '1',
+        'origin': 'https://sportsbook.fanduel.com',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    }
+
+    data = get_response(url, headers, params)
+    if data:
+        # Get all events from the events section
+        rows = list(data.get("attachments", {}).get("events", {}).values())
+        result, seen_event_ids = process_fanduel_rows(rows, data)
+        markets = data.get("attachments", {}).get("markets", {})
+        process_fanduel_markets(markets, seen_event_ids, result)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_turkish_super.json')
+        return result
+    return {}
+
+
+def fanduel_j1(save_to_file=False):
+    """
+    Fetches and processes Japanese J1 League data from Fanduel.
+    """
+    url = 'https://sbapi.il.sportsbook.fanduel.com/api/competition-page'
+    api_key = os.getenv('FANDUEL_API_KEY')
+    params = {
+        '_ak': api_key,
+        'eventTypeId': '1',
+        'competitionId': '89'
+    }
+
+    headers = {
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9',
+        'dnt': '1',
+        'origin': 'https://sportsbook.fanduel.com',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    }
+
+    data = get_response(url, headers, params)
+    if data:
+        rows = list(data.get("attachments", {}).get("events", {}).values())
+        result, seen_event_ids = process_fanduel_rows(rows, data)
+        markets = data.get("attachments", {}).get("markets", {})
+        process_fanduel_markets(markets, seen_event_ids, result)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_j1.json')
+        return result
+    return {}
 
 
 def process_matchups(matchups_data, switch_home_away=False):
@@ -647,10 +773,10 @@ def pinnacle_nba(save_to_file=False):
         'sec-ch-ua-platform': 'Windows',
         'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
         'Referer': 'https://www.pinnacle.com/',
-        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'X-API-Key': os.getenv('PINNACLE_API_KEY'),
         'sec-ch-ua-mobile': '?0',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'application/json',
         'DNT': '1',
         'Content-Type': 'application/json'
@@ -680,10 +806,10 @@ def pinnacle_nfl(save_to_file=False):
         'sec-ch-ua-platform': 'Windows',
         'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
         'Referer': 'https://www.pinnacle.com/',
-        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'X-API-Key': os.getenv('PINNACLE_API_KEY'),
         'sec-ch-ua-mobile': '?0',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'application/json',
         'DNT': '1',
         'Content-Type': 'application/json'
@@ -713,10 +839,10 @@ def pinnacle_nhl(save_to_file=False):
         'sec-ch-ua-platform': 'Windows',
         'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
         'Referer': 'https://www.pinnacle.com/',
-        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'X-API-Key': os.getenv('PINNACLE_API_KEY'),
         'sec-ch-ua-mobile': '?0',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'application/json',
         'DNT': '1',
         'Content-Type': 'application/json'
@@ -746,10 +872,10 @@ def pinnacle_ncaaf(save_to_file=False):
         'sec-ch-ua-platform': 'Windows',
         'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
         'Referer': 'https://www.pinnacle.com/',
-        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'X-API-Key': os.getenv('PINNACLE_API_KEY'),
         'sec-ch-ua-mobile': '?0',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'application/json',
         'DNT': '1',
         'Content-Type': 'application/json'
@@ -779,10 +905,10 @@ def pinnacle_ncaab(save_to_file=False):
         'sec-ch-ua-platform': 'Windows',
         'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
         'Referer': 'https://www.pinnacle.com/',
-        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'X-API-Key': os.getenv('PINNACLE_API_KEY'),
         'sec-ch-ua-mobile': '?0',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'application/json',
         'DNT': '1',
         'Content-Type': 'application/json'
@@ -812,10 +938,10 @@ def pinnacle_ucl(save_to_file=False):
         'sec-ch-ua-platform': 'Windows',
         'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
         'Referer': 'https://www.pinnacle.com/',
-        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'X-API-Key': os.getenv('PINNACLE_API_KEY'),
         'sec-ch-ua-mobile': '?0',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'application/json',
         'DNT': '1',
         'Content-Type': 'application/json'
@@ -845,10 +971,10 @@ def pinnacle_epl(save_to_file=False):
         'sec-ch-ua-platform': 'Windows',
         'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
         'Referer': 'https://www.pinnacle.com/',
-        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'X-API-Key': os.getenv('PINNACLE_API_KEY'),
         'sec-ch-ua-mobile': '?0',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'application/json',
         'DNT': '1',
         'Content-Type': 'application/json'
@@ -878,10 +1004,10 @@ def pinnacle_shl(save_to_file=False):
         'sec-ch-ua-platform': 'Windows',
         'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
         'Referer': 'https://www.pinnacle.com/',
-        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'X-API-Key': os.getenv('PINNACLE_API_KEY'),
         'sec-ch-ua-mobile': '?0',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'application/json',
         'DNT': '1',
         'Content-Type': 'application/json'
@@ -911,10 +1037,10 @@ def pinnacle_nla(save_to_file=False):
         'sec-ch-ua-platform': 'Windows',
         'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
         'Referer': 'https://www.pinnacle.com/',
-        'sec-ch-ua': 'Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
         'X-API-Key': os.getenv('PINNACLE_API_KEY'),
         'sec-ch-ua-mobile': '?0',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'application/json',
         'DNT': '1',
         'Content-Type': 'application/json'
@@ -932,6 +1058,178 @@ def pinnacle_nla(save_to_file=False):
 
         if save_to_file:
             save_result_to_file(result, 'example_pinnacle_nla.json')
+        return result
+    return {}
+
+
+def pinnacle_turkish_first(save_to_file=False):
+    """
+    Fetches and processes Turkish 1st League data from Pinnacle.
+    """
+    headers = {
+        'sec-ch-ua-platform': 'Windows',
+        'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
+        'Referer': 'https://www.pinnacle.com/',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'X-API-Key': os.getenv('PINNACLE_API_KEY'),
+        'sec-ch-ua-mobile': '?0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'DNT': '1',
+        'Content-Type': 'application/json'
+    }
+
+    matchups_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/2578/matchups?brandId=0', headers)
+    markets_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/2578/markets/straight', headers)
+
+    if matchups_data and markets_data:
+        result = process_matchups(matchups_data, switch_home_away=True)
+        special_to_parent = process_specials(matchups_data, result)
+        process_markets(markets_data, result, special_to_parent)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_turkish_first.json')
+        return result
+    return {}
+
+
+def pinnacle_turkish_super(save_to_file=False):
+    """
+    Fetches and processes Turkish Super League data from Pinnacle.
+    """
+    headers = {
+        'sec-ch-ua-platform': 'Windows',
+        'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
+        'Referer': 'https://www.pinnacle.com/',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'X-API-Key': os.getenv('PINNACLE_API_KEY'),
+        'sec-ch-ua-mobile': '?0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'DNT': '1',
+        'Content-Type': 'application/json'
+    }
+
+    matchups_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/2592/matchups?brandId=0', headers)
+    markets_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/2592/markets/straight', headers)
+
+    if matchups_data and markets_data:
+        result = process_matchups(matchups_data, switch_home_away=True)
+        special_to_parent = process_specials(matchups_data, result)
+        process_markets(markets_data, result, special_to_parent)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_turkish_super.json')
+        return result
+    return {}
+
+
+def pinnacle_j1(save_to_file=False):
+    """
+    Fetches and processes Japanese J1 League data from Pinnacle.
+    """
+    headers = {
+        'sec-ch-ua-platform': 'Windows',
+        'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
+        'Referer': 'https://www.pinnacle.com/',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'X-API-Key': os.getenv('PINNACLE_API_KEY'),
+        'sec-ch-ua-mobile': '?0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'DNT': '1',
+        'Content-Type': 'application/json'
+    }
+
+    matchups_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/2157/matchups?brandId=0', headers)
+    markets_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/2157/markets/straight', headers)
+
+    if matchups_data and markets_data:
+        result = process_matchups(matchups_data, switch_home_away=True)
+        special_to_parent = process_specials(matchups_data, result)
+        process_markets(markets_data, result, special_to_parent)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_j1.json')
+        return result
+    return {}
+
+
+def fanduel_ligue1(save_to_file=False):
+    """
+    Fetches and processes French Ligue 1 data from Fanduel.
+    """
+    url = 'https://sbapi.il.sportsbook.fanduel.com/api/competition-page'
+    api_key = os.getenv('FANDUEL_API_KEY')
+    params = {
+        '_ak': api_key,
+        'eventTypeId': '1',
+        'competitionId': '55'
+    }
+
+    headers = {
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9',
+        'dnt': '1',
+        'origin': 'https://sportsbook.fanduel.com',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    }
+
+    data = get_response(url, headers, params)
+    if data:
+        rows = list(data.get("attachments", {}).get("events", {}).values())
+        result, seen_event_ids = process_fanduel_rows(rows, data)
+        markets = data.get("attachments", {}).get("markets", {})
+        process_fanduel_markets(markets, seen_event_ids, result)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_ligue1.json')
+        return result
+    return {}
+
+
+def pinnacle_ligue1(save_to_file=False):
+    """
+    Fetches and processes French Ligue 1 data from Pinnacle.
+    """
+    headers = {
+        'sec-ch-ua-platform': 'Windows',
+        'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
+        'Referer': 'https://www.pinnacle.com/',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'X-API-Key': os.getenv('PINNACLE_API_KEY'),
+        'sec-ch-ua-mobile': '?0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'DNT': '1',
+        'Content-Type': 'application/json'
+    }
+
+    matchups_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/2036/matchups?brandId=0', headers)
+    markets_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/2036/markets/straight', headers)
+
+    if matchups_data and markets_data:
+        result = process_matchups(matchups_data, switch_home_away=True)
+        special_to_parent = process_specials(matchups_data, result)
+        process_markets(markets_data, result, special_to_parent)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_ligue1.json')
         return result
     return {}
 
@@ -954,7 +1252,7 @@ def print_market_types():
                 f.write(market_type + '\n')
 
 
-# Call all fanduel functions and save results when executed directly
+# Call all functions and save results when executed directly
 if __name__ == "__main__":
     fanduel_nba(save_to_file=True)
     fanduel_nfl(save_to_file=True)
@@ -965,3 +1263,22 @@ if __name__ == "__main__":
     fanduel_epl(save_to_file=True)
     fanduel_shl(save_to_file=True)
     fanduel_nla(save_to_file=True)
+    fanduel_turkish_first(save_to_file=True)
+    fanduel_turkish_super(save_to_file=True)
+    fanduel_j1(save_to_file=True)
+    fanduel_ligue1(save_to_file=True)
+    """
+    pinnacle_nba(save_to_file=True)
+    pinnacle_nfl(save_to_file=True)
+    pinnacle_nhl(save_to_file=True)
+    pinnacle_ncaaf(save_to_file=True)
+    pinnacle_ncaab(save_to_file=True)
+    pinnacle_ucl(save_to_file=True)
+    pinnacle_epl(save_to_file=True)
+    pinnacle_shl(save_to_file=True)
+    pinnacle_nla(save_to_file=True)
+    pinnacle_turkish_first(save_to_file=True)
+    pinnacle_turkish_super(save_to_file=True)
+    pinnacle_j1(save_to_file=True)
+    pinnacle_ligue1(save_to_file=True)
+    """

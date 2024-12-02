@@ -1,1 +1,61 @@
-{}
+{
+    "33794869": {
+        "name": "Memphis @ Tulane",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.464891334",
+                "runners": [
+                    {
+                        "selectionId": 7017916,
+                        "handicap": 55.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -105
+                    },
+                    {
+                        "selectionId": 7017917,
+                        "handicap": 55.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -115
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.464891333",
+                "runners": [
+                    {
+                        "selectionId": 975027,
+                        "handicap": 13.5,
+                        "runnerName": "Memphis",
+                        "winRunnerOdds": -106
+                    },
+                    {
+                        "selectionId": 2137018,
+                        "handicap": -13.5,
+                        "runnerName": "Tulane",
+                        "winRunnerOdds": -114
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.464891332",
+                "runners": [
+                    {
+                        "selectionId": 975027,
+                        "handicap": 0,
+                        "runnerName": "Memphis",
+                        "winRunnerOdds": 390
+                    },
+                    {
+                        "selectionId": 2137018,
+                        "handicap": 0,
+                        "runnerName": "Tulane",
+                        "winRunnerOdds": -530
+                    }
+                ]
+            }
+        ]
+    }
+}
