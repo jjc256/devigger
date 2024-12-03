@@ -3,10 +3,12 @@ from src.scrape import *
 from src.wager import *
 from src.devig import *
 from datetime import datetime
-import webbrowser  # Add this at the top with other imports
+import sys
+import webbrowser
 
 
-BANKROLL = 288
+# Default to 1000 if no argument provided
+BANKROLL = float(sys.argv[1]) if len(sys.argv) > 1 else 1000
 
 
 def game_names_equal(game1, game2):
@@ -36,7 +38,8 @@ def wagers():
         **pinnacle_turkish_first(),
         **pinnacle_turkish_super(),
         **pinnacle_j1(),
-        **pinnacle_ligue1()
+        **pinnacle_ligue1(),
+        **pinnacle_women_friendlies()
     }
     fanduel = {
         **fanduel_nba(),
@@ -51,7 +54,8 @@ def wagers():
         **fanduel_turkish_first(),
         **fanduel_turkish_super(),
         **fanduel_j1(),
-        **fanduel_ligue1()
+        **fanduel_ligue1(),
+        **fanduel_women_friendlies()
     }
 
     common_wagers = []
@@ -361,7 +365,7 @@ def toggle_details(event, wager, ev, risk_percentage, bet_label):
     detailed_text = str(wager)
     if current_text == detailed_text:
         bet_label.config(
-            text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}%")
+            text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}% (${int(2 * risk_percentage / 100 * BANKROLL + 1) / 2}0)")
         current_text
     else:
         bet_label.config(text=detailed_text)
@@ -399,7 +403,7 @@ def reload_data(root, canvas, scrollable_frame, devig_method):
         bet_frame.pack_propagate(False)
 
         bet_label = tk.Label(
-            bet_frame, text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}%",
+            bet_frame, text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}% (${int(2 * risk_percentage / 100 * BANKROLL + 1) / 2}0)",
             wraplength=260, justify="left",
             bg=bet_frame.cget("bg"))  # Match label background to frame
         bet_label.pack(expand=True)

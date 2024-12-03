@@ -1,1 +1,5487 @@
-{}
+{
+    "1601532351": {
+        "name": "San Jose Sharks @ Washington Capitals",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -279
+                    },
+                    {
+                        "designation": "away",
+                        "price": 237
+                    }
+                ],
+                "limit": 2500
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": -149
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": 123
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": 104
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": -126
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -110,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -104,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -852,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 547,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 163,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -199,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.5,
+                        "price": -102
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.5,
+                        "price": -112
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": -165
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": 138
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.0,
+                        "price": -134
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.0,
+                        "price": 113
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "7.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.0,
+                        "price": 163
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.0,
+                        "price": -196
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "7.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.5,
+                        "price": 224
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.5,
+                        "price": -277
+                    }
+                ],
+                "limit": 1875
+            }
+        ]
+    },
+    "1601464041": {
+        "name": "New Jersey Devils @ New York Rangers",
+        "markets": [
+            {
+                "id": 1601582727,
+                "description": "Adam Fox (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -143,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 107,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582778,
+                "description": "Alexis Lafreniere (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 207,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -313,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601579932,
+                "description": "New Jersey Devils To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 1650,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -3100,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582733,
+                "description": "Jesper Bratt (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 206,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -311,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582697,
+                "description": "Artemi Panarin (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 3.5,
+                        "price": 136,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 3.5,
+                        "price": -185,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601598179,
+                "description": "Luke Hughes (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 169,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -241,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582730,
+                "description": "Jesper Bratt (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": -160,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": 119,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582787,
+                "description": "Dawson Mercer (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 409,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -566,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582772,
+                "description": "Kaapo Kakko (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 406,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -876,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582703,
+                "description": "Artemi Panarin (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -112,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -118,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582667,
+                "description": "Mika Zibanejad (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 135,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -185,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582700,
+                "description": "Artemi Panarin (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 150,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -210,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582742,
+                "description": "Nico Hischier (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": -154,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": 114,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582631,
+                "description": "Chris Kreider (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 103,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -139,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582748,
+                "description": "Nico Hischier (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 114,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -152,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582685,
+                "description": "Stefan Noesen (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 136,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -187,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582715,
+                "description": "Timo Meier (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 230,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -361,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582655,
+                "description": "Vincent Trocheck (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 150,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -209,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582694,
+                "description": "Stefan Noesen (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -103,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -128,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582661,
+                "description": "Mika Zibanejad (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 114,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -151,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582796,
+                "description": "Will Cuylle (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -173,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 127,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582760,
+                "description": "Jack Hughes (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 3.5,
+                        "price": -138,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 3.5,
+                        "price": 104,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582802,
+                "description": "Will Cuylle (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 211,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -321,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582805,
+                "description": "Will Cuylle (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 101,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -135,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601597302,
+                "description": "Igor Shesterkin (Saves)(must start)",
+                "prices": [
+                    {
+                        "points": 28.5,
+                        "price": -112,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 28.5,
+                        "price": -119,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601579904,
+                "description": "New Jersey Devils To Score?",
+                "prices": [
+                    {
+                        "price": -3700,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 1850,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601598176,
+                "description": "Luke Hughes (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 210,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -318,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582775,
+                "description": "Alexis Lafreniere (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 135,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -184,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582682,
+                "description": "Dougie Hamilton (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -119,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -111,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582634,
+                "description": "Chris Kreider (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 175,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -250,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582709,
+                "description": "Timo Meier (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 3.5,
+                        "price": 121,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 3.5,
+                        "price": -166,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582649,
+                "description": "Vincent Trocheck (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": -104,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -129,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582781,
+                "description": "Alexis Lafreniere (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 193,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -286,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582784,
+                "description": "Alexis Lafreniere (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -116,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -102,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582736,
+                "description": "Jesper Bratt (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 106,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -141,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582745,
+                "description": "Nico Hischier (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 170,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -243,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582670,
+                "description": "Mika Zibanejad (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -141,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 105,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582652,
+                "description": "Vincent Trocheck (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 217,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -333,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582673,
+                "description": "Dougie Hamilton (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": -163,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": 119,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582691,
+                "description": "Stefan Noesen (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 213,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -326,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601597299,
+                "description": "Jacob Markstrom (Saves)(must start)",
+                "prices": [
+                    {
+                        "points": 26.5,
+                        "price": -110,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 26.5,
+                        "price": -121,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582793,
+                "description": "Dawson Mercer (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 164,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -232,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582757,
+                "description": "Filip Chytil (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 415,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -577,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582763,
+                "description": "Jack Hughes (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 190,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -270,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582688,
+                "description": "Stefan Noesen (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 241,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -387,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582769,
+                "description": "Jack Hughes (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -235,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 167,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601579907,
+                "description": "New Jersey Devils Goals"
+            },
+            {
+                "id": 1601579915,
+                "description": "Exact Total Goals"
+            },
+            {
+                "id": 1601582640,
+                "description": "Chris Kreider (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -116,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -114,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582706,
+                "description": "Artemi Panarin (Points)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": 187,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": -274,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582799,
+                "description": "Will Cuylle (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 273,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -463,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582721,
+                "description": "Adam Fox (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -139,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 104,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601579927,
+                "description": "Winner/Total Goals"
+            },
+            {
+                "id": 1601582724,
+                "description": "Adam Fox (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -112,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -118,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582658,
+                "description": "Vincent Trocheck (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -142,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 106,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582739,
+                "description": "Jesper Bratt (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -197,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 143,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582664,
+                "description": "Mika Zibanejad (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 260,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -429,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582754,
+                "description": "Filip Chytil (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -197,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 144,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582790,
+                "description": "Dawson Mercer (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 299,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -530,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582808,
+                "description": "Luke Hughes (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -135,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 100,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582679,
+                "description": "Dougie Hamilton (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 118,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -159,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601598149,
+                "description": "Reilly Smith (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 253,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -412,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582712,
+                "description": "Timo Meier (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 202,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -303,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582718,
+                "description": "Timo Meier (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -110,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -122,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582751,
+                "description": "Nico Hischier (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -203,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 146,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601579843,
+                "description": "Correct Score"
+            },
+            {
+                "id": 1601582766,
+                "description": "Jack Hughes (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -111,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -120,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582637,
+                "description": "Chris Kreider (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 231,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -364,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601598152,
+                "description": "Reilly Smith (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 154,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -216,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 106
+                    },
+                    {
+                        "designation": "away",
+                        "price": -117
+                    }
+                ],
+                "limit": 10000
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 134
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -160
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 119
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -141
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -241,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 207,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -492,
+                        "handicap": 2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 367,
+                        "handicap": -2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 233,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -289,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 405,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -555,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "6.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.5,
+                        "price": 101
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.5,
+                        "price": -113
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": -164
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": 140
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "6.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.0,
+                        "price": -131
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.0,
+                        "price": 112
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "7.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.0,
+                        "price": 162
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.0,
+                        "price": -191
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "7.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.5,
+                        "price": 220
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.5,
+                        "price": -265
+                    }
+                ],
+                "limit": 7500
+            }
+        ]
+    },
+    "1601532384": {
+        "name": "Vancouver Canucks @ Minnesota Wild",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -145
+                    },
+                    {
+                        "designation": "away",
+                        "price": 128
+                    }
+                ],
+                "limit": 2500
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 137
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -166
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -118
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": -103
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 179,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -211,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -811,
+                        "handicap": 2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 527,
+                        "handicap": -2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -415,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 309,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 318,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -430,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": -107
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": -107
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "4.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 4.5,
+                        "price": -318
+                    },
+                    {
+                        "designation": "under",
+                        "points": 4.5,
+                        "price": 254
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.0,
+                        "price": -211
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.0,
+                        "price": 174
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.0,
+                        "price": 117
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.0,
+                        "price": -139
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.5,
+                        "price": 141
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.5,
+                        "price": -169
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "8.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 8.5,
+                        "price": 520
+                    },
+                    {
+                        "designation": "under",
+                        "points": 8.5,
+                        "price": -734
+                    }
+                ],
+                "limit": 1875
+            }
+        ]
+    },
+    "1601471786": {
+        "name": "Dallas Stars @ Utah Hockey Club",
+        "markets": [
+            {
+                "id": 1601583009,
+                "description": "Nick Schmaltz (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 144,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -201,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601601725,
+                "description": "Logan Stankoven (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 281,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -482,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583096,
+                "description": "Miro Heiskanen (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -112,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -118,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583114,
+                "description": "Thomas Harley (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 139,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -191,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582994,
+                "description": "Nick Bjugstad (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 407,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -880,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601581830,
+                "description": "Utah Hockey Club To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 1900,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -3800,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583144,
+                "description": "Logan Cooley (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -209,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 150,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583012,
+                "description": "Nick Schmaltz (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 294,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -516,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583120,
+                "description": "Dylan Guenther (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 226,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -352,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583042,
+                "description": "Clayton Keller (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 200,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -289,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583027,
+                "description": "Mason Marchment (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 245,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -395,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583129,
+                "description": "Wyatt Johnston (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": -153,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": 113,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583030,
+                "description": "Mason Marchment (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 157,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -219,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583045,
+                "description": "Clayton Keller (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 119,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -160,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583135,
+                "description": "Wyatt Johnston (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 159,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -194,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583018,
+                "description": "Nick Schmaltz (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -125,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -107,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583126,
+                "description": "Dylan Guenther (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -127,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -105,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582970,
+                "description": "Jamie Benn (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -177,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 130,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601581802,
+                "description": "Utah Hockey Club Goals"
+            },
+            {
+                "id": 1601583153,
+                "description": "Logan Cooley (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -105,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -126,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583072,
+                "description": "Roope Hintz (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -136,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 101,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583060,
+                "description": "Evgenii Dadonov (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 341,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -653,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583147,
+                "description": "Logan Cooley (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 280,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -479,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583063,
+                "description": "Roope Hintz (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 122,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -167,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601581749,
+                "description": "Correct Score"
+            },
+            {
+                "id": 1601581810,
+                "description": "Utah Hockey Club To Score?",
+                "prices": [
+                    {
+                        "price": -2600,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 1400,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583066,
+                "description": "Roope Hintz (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 202,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -303,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582991,
+                "description": "Matt Duchene (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -164,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 122,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583039,
+                "description": "Clayton Keller (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": -110,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -122,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601601571,
+                "description": "Casey DeSmith (Saves)(must start)",
+                "prices": [
+                    {
+                        "points": 25.5,
+                        "price": -102,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 25.5,
+                        "price": -130,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601581841,
+                "description": "Dallas Stars To Score?",
+                "prices": [
+                    {
+                        "price": -3800,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 1900,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583081,
+                "description": "Jason Robertson (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 125,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -172,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582979,
+                "description": "Jamie Benn (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -107,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -124,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583057,
+                "description": "Mikhail Sergachev (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -110,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -121,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583078,
+                "description": "Jason Robertson (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 228,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -357,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583132,
+                "description": "Wyatt Johnston (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 207,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -265,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583123,
+                "description": "Dylan Guenther (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 172,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -247,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583150,
+                "description": "Logan Cooley (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 189,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -277,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583087,
+                "description": "Miro Heiskanen (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 102,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -137,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583075,
+                "description": "Jason Robertson (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": -127,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -105,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583111,
+                "description": "Thomas Harley (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 189,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -278,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601581799,
+                "description": "Dallas Stars To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 1400,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -2600,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582973,
+                "description": "Jamie Benn (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 325,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -604,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601581813,
+                "description": "Winner/Total Goals"
+            },
+            {
+                "id": 1601583048,
+                "description": "Clayton Keller (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -174,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 129,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583093,
+                "description": "Miro Heiskanen (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 129,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -179,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583117,
+                "description": "Dylan Guenther (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": -102,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -130,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583108,
+                "description": "Thomas Harley (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -143,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 107,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583033,
+                "description": "Mason Marchment (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -131,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -102,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583024,
+                "description": "Mason Marchment (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -199,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 145,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601603019,
+                "description": "Logan Stankoven (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 108,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -145,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582982,
+                "description": "Matt Duchene (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -181,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 132,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601601728,
+                "description": "Logan Stankoven (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 213,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -324,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583051,
+                "description": "Mikhail Sergachev (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -170,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 124,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601581818,
+                "description": "Exact Total Goals"
+            },
+            {
+                "id": 1601599232,
+                "description": "Karel Vejmelka (Saves)(must start)",
+                "prices": [
+                    {
+                        "points": 26.5,
+                        "price": -114,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 26.5,
+                        "price": -116,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582985,
+                "description": "Matt Duchene (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 195,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -290,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582988,
+                "description": "Matt Duchene (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 129,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -176,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582976,
+                "description": "Jamie Benn (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 163,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -230,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583054,
+                "description": "Mikhail Sergachev (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 125,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -169,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601581833,
+                "description": "Dallas Stars Goals"
+            },
+            {
+                "id": 1601601731,
+                "description": "Logan Stankoven (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 107,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -142,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583069,
+                "description": "Roope Hintz (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 173,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -249,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583138,
+                "description": "Wyatt Johnston (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -144,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 107,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583015,
+                "description": "Nick Schmaltz (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 144,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -198,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601583084,
+                "description": "Jason Robertson (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -140,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 105,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 111
+                    },
+                    {
+                        "designation": "away",
+                        "price": -122
+                    }
+                ],
+                "limit": 10000
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -162
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": 136
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 118
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -141
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -225,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 195,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -443,
+                        "handicap": 2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 336,
+                        "handicap": -2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 259,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -326,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 458,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -647,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "6.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.5,
+                        "price": 104
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.5,
+                        "price": -117
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": -155
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": 132
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "6.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.0,
+                        "price": -125
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.0,
+                        "price": 107
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "7.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.0,
+                        "price": 172
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.0,
+                        "price": -204
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "7.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.5,
+                        "price": 234
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.5,
+                        "price": -284
+                    }
+                ],
+                "limit": 7500
+            }
+        ]
+    },
+    "1601520802": {
+        "name": "Colorado Avalanche @ Buffalo Sabres",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 124
+                    },
+                    {
+                        "designation": "away",
+                        "price": -139
+                    }
+                ],
+                "limit": 2500
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -158
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": 130
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 105
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -127
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -206,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 175,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -415,
+                        "handicap": 2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 309,
+                        "handicap": -2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 281,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -370,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 483,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -724,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.5,
+                        "price": -104
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.5,
+                        "price": -110
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": -170
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": 142
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.0,
+                        "price": -137
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.0,
+                        "price": 115
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "7.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.0,
+                        "price": 157
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.0,
+                        "price": -189
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "7.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.5,
+                        "price": 216
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.5,
+                        "price": -265
+                    }
+                ],
+                "limit": 1875
+            }
+        ]
+    },
+    "1601520801": {
+        "name": "Seattle Kraken @ Carolina Hurricanes",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -268
+                    },
+                    {
+                        "designation": "away",
+                        "price": 228
+                    }
+                ],
+                "limit": 2500
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": -128
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": 106
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": 113
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": -137
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -101,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -114,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -828,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 535,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 179,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -220,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.0,
+                        "price": -109
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.0,
+                        "price": -105
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.0,
+                        "price": -283
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.0,
+                        "price": 228
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": -141
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": 118
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.5,
+                        "price": 114
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.5,
+                        "price": -136
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "7.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.0,
+                        "price": 199
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.0,
+                        "price": -244
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "8.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 8.5,
+                        "price": 416
+                    },
+                    {
+                        "designation": "under",
+                        "points": 8.5,
+                        "price": -561
+                    }
+                ],
+                "limit": 1875
+            }
+        ]
+    },
+    "1601538187": {
+        "name": "Edmonton Oilers @ Vegas Golden Knights",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 114
+                    },
+                    {
+                        "designation": "away",
+                        "price": -128
+                    }
+                ],
+                "limit": 2500
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 136
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -165
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 104
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -126
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -220,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 186,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -441,
+                        "handicap": 2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 325,
+                        "handicap": -2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 260,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -338,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 460,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -680,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.5,
+                        "price": -112
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.5,
+                        "price": -102
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": -184
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": 153
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.0,
+                        "price": -150
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.0,
+                        "price": 126
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "7.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.0,
+                        "price": 142
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.0,
+                        "price": -171
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "7.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.5,
+                        "price": 199
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.5,
+                        "price": -243
+                    }
+                ],
+                "limit": 1875
+            }
+        ]
+    },
+    "1601531605": {
+        "name": "St. Louis Blues @ Winnipeg Jets",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -199
+                    },
+                    {
+                        "designation": "away",
+                        "price": 174
+                    }
+                ],
+                "limit": 2500
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 102
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -124
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": 102
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": -123
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 131,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -151,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -610,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 423,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 229,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -292,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": -118
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": 103
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "4.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 4.5,
+                        "price": -348
+                    },
+                    {
+                        "designation": "under",
+                        "points": 4.5,
+                        "price": 275
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.0,
+                        "price": -237
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.0,
+                        "price": 194
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.0,
+                        "price": 105
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.0,
+                        "price": -125
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.5,
+                        "price": 130
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.5,
+                        "price": -155
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "8.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 8.5,
+                        "price": 478
+                    },
+                    {
+                        "designation": "under",
+                        "points": 8.5,
+                        "price": -662
+                    }
+                ],
+                "limit": 1875
+            }
+        ]
+    },
+    "1601467611": {
+        "name": "Chicago Blackhawks @ Toronto Maple Leafs",
+        "markets": [
+            {
+                "id": 1601582835,
+                "description": "Taylor Hall (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -180,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 132,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601580182,
+                "description": "Chicago Blackhawks To Score?",
+                "prices": [
+                    {
+                        "price": -925,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": 625,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582958,
+                "description": "Connor Bedard (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": -123,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -109,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582814,
+                "description": "John Tavares (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 3.5,
+                        "price": 119,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 3.5,
+                        "price": -160,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582817,
+                "description": "John Tavares (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 175,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -250,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582895,
+                "description": "Tyler Bertuzzi (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 299,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -529,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582874,
+                "description": "William Nylander (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -123,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -108,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582916,
+                "description": "Ryan Donato (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 328,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -544,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582919,
+                "description": "Ryan Donato (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 321,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -418,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582913,
+                "description": "Ryan Donato (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 139,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -190,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582889,
+                "description": "Auston Matthews (Points)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": 139,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": -190,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582910,
+                "description": "Mitch Marner (Points)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": 133,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": -180,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582865,
+                "description": "Teuvo Teravainen (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 140,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -190,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582967,
+                "description": "Connor Bedard (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -127,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -105,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582823,
+                "description": "John Tavares (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -199,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 146,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582850,
+                "description": "Morgan Rielly (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -115,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -115,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582847,
+                "description": "Morgan Rielly (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 125,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -171,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582943,
+                "description": "Matthew Knies (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -173,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 125,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582838,
+                "description": "Taylor Hall (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 354,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -693,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582946,
+                "description": "Alex Vlasic (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 226,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -353,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582820,
+                "description": "John Tavares (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 116,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -156,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601580174,
+                "description": "Chicago Blackhawks Goals"
+            },
+            {
+                "id": 1601582937,
+                "description": "Matthew Knies (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 195,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -280,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601580154,
+                "description": "Winner/Total Goals"
+            },
+            {
+                "id": 1601582922,
+                "description": "Ryan Donato (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 146,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -200,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582844,
+                "description": "Taylor Hall (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 155,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -220,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582904,
+                "description": "Mitch Marner (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 184,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -260,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582841,
+                "description": "Taylor Hall (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 343,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -438,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582940,
+                "description": "Matthew Knies (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 145,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -202,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601580143,
+                "description": "Toronto Maple Leafs Goals"
+            },
+            {
+                "id": 1601582886,
+                "description": "Auston Matthews (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -103,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -114,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582877,
+                "description": "William Nylander (Points)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": 155,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": -220,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582892,
+                "description": "Tyler Bertuzzi (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 361,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -717,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582907,
+                "description": "Mitch Marner (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -197,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 143,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582961,
+                "description": "Connor Bedard (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 238,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -380,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582826,
+                "description": "Oliver Ekman-Larsson (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -155,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 115,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582868,
+                "description": "William Nylander (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 3.5,
+                        "price": -143,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 3.5,
+                        "price": 108,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582928,
+                "description": "Nicholas Robertson (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -154,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 115,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582949,
+                "description": "Alex Vlasic (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 174,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -251,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582898,
+                "description": "Tyler Bertuzzi (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 159,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -223,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582853,
+                "description": "Morgan Rielly (Points)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -127,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -105,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601598173,
+                "description": "Anthony Stolarz (Saves)(must start)",
+                "prices": [
+                    {
+                        "points": 23.5,
+                        "price": -120,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 23.5,
+                        "price": -110,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582934,
+                "description": "Matthew Knies (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -206,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 148,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601580090,
+                "description": "Correct Score"
+            },
+            {
+                "id": 1601582859,
+                "description": "Teuvo Teravainen (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 362,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -719,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582964,
+                "description": "Connor Bedard (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 160,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -225,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582862,
+                "description": "Teuvo Teravainen (Assists)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 253,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -413,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582856,
+                "description": "Teuvo Teravainen (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -142,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 106,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582901,
+                "description": "Mitch Marner (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": -118,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -112,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582880,
+                "description": "Auston Matthews (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 4.5,
+                        "price": 109,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 4.5,
+                        "price": -146,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582883,
+                "description": "Auston Matthews (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -102,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -131,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601580159,
+                "description": "Exact Total Goals"
+            },
+            {
+                "id": 1601580171,
+                "description": "Toronto Maple Leafs To Win to Nil?",
+                "prices": [
+                    {
+                        "price": 625,
+                        "designation": "yes"
+                    },
+                    {
+                        "price": -900,
+                        "designation": "no"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582871,
+                "description": "William Nylander (Goals)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 132,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -180,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "id": 1601582829,
+                "description": "Craig Smith (Shots On Goal)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -128,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": -103,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -408
+                    },
+                    {
+                        "designation": "away",
+                        "price": 343
+                    }
+                ],
+                "limit": 10000
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": -161
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": 135
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": 154
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": -186
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 129,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -145,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -160,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 136,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "6.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.0,
+                        "price": 100
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.0,
+                        "price": -113
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "5.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.0,
+                        "price": -270
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.0,
+                        "price": 224
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": -131
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": 113
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "6.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.5,
+                        "price": 126
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.5,
+                        "price": -147
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "7.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.0,
+                        "price": 209
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.0,
+                        "price": -251
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "8.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 8.5,
+                        "price": 420
+                    },
+                    {
+                        "designation": "under",
+                        "points": 8.5,
+                        "price": -548
+                    }
+                ],
+                "limit": 7500
+            }
+        ]
+    },
+    "1601538148": {
+        "name": "Columbus Blue Jackets @ Calgary Flames",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -132
+                    },
+                    {
+                        "designation": "away",
+                        "price": 117
+                    }
+                ],
+                "limit": 2500
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 111
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -134
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -162
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": 133
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 183,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -216,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -693,
+                        "handicap": 2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 467,
+                        "handicap": -2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -360,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 275,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 325,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -441,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.5,
+                        "price": -103
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.5,
+                        "price": -111
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": -162
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": 136
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.0,
+                        "price": -133
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.0,
+                        "price": 112
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "7.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.0,
+                        "price": 163
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.0,
+                        "price": -197
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "7.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.5,
+                        "price": 227
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.5,
+                        "price": -282
+                    }
+                ],
+                "limit": 1875
+            }
+        ]
+    },
+    "1601531555": {
+        "name": "Florida Panthers @ Pittsburgh Penguins",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 150
+                    },
+                    {
+                        "designation": "away",
+                        "price": -170
+                    }
+                ],
+                "limit": 2500
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -131
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": 108
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": -105
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -115
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -169,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 146,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -331,
+                        "handicap": 2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 256,
+                        "handicap": -2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 347,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -477,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 604,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -972,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.5,
+                        "price": 102
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.5,
+                        "price": -117
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": -158
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": 132
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.0,
+                        "price": -128
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.0,
+                        "price": 107
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "7.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.0,
+                        "price": 170
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.0,
+                        "price": -206
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "7.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.5,
+                        "price": 232
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.5,
+                        "price": -288
+                    }
+                ],
+                "limit": 1875
+            }
+        ]
+    },
+    "1601531554": {
+        "name": "New York Islanders @ Montreal Canadiens",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 125
+                    },
+                    {
+                        "designation": "away",
+                        "price": -141
+                    }
+                ],
+                "limit": 2500
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "2.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 2.5,
+                        "price": -129
+                    },
+                    {
+                        "designation": "under",
+                        "points": 2.5,
+                        "price": 107
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "3.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 3.5,
+                        "price": 127
+                    },
+                    {
+                        "designation": "under",
+                        "points": 3.5,
+                        "price": -154
+                    }
+                ],
+                "limit": 250
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -211,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 179,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -427,
+                        "handicap": 2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 317,
+                        "handicap": -2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 302,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -403,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 535,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -829,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.0,
+                        "price": 103
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.0,
+                        "price": -118
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.0,
+                        "price": -249
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.0,
+                        "price": 203
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "5.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 5.5,
+                        "price": -125
+                    },
+                    {
+                        "designation": "under",
+                        "points": 5.5,
+                        "price": 105
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "6.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 6.5,
+                        "price": 125
+                    },
+                    {
+                        "designation": "under",
+                        "points": 6.5,
+                        "price": -149
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "7.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 7.0,
+                        "price": 224
+                    },
+                    {
+                        "designation": "under",
+                        "points": 7.0,
+                        "price": -277
+                    }
+                ],
+                "limit": 1875
+            },
+            {
+                "description": "total points",
+                "threshold": "8.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 8.5,
+                        "price": 450
+                    },
+                    {
+                        "designation": "under",
+                        "points": 8.5,
+                        "price": -616
+                    }
+                ],
+                "limit": 1875
+            }
+        ]
+    }
+}

@@ -32,5 +32,5 @@ A Python application that analyzes betting odds from FanDuel and Pinnacle to fin
   - Detailed bet information
   - Copy to clipboard functionality (formats data for spreadsheet with columns: date, bet info, odds, amount)
     - Rounds bet amounts up to nearest $0.50 to appear more natural
-    - Uses default $2,500 bankroll (configurable in main.py)
+    - Bankroll is configurable in main.py
   - Refresh capabilities

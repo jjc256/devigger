@@ -1,1 +1,3563 @@
-{}
+{
+    "33833750": {
+        "name": "New Jersey Devils @ New York Rangers",
+        "markets": [
+            {
+                "marketType": "ANY_TIME_GOAL_SCORER",
+                "externalMarketId": "42.467433461",
+                "runners": [
+                    {
+                        "selectionId": 12502556,
+                        "handicap": 0,
+                        "runnerName": "Artemi Panarin",
+                        "winRunnerOdds": 170
+                    },
+                    {
+                        "selectionId": 24660528,
+                        "handicap": 0,
+                        "runnerName": "Jack Hughes",
+                        "winRunnerOdds": 195
+                    },
+                    {
+                        "selectionId": 12496363,
+                        "handicap": 0,
+                        "runnerName": "Chris Kreider",
+                        "winRunnerOdds": 195
+                    },
+                    {
+                        "selectionId": 15819680,
+                        "handicap": 0,
+                        "runnerName": "Jesper Bratt",
+                        "winRunnerOdds": 210
+                    },
+                    {
+                        "selectionId": 12858510,
+                        "handicap": 0,
+                        "runnerName": "Timo Meier",
+                        "winRunnerOdds": 210
+                    },
+                    {
+                        "selectionId": 15819676,
+                        "handicap": 0,
+                        "runnerName": "Nico Hischier",
+                        "winRunnerOdds": 210
+                    },
+                    {
+                        "selectionId": 36305275,
+                        "handicap": 0,
+                        "runnerName": "Alexis Lafreniere",
+                        "winRunnerOdds": 240
+                    },
+                    {
+                        "selectionId": 12449414,
+                        "handicap": 0,
+                        "runnerName": "Vincent Trocheck",
+                        "winRunnerOdds": 250
+                    },
+                    {
+                        "selectionId": 12496368,
+                        "handicap": 0,
+                        "runnerName": "Mika Zibanejad",
+                        "winRunnerOdds": 260
+                    },
+                    {
+                        "selectionId": 15819678,
+                        "handicap": 0,
+                        "runnerName": "Stefan Noesen",
+                        "winRunnerOdds": 310
+                    },
+                    {
+                        "selectionId": 49283576,
+                        "handicap": 0,
+                        "runnerName": "Paul Cotter",
+                        "winRunnerOdds": 320
+                    },
+                    {
+                        "selectionId": 20852688,
+                        "handicap": 0,
+                        "runnerName": "Filip Chytil",
+                        "winRunnerOdds": 330
+                    },
+                    {
+                        "selectionId": 51970211,
+                        "handicap": 0,
+                        "runnerName": "Will Cuylle",
+                        "winRunnerOdds": 340
+                    },
+                    {
+                        "selectionId": 41341496,
+                        "handicap": 0,
+                        "runnerName": "Dawson Mercer",
+                        "winRunnerOdds": 340
+                    },
+                    {
+                        "selectionId": 12452423,
+                        "handicap": 0,
+                        "runnerName": "Erik Haula",
+                        "winRunnerOdds": 390
+                    },
+                    {
+                        "selectionId": 12449404,
+                        "handicap": 0,
+                        "runnerName": "Reilly Smith",
+                        "winRunnerOdds": 420
+                    },
+                    {
+                        "selectionId": 9552855,
+                        "handicap": 0,
+                        "runnerName": "Ondrej Palat",
+                        "winRunnerOdds": 460
+                    },
+                    {
+                        "selectionId": 24660521,
+                        "handicap": 0,
+                        "runnerName": "Kaapo Kakko",
+                        "winRunnerOdds": 470
+                    },
+                    {
+                        "selectionId": 12452413,
+                        "handicap": 0,
+                        "runnerName": "Dougie Hamilton",
+                        "winRunnerOdds": 500
+                    },
+                    {
+                        "selectionId": 39094848,
+                        "handicap": 0,
+                        "runnerName": "Justin Dowling",
+                        "winRunnerOdds": 700
+                    },
+                    {
+                        "selectionId": 77323498,
+                        "handicap": 0,
+                        "runnerName": "Nathan Legare",
+                        "winRunnerOdds": 700
+                    },
+                    {
+                        "selectionId": 41759616,
+                        "handicap": 0,
+                        "runnerName": "Mike Hardman",
+                        "winRunnerOdds": 750
+                    },
+                    {
+                        "selectionId": 38634864,
+                        "handicap": 0,
+                        "runnerName": "Jonny Brodzinski",
+                        "winRunnerOdds": 750
+                    },
+                    {
+                        "selectionId": 27847947,
+                        "handicap": 0,
+                        "runnerName": "Adam Fox",
+                        "winRunnerOdds": 800
+                    },
+                    {
+                        "selectionId": 66280709,
+                        "handicap": 0,
+                        "runnerName": "Adam Edstrom",
+                        "winRunnerOdds": 800
+                    },
+                    {
+                        "selectionId": 41744580,
+                        "handicap": 0,
+                        "runnerName": "Sam Carrick",
+                        "winRunnerOdds": 900
+                    },
+                    {
+                        "selectionId": 40258484,
+                        "handicap": 0,
+                        "runnerName": "Luke Hughes",
+                        "winRunnerOdds": 950
+                    },
+                    {
+                        "selectionId": 38539007,
+                        "handicap": 0,
+                        "runnerName": "Brett Pesce",
+                        "winRunnerOdds": 1100
+                    },
+                    {
+                        "selectionId": 15300180,
+                        "handicap": 0,
+                        "runnerName": "Jacob Trouba",
+                        "winRunnerOdds": 1200
+                    },
+                    {
+                        "selectionId": 28066120,
+                        "handicap": 0,
+                        "runnerName": "Brenden Dillon",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "selectionId": 42254313,
+                        "handicap": 0,
+                        "runnerName": "Zac Jones",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "selectionId": 38414122,
+                        "handicap": 0,
+                        "runnerName": "K'Andre Miller",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "selectionId": 41341497,
+                        "handicap": 0,
+                        "runnerName": "Jonas Siegenthaler",
+                        "winRunnerOdds": 1600
+                    },
+                    {
+                        "selectionId": 53570241,
+                        "handicap": 0,
+                        "runnerName": "Johnathan Kovacevic",
+                        "winRunnerOdds": 1600
+                    },
+                    {
+                        "selectionId": 42906542,
+                        "handicap": 0,
+                        "runnerName": "Braden Schneider",
+                        "winRunnerOdds": 1800
+                    }
+                ]
+            },
+            {
+                "marketType": "FIRST_GOAL_SCORER",
+                "externalMarketId": "42.467433472",
+                "runners": [
+                    {
+                        "selectionId": 12502556,
+                        "handicap": 0,
+                        "runnerName": "Artemi Panarin",
+                        "winRunnerOdds": 1200
+                    },
+                    {
+                        "selectionId": 12496363,
+                        "handicap": 0,
+                        "runnerName": "Chris Kreider",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "selectionId": 15819676,
+                        "handicap": 0,
+                        "runnerName": "Nico Hischier",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "selectionId": 12858510,
+                        "handicap": 0,
+                        "runnerName": "Timo Meier",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "selectionId": 24660528,
+                        "handicap": 0,
+                        "runnerName": "Jack Hughes",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "selectionId": 12496368,
+                        "handicap": 0,
+                        "runnerName": "Mika Zibanejad",
+                        "winRunnerOdds": 1600
+                    },
+                    {
+                        "selectionId": 15819680,
+                        "handicap": 0,
+                        "runnerName": "Jesper Bratt",
+                        "winRunnerOdds": 1600
+                    },
+                    {
+                        "selectionId": 36305275,
+                        "handicap": 0,
+                        "runnerName": "Alexis Lafreniere",
+                        "winRunnerOdds": 1700
+                    },
+                    {
+                        "selectionId": 12449414,
+                        "handicap": 0,
+                        "runnerName": "Vincent Trocheck",
+                        "winRunnerOdds": 1700
+                    },
+                    {
+                        "selectionId": 15819678,
+                        "handicap": 0,
+                        "runnerName": "Stefan Noesen",
+                        "winRunnerOdds": 2000
+                    },
+                    {
+                        "selectionId": 20852688,
+                        "handicap": 0,
+                        "runnerName": "Filip Chytil",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "selectionId": 41341496,
+                        "handicap": 0,
+                        "runnerName": "Dawson Mercer",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "selectionId": 49283576,
+                        "handicap": 0,
+                        "runnerName": "Paul Cotter",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "selectionId": 51970211,
+                        "handicap": 0,
+                        "runnerName": "Will Cuylle",
+                        "winRunnerOdds": 2300
+                    },
+                    {
+                        "selectionId": 12452423,
+                        "handicap": 0,
+                        "runnerName": "Erik Haula",
+                        "winRunnerOdds": 2500
+                    },
+                    {
+                        "selectionId": 12449404,
+                        "handicap": 0,
+                        "runnerName": "Reilly Smith",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "selectionId": 24660521,
+                        "handicap": 0,
+                        "runnerName": "Kaapo Kakko",
+                        "winRunnerOdds": 2800
+                    },
+                    {
+                        "selectionId": 9552855,
+                        "handicap": 0,
+                        "runnerName": "Ondrej Palat",
+                        "winRunnerOdds": 2800
+                    },
+                    {
+                        "selectionId": 12452413,
+                        "handicap": 0,
+                        "runnerName": "Dougie Hamilton",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "selectionId": 77323498,
+                        "handicap": 0,
+                        "runnerName": "Nathan Legare",
+                        "winRunnerOdds": 3800
+                    },
+                    {
+                        "selectionId": 39094848,
+                        "handicap": 0,
+                        "runnerName": "Justin Dowling",
+                        "winRunnerOdds": 3900
+                    },
+                    {
+                        "selectionId": 40258484,
+                        "handicap": 0,
+                        "runnerName": "Luke Hughes",
+                        "winRunnerOdds": 4100
+                    },
+                    {
+                        "selectionId": 66280709,
+                        "handicap": 0,
+                        "runnerName": "Adam Edstrom",
+                        "winRunnerOdds": 4400
+                    },
+                    {
+                        "selectionId": 41759616,
+                        "handicap": 0,
+                        "runnerName": "Mike Hardman",
+                        "winRunnerOdds": 4400
+                    },
+                    {
+                        "selectionId": 27847947,
+                        "handicap": 0,
+                        "runnerName": "Adam Fox",
+                        "winRunnerOdds": 4700
+                    },
+                    {
+                        "selectionId": 41744580,
+                        "handicap": 0,
+                        "runnerName": "Sam Carrick",
+                        "winRunnerOdds": 4900
+                    },
+                    {
+                        "selectionId": 38634864,
+                        "handicap": 0,
+                        "runnerName": "Jonny Brodzinski",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "selectionId": 15300180,
+                        "handicap": 0,
+                        "runnerName": "Jacob Trouba",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "selectionId": 38539007,
+                        "handicap": 0,
+                        "runnerName": "Brett Pesce",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "selectionId": 38414122,
+                        "handicap": 0,
+                        "runnerName": "K'Andre Miller",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "selectionId": 42254313,
+                        "handicap": 0,
+                        "runnerName": "Zac Jones",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "selectionId": 41341497,
+                        "handicap": 0,
+                        "runnerName": "Jonas Siegenthaler",
+                        "winRunnerOdds": 7500
+                    },
+                    {
+                        "selectionId": 28066120,
+                        "handicap": 0,
+                        "runnerName": "Brenden Dillon",
+                        "winRunnerOdds": 7500
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_1+_POINTS",
+                "externalMarketId": "42.467511519",
+                "runners": [
+                    {
+                        "selectionId": 12502556,
+                        "handicap": 0,
+                        "runnerName": "Artemi Panarin",
+                        "winRunnerOdds": -240
+                    },
+                    {
+                        "selectionId": 24660528,
+                        "handicap": 0,
+                        "runnerName": "Jack Hughes",
+                        "winRunnerOdds": -215
+                    },
+                    {
+                        "selectionId": 15819680,
+                        "handicap": 0,
+                        "runnerName": "Jesper Bratt",
+                        "winRunnerOdds": -188
+                    },
+                    {
+                        "selectionId": 15819676,
+                        "handicap": 0,
+                        "runnerName": "Nico Hischier",
+                        "winRunnerOdds": -170
+                    },
+                    {
+                        "selectionId": 12496368,
+                        "handicap": 0,
+                        "runnerName": "Mika Zibanejad",
+                        "winRunnerOdds": -138
+                    },
+                    {
+                        "selectionId": 27847947,
+                        "handicap": 0,
+                        "runnerName": "Adam Fox",
+                        "winRunnerOdds": -136
+                    },
+                    {
+                        "selectionId": 12449414,
+                        "handicap": 0,
+                        "runnerName": "Vincent Trocheck",
+                        "winRunnerOdds": -132
+                    },
+                    {
+                        "selectionId": 12496363,
+                        "handicap": 0,
+                        "runnerName": "Chris Kreider",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "selectionId": 12452413,
+                        "handicap": 0,
+                        "runnerName": "Dougie Hamilton",
+                        "winRunnerOdds": -113
+                    },
+                    {
+                        "selectionId": 36305275,
+                        "handicap": 0,
+                        "runnerName": "Alexis Lafreniere",
+                        "winRunnerOdds": -111
+                    },
+                    {
+                        "selectionId": 12858510,
+                        "handicap": 0,
+                        "runnerName": "Timo Meier",
+                        "winRunnerOdds": -106
+                    },
+                    {
+                        "selectionId": 51970211,
+                        "handicap": 0,
+                        "runnerName": "Will Cuylle",
+                        "winRunnerOdds": 112
+                    },
+                    {
+                        "selectionId": 15819678,
+                        "handicap": 0,
+                        "runnerName": "Stefan Noesen",
+                        "winRunnerOdds": 112
+                    },
+                    {
+                        "selectionId": 41341496,
+                        "handicap": 0,
+                        "runnerName": "Dawson Mercer",
+                        "winRunnerOdds": 146
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_2+_SHOTS_ON_GOAL",
+                "externalMarketId": "42.467499414",
+                "runners": [
+                    {
+                        "selectionId": 24660528,
+                        "handicap": 0,
+                        "runnerName": "Jack Hughes",
+                        "winRunnerOdds": -1300
+                    },
+                    {
+                        "selectionId": 12858510,
+                        "handicap": 0,
+                        "runnerName": "Timo Meier",
+                        "winRunnerOdds": -670
+                    },
+                    {
+                        "selectionId": 12502556,
+                        "handicap": 0,
+                        "runnerName": "Artemi Panarin",
+                        "winRunnerOdds": -660
+                    },
+                    {
+                        "selectionId": 15819680,
+                        "handicap": 0,
+                        "runnerName": "Jesper Bratt",
+                        "winRunnerOdds": -520
+                    },
+                    {
+                        "selectionId": 12452413,
+                        "handicap": 0,
+                        "runnerName": "Dougie Hamilton",
+                        "winRunnerOdds": -500
+                    },
+                    {
+                        "selectionId": 15819676,
+                        "handicap": 0,
+                        "runnerName": "Nico Hischier",
+                        "winRunnerOdds": -460
+                    },
+                    {
+                        "selectionId": 12449414,
+                        "handicap": 0,
+                        "runnerName": "Vincent Trocheck",
+                        "winRunnerOdds": -330
+                    },
+                    {
+                        "selectionId": 12496363,
+                        "handicap": 0,
+                        "runnerName": "Chris Kreider",
+                        "winRunnerOdds": -290
+                    },
+                    {
+                        "selectionId": 12496368,
+                        "handicap": 0,
+                        "runnerName": "Mika Zibanejad",
+                        "winRunnerOdds": -255
+                    },
+                    {
+                        "selectionId": 36305275,
+                        "handicap": 0,
+                        "runnerName": "Alexis Lafreniere",
+                        "winRunnerOdds": -235
+                    },
+                    {
+                        "selectionId": 15819678,
+                        "handicap": 0,
+                        "runnerName": "Stefan Noesen",
+                        "winRunnerOdds": -230
+                    },
+                    {
+                        "selectionId": 20852688,
+                        "handicap": 0,
+                        "runnerName": "Filip Chytil",
+                        "winRunnerOdds": -188
+                    },
+                    {
+                        "selectionId": 51970211,
+                        "handicap": 0,
+                        "runnerName": "Will Cuylle",
+                        "winRunnerOdds": -170
+                    },
+                    {
+                        "selectionId": 27847947,
+                        "handicap": 0,
+                        "runnerName": "Adam Fox",
+                        "winRunnerOdds": -140
+                    },
+                    {
+                        "selectionId": 40258484,
+                        "handicap": 0,
+                        "runnerName": "Luke Hughes",
+                        "winRunnerOdds": -130
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_3+_SHOTS_ON_GOAL",
+                "externalMarketId": "42.467499405",
+                "runners": [
+                    {
+                        "selectionId": 24660528,
+                        "handicap": 0,
+                        "runnerName": "Jack Hughes",
+                        "winRunnerOdds": -345
+                    },
+                    {
+                        "selectionId": 12858510,
+                        "handicap": 0,
+                        "runnerName": "Timo Meier",
+                        "winRunnerOdds": -210
+                    },
+                    {
+                        "selectionId": 12502556,
+                        "handicap": 0,
+                        "runnerName": "Artemi Panarin",
+                        "winRunnerOdds": -198
+                    },
+                    {
+                        "selectionId": 12452413,
+                        "handicap": 0,
+                        "runnerName": "Dougie Hamilton",
+                        "winRunnerOdds": -164
+                    },
+                    {
+                        "selectionId": 15819680,
+                        "handicap": 0,
+                        "runnerName": "Jesper Bratt",
+                        "winRunnerOdds": -160
+                    },
+                    {
+                        "selectionId": 15819676,
+                        "handicap": 0,
+                        "runnerName": "Nico Hischier",
+                        "winRunnerOdds": -148
+                    },
+                    {
+                        "selectionId": 12449414,
+                        "handicap": 0,
+                        "runnerName": "Vincent Trocheck",
+                        "winRunnerOdds": -108
+                    },
+                    {
+                        "selectionId": 12496363,
+                        "handicap": 0,
+                        "runnerName": "Chris Kreider",
+                        "winRunnerOdds": 104
+                    },
+                    {
+                        "selectionId": 12496368,
+                        "handicap": 0,
+                        "runnerName": "Mika Zibanejad",
+                        "winRunnerOdds": 128
+                    },
+                    {
+                        "selectionId": 36305275,
+                        "handicap": 0,
+                        "runnerName": "Alexis Lafreniere",
+                        "winRunnerOdds": 134
+                    },
+                    {
+                        "selectionId": 15819678,
+                        "handicap": 0,
+                        "runnerName": "Stefan Noesen",
+                        "winRunnerOdds": 138
+                    },
+                    {
+                        "selectionId": 20852688,
+                        "handicap": 0,
+                        "runnerName": "Filip Chytil",
+                        "winRunnerOdds": 165
+                    },
+                    {
+                        "selectionId": 51970211,
+                        "handicap": 0,
+                        "runnerName": "Will Cuylle",
+                        "winRunnerOdds": 182
+                    },
+                    {
+                        "selectionId": 27847947,
+                        "handicap": 0,
+                        "runnerName": "Adam Fox",
+                        "winRunnerOdds": 220
+                    },
+                    {
+                        "selectionId": 40258484,
+                        "handicap": 0,
+                        "runnerName": "Luke Hughes",
+                        "winRunnerOdds": 245
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_4+_SHOTS_ON_GOAL",
+                "externalMarketId": "42.467499406",
+                "runners": [
+                    {
+                        "selectionId": 24660528,
+                        "handicap": 0,
+                        "runnerName": "Jack Hughes",
+                        "winRunnerOdds": -135
+                    },
+                    {
+                        "selectionId": 12858510,
+                        "handicap": 0,
+                        "runnerName": "Timo Meier",
+                        "winRunnerOdds": 122
+                    },
+                    {
+                        "selectionId": 12502556,
+                        "handicap": 0,
+                        "runnerName": "Artemi Panarin",
+                        "winRunnerOdds": 122
+                    },
+                    {
+                        "selectionId": 12452413,
+                        "handicap": 0,
+                        "runnerName": "Dougie Hamilton",
+                        "winRunnerOdds": 158
+                    },
+                    {
+                        "selectionId": 15819680,
+                        "handicap": 0,
+                        "runnerName": "Jesper Bratt",
+                        "winRunnerOdds": 162
+                    },
+                    {
+                        "selectionId": 15819676,
+                        "handicap": 0,
+                        "runnerName": "Nico Hischier",
+                        "winRunnerOdds": 172
+                    },
+                    {
+                        "selectionId": 12449414,
+                        "handicap": 0,
+                        "runnerName": "Vincent Trocheck",
+                        "winRunnerOdds": 245
+                    },
+                    {
+                        "selectionId": 12496363,
+                        "handicap": 0,
+                        "runnerName": "Chris Kreider",
+                        "winRunnerOdds": 260
+                    },
+                    {
+                        "selectionId": 12496368,
+                        "handicap": 0,
+                        "runnerName": "Mika Zibanejad",
+                        "winRunnerOdds": 320
+                    },
+                    {
+                        "selectionId": 36305275,
+                        "handicap": 0,
+                        "runnerName": "Alexis Lafreniere",
+                        "winRunnerOdds": 340
+                    },
+                    {
+                        "selectionId": 15819678,
+                        "handicap": 0,
+                        "runnerName": "Stefan Noesen",
+                        "winRunnerOdds": 340
+                    },
+                    {
+                        "selectionId": 20852688,
+                        "handicap": 0,
+                        "runnerName": "Filip Chytil",
+                        "winRunnerOdds": 410
+                    },
+                    {
+                        "selectionId": 51970211,
+                        "handicap": 0,
+                        "runnerName": "Will Cuylle",
+                        "winRunnerOdds": 490
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_5+_SHOTS_ON_GOAL",
+                "externalMarketId": "42.467499413",
+                "runners": [
+                    {
+                        "selectionId": 24660528,
+                        "handicap": 0,
+                        "runnerName": "Jack Hughes",
+                        "winRunnerOdds": 162
+                    },
+                    {
+                        "selectionId": 12858510,
+                        "handicap": 0,
+                        "runnerName": "Timo Meier",
+                        "winRunnerOdds": 265
+                    },
+                    {
+                        "selectionId": 12502556,
+                        "handicap": 0,
+                        "runnerName": "Artemi Panarin",
+                        "winRunnerOdds": 265
+                    },
+                    {
+                        "selectionId": 15819680,
+                        "handicap": 0,
+                        "runnerName": "Jesper Bratt",
+                        "winRunnerOdds": 340
+                    },
+                    {
+                        "selectionId": 12452413,
+                        "handicap": 0,
+                        "runnerName": "Dougie Hamilton",
+                        "winRunnerOdds": 340
+                    },
+                    {
+                        "selectionId": 15819676,
+                        "handicap": 0,
+                        "runnerName": "Nico Hischier",
+                        "winRunnerOdds": 375
+                    },
+                    {
+                        "selectionId": 12449414,
+                        "handicap": 0,
+                        "runnerName": "Vincent Trocheck",
+                        "winRunnerOdds": 530
+                    },
+                    {
+                        "selectionId": 12496363,
+                        "handicap": 0,
+                        "runnerName": "Chris Kreider",
+                        "winRunnerOdds": 630
+                    }
+                ]
+            },
+            {
+                "marketType": "60_MIN_CORRECT_SCORE",
+                "externalMarketId": "42.467419090",
+                "runners": [
+                    {
+                        "selectionId": 7739871,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 1-0",
+                        "winRunnerOdds": 16000
+                    },
+                    {
+                        "selectionId": 7739867,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 2-0",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "selectionId": 7739866,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 2-1",
+                        "winRunnerOdds": 3500
+                    },
+                    {
+                        "selectionId": 7739907,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 3-0",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "selectionId": 7739918,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 3-1",
+                        "winRunnerOdds": 3000
+                    },
+                    {
+                        "selectionId": 7739911,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 3-2",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "selectionId": 7739924,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 4-0",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "selectionId": 7739928,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 4-1",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "selectionId": 7739926,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 4-2",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "selectionId": 7739908,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 4-3",
+                        "winRunnerOdds": 3200
+                    },
+                    {
+                        "selectionId": 7739916,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 5-0",
+                        "winRunnerOdds": 14000
+                    },
+                    {
+                        "selectionId": 7739917,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 5-1",
+                        "winRunnerOdds": 3500
+                    },
+                    {
+                        "selectionId": 7739913,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 5-2",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "selectionId": 7739906,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 5-3",
+                        "winRunnerOdds": 2800
+                    },
+                    {
+                        "selectionId": 7739927,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 5-4",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "selectionId": 38197176,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 6-0",
+                        "winRunnerOdds": 18000
+                    },
+                    {
+                        "selectionId": 38197174,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 6-1",
+                        "winRunnerOdds": 8500
+                    },
+                    {
+                        "selectionId": 38214144,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 6-2",
+                        "winRunnerOdds": 4900
+                    },
+                    {
+                        "selectionId": 52843104,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 6-3",
+                        "winRunnerOdds": 3700
+                    },
+                    {
+                        "selectionId": 52843101,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 6-4",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "selectionId": 52843103,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 6-5",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "selectionId": 38214142,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 7-1",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "selectionId": 52843107,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 7-2",
+                        "winRunnerOdds": 13000
+                    },
+                    {
+                        "selectionId": 52843106,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 7-3",
+                        "winRunnerOdds": 9500
+                    },
+                    {
+                        "selectionId": 52843098,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 7-4",
+                        "winRunnerOdds": 8000
+                    },
+                    {
+                        "selectionId": 52843108,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils 7-5",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "selectionId": 35223559,
+                        "handicap": 0,
+                        "runnerName": "Tie 0-0",
+                        "winRunnerOdds": 19000
+                    },
+                    {
+                        "selectionId": 8359160,
+                        "handicap": 0,
+                        "runnerName": "Tie 1-1",
+                        "winRunnerOdds": 2800
+                    },
+                    {
+                        "selectionId": 8359163,
+                        "handicap": 0,
+                        "runnerName": "Tie 2-2",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "selectionId": 35223564,
+                        "handicap": 0,
+                        "runnerName": "Tie 3-3",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "selectionId": 35223572,
+                        "handicap": 0,
+                        "runnerName": "Tie 4-4",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "selectionId": 35223579,
+                        "handicap": 0,
+                        "runnerName": "Tie 5-5",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "selectionId": 8399852,
+                        "handicap": 0,
+                        "runnerName": "Tie 6-6",
+                        "winRunnerOdds": 23000
+                    },
+                    {
+                        "selectionId": 7745235,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 1-0",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "selectionId": 7745236,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 2-0",
+                        "winRunnerOdds": 9000
+                    },
+                    {
+                        "selectionId": 7745239,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 2-1",
+                        "winRunnerOdds": 4200
+                    },
+                    {
+                        "selectionId": 7745262,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 3-0",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "selectionId": 7745268,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 3-1",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "selectionId": 7745253,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 3-2",
+                        "winRunnerOdds": 2800
+                    },
+                    {
+                        "selectionId": 7745271,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 4-0",
+                        "winRunnerOdds": 9000
+                    },
+                    {
+                        "selectionId": 7745267,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 4-1",
+                        "winRunnerOdds": 2300
+                    },
+                    {
+                        "selectionId": 7745255,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 4-2",
+                        "winRunnerOdds": 2300
+                    },
+                    {
+                        "selectionId": 7745263,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 4-3",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "selectionId": 7745276,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 5-0",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "selectionId": 7745266,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 5-1",
+                        "winRunnerOdds": 4800
+                    },
+                    {
+                        "selectionId": 7745260,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 5-2",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "selectionId": 7745258,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 5-3",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "selectionId": 7745264,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 5-4",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "selectionId": 35391276,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 6-1",
+                        "winRunnerOdds": 9500
+                    },
+                    {
+                        "selectionId": 35406070,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 6-2",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "selectionId": 52672122,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 6-3",
+                        "winRunnerOdds": 4100
+                    },
+                    {
+                        "selectionId": 52672109,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 6-4",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "selectionId": 52672123,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 6-5",
+                        "winRunnerOdds": 17000
+                    },
+                    {
+                        "selectionId": 35406066,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 7-1",
+                        "winRunnerOdds": 19000
+                    },
+                    {
+                        "selectionId": 52672115,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 7-2",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "selectionId": 52672112,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 7-3",
+                        "winRunnerOdds": 11000
+                    },
+                    {
+                        "selectionId": 52672117,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 7-4",
+                        "winRunnerOdds": 9500
+                    },
+                    {
+                        "selectionId": 52672120,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers 7-5",
+                        "winRunnerOdds": 17000
+                    },
+                    {
+                        "selectionId": 7668959,
+                        "handicap": 0,
+                        "runnerName": "Any Other Score",
+                        "winRunnerOdds": 2800
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.467419092",
+                "runners": [
+                    {
+                        "selectionId": 25586,
+                        "handicap": -1.5,
+                        "runnerName": "New Jersey Devils",
+                        "winRunnerOdds": 194
+                    },
+                    {
+                        "selectionId": 226870,
+                        "handicap": 1.5,
+                        "runnerName": "New York Rangers",
+                        "winRunnerOdds": -245
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.467419093",
+                "runners": [
+                    {
+                        "selectionId": 25586,
+                        "handicap": 0,
+                        "runnerName": "New Jersey Devils",
+                        "winRunnerOdds": -122
+                    },
+                    {
+                        "selectionId": 226870,
+                        "handicap": 0,
+                        "runnerName": "New York Rangers",
+                        "winRunnerOdds": 102
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.467419091",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 6.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 6.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            }
+        ]
+    },
+    "33833757": {
+        "name": "Chicago Blackhawks @ Toronto Maple Leafs",
+        "markets": [
+            {
+                "marketType": "ANY_TIME_GOAL_SCORER",
+                "externalMarketId": "42.467442783",
+                "runners": [
+                    {
+                        "selectionId": 11133523,
+                        "handicap": 0,
+                        "runnerName": "Auston Matthews",
+                        "winRunnerOdds": -105
+                    },
+                    {
+                        "selectionId": 12449272,
+                        "handicap": 0,
+                        "runnerName": "William Nylander",
+                        "winRunnerOdds": 120
+                    },
+                    {
+                        "selectionId": 3969598,
+                        "handicap": 0,
+                        "runnerName": "John Tavares",
+                        "winRunnerOdds": 165
+                    },
+                    {
+                        "selectionId": 20853437,
+                        "handicap": 0,
+                        "runnerName": "Mitchell Marner",
+                        "winRunnerOdds": 170
+                    },
+                    {
+                        "selectionId": 48699556,
+                        "handicap": 0,
+                        "runnerName": "Matthew Knies",
+                        "winRunnerOdds": 210
+                    },
+                    {
+                        "selectionId": 43165974,
+                        "handicap": 0,
+                        "runnerName": "Nicholas Robertson",
+                        "winRunnerOdds": 300
+                    },
+                    {
+                        "selectionId": 58195609,
+                        "handicap": 0,
+                        "runnerName": "Connor Bedard",
+                        "winRunnerOdds": 320
+                    },
+                    {
+                        "selectionId": 61543152,
+                        "handicap": 0,
+                        "runnerName": "Fraser Minten",
+                        "winRunnerOdds": 360
+                    },
+                    {
+                        "selectionId": 20852701,
+                        "handicap": 0,
+                        "runnerName": "Ryan Donato",
+                        "winRunnerOdds": 420
+                    },
+                    {
+                        "selectionId": 11133537,
+                        "handicap": 0,
+                        "runnerName": "Taylor Hall",
+                        "winRunnerOdds": 440
+                    },
+                    {
+                        "selectionId": 12449435,
+                        "handicap": 0,
+                        "runnerName": "Teuvo Teravainen",
+                        "winRunnerOdds": 470
+                    },
+                    {
+                        "selectionId": 53574956,
+                        "handicap": 0,
+                        "runnerName": "Alex Nylander",
+                        "winRunnerOdds": 480
+                    },
+                    {
+                        "selectionId": 21532119,
+                        "handicap": 0,
+                        "runnerName": "Tyler Bertuzzi",
+                        "winRunnerOdds": 500
+                    },
+                    {
+                        "selectionId": 11133546,
+                        "handicap": 0,
+                        "runnerName": "Nick Foligno",
+                        "winRunnerOdds": 550
+                    },
+                    {
+                        "selectionId": 49963127,
+                        "handicap": 0,
+                        "runnerName": "Pontus Holmberg",
+                        "winRunnerOdds": 550
+                    },
+                    {
+                        "selectionId": 38522074,
+                        "handicap": 0,
+                        "runnerName": "Philipp Kurashev",
+                        "winRunnerOdds": 600
+                    },
+                    {
+                        "selectionId": 38521907,
+                        "handicap": 0,
+                        "runnerName": "Ilya Mikheyev",
+                        "winRunnerOdds": 650
+                    },
+                    {
+                        "selectionId": 12496362,
+                        "handicap": 0,
+                        "runnerName": "Craig Smith",
+                        "winRunnerOdds": 650
+                    },
+                    {
+                        "selectionId": 39505238,
+                        "handicap": 0,
+                        "runnerName": "Steven Lorentz",
+                        "winRunnerOdds": 650
+                    },
+                    {
+                        "selectionId": 23095487,
+                        "handicap": 0,
+                        "runnerName": "Jason Dickinson",
+                        "winRunnerOdds": 650
+                    },
+                    {
+                        "selectionId": 76683892,
+                        "handicap": 0,
+                        "runnerName": "Nikita Grebenkin",
+                        "winRunnerOdds": 700
+                    },
+                    {
+                        "selectionId": 12553079,
+                        "handicap": 0,
+                        "runnerName": "Morgan Rielly",
+                        "winRunnerOdds": 750
+                    },
+                    {
+                        "selectionId": 42936739,
+                        "handicap": 0,
+                        "runnerName": "Lukas Reichel",
+                        "winRunnerOdds": 800
+                    },
+                    {
+                        "selectionId": 42285872,
+                        "handicap": 0,
+                        "runnerName": "Connor Dewar",
+                        "winRunnerOdds": 800
+                    },
+                    {
+                        "selectionId": 17553490,
+                        "handicap": 0,
+                        "runnerName": "Pat Maroon",
+                        "winRunnerOdds": 850
+                    },
+                    {
+                        "selectionId": 39505363,
+                        "handicap": 0,
+                        "runnerName": "Conor Timmins",
+                        "winRunnerOdds": 950
+                    },
+                    {
+                        "selectionId": 12496400,
+                        "handicap": 0,
+                        "runnerName": "Oliver Ekman-Larsson",
+                        "winRunnerOdds": 950
+                    },
+                    {
+                        "selectionId": 12456541,
+                        "handicap": 0,
+                        "runnerName": "Chris Tanev",
+                        "winRunnerOdds": 1100
+                    },
+                    {
+                        "selectionId": 44333826,
+                        "handicap": 0,
+                        "runnerName": "Alex Vlasic",
+                        "winRunnerOdds": 1200
+                    },
+                    {
+                        "selectionId": 27580244,
+                        "handicap": 0,
+                        "runnerName": "Philippe Myers",
+                        "winRunnerOdds": 1200
+                    },
+                    {
+                        "selectionId": 42263947,
+                        "handicap": 0,
+                        "runnerName": "Simon Benoit",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "selectionId": 12452388,
+                        "handicap": 0,
+                        "runnerName": "Alec Martinez",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "selectionId": 61544848,
+                        "handicap": 0,
+                        "runnerName": "Connor Murphy (CHI)",
+                        "winRunnerOdds": 1600
+                    }
+                ]
+            },
+            {
+                "marketType": "FIRST_GOAL_SCORER",
+                "externalMarketId": "42.467442792",
+                "runners": [
+                    {
+                        "selectionId": 11133523,
+                        "handicap": 0,
+                        "runnerName": "Auston Matthews",
+                        "winRunnerOdds": 750
+                    },
+                    {
+                        "selectionId": 12449272,
+                        "handicap": 0,
+                        "runnerName": "William Nylander",
+                        "winRunnerOdds": 850
+                    },
+                    {
+                        "selectionId": 20853437,
+                        "handicap": 0,
+                        "runnerName": "Mitchell Marner",
+                        "winRunnerOdds": 1000
+                    },
+                    {
+                        "selectionId": 3969598,
+                        "handicap": 0,
+                        "runnerName": "John Tavares",
+                        "winRunnerOdds": 1100
+                    },
+                    {
+                        "selectionId": 48699556,
+                        "handicap": 0,
+                        "runnerName": "Matthew Knies",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "selectionId": 43165974,
+                        "handicap": 0,
+                        "runnerName": "Nicholas Robertson",
+                        "winRunnerOdds": 1700
+                    },
+                    {
+                        "selectionId": 58195609,
+                        "handicap": 0,
+                        "runnerName": "Connor Bedard",
+                        "winRunnerOdds": 2000
+                    },
+                    {
+                        "selectionId": 61543152,
+                        "handicap": 0,
+                        "runnerName": "Fraser Minten",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "selectionId": 11133537,
+                        "handicap": 0,
+                        "runnerName": "Taylor Hall",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "selectionId": 12449435,
+                        "handicap": 0,
+                        "runnerName": "Teuvo Teravainen",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "selectionId": 20852701,
+                        "handicap": 0,
+                        "runnerName": "Ryan Donato",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "selectionId": 21532119,
+                        "handicap": 0,
+                        "runnerName": "Tyler Bertuzzi",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "selectionId": 11133546,
+                        "handicap": 0,
+                        "runnerName": "Nick Foligno",
+                        "winRunnerOdds": 3000
+                    },
+                    {
+                        "selectionId": 53574956,
+                        "handicap": 0,
+                        "runnerName": "Alex Nylander",
+                        "winRunnerOdds": 3000
+                    },
+                    {
+                        "selectionId": 38522074,
+                        "handicap": 0,
+                        "runnerName": "Philipp Kurashev",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "selectionId": 49963127,
+                        "handicap": 0,
+                        "runnerName": "Pontus Holmberg",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "selectionId": 23095487,
+                        "handicap": 0,
+                        "runnerName": "Jason Dickinson",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "selectionId": 38521907,
+                        "handicap": 0,
+                        "runnerName": "Ilya Mikheyev",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "selectionId": 12496362,
+                        "handicap": 0,
+                        "runnerName": "Craig Smith",
+                        "winRunnerOdds": 3400
+                    },
+                    {
+                        "selectionId": 76683892,
+                        "handicap": 0,
+                        "runnerName": "Nikita Grebenkin",
+                        "winRunnerOdds": 3500
+                    },
+                    {
+                        "selectionId": 39505238,
+                        "handicap": 0,
+                        "runnerName": "Steven Lorentz",
+                        "winRunnerOdds": 3600
+                    },
+                    {
+                        "selectionId": 39505363,
+                        "handicap": 0,
+                        "runnerName": "Conor Timmins",
+                        "winRunnerOdds": 4100
+                    },
+                    {
+                        "selectionId": 42936739,
+                        "handicap": 0,
+                        "runnerName": "Lukas Reichel",
+                        "winRunnerOdds": 4100
+                    },
+                    {
+                        "selectionId": 12553079,
+                        "handicap": 0,
+                        "runnerName": "Morgan Rielly",
+                        "winRunnerOdds": 4500
+                    },
+                    {
+                        "selectionId": 42285872,
+                        "handicap": 0,
+                        "runnerName": "Connor Dewar",
+                        "winRunnerOdds": 4500
+                    },
+                    {
+                        "selectionId": 17553490,
+                        "handicap": 0,
+                        "runnerName": "Pat Maroon",
+                        "winRunnerOdds": 4600
+                    },
+                    {
+                        "selectionId": 12496400,
+                        "handicap": 0,
+                        "runnerName": "Oliver Ekman-Larsson",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "selectionId": 27580244,
+                        "handicap": 0,
+                        "runnerName": "Philippe Myers",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "selectionId": 12456541,
+                        "handicap": 0,
+                        "runnerName": "Chris Tanev",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "selectionId": 12452388,
+                        "handicap": 0,
+                        "runnerName": "Alec Martinez",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "selectionId": 42263947,
+                        "handicap": 0,
+                        "runnerName": "Simon Benoit",
+                        "winRunnerOdds": 7000
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_1+_POINTS",
+                "externalMarketId": "42.467513695",
+                "runners": [
+                    {
+                        "selectionId": 20853437,
+                        "handicap": 0,
+                        "runnerName": "Mitchell Marner",
+                        "winRunnerOdds": -340
+                    },
+                    {
+                        "selectionId": 11133523,
+                        "handicap": 0,
+                        "runnerName": "Auston Matthews",
+                        "winRunnerOdds": -320
+                    },
+                    {
+                        "selectionId": 12449272,
+                        "handicap": 0,
+                        "runnerName": "William Nylander",
+                        "winRunnerOdds": -290
+                    },
+                    {
+                        "selectionId": 3969598,
+                        "handicap": 0,
+                        "runnerName": "John Tavares",
+                        "winRunnerOdds": -188
+                    },
+                    {
+                        "selectionId": 48699556,
+                        "handicap": 0,
+                        "runnerName": "Matthew Knies",
+                        "winRunnerOdds": -142
+                    },
+                    {
+                        "selectionId": 12553079,
+                        "handicap": 0,
+                        "runnerName": "Morgan Rielly",
+                        "winRunnerOdds": -136
+                    },
+                    {
+                        "selectionId": 58195609,
+                        "handicap": 0,
+                        "runnerName": "Connor Bedard",
+                        "winRunnerOdds": -108
+                    },
+                    {
+                        "selectionId": 12449435,
+                        "handicap": 0,
+                        "runnerName": "Teuvo Teravainen",
+                        "winRunnerOdds": 162
+                    },
+                    {
+                        "selectionId": 20852701,
+                        "handicap": 0,
+                        "runnerName": "Ryan Donato",
+                        "winRunnerOdds": 176
+                    },
+                    {
+                        "selectionId": 11133537,
+                        "handicap": 0,
+                        "runnerName": "Taylor Hall",
+                        "winRunnerOdds": 186
+                    },
+                    {
+                        "selectionId": 21532119,
+                        "handicap": 0,
+                        "runnerName": "Tyler Bertuzzi",
+                        "winRunnerOdds": 186
+                    },
+                    {
+                        "selectionId": 44333826,
+                        "handicap": 0,
+                        "runnerName": "Alex Vlasic",
+                        "winRunnerOdds": 200
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_2+_SHOTS_ON_GOAL",
+                "externalMarketId": "42.467499495",
+                "runners": [
+                    {
+                        "selectionId": 12449272,
+                        "handicap": 0,
+                        "runnerName": "William Nylander",
+                        "winRunnerOdds": -1450
+                    },
+                    {
+                        "selectionId": 3969598,
+                        "handicap": 0,
+                        "runnerName": "John Tavares",
+                        "winRunnerOdds": -700
+                    },
+                    {
+                        "selectionId": 58195609,
+                        "handicap": 0,
+                        "runnerName": "Connor Bedard",
+                        "winRunnerOdds": -370
+                    },
+                    {
+                        "selectionId": 20853437,
+                        "handicap": 0,
+                        "runnerName": "Mitchell Marner",
+                        "winRunnerOdds": -335
+                    },
+                    {
+                        "selectionId": 12553079,
+                        "handicap": 0,
+                        "runnerName": "Morgan Rielly",
+                        "winRunnerOdds": -220
+                    },
+                    {
+                        "selectionId": 20852701,
+                        "handicap": 0,
+                        "runnerName": "Ryan Donato",
+                        "winRunnerOdds": -198
+                    },
+                    {
+                        "selectionId": 48699556,
+                        "handicap": 0,
+                        "runnerName": "Matthew Knies",
+                        "winRunnerOdds": -188
+                    },
+                    {
+                        "selectionId": 11133537,
+                        "handicap": 0,
+                        "runnerName": "Taylor Hall",
+                        "winRunnerOdds": -168
+                    },
+                    {
+                        "selectionId": 43165974,
+                        "handicap": 0,
+                        "runnerName": "Nicholas Robertson",
+                        "winRunnerOdds": -152
+                    },
+                    {
+                        "selectionId": 12496400,
+                        "handicap": 0,
+                        "runnerName": "Oliver Ekman-Larsson",
+                        "winRunnerOdds": -128
+                    },
+                    {
+                        "selectionId": 12449435,
+                        "handicap": 0,
+                        "runnerName": "Teuvo Teravainen",
+                        "winRunnerOdds": -125
+                    },
+                    {
+                        "selectionId": 12496362,
+                        "handicap": 0,
+                        "runnerName": "Craig Smith",
+                        "winRunnerOdds": -108
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_3+_SHOTS_ON_GOAL",
+                "externalMarketId": "42.467499493",
+                "runners": [
+                    {
+                        "selectionId": 11133523,
+                        "handicap": 0,
+                        "runnerName": "Auston Matthews",
+                        "winRunnerOdds": -580
+                    },
+                    {
+                        "selectionId": 12449272,
+                        "handicap": 0,
+                        "runnerName": "William Nylander",
+                        "winRunnerOdds": -355
+                    },
+                    {
+                        "selectionId": 3969598,
+                        "handicap": 0,
+                        "runnerName": "John Tavares",
+                        "winRunnerOdds": -205
+                    },
+                    {
+                        "selectionId": 58195609,
+                        "handicap": 0,
+                        "runnerName": "Connor Bedard",
+                        "winRunnerOdds": -114
+                    },
+                    {
+                        "selectionId": 20853437,
+                        "handicap": 0,
+                        "runnerName": "Mitchell Marner",
+                        "winRunnerOdds": -106
+                    },
+                    {
+                        "selectionId": 12553079,
+                        "handicap": 0,
+                        "runnerName": "Morgan Rielly",
+                        "winRunnerOdds": 138
+                    },
+                    {
+                        "selectionId": 48699556,
+                        "handicap": 0,
+                        "runnerName": "Matthew Knies",
+                        "winRunnerOdds": 168
+                    },
+                    {
+                        "selectionId": 20852701,
+                        "handicap": 0,
+                        "runnerName": "Ryan Donato",
+                        "winRunnerOdds": 162
+                    },
+                    {
+                        "selectionId": 11133537,
+                        "handicap": 0,
+                        "runnerName": "Taylor Hall",
+                        "winRunnerOdds": 192
+                    },
+                    {
+                        "selectionId": 43165974,
+                        "handicap": 0,
+                        "runnerName": "Nicholas Robertson",
+                        "winRunnerOdds": 205
+                    },
+                    {
+                        "selectionId": 12449435,
+                        "handicap": 0,
+                        "runnerName": "Teuvo Teravainen",
+                        "winRunnerOdds": 250
+                    },
+                    {
+                        "selectionId": 12496400,
+                        "handicap": 0,
+                        "runnerName": "Oliver Ekman-Larsson",
+                        "winRunnerOdds": 250
+                    },
+                    {
+                        "selectionId": 12496362,
+                        "handicap": 0,
+                        "runnerName": "Craig Smith",
+                        "winRunnerOdds": 290
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_4+_SHOTS_ON_GOAL",
+                "externalMarketId": "42.467499501",
+                "runners": [
+                    {
+                        "selectionId": 11133523,
+                        "handicap": 0,
+                        "runnerName": "Auston Matthews",
+                        "winRunnerOdds": -215
+                    },
+                    {
+                        "selectionId": 12449272,
+                        "handicap": 0,
+                        "runnerName": "William Nylander",
+                        "winRunnerOdds": -135
+                    },
+                    {
+                        "selectionId": 3969598,
+                        "handicap": 0,
+                        "runnerName": "John Tavares",
+                        "winRunnerOdds": 122
+                    },
+                    {
+                        "selectionId": 58195609,
+                        "handicap": 0,
+                        "runnerName": "Connor Bedard",
+                        "winRunnerOdds": 215
+                    },
+                    {
+                        "selectionId": 20853437,
+                        "handicap": 0,
+                        "runnerName": "Mitchell Marner",
+                        "winRunnerOdds": 245
+                    },
+                    {
+                        "selectionId": 12553079,
+                        "handicap": 0,
+                        "runnerName": "Morgan Rielly",
+                        "winRunnerOdds": 340
+                    },
+                    {
+                        "selectionId": 20852701,
+                        "handicap": 0,
+                        "runnerName": "Ryan Donato",
+                        "winRunnerOdds": 390
+                    },
+                    {
+                        "selectionId": 48699556,
+                        "handicap": 0,
+                        "runnerName": "Matthew Knies",
+                        "winRunnerOdds": 415
+                    },
+                    {
+                        "selectionId": 11133537,
+                        "handicap": 0,
+                        "runnerName": "Taylor Hall",
+                        "winRunnerOdds": 490
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_5+_SHOTS_ON_GOAL",
+                "externalMarketId": "42.467499502",
+                "runners": [
+                    {
+                        "selectionId": 11133523,
+                        "handicap": 0,
+                        "runnerName": "Auston Matthews",
+                        "winRunnerOdds": 104
+                    },
+                    {
+                        "selectionId": 12449272,
+                        "handicap": 0,
+                        "runnerName": "William Nylander",
+                        "winRunnerOdds": 162
+                    },
+                    {
+                        "selectionId": 3969598,
+                        "handicap": 0,
+                        "runnerName": "John Tavares",
+                        "winRunnerOdds": 265
+                    },
+                    {
+                        "selectionId": 58195609,
+                        "handicap": 0,
+                        "runnerName": "Connor Bedard",
+                        "winRunnerOdds": 470
+                    },
+                    {
+                        "selectionId": 20853437,
+                        "handicap": 0,
+                        "runnerName": "Mitchell Marner",
+                        "winRunnerOdds": 530
+                    }
+                ]
+            },
+            {
+                "marketType": "60_MIN_CORRECT_SCORE",
+                "externalMarketId": "42.467419613",
+                "runners": [
+                    {
+                        "selectionId": 7735417,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 1-0",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "selectionId": 7735409,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 2-0",
+                        "winRunnerOdds": 11000
+                    },
+                    {
+                        "selectionId": 7735408,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 2-1",
+                        "winRunnerOdds": 4700
+                    },
+                    {
+                        "selectionId": 7735420,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 3-0",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "selectionId": 7735413,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 3-1",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "selectionId": 7735414,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 3-2",
+                        "winRunnerOdds": 4000
+                    },
+                    {
+                        "selectionId": 7735407,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 4-1",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "selectionId": 7735404,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 4-2",
+                        "winRunnerOdds": 4600
+                    },
+                    {
+                        "selectionId": 7735402,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 4-3",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "selectionId": 7735398,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 5-1",
+                        "winRunnerOdds": 18000
+                    },
+                    {
+                        "selectionId": 7735418,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 5-2",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "selectionId": 7735403,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 5-3",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "selectionId": 7735401,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 5-4",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "selectionId": 49333830,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 6-3",
+                        "winRunnerOdds": 11000
+                    },
+                    {
+                        "selectionId": 49333834,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks 6-4",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "selectionId": 35223559,
+                        "handicap": 0,
+                        "runnerName": "Tie 0-0",
+                        "winRunnerOdds": 14000
+                    },
+                    {
+                        "selectionId": 8359160,
+                        "handicap": 0,
+                        "runnerName": "Tie 1-1",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "selectionId": 8359163,
+                        "handicap": 0,
+                        "runnerName": "Tie 2-2",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "selectionId": 35223564,
+                        "handicap": 0,
+                        "runnerName": "Tie 3-3",
+                        "winRunnerOdds": 1900
+                    },
+                    {
+                        "selectionId": 35223572,
+                        "handicap": 0,
+                        "runnerName": "Tie 4-4",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "selectionId": 35223579,
+                        "handicap": 0,
+                        "runnerName": "Tie 5-5",
+                        "winRunnerOdds": 11000
+                    },
+                    {
+                        "selectionId": 7735203,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 1-0",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "selectionId": 7735205,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 2-0",
+                        "winRunnerOdds": 4400
+                    },
+                    {
+                        "selectionId": 7735206,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 2-1",
+                        "winRunnerOdds": 2600
+                    },
+                    {
+                        "selectionId": 7735238,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 3-0",
+                        "winRunnerOdds": 2500
+                    },
+                    {
+                        "selectionId": 7735240,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 3-1",
+                        "winRunnerOdds": 1600
+                    },
+                    {
+                        "selectionId": 7735223,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 3-2",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "selectionId": 7735237,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 4-0",
+                        "winRunnerOdds": 2800
+                    },
+                    {
+                        "selectionId": 7735234,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 4-1",
+                        "winRunnerOdds": 1200
+                    },
+                    {
+                        "selectionId": 7735222,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 4-2",
+                        "winRunnerOdds": 1500
+                    },
+                    {
+                        "selectionId": 7735233,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 4-3",
+                        "winRunnerOdds": 3200
+                    },
+                    {
+                        "selectionId": 7735241,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 5-0",
+                        "winRunnerOdds": 4000
+                    },
+                    {
+                        "selectionId": 7735232,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 5-1",
+                        "winRunnerOdds": 1700
+                    },
+                    {
+                        "selectionId": 7735221,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 5-2",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "selectionId": 7735224,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 5-3",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "selectionId": 7735231,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 5-4",
+                        "winRunnerOdds": 8000
+                    },
+                    {
+                        "selectionId": 35403495,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 6-0",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "selectionId": 35403497,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 6-1",
+                        "winRunnerOdds": 3200
+                    },
+                    {
+                        "selectionId": 38206330,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 6-2",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "selectionId": 53512271,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 6-3",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "selectionId": 53512270,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 6-4",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "selectionId": 35403499,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 7-0",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "selectionId": 38206328,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 7-1",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "selectionId": 53512267,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 7-2",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "selectionId": 53512272,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 7-3",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "selectionId": 53512275,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs 7-4",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "selectionId": 7668959,
+                        "handicap": 0,
+                        "runnerName": "Any Other Score",
+                        "winRunnerOdds": 2400
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.467419612",
+                "runners": [
+                    {
+                        "selectionId": 25591,
+                        "handicap": 0,
+                        "runnerName": "Chicago Blackhawks",
+                        "winRunnerOdds": 330
+                    },
+                    {
+                        "selectionId": 25600,
+                        "handicap": 0,
+                        "runnerName": "Toronto Maple Leafs",
+                        "winRunnerOdds": -430
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.467419610",
+                "runners": [
+                    {
+                        "selectionId": 25591,
+                        "handicap": 1.5,
+                        "runnerName": "Chicago Blackhawks",
+                        "winRunnerOdds": 124
+                    },
+                    {
+                        "selectionId": 25600,
+                        "handicap": -1.5,
+                        "runnerName": "Toronto Maple Leafs",
+                        "winRunnerOdds": -152
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.467419614",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 5.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -134
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 5.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": 110
+                    }
+                ]
+            }
+        ]
+    },
+    "33833758": {
+        "name": "Dallas Stars @ Utah Hockey Club",
+        "markets": [
+            {
+                "marketType": "ANY_TIME_GOAL_SCORER",
+                "externalMarketId": "42.467472385",
+                "runners": [
+                    {
+                        "selectionId": 40258487,
+                        "handicap": 0,
+                        "runnerName": "Dylan Guenther",
+                        "winRunnerOdds": 200
+                    },
+                    {
+                        "selectionId": 3969599,
+                        "handicap": 0,
+                        "runnerName": "Matt Duchene",
+                        "winRunnerOdds": 210
+                    },
+                    {
+                        "selectionId": 15969321,
+                        "handicap": 0,
+                        "runnerName": "Clayton Keller",
+                        "winRunnerOdds": 210
+                    },
+                    {
+                        "selectionId": 48699547,
+                        "handicap": 0,
+                        "runnerName": "Wyatt Johnston",
+                        "winRunnerOdds": 230
+                    },
+                    {
+                        "selectionId": 38764242,
+                        "handicap": 0,
+                        "runnerName": "Jason Robertson",
+                        "winRunnerOdds": 230
+                    },
+                    {
+                        "selectionId": 23791207,
+                        "handicap": 0,
+                        "runnerName": "Roope Hintz",
+                        "winRunnerOdds": 240
+                    },
+                    {
+                        "selectionId": 18568088,
+                        "handicap": 0,
+                        "runnerName": "Evgenii Dadonov",
+                        "winRunnerOdds": 280
+                    },
+                    {
+                        "selectionId": 38732463,
+                        "handicap": 0,
+                        "runnerName": "Mason Marchment",
+                        "winRunnerOdds": 300
+                    },
+                    {
+                        "selectionId": 22239379,
+                        "handicap": 0,
+                        "runnerName": "Lawson Crouse",
+                        "winRunnerOdds": 330
+                    },
+                    {
+                        "selectionId": 12862627,
+                        "handicap": 0,
+                        "runnerName": "Nick Schmaltz",
+                        "winRunnerOdds": 340
+                    },
+                    {
+                        "selectionId": 40258477,
+                        "handicap": 0,
+                        "runnerName": "Logan Stankoven",
+                        "winRunnerOdds": 340
+                    },
+                    {
+                        "selectionId": 44992511,
+                        "handicap": 0,
+                        "runnerName": "Logan Cooley",
+                        "winRunnerOdds": 350
+                    },
+                    {
+                        "selectionId": 12449283,
+                        "handicap": 0,
+                        "runnerName": "Jamie Benn",
+                        "winRunnerOdds": 360
+                    },
+                    {
+                        "selectionId": 28056881,
+                        "handicap": 0,
+                        "runnerName": "Barrett Hayton",
+                        "winRunnerOdds": 370
+                    },
+                    {
+                        "selectionId": 16326150,
+                        "handicap": 0,
+                        "runnerName": "Nick Bjugstad",
+                        "winRunnerOdds": 380
+                    },
+                    {
+                        "selectionId": 43221908,
+                        "handicap": 0,
+                        "runnerName": "Matias Maccelli",
+                        "winRunnerOdds": 410
+                    },
+                    {
+                        "selectionId": 17400335,
+                        "handicap": 0,
+                        "runnerName": "Alexander Kerfoot",
+                        "winRunnerOdds": 460
+                    },
+                    {
+                        "selectionId": 44378131,
+                        "handicap": 0,
+                        "runnerName": "Jack McBain",
+                        "winRunnerOdds": 480
+                    },
+                    {
+                        "selectionId": 68013988,
+                        "handicap": 0,
+                        "runnerName": "Mavrik Bourque",
+                        "winRunnerOdds": 500
+                    },
+                    {
+                        "selectionId": 43809626,
+                        "handicap": 0,
+                        "runnerName": "Michael Carcone",
+                        "winRunnerOdds": 550
+                    },
+                    {
+                        "selectionId": 20852674,
+                        "handicap": 0,
+                        "runnerName": "Sam Steel",
+                        "winRunnerOdds": 550
+                    },
+                    {
+                        "selectionId": 28037056,
+                        "handicap": 0,
+                        "runnerName": "Kevin Stenlund",
+                        "winRunnerOdds": 600
+                    },
+                    {
+                        "selectionId": 20852689,
+                        "handicap": 0,
+                        "runnerName": "Miro Heiskanen",
+                        "winRunnerOdds": 650
+                    },
+                    {
+                        "selectionId": 20919622,
+                        "handicap": 0,
+                        "runnerName": "Mikhail Sergachev",
+                        "winRunnerOdds": 650
+                    },
+                    {
+                        "selectionId": 74971968,
+                        "handicap": 0,
+                        "runnerName": "Oskar Back",
+                        "winRunnerOdds": 700
+                    },
+                    {
+                        "selectionId": 28059134,
+                        "handicap": 0,
+                        "runnerName": "Colin Blackwell",
+                        "winRunnerOdds": 850
+                    },
+                    {
+                        "selectionId": 15778401,
+                        "handicap": 0,
+                        "runnerName": "Esa Lindell",
+                        "winRunnerOdds": 900
+                    },
+                    {
+                        "selectionId": 42871418,
+                        "handicap": 0,
+                        "runnerName": "Thomas Harley",
+                        "winRunnerOdds": 900
+                    },
+                    {
+                        "selectionId": 63417661,
+                        "handicap": 0,
+                        "runnerName": "Michael Kesselring",
+                        "winRunnerOdds": 1000
+                    },
+                    {
+                        "selectionId": 41302811,
+                        "handicap": 0,
+                        "runnerName": "Nils Lundkvist",
+                        "winRunnerOdds": 1000
+                    },
+                    {
+                        "selectionId": 12452415,
+                        "handicap": 0,
+                        "runnerName": "Matt Dumba",
+                        "winRunnerOdds": 1100
+                    },
+                    {
+                        "selectionId": 41327801,
+                        "handicap": 0,
+                        "runnerName": "Ilya Lyubushkin",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "selectionId": 39505365,
+                        "handicap": 0,
+                        "runnerName": "Robert Bortuzzo",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "selectionId": 12857547,
+                        "handicap": 0,
+                        "runnerName": "Ian Cole",
+                        "winRunnerOdds": 1500
+                    },
+                    {
+                        "selectionId": 41380991,
+                        "handicap": 0,
+                        "runnerName": "Juuso Valimaki",
+                        "winRunnerOdds": 1500
+                    },
+                    {
+                        "selectionId": 12496356,
+                        "handicap": 0,
+                        "runnerName": "Olli Maatta",
+                        "winRunnerOdds": 1700
+                    }
+                ]
+            },
+            {
+                "marketType": "FIRST_GOAL_SCORER",
+                "externalMarketId": "42.467472397",
+                "runners": [
+                    {
+                        "selectionId": 3969599,
+                        "handicap": 0,
+                        "runnerName": "Matt Duchene",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "selectionId": 40258487,
+                        "handicap": 0,
+                        "runnerName": "Dylan Guenther",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "selectionId": 15969321,
+                        "handicap": 0,
+                        "runnerName": "Clayton Keller",
+                        "winRunnerOdds": 1500
+                    },
+                    {
+                        "selectionId": 48699547,
+                        "handicap": 0,
+                        "runnerName": "Wyatt Johnston",
+                        "winRunnerOdds": 1500
+                    },
+                    {
+                        "selectionId": 23791207,
+                        "handicap": 0,
+                        "runnerName": "Roope Hintz",
+                        "winRunnerOdds": 1600
+                    },
+                    {
+                        "selectionId": 38764242,
+                        "handicap": 0,
+                        "runnerName": "Jason Robertson",
+                        "winRunnerOdds": 1600
+                    },
+                    {
+                        "selectionId": 18568088,
+                        "handicap": 0,
+                        "runnerName": "Evgenii Dadonov",
+                        "winRunnerOdds": 1700
+                    },
+                    {
+                        "selectionId": 38732463,
+                        "handicap": 0,
+                        "runnerName": "Mason Marchment",
+                        "winRunnerOdds": 1900
+                    },
+                    {
+                        "selectionId": 22239379,
+                        "handicap": 0,
+                        "runnerName": "Lawson Crouse",
+                        "winRunnerOdds": 2000
+                    },
+                    {
+                        "selectionId": 12862627,
+                        "handicap": 0,
+                        "runnerName": "Nick Schmaltz",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "selectionId": 16326150,
+                        "handicap": 0,
+                        "runnerName": "Nick Bjugstad",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "selectionId": 44992511,
+                        "handicap": 0,
+                        "runnerName": "Logan Cooley",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "selectionId": 12449283,
+                        "handicap": 0,
+                        "runnerName": "Jamie Benn",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "selectionId": 40258477,
+                        "handicap": 0,
+                        "runnerName": "Logan Stankoven",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "selectionId": 43221908,
+                        "handicap": 0,
+                        "runnerName": "Matias Maccelli",
+                        "winRunnerOdds": 2500
+                    },
+                    {
+                        "selectionId": 28056881,
+                        "handicap": 0,
+                        "runnerName": "Barrett Hayton",
+                        "winRunnerOdds": 2500
+                    },
+                    {
+                        "selectionId": 44378131,
+                        "handicap": 0,
+                        "runnerName": "Jack McBain",
+                        "winRunnerOdds": 2700
+                    },
+                    {
+                        "selectionId": 68013988,
+                        "handicap": 0,
+                        "runnerName": "Mavrik Bourque",
+                        "winRunnerOdds": 2800
+                    },
+                    {
+                        "selectionId": 17400335,
+                        "handicap": 0,
+                        "runnerName": "Alexander Kerfoot",
+                        "winRunnerOdds": 2900
+                    },
+                    {
+                        "selectionId": 43809626,
+                        "handicap": 0,
+                        "runnerName": "Michael Carcone",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "selectionId": 20852674,
+                        "handicap": 0,
+                        "runnerName": "Sam Steel",
+                        "winRunnerOdds": 3200
+                    },
+                    {
+                        "selectionId": 28037056,
+                        "handicap": 0,
+                        "runnerName": "Kevin Stenlund",
+                        "winRunnerOdds": 3400
+                    },
+                    {
+                        "selectionId": 20852689,
+                        "handicap": 0,
+                        "runnerName": "Miro Heiskanen",
+                        "winRunnerOdds": 3500
+                    },
+                    {
+                        "selectionId": 20919622,
+                        "handicap": 0,
+                        "runnerName": "Mikhail Sergachev",
+                        "winRunnerOdds": 3800
+                    },
+                    {
+                        "selectionId": 74971968,
+                        "handicap": 0,
+                        "runnerName": "Oskar Back",
+                        "winRunnerOdds": 4000
+                    },
+                    {
+                        "selectionId": 28059134,
+                        "handicap": 0,
+                        "runnerName": "Colin Blackwell",
+                        "winRunnerOdds": 4700
+                    },
+                    {
+                        "selectionId": 15778401,
+                        "handicap": 0,
+                        "runnerName": "Esa Lindell",
+                        "winRunnerOdds": 4700
+                    },
+                    {
+                        "selectionId": 41302811,
+                        "handicap": 0,
+                        "runnerName": "Nils Lundkvist",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "selectionId": 63417661,
+                        "handicap": 0,
+                        "runnerName": "Michael Kesselring",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "selectionId": 42871418,
+                        "handicap": 0,
+                        "runnerName": "Thomas Harley",
+                        "winRunnerOdds": 5000
+                    },
+                    {
+                        "selectionId": 39505365,
+                        "handicap": 0,
+                        "runnerName": "Robert Bortuzzo",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "selectionId": 12452415,
+                        "handicap": 0,
+                        "runnerName": "Matt Dumba",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "selectionId": 41327801,
+                        "handicap": 0,
+                        "runnerName": "Ilya Lyubushkin",
+                        "winRunnerOdds": 7500
+                    },
+                    {
+                        "selectionId": 41380991,
+                        "handicap": 0,
+                        "runnerName": "Juuso Valimaki",
+                        "winRunnerOdds": 7500
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_1+_POINTS",
+                "externalMarketId": "42.467514942",
+                "runners": [
+                    {
+                        "selectionId": 15969321,
+                        "handicap": 0,
+                        "runnerName": "Clayton Keller",
+                        "winRunnerOdds": -170
+                    },
+                    {
+                        "selectionId": 3969599,
+                        "handicap": 0,
+                        "runnerName": "Matt Duchene",
+                        "winRunnerOdds": -162
+                    },
+                    {
+                        "selectionId": 38764242,
+                        "handicap": 0,
+                        "runnerName": "Jason Robertson",
+                        "winRunnerOdds": -150
+                    },
+                    {
+                        "selectionId": 40258487,
+                        "handicap": 0,
+                        "runnerName": "Dylan Guenther",
+                        "winRunnerOdds": -136
+                    },
+                    {
+                        "selectionId": 48699547,
+                        "handicap": 0,
+                        "runnerName": "Wyatt Johnston",
+                        "winRunnerOdds": -132
+                    },
+                    {
+                        "selectionId": 23791207,
+                        "handicap": 0,
+                        "runnerName": "Roope Hintz",
+                        "winRunnerOdds": -122
+                    },
+                    {
+                        "selectionId": 12862627,
+                        "handicap": 0,
+                        "runnerName": "Nick Schmaltz",
+                        "winRunnerOdds": -122
+                    },
+                    {
+                        "selectionId": 38732463,
+                        "handicap": 0,
+                        "runnerName": "Mason Marchment",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "selectionId": 20919622,
+                        "handicap": 0,
+                        "runnerName": "Mikhail Sergachev",
+                        "winRunnerOdds": -111
+                    },
+                    {
+                        "selectionId": 20852689,
+                        "handicap": 0,
+                        "runnerName": "Miro Heiskanen",
+                        "winRunnerOdds": -104
+                    },
+                    {
+                        "selectionId": 44992511,
+                        "handicap": 0,
+                        "runnerName": "Logan Cooley",
+                        "winRunnerOdds": 100
+                    },
+                    {
+                        "selectionId": 12449283,
+                        "handicap": 0,
+                        "runnerName": "Jamie Benn",
+                        "winRunnerOdds": 100
+                    },
+                    {
+                        "selectionId": 42871418,
+                        "handicap": 0,
+                        "runnerName": "Thomas Harley",
+                        "winRunnerOdds": 144
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_2+_SHOTS_ON_GOAL",
+                "externalMarketId": "42.467500175",
+                "runners": [
+                    {
+                        "selectionId": 48699547,
+                        "handicap": 0,
+                        "runnerName": "Wyatt Johnston",
+                        "winRunnerOdds": -490
+                    },
+                    {
+                        "selectionId": 38764242,
+                        "handicap": 0,
+                        "runnerName": "Jason Robertson",
+                        "winRunnerOdds": -380
+                    },
+                    {
+                        "selectionId": 40258487,
+                        "handicap": 0,
+                        "runnerName": "Dylan Guenther",
+                        "winRunnerOdds": -320
+                    },
+                    {
+                        "selectionId": 15969321,
+                        "handicap": 0,
+                        "runnerName": "Clayton Keller",
+                        "winRunnerOdds": -310
+                    },
+                    {
+                        "selectionId": 20852689,
+                        "handicap": 0,
+                        "runnerName": "Miro Heiskanen",
+                        "winRunnerOdds": -295
+                    },
+                    {
+                        "selectionId": 23791207,
+                        "handicap": 0,
+                        "runnerName": "Roope Hintz",
+                        "winRunnerOdds": -260
+                    },
+                    {
+                        "selectionId": 12862627,
+                        "handicap": 0,
+                        "runnerName": "Nick Schmaltz",
+                        "winRunnerOdds": -198
+                    },
+                    {
+                        "selectionId": 44992511,
+                        "handicap": 0,
+                        "runnerName": "Logan Cooley",
+                        "winRunnerOdds": -198
+                    },
+                    {
+                        "selectionId": 38732463,
+                        "handicap": 0,
+                        "runnerName": "Mason Marchment",
+                        "winRunnerOdds": -198
+                    },
+                    {
+                        "selectionId": 12449283,
+                        "handicap": 0,
+                        "runnerName": "Jamie Benn",
+                        "winRunnerOdds": -188
+                    },
+                    {
+                        "selectionId": 3969599,
+                        "handicap": 0,
+                        "runnerName": "Matt Duchene",
+                        "winRunnerOdds": -178
+                    },
+                    {
+                        "selectionId": 20919622,
+                        "handicap": 0,
+                        "runnerName": "Mikhail Sergachev",
+                        "winRunnerOdds": -164
+                    },
+                    {
+                        "selectionId": 42871418,
+                        "handicap": 0,
+                        "runnerName": "Thomas Harley",
+                        "winRunnerOdds": -140
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_3+_SHOTS_ON_GOAL",
+                "externalMarketId": "42.467500162",
+                "runners": [
+                    {
+                        "selectionId": 48699547,
+                        "handicap": 0,
+                        "runnerName": "Wyatt Johnston",
+                        "winRunnerOdds": -156
+                    },
+                    {
+                        "selectionId": 38764242,
+                        "handicap": 0,
+                        "runnerName": "Jason Robertson",
+                        "winRunnerOdds": -120
+                    },
+                    {
+                        "selectionId": 40258487,
+                        "handicap": 0,
+                        "runnerName": "Dylan Guenther",
+                        "winRunnerOdds": -104
+                    },
+                    {
+                        "selectionId": 15969321,
+                        "handicap": 0,
+                        "runnerName": "Clayton Keller",
+                        "winRunnerOdds": 100
+                    },
+                    {
+                        "selectionId": 20852689,
+                        "handicap": 0,
+                        "runnerName": "Miro Heiskanen",
+                        "winRunnerOdds": 104
+                    },
+                    {
+                        "selectionId": 23791207,
+                        "handicap": 0,
+                        "runnerName": "Roope Hintz",
+                        "winRunnerOdds": 122
+                    },
+                    {
+                        "selectionId": 44992511,
+                        "handicap": 0,
+                        "runnerName": "Logan Cooley",
+                        "winRunnerOdds": 150
+                    },
+                    {
+                        "selectionId": 12862627,
+                        "handicap": 0,
+                        "runnerName": "Nick Schmaltz",
+                        "winRunnerOdds": 158
+                    },
+                    {
+                        "selectionId": 38732463,
+                        "handicap": 0,
+                        "runnerName": "Mason Marchment",
+                        "winRunnerOdds": 162
+                    },
+                    {
+                        "selectionId": 12449283,
+                        "handicap": 0,
+                        "runnerName": "Jamie Benn",
+                        "winRunnerOdds": 168
+                    },
+                    {
+                        "selectionId": 3969599,
+                        "handicap": 0,
+                        "runnerName": "Matt Duchene",
+                        "winRunnerOdds": 175
+                    },
+                    {
+                        "selectionId": 20919622,
+                        "handicap": 0,
+                        "runnerName": "Mikhail Sergachev",
+                        "winRunnerOdds": 192
+                    },
+                    {
+                        "selectionId": 42871418,
+                        "handicap": 0,
+                        "runnerName": "Thomas Harley",
+                        "winRunnerOdds": 220
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_4+_SHOTS_ON_GOAL",
+                "externalMarketId": "42.467500167",
+                "runners": [
+                    {
+                        "selectionId": 48699547,
+                        "handicap": 0,
+                        "runnerName": "Wyatt Johnston",
+                        "winRunnerOdds": 165
+                    },
+                    {
+                        "selectionId": 38764242,
+                        "handicap": 0,
+                        "runnerName": "Jason Robertson",
+                        "winRunnerOdds": 205
+                    },
+                    {
+                        "selectionId": 15969321,
+                        "handicap": 0,
+                        "runnerName": "Clayton Keller",
+                        "winRunnerOdds": 245
+                    },
+                    {
+                        "selectionId": 40258487,
+                        "handicap": 0,
+                        "runnerName": "Dylan Guenther",
+                        "winRunnerOdds": 245
+                    },
+                    {
+                        "selectionId": 20852689,
+                        "handicap": 0,
+                        "runnerName": "Miro Heiskanen",
+                        "winRunnerOdds": 260
+                    },
+                    {
+                        "selectionId": 23791207,
+                        "handicap": 0,
+                        "runnerName": "Roope Hintz",
+                        "winRunnerOdds": 310
+                    },
+                    {
+                        "selectionId": 44992511,
+                        "handicap": 0,
+                        "runnerName": "Logan Cooley",
+                        "winRunnerOdds": 390
+                    },
+                    {
+                        "selectionId": 12862627,
+                        "handicap": 0,
+                        "runnerName": "Nick Schmaltz",
+                        "winRunnerOdds": 390
+                    },
+                    {
+                        "selectionId": 38732463,
+                        "handicap": 0,
+                        "runnerName": "Mason Marchment",
+                        "winRunnerOdds": 390
+                    },
+                    {
+                        "selectionId": 12449283,
+                        "handicap": 0,
+                        "runnerName": "Jamie Benn",
+                        "winRunnerOdds": 415
+                    },
+                    {
+                        "selectionId": 3969599,
+                        "handicap": 0,
+                        "runnerName": "Matt Duchene",
+                        "winRunnerOdds": 450
+                    },
+                    {
+                        "selectionId": 20919622,
+                        "handicap": 0,
+                        "runnerName": "Mikhail Sergachev",
+                        "winRunnerOdds": 470
+                    }
+                ]
+            },
+            {
+                "marketType": "PLAYER_TO_RECORD_5+_SHOTS_ON_GOAL",
+                "externalMarketId": "42.467500155",
+                "runners": [
+                    {
+                        "selectionId": 48699547,
+                        "handicap": 0,
+                        "runnerName": "Wyatt Johnston",
+                        "winRunnerOdds": 365
+                    },
+                    {
+                        "selectionId": 38764242,
+                        "handicap": 0,
+                        "runnerName": "Jason Robertson",
+                        "winRunnerOdds": 460
+                    },
+                    {
+                        "selectionId": 15969321,
+                        "handicap": 0,
+                        "runnerName": "Clayton Keller",
+                        "winRunnerOdds": 550
+                    },
+                    {
+                        "selectionId": 40258487,
+                        "handicap": 0,
+                        "runnerName": "Dylan Guenther",
+                        "winRunnerOdds": 550
+                    },
+                    {
+                        "selectionId": 20852689,
+                        "handicap": 0,
+                        "runnerName": "Miro Heiskanen",
+                        "winRunnerOdds": 560
+                    },
+                    {
+                        "selectionId": 23791207,
+                        "handicap": 0,
+                        "runnerName": "Roope Hintz",
+                        "winRunnerOdds": 680
+                    }
+                ]
+            },
+            {
+                "marketType": "60_MIN_CORRECT_SCORE",
+                "externalMarketId": "42.467419751",
+                "runners": [
+                    {
+                        "selectionId": 7742377,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 1-0",
+                        "winRunnerOdds": 14000
+                    },
+                    {
+                        "selectionId": 7742379,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 2-0",
+                        "winRunnerOdds": 7500
+                    },
+                    {
+                        "selectionId": 7742378,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 2-1",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "selectionId": 7742414,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 3-0",
+                        "winRunnerOdds": 4600
+                    },
+                    {
+                        "selectionId": 7742399,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 3-1",
+                        "winRunnerOdds": 2500
+                    },
+                    {
+                        "selectionId": 7742402,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 3-2",
+                        "winRunnerOdds": 2300
+                    },
+                    {
+                        "selectionId": 7742398,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 4-0",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "selectionId": 7742407,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 4-1",
+                        "winRunnerOdds": 2100
+                    },
+                    {
+                        "selectionId": 7742405,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 4-2",
+                        "winRunnerOdds": 2200
+                    },
+                    {
+                        "selectionId": 7742418,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 4-3",
+                        "winRunnerOdds": 3000
+                    },
+                    {
+                        "selectionId": 7742401,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 5-0",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "selectionId": 7742417,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 5-1",
+                        "winRunnerOdds": 3500
+                    },
+                    {
+                        "selectionId": 7742419,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 5-2",
+                        "winRunnerOdds": 2000
+                    },
+                    {
+                        "selectionId": 7742420,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 5-3",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "selectionId": 7742403,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 5-4",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "selectionId": 35414681,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 6-0",
+                        "winRunnerOdds": 24000
+                    },
+                    {
+                        "selectionId": 35414683,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 6-1",
+                        "winRunnerOdds": 7000
+                    },
+                    {
+                        "selectionId": 38297470,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 6-2",
+                        "winRunnerOdds": 4300
+                    },
+                    {
+                        "selectionId": 53147117,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 6-3",
+                        "winRunnerOdds": 3400
+                    },
+                    {
+                        "selectionId": 53147114,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 6-4",
+                        "winRunnerOdds": 6500
+                    },
+                    {
+                        "selectionId": 53147112,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 6-5",
+                        "winRunnerOdds": 19000
+                    },
+                    {
+                        "selectionId": 38297468,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 7-1",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "selectionId": 53147113,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 7-2",
+                        "winRunnerOdds": 13000
+                    },
+                    {
+                        "selectionId": 53147116,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 7-3",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "selectionId": 53147118,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 7-4",
+                        "winRunnerOdds": 12000
+                    },
+                    {
+                        "selectionId": 53147119,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars 7-5",
+                        "winRunnerOdds": 23000
+                    },
+                    {
+                        "selectionId": 35223559,
+                        "handicap": 0,
+                        "runnerName": "Tie 0-0",
+                        "winRunnerOdds": 17000
+                    },
+                    {
+                        "selectionId": 8359160,
+                        "handicap": 0,
+                        "runnerName": "Tie 1-1",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "selectionId": 8359163,
+                        "handicap": 0,
+                        "runnerName": "Tie 2-2",
+                        "winRunnerOdds": 1200
+                    },
+                    {
+                        "selectionId": 35223564,
+                        "handicap": 0,
+                        "runnerName": "Tie 3-3",
+                        "winRunnerOdds": 1300
+                    },
+                    {
+                        "selectionId": 35223572,
+                        "handicap": 0,
+                        "runnerName": "Tie 4-4",
+                        "winRunnerOdds": 2500
+                    },
+                    {
+                        "selectionId": 35223579,
+                        "handicap": 0,
+                        "runnerName": "Tie 5-5",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "selectionId": 8399852,
+                        "handicap": 0,
+                        "runnerName": "Tie 6-6",
+                        "winRunnerOdds": 20000
+                    },
+                    {
+                        "selectionId": 74152961,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 1-0",
+                        "winRunnerOdds": 17000
+                    },
+                    {
+                        "selectionId": 74152978,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 2-0",
+                        "winRunnerOdds": 9500
+                    },
+                    {
+                        "selectionId": 74152968,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 2-1",
+                        "winRunnerOdds": 3900
+                    },
+                    {
+                        "selectionId": 74152970,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 3-0",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "selectionId": 74152973,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 3-1",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "selectionId": 74152985,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 3-2",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "selectionId": 74152969,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 4-0",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "selectionId": 74152975,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 4-1",
+                        "winRunnerOdds": 2500
+                    },
+                    {
+                        "selectionId": 74152982,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 4-2",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "selectionId": 74152987,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 4-3",
+                        "winRunnerOdds": 3300
+                    },
+                    {
+                        "selectionId": 74152976,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 5-0",
+                        "winRunnerOdds": 14000
+                    },
+                    {
+                        "selectionId": 74152966,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 5-1",
+                        "winRunnerOdds": 4900
+                    },
+                    {
+                        "selectionId": 74152971,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 5-2",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "selectionId": 74152974,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 5-3",
+                        "winRunnerOdds": 3100
+                    },
+                    {
+                        "selectionId": 74152980,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 5-4",
+                        "winRunnerOdds": 6000
+                    },
+                    {
+                        "selectionId": 74152986,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 6-1",
+                        "winRunnerOdds": 11000
+                    },
+                    {
+                        "selectionId": 74152984,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 6-2",
+                        "winRunnerOdds": 5500
+                    },
+                    {
+                        "selectionId": 74152983,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 6-3",
+                        "winRunnerOdds": 4100
+                    },
+                    {
+                        "selectionId": 74152960,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 6-4",
+                        "winRunnerOdds": 8000
+                    },
+                    {
+                        "selectionId": 74152972,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 6-5",
+                        "winRunnerOdds": 23000
+                    },
+                    {
+                        "selectionId": 74152964,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 7-1",
+                        "winRunnerOdds": 18000
+                    },
+                    {
+                        "selectionId": 74152965,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 7-2",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "selectionId": 74152959,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 7-3",
+                        "winRunnerOdds": 15000
+                    },
+                    {
+                        "selectionId": 74152963,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 7-4",
+                        "winRunnerOdds": 10000
+                    },
+                    {
+                        "selectionId": 74152981,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club 7-5",
+                        "winRunnerOdds": 24000
+                    },
+                    {
+                        "selectionId": 7668959,
+                        "handicap": 0,
+                        "runnerName": "Any Other Score",
+                        "winRunnerOdds": 3200
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.467419749",
+                "runners": [
+                    {
+                        "selectionId": 25612,
+                        "handicap": 0,
+                        "runnerName": "Dallas Stars",
+                        "winRunnerOdds": -128
+                    },
+                    {
+                        "selectionId": 70657858,
+                        "handicap": 0,
+                        "runnerName": "Utah Hockey Club",
+                        "winRunnerOdds": 106
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.467419755",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 6.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -102
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 6.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -120
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.467419750",
+                "runners": [
+                    {
+                        "selectionId": 25612,
+                        "handicap": -1.5,
+                        "runnerName": "Dallas Stars",
+                        "winRunnerOdds": 184
+                    },
+                    {
+                        "selectionId": 70657858,
+                        "handicap": 1.5,
+                        "runnerName": "Utah Hockey Club",
+                        "winRunnerOdds": -230
+                    }
+                ]
+            }
+        ]
+    }
+}

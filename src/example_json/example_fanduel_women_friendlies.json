@@ -1,0 +1,205 @@
+{
+    "33835546": {
+        "name": "Romania v Albania",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.467529036",
+                "runners": [
+                    {
+                        "selectionId": 5910517,
+                        "handicap": 0,
+                        "runnerName": "Romania (W)",
+                        "winRunnerOdds": -750
+                    },
+                    {
+                        "selectionId": 58805,
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 550
+                    },
+                    {
+                        "selectionId": 7172267,
+                        "handicap": 0,
+                        "runnerName": "Albania (W)",
+                        "winRunnerOdds": 1400
+                    }
+                ]
+            }
+        ]
+    },
+    "33835570": {
+        "name": "Netherlands v USA",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.467529920",
+                "runners": [
+                    {
+                        "selectionId": 2032095,
+                        "handicap": 0,
+                        "runnerName": "Netherlands (W)",
+                        "winRunnerOdds": 180
+                    },
+                    {
+                        "selectionId": 58805,
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 230
+                    },
+                    {
+                        "selectionId": 541859,
+                        "handicap": 0,
+                        "runnerName": "USA (W)",
+                        "winRunnerOdds": 135
+                    }
+                ]
+            }
+        ]
+    },
+    "33835717": {
+        "name": "Malta v Hungary",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.467540134",
+                "runners": [
+                    {
+                        "selectionId": 4255836,
+                        "handicap": 0,
+                        "runnerName": "Malta (W)",
+                        "winRunnerOdds": 1000
+                    },
+                    {
+                        "selectionId": 58805,
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 470
+                    },
+                    {
+                        "selectionId": 5910503,
+                        "handicap": 0,
+                        "runnerName": "Hungary (W)",
+                        "winRunnerOdds": -480
+                    }
+                ]
+            }
+        ]
+    },
+    "33835759": {
+        "name": "Morocco v Mali",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.467542999",
+                "runners": [
+                    {
+                        "selectionId": 8343350,
+                        "handicap": 0,
+                        "runnerName": "Morocco (W)",
+                        "winRunnerOdds": -750
+                    },
+                    {
+                        "selectionId": 58805,
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 550
+                    },
+                    {
+                        "selectionId": 10932518,
+                        "handicap": 0,
+                        "runnerName": "Mali (W)",
+                        "winRunnerOdds": 1400
+                    }
+                ]
+            }
+        ]
+    },
+    "33835762": {
+        "name": "France v Spain",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.467543269",
+                "runners": [
+                    {
+                        "selectionId": 541830,
+                        "handicap": 0,
+                        "runnerName": "France (W)",
+                        "winRunnerOdds": 210
+                    },
+                    {
+                        "selectionId": 58805,
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 250
+                    },
+                    {
+                        "selectionId": 984617,
+                        "handicap": 0,
+                        "runnerName": "Spain (W)",
+                        "winRunnerOdds": 105
+                    }
+                ]
+            }
+        ]
+    },
+    "33835781": {
+        "name": "Saudi Arabia Women v Palestine",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.467544839",
+                "runners": [
+                    {
+                        "selectionId": 66288101,
+                        "handicap": 0,
+                        "runnerName": "Saudi Arabia Women",
+                        "winRunnerOdds": 125
+                    },
+                    {
+                        "selectionId": 58805,
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 220
+                    },
+                    {
+                        "selectionId": 5380220,
+                        "handicap": 0,
+                        "runnerName": "Palestine (W)",
+                        "winRunnerOdds": 195
+                    }
+                ]
+            }
+        ]
+    },
+    "33835845": {
+        "name": "Canada v South Korea",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.467549735",
+                "runners": [
+                    {
+                        "selectionId": 541840,
+                        "handicap": 0,
+                        "runnerName": "Canada (W)",
+                        "winRunnerOdds": -490
+                    },
+                    {
+                        "selectionId": 58805,
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 450
+                    },
+                    {
+                        "selectionId": 548619,
+                        "handicap": 0,
+                        "runnerName": "South Korea (W)",
+                        "winRunnerOdds": 1100
+                    }
+                ]
+            }
+        ]
+    }
+}

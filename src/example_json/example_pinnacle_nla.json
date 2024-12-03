@@ -1,112 +1,93 @@
 {
-    "1601222499": {
-        "name": "EV Zug v ZSC Lions",
+    "1601570471": {
+        "name": "SCL Tigers v HC Fribourg-Gotteron",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": -131
+                        "price": -101
                     },
                     {
                         "designation": "away",
-                        "price": 108
-                    }
-                ],
-                "limit": 125
-            }
-        ]
-    },
-    "1601222500": {
-        "name": "HC Lausanne v HC Davos",
-        "markets": [
-            {
-                "description": "moneyline",
-                "prices": [
-                    {
-                        "designation": "home",
-                        "price": -122
-                    },
-                    {
-                        "designation": "away",
-                        "price": 101
-                    }
-                ],
-                "limit": 125
-            }
-        ]
-    },
-    "1601263872": {
-        "name": "SCL Tigers v HC Ambri-Piotta",
-        "markets": [
-            {
-                "description": "moneyline",
-                "prices": [
-                    {
-                        "designation": "home",
-                        "price": -126
-                    },
-                    {
-                        "designation": "away",
-                        "price": 104
+                        "price": -120
                     }
                 ],
                 "limit": 50
             }
         ]
     },
-    "1601263880": {
-        "name": "HC Ajoie v HC Lugano",
+    "1601570470": {
+        "name": "Geneve-Servette HC v HC Davos",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": 170
+                        "price": -113
                     },
                     {
                         "designation": "away",
-                        "price": -215
-                    }
-                ],
-                "limit": 50
-            }
-        ]
-    },
-    "1601263875": {
-        "name": "Rapperswil-Jona Lakers v Geneve-Servette HC",
-        "markets": [
-            {
-                "description": "moneyline",
-                "prices": [
-                    {
-                        "designation": "home",
-                        "price": -116
-                    },
-                    {
-                        "designation": "away",
-                        "price": -105
-                    }
-                ],
-                "limit": 50
-            }
-        ]
-    },
-    "1601263879": {
-        "name": "EHC Biel v SC Bern",
-        "markets": [
-            {
-                "description": "moneyline",
-                "prices": [
-                    {
-                        "designation": "home",
                         "price": -107
+                    }
+                ],
+                "limit": 50
+            }
+        ]
+    },
+    "1601570468": {
+        "name": "HC Ajoie v Kloten-Flyers",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 144
                     },
                     {
                         "designation": "away",
-                        "price": -114
+                        "price": -178
+                    }
+                ],
+                "limit": 50
+            }
+        ]
+    },
+    "1601570467": {
+        "name": "HC Ambri-Piotta v EV Zug",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 110
+                    },
+                    {
+                        "designation": "away",
+                        "price": -133
+                    }
+                ],
+                "limit": 50
+            }
+        ]
+    },
+    "1601570469": {
+        "name": "HC Lugano v Rapperswil-Jona Lakers",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -169
+                    },
+                    {
+                        "designation": "away",
+                        "price": 137
                     }
                 ],
                 "limit": 50
