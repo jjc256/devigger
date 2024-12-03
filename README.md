@@ -16,6 +16,11 @@ A Python application that analyzes betting odds from FanDuel and Pinnacle to fin
   - EPL (Soccer)
   - SHL (Hockey)
   - NLA (Hockey)
+  - Turkish First League (Soccer)
+  - Turkish Super League (Soccer)
+  - J1 League (Soccer)
+  - International Women's Friendlies (Soccer)
+
 - Analyzes various bet types:
   - Moneylines
   - Point Spreads
