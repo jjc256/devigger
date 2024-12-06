@@ -326,7 +326,8 @@ def display_good_bets(devig_method=DevigMethod.POWER):
         if true_prob > fanduel_prob:
             ev = (true_prob - fanduel_prob) / fanduel_prob * 100
             kelly_percentage = kelly_criterion(true_prob, fanduel_prob) * 100
-            risk_percentage = kelly_percentage * get_confidence_value(wager.pinnacle_limit) / 10
+            risk_percentage = min(5, kelly_percentage *
+                                  get_confidence_value(wager.pinnacle_limit) / 10)
             good_bets.append((wager, ev, risk_percentage))
 
     return good_bets
@@ -396,7 +397,7 @@ def reload_data(root, canvas, scrollable_frame, devig_method):
         bet_frame = tk.Frame(scrollable_frame, borderwidth=2,
                              relief="groove", width=280, height=200)
         # Add background color if FanDuel odds meet condition
-        if wager.fanduel_odds <= -120:
+        if wager.fanduel_odds <= -120 and not isinstance(wager, PlayerProps) and not isinstance(wager, PlayerPropsYes):
             bet_frame.configure(bg="#90ee90")
 
         bet_frame.grid(row=row, column=col, padx=5, pady=5)

@@ -5,6 +5,7 @@ A Python application that analyzes betting odds from FanDuel and Pinnacle to fin
 ## Features
 
 - Scrapes real-time odds from FanDuel and Pinnacle sportsbooks
+  - Because of rate limiting, certain sports have sleep time, so GUI should open in around 45 seconds
 - Only shows games from the current day to ensure Pinnacle's odds are closer to true market odds, reducing risk
 - Supports multiple sports:
   - NBA (Basketball)
