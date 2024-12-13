@@ -70,9 +70,9 @@ def process_fanduel_rows(rows, data):
                 "events", {}).get(str(event_id), {}).get("openDate")
             if (" @ " in name or " v " in name):
                 name = re.sub(r' \([^)]*\)', '', name)  # Remove anything in parentheses
-                event_date = datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%S.000Z")
-                event_date_seconds = event_date.timestamp()
-                if event_date_seconds > datetime.datetime.now().timestamp() and event_date_seconds < (datetime.datetime.now() + datetime.timedelta(hours=24)).timestamp():
+                event_date = datetime.datetime.fromisoformat(date.replace("Z", "+00:00"))
+                now = datetime.datetime.now(datetime.timezone.utc)
+                if event_date > now and event_date < (now + datetime.timedelta(hours=24)):
                     result[event_id] = {"name": name}
                     seen_event_ids.add(event_id)
     return result, seen_event_ids
@@ -285,8 +285,12 @@ def fanduel_ncaaf(save_to_file=False):
     data = get_response(url, headers, params)
     if data:
         # Get all events from the attachments section
-        rows = data.get("layout", {}).get("coupons", {}).get(
-            "2", {}).get("display", [])[0].get("rows", [])
+        display = data.get("layout", {}).get("coupons", {}).get(
+            "2", {}).get("display", [])
+        if len(display) > 0:
+            rows = display[0].get("rows", [])
+        else:
+            rows = []
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
@@ -1331,7 +1335,7 @@ def print_market_types():
 
 # Call all functions and save results when executed directly
 if __name__ == "__main__":
-    """
+
     fanduel_nba(save_to_file=True)
     fanduel_nfl(save_to_file=True)
     fanduel_nhl(save_to_file=True)
@@ -1360,7 +1364,4 @@ if __name__ == "__main__":
     pinnacle_turkish_super(save_to_file=True)
     pinnacle_j1(save_to_file=True)
     pinnacle_ligue1(save_to_file=True)
-    pinnacle_women_friendlies(save_to_file=True)
-    """
-    fanduel_women_friendlies(save_to_file=True)
     pinnacle_women_friendlies(save_to_file=True)

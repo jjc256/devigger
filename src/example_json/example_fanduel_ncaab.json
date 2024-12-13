@@ -1,707 +1,235 @@
 {
-    "33834070": {
-        "name": "UMBC @ Georgetown",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467446056",
-                "runners": [
-                    {
-                        "selectionId": 2909588,
-                        "handicap": 17.5,
-                        "runnerName": "UMBC",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "selectionId": 701612,
-                        "handicap": -17.5,
-                        "runnerName": "Georgetown",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467446062",
-                "runners": [
-                    {
-                        "selectionId": 7017823,
-                        "handicap": 156.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 7017824,
-                        "handicap": 156.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467446063",
-                "runners": [
-                    {
-                        "selectionId": 2909588,
-                        "handicap": 0,
-                        "runnerName": "UMBC",
-                        "winRunnerOdds": 1160
-                    },
-                    {
-                        "selectionId": 701612,
-                        "handicap": 0,
-                        "runnerName": "Georgetown",
-                        "winRunnerOdds": -2500
-                    }
-                ]
-            }
-        ]
-    },
-    "33834071": {
-        "name": "Loyola (MD) @ Coppin State",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467446061",
-                "runners": [
-                    {
-                        "selectionId": 4313984,
-                        "handicap": -7.5,
-                        "runnerName": "Loyola (MD)",
-                        "winRunnerOdds": -108
-                    },
-                    {
-                        "selectionId": 739764,
-                        "handicap": 7.5,
-                        "runnerName": "Coppin State",
-                        "winRunnerOdds": -112
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467446066",
-                "runners": [
-                    {
-                        "selectionId": 7017823,
-                        "handicap": 132.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "selectionId": 7017824,
-                        "handicap": 132.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467446067",
-                "runners": [
-                    {
-                        "selectionId": 4313984,
-                        "handicap": 0,
-                        "runnerName": "Loyola (MD)",
-                        "winRunnerOdds": -320
-                    },
-                    {
-                        "selectionId": 739764,
-                        "handicap": 0,
-                        "runnerName": "Coppin State",
-                        "winRunnerOdds": 255
-                    }
-                ]
-            }
-        ]
-    },
-    "33834072": {
-        "name": "Bryant @ Drexel",
+    "33854046": {
+        "name": "Minnesota @ Indiana",
         "markets": [
             {
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467446076",
-                "runners": [
-                    {
-                        "selectionId": 7017823,
-                        "handicap": 150.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 7017824,
-                        "handicap": 150.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467446077",
-                "runners": [
-                    {
-                        "selectionId": 3514868,
-                        "handicap": 0,
-                        "runnerName": "Bryant",
-                        "winRunnerOdds": 104
-                    },
-                    {
-                        "selectionId": 754279,
-                        "handicap": 0,
-                        "runnerName": "Drexel",
-                        "winRunnerOdds": -125
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467446064",
-                "runners": [
-                    {
-                        "selectionId": 3514868,
-                        "handicap": 1.5,
-                        "runnerName": "Bryant",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 754279,
-                        "handicap": -1.5,
-                        "runnerName": "Drexel",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            }
-        ]
-    },
-    "33834064": {
-        "name": "Yale @ Rhode Island",
-        "markets": [
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467446032",
-                "runners": [
-                    {
-                        "selectionId": 707388,
-                        "handicap": 0,
-                        "runnerName": "Yale",
-                        "winRunnerOdds": 122
-                    },
-                    {
-                        "selectionId": 721613,
-                        "handicap": 0,
-                        "runnerName": "Rhode Island",
-                        "winRunnerOdds": -146
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467446027",
-                "runners": [
-                    {
-                        "selectionId": 707388,
-                        "handicap": 2.5,
-                        "runnerName": "Yale",
-                        "winRunnerOdds": -106
-                    },
-                    {
-                        "selectionId": 721613,
-                        "handicap": -2.5,
-                        "runnerName": "Rhode Island",
-                        "winRunnerOdds": -114
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467446031",
-                "runners": [
-                    {
-                        "selectionId": 7017823,
-                        "handicap": 155.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -105
-                    },
-                    {
-                        "selectionId": 7017824,
-                        "handicap": 155.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -115
-                    }
-                ]
-            }
-        ]
-    },
-    "33834065": {
-        "name": "William & Mary @ Old Dominion",
-        "markets": [
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467446037",
-                "runners": [
-                    {
-                        "selectionId": 7017823,
-                        "handicap": 157.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -105
-                    },
-                    {
-                        "selectionId": 7017824,
-                        "handicap": 157.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -115
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467446038",
-                "runners": [
-                    {
-                        "selectionId": 4532870,
-                        "handicap": 0,
-                        "runnerName": "William & Mary",
-                        "winRunnerOdds": -315
-                    },
-                    {
-                        "selectionId": 1096367,
-                        "handicap": 0,
-                        "runnerName": "Old Dominion",
-                        "winRunnerOdds": 250
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467446034",
-                "runners": [
-                    {
-                        "selectionId": 4532870,
-                        "handicap": -7.5,
-                        "runnerName": "William & Mary",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 1096367,
-                        "handicap": 7.5,
-                        "runnerName": "Old Dominion",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            }
-        ]
-    },
-    "33834066": {
-        "name": "Air Force @ Miami (OH)",
-        "markets": [
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467446043",
-                "runners": [
-                    {
-                        "selectionId": 7017823,
-                        "handicap": 133.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -105
-                    },
-                    {
-                        "selectionId": 7017824,
-                        "handicap": 133.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -115
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467446035",
-                "runners": [
-                    {
-                        "selectionId": 704641,
-                        "handicap": 6.5,
-                        "runnerName": "Air Force",
-                        "winRunnerOdds": -105
-                    },
-                    {
-                        "selectionId": 3487243,
-                        "handicap": -6.5,
-                        "runnerName": "Miami (OH)",
-                        "winRunnerOdds": -115
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467446044",
-                "runners": [
-                    {
-                        "selectionId": 704641,
-                        "handicap": 0,
-                        "runnerName": "Air Force",
-                        "winRunnerOdds": 225
-                    },
-                    {
-                        "selectionId": 3487243,
-                        "handicap": 0,
-                        "runnerName": "Miami (OH)",
-                        "winRunnerOdds": -280
-                    }
-                ]
-            }
-        ]
-    },
-    "33834067": {
-        "name": "UT Arlington @ UL Monroe",
-        "markets": [
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467446048",
-                "runners": [
-                    {
-                        "selectionId": 7017823,
-                        "handicap": 147.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "selectionId": 7017824,
-                        "handicap": 147.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467446049",
-                "runners": [
-                    {
-                        "selectionId": 6840558,
-                        "handicap": 0,
-                        "runnerName": "UT Arlington",
-                        "winRunnerOdds": -285
-                    },
-                    {
-                        "selectionId": 6861819,
-                        "handicap": 0,
-                        "runnerName": "UL Monroe",
-                        "winRunnerOdds": 230
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467446045",
-                "runners": [
-                    {
-                        "selectionId": 6840558,
-                        "handicap": -6.5,
-                        "runnerName": "UT Arlington",
-                        "winRunnerOdds": -118
-                    },
-                    {
-                        "selectionId": 6861819,
-                        "handicap": 6.5,
-                        "runnerName": "UL Monroe",
-                        "winRunnerOdds": -104
-                    }
-                ]
-            }
-        ]
-    },
-    "33834073": {
-        "name": "SE Louisiana @ Tulane",
-        "markets": [
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467446075",
-                "runners": [
-                    {
-                        "selectionId": 739707,
-                        "handicap": 0,
-                        "runnerName": "SE Louisiana",
-                        "winRunnerOdds": 275
-                    },
-                    {
-                        "selectionId": 728305,
-                        "handicap": 0,
-                        "runnerName": "Tulane",
-                        "winRunnerOdds": -350
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467446065",
-                "runners": [
-                    {
-                        "selectionId": 739707,
-                        "handicap": 7.5,
-                        "runnerName": "SE Louisiana",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 728305,
-                        "handicap": -7.5,
-                        "runnerName": "Tulane",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467446074",
+                "externalMarketId": "42.468669399",
                 "runners": [
                     {
                         "selectionId": 7017823,
                         "handicap": 139.5,
                         "runnerName": "Over",
-                        "winRunnerOdds": -110
+                        "winRunnerOdds": -115
                     },
                     {
                         "selectionId": 7017824,
                         "handicap": 139.5,
                         "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            }
-        ]
-    },
-    "33834074": {
-        "name": "Jackson State @ Saint Louis",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467446073",
-                "runners": [
-                    {
-                        "selectionId": 739706,
-                        "handicap": 19.5,
-                        "runnerName": "Jackson State",
                         "winRunnerOdds": -105
-                    },
-                    {
-                        "selectionId": 3602702,
-                        "handicap": -19.5,
-                        "runnerName": "Saint Louis",
-                        "winRunnerOdds": -115
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467446083",
-                "runners": [
-                    {
-                        "selectionId": 739706,
-                        "handicap": 0,
-                        "runnerName": "Jackson State",
-                        "winRunnerOdds": 1600
-                    },
-                    {
-                        "selectionId": 3602702,
-                        "handicap": 0,
-                        "runnerName": "Saint Louis",
-                        "winRunnerOdds": -4500
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467446082",
-                "runners": [
-                    {
-                        "selectionId": 7017823,
-                        "handicap": 154.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 7017824,
-                        "handicap": 154.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            }
-        ]
-    },
-    "33834075": {
-        "name": "Chicago State @ St Thomas",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467446081",
-                "runners": [
-                    {
-                        "selectionId": 735940,
-                        "handicap": 20.5,
-                        "runnerName": "Chicago State",
-                        "winRunnerOdds": -108
-                    },
-                    {
-                        "selectionId": 50026764,
-                        "handicap": -20.5,
-                        "runnerName": "St Thomas",
-                        "winRunnerOdds": -112
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467446085",
-                "runners": [
-                    {
-                        "selectionId": 7017823,
-                        "handicap": 140.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -112
-                    },
-                    {
-                        "selectionId": 7017824,
-                        "handicap": 140.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -108
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467446086",
-                "runners": [
-                    {
-                        "selectionId": 735940,
-                        "handicap": 0,
-                        "runnerName": "Chicago State",
-                        "winRunnerOdds": 1600
-                    },
-                    {
-                        "selectionId": 50026764,
-                        "handicap": 0,
-                        "runnerName": "St Thomas",
-                        "winRunnerOdds": -4500
-                    }
-                ]
-            }
-        ]
-    },
-    "33834068": {
-        "name": "Pacific @ Colorado",
-        "markets": [
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467446058",
-                "runners": [
-                    {
-                        "selectionId": 756685,
-                        "handicap": 0,
-                        "runnerName": "Pacific",
-                        "winRunnerOdds": 860
-                    },
-                    {
-                        "selectionId": 697643,
-                        "handicap": 0,
-                        "runnerName": "Colorado",
-                        "winRunnerOdds": -1600
                     }
                 ]
             },
             {
                 "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467446047",
+                "externalMarketId": "42.468669197",
                 "runners": [
                     {
-                        "selectionId": 756685,
-                        "handicap": 15.5,
-                        "runnerName": "Pacific",
-                        "winRunnerOdds": -112
-                    },
-                    {
-                        "selectionId": 697643,
-                        "handicap": -15.5,
-                        "runnerName": "Colorado",
-                        "winRunnerOdds": -108
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467446057",
-                "runners": [
-                    {
-                        "selectionId": 7017823,
-                        "handicap": 143.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 7017824,
-                        "handicap": 143.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            }
-        ]
-    },
-    "33834069": {
-        "name": "Washington State @ Nevada",
-        "markets": [
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467446052",
-                "runners": [
-                    {
-                        "selectionId": 675922,
-                        "handicap": 11.5,
-                        "runnerName": "Washington State",
+                        "selectionId": 13118,
+                        "handicap": 9.5,
+                        "runnerName": "Minnesota",
                         "winRunnerOdds": -102
                     },
                     {
-                        "selectionId": 711055,
-                        "handicap": -11.5,
-                        "runnerName": "Nevada",
+                        "selectionId": 13116,
+                        "handicap": -9.5,
+                        "runnerName": "Indiana",
                         "winRunnerOdds": -120
                     }
                 ]
             },
             {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.468669400",
+                "runners": [
+                    {
+                        "selectionId": 13118,
+                        "handicap": 0,
+                        "runnerName": "Minnesota",
+                        "winRunnerOdds": 400
+                    },
+                    {
+                        "selectionId": 13116,
+                        "handicap": 0,
+                        "runnerName": "Indiana",
+                        "winRunnerOdds": -550
+                    }
+                ]
+            }
+        ]
+    },
+    "33854047": {
+        "name": "Pennsylvania @ VCU",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.468669404",
+                "runners": [
+                    {
+                        "selectionId": 707387,
+                        "handicap": 23.5,
+                        "runnerName": "Pennsylvania",
+                        "winRunnerOdds": -102
+                    },
+                    {
+                        "selectionId": 2328616,
+                        "handicap": -23.5,
+                        "runnerName": "VCU",
+                        "winRunnerOdds": -120
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.468669420",
+                "runners": [
+                    {
+                        "selectionId": 707387,
+                        "handicap": 0,
+                        "runnerName": "Pennsylvania",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "selectionId": 2328616,
+                        "handicap": 0,
+                        "runnerName": "VCU",
+                        "winRunnerOdds": -10000
+                    }
+                ]
+            },
+            {
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467446059",
+                "externalMarketId": "42.468669419",
                 "runners": [
                     {
                         "selectionId": 7017823,
-                        "handicap": 146.5,
+                        "handicap": 138.5,
                         "runnerName": "Over",
-                        "winRunnerOdds": -115
+                        "winRunnerOdds": -114
                     },
                     {
                         "selectionId": 7017824,
-                        "handicap": 146.5,
+                        "handicap": 138.5,
                         "runnerName": "Under",
+                        "winRunnerOdds": -106
+                    }
+                ]
+            }
+        ]
+    },
+    "33854049": {
+        "name": "Charleston Southern @ South Carolina State",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.468669452",
+                "runners": [
+                    {
+                        "selectionId": 5145584,
+                        "handicap": 2.5,
+                        "runnerName": "Charleston Southern",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "selectionId": 735895,
+                        "handicap": -2.5,
+                        "runnerName": "South Carolina State",
                         "winRunnerOdds": -105
                     }
                 ]
             },
             {
                 "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467446060",
+                "externalMarketId": "42.468669669",
                 "runners": [
                     {
-                        "selectionId": 675922,
+                        "selectionId": 5145584,
                         "handicap": 0,
-                        "runnerName": "Washington State",
-                        "winRunnerOdds": 550
+                        "runnerName": "Charleston Southern",
+                        "winRunnerOdds": 108
                     },
                     {
-                        "selectionId": 711055,
+                        "selectionId": 735895,
                         "handicap": 0,
-                        "runnerName": "Nevada",
-                        "winRunnerOdds": -820
+                        "runnerName": "South Carolina State",
+                        "winRunnerOdds": -130
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.468669668",
+                "runners": [
+                    {
+                        "selectionId": 7017823,
+                        "handicap": 143.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -115
+                    },
+                    {
+                        "selectionId": 7017824,
+                        "handicap": 143.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -105
+                    }
+                ]
+            }
+        ]
+    },
+    "33854048": {
+        "name": "Abilene Christian @ Baylor",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.468669446",
+                "runners": [
+                    {
+                        "selectionId": 7017823,
+                        "handicap": 141.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "selectionId": 7017824,
+                        "handicap": 141.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.468669424",
+                "runners": [
+                    {
+                        "selectionId": 17630412,
+                        "handicap": 23.5,
+                        "runnerName": "Abilene Christian",
+                        "winRunnerOdds": -105
+                    },
+                    {
+                        "selectionId": 705559,
+                        "handicap": -23.5,
+                        "runnerName": "Baylor",
+                        "winRunnerOdds": -115
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.468669447",
+                "runners": [
+                    {
+                        "selectionId": 17630412,
+                        "handicap": 0,
+                        "runnerName": "Abilene Christian",
+                        "winRunnerOdds": 2400
+                    },
+                    {
+                        "selectionId": 705559,
+                        "handicap": 0,
+                        "runnerName": "Baylor",
+                        "winRunnerOdds": -10000
                     }
                 ]
             }

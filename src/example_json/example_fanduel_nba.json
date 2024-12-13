@@ -1,3005 +1,938 @@
 {
-    "33830564": {
-        "name": "Miami Heat @ Boston Celtics",
+    "33850754": {
+        "name": "New York Knicks @ Toronto Raptors",
         "markets": [
             {
                 "marketType": "2+_MADE_THREES",
-                "externalMarketId": "42.467540099",
+                "externalMarketId": "42.468734894",
                 "runners": [
                     {
-                        "selectionId": 24701720,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": -850
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": -310
                     },
                     {
-                        "selectionId": 13080925,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": -800
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": -250
                     },
                     {
-                        "selectionId": 26733620,
+                        "selectionId": 49763863,
                         "handicap": 0,
-                        "runnerName": "Duncan Robinson",
-                        "winRunnerOdds": -340
+                        "runnerName": "Gradey Dick",
+                        "winRunnerOdds": -250
                     },
                     {
-                        "selectionId": 10092944,
+                        "selectionId": 16012686,
                         "handicap": 0,
-                        "runnerName": "Terry Rozier",
-                        "winRunnerOdds": -145
+                        "runnerName": "OG Anunoby",
+                        "winRunnerOdds": -240
+                    },
+                    {
+                        "selectionId": 9542187,
+                        "handicap": 0,
+                        "runnerName": "Karl-Anthony Towns",
+                        "winRunnerOdds": -190
+                    },
+                    {
+                        "selectionId": 36981603,
+                        "handicap": 0,
+                        "runnerName": "Scottie Barnes",
+                        "winRunnerOdds": -160
+                    },
+                    {
+                        "selectionId": 24728965,
+                        "handicap": 0,
+                        "runnerName": "RJ Barrett",
+                        "winRunnerOdds": -130
                     }
                 ]
             },
             {
                 "marketType": "3+_MADE_THREES",
-                "externalMarketId": "42.467540100",
+                "externalMarketId": "42.468734895",
                 "runners": [
                     {
-                        "selectionId": 24701720,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": -310
-                    },
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": -260
-                    },
-                    {
-                        "selectionId": 26733620,
-                        "handicap": 0,
-                        "runnerName": "Duncan Robinson",
-                        "winRunnerOdds": -135
-                    },
-                    {
-                        "selectionId": 10092944,
-                        "handicap": 0,
-                        "runnerName": "Terry Rozier",
-                        "winRunnerOdds": 170
-                    }
-                ]
-            },
-            {
-                "marketType": "4+_MADE_THREES",
-                "externalMarketId": "42.467540101",
-                "runners": [
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": -145
-                    },
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
+                        "runnerName": "Jalen Brunson",
                         "winRunnerOdds": -115
                     },
                     {
-                        "selectionId": 26733620,
+                        "selectionId": 49763863,
                         "handicap": 0,
-                        "runnerName": "Duncan Robinson",
-                        "winRunnerOdds": 145
-                    },
-                    {
-                        "selectionId": 10092944,
-                        "handicap": 0,
-                        "runnerName": "Terry Rozier",
-                        "winRunnerOdds": 380
-                    }
-                ]
-            },
-            {
-                "marketType": "5+_MADE_THREES",
-                "externalMarketId": "42.467540102",
-                "runners": [
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": 135
-                    },
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": 185
-                    },
-                    {
-                        "selectionId": 26733620,
-                        "handicap": 0,
-                        "runnerName": "Duncan Robinson",
-                        "winRunnerOdds": 280
-                    },
-                    {
-                        "selectionId": 10092944,
-                        "handicap": 0,
-                        "runnerName": "Terry Rozier",
-                        "winRunnerOdds": 800
-                    }
-                ]
-            },
-            {
-                "marketType": "6+_MADE_THREES",
-                "externalMarketId": "42.467540103",
-                "runners": [
-                    {
-                        "selectionId": 26733620,
-                        "handicap": 0,
-                        "runnerName": "Duncan Robinson",
-                        "winRunnerOdds": 550
-                    },
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": 250
-                    },
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": 370
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_15+_POINTS",
-                "externalMarketId": "42.467540075",
-                "runners": [
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": -1900
-                    },
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": -550
-                    },
-                    {
-                        "selectionId": 14388955,
-                        "handicap": 0,
-                        "runnerName": "Bam Adebayo",
-                        "winRunnerOdds": -230
-                    },
-                    {
-                        "selectionId": 10092944,
-                        "handicap": 0,
-                        "runnerName": "Terry Rozier",
-                        "winRunnerOdds": 135
-                    },
-                    {
-                        "selectionId": 26733620,
-                        "handicap": 0,
-                        "runnerName": "Duncan Robinson",
-                        "winRunnerOdds": 145
-                    },
-                    {
-                        "selectionId": 44143642,
-                        "handicap": 0,
-                        "runnerName": "Haywood Highsmith",
-                        "winRunnerOdds": 1200
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_20+_POINTS",
-                "externalMarketId": "42.467540076",
-                "runners": [
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": -650
-                    },
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": -210
-                    },
-                    {
-                        "selectionId": 14388955,
-                        "handicap": 0,
-                        "runnerName": "Bam Adebayo",
-                        "winRunnerOdds": 120
-                    },
-                    {
-                        "selectionId": 10092944,
-                        "handicap": 0,
-                        "runnerName": "Terry Rozier",
-                        "winRunnerOdds": 360
-                    },
-                    {
-                        "selectionId": 26733620,
-                        "handicap": 0,
-                        "runnerName": "Duncan Robinson",
-                        "winRunnerOdds": 380
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_25+_POINTS",
-                "externalMarketId": "42.467540077",
-                "runners": [
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": -240
-                    },
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
+                        "runnerName": "Gradey Dick",
                         "winRunnerOdds": 105
                     },
                     {
-                        "selectionId": 14388955,
+                        "selectionId": 16012686,
                         "handicap": 0,
-                        "runnerName": "Bam Adebayo",
-                        "winRunnerOdds": 320
-                    },
-                    {
-                        "selectionId": 26733620,
-                        "handicap": 0,
-                        "runnerName": "Duncan Robinson",
-                        "winRunnerOdds": 950
-                    },
-                    {
-                        "selectionId": 10092944,
-                        "handicap": 0,
-                        "runnerName": "Terry Rozier",
-                        "winRunnerOdds": 950
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_30+_POINTS",
-                "externalMarketId": "42.467540078",
-                "runners": [
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": 100
-                    },
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": 240
-                    },
-                    {
-                        "selectionId": 14388955,
-                        "handicap": 0,
-                        "runnerName": "Bam Adebayo",
-                        "winRunnerOdds": 800
-                    },
-                    {
-                        "selectionId": 26733620,
-                        "handicap": 0,
-                        "runnerName": "Duncan Robinson",
-                        "winRunnerOdds": 2400
-                    },
-                    {
-                        "selectionId": 10092944,
-                        "handicap": 0,
-                        "runnerName": "Terry Rozier",
-                        "winRunnerOdds": 2700
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_4+_ASSISTS",
-                "externalMarketId": "42.467540092",
-                "runners": [
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": -480
-                    },
-                    {
-                        "selectionId": 14388955,
-                        "handicap": 0,
-                        "runnerName": "Bam Adebayo",
-                        "winRunnerOdds": -290
-                    },
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": -280
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_6+_ASSISTS",
-                "externalMarketId": "42.467540093",
-                "runners": [
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": -125
-                    },
-                    {
-                        "selectionId": 14388955,
-                        "handicap": 0,
-                        "runnerName": "Bam Adebayo",
-                        "winRunnerOdds": 120
-                    },
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": 130
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_4+_REBOUNDS",
-                "externalMarketId": "42.467540084",
-                "runners": [
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": -4500
-                    },
-                    {
-                        "selectionId": 14388955,
-                        "handicap": 0,
-                        "runnerName": "Bam Adebayo",
-                        "winRunnerOdds": -4500
-                    },
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": -360
-                    },
-                    {
-                        "selectionId": 44143642,
-                        "handicap": 0,
-                        "runnerName": "Haywood Highsmith",
-                        "winRunnerOdds": -125
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_6+_REBOUNDS",
-                "externalMarketId": "42.467540085",
-                "runners": [
-                    {
-                        "selectionId": 14388955,
-                        "handicap": 0,
-                        "runnerName": "Bam Adebayo",
-                        "winRunnerOdds": -850
-                    },
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": -700
-                    },
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
+                        "runnerName": "OG Anunoby",
                         "winRunnerOdds": 110
                     },
                     {
-                        "selectionId": 44143642,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Haywood Highsmith",
-                        "winRunnerOdds": 280
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_8+_REBOUNDS",
-                "externalMarketId": "42.467540086",
-                "runners": [
-                    {
-                        "selectionId": 14388955,
-                        "handicap": 0,
-                        "runnerName": "Bam Adebayo",
-                        "winRunnerOdds": -320
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": 110
                     },
                     {
-                        "selectionId": 13080925,
+                        "selectionId": 9542187,
                         "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": -230
-                    },
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": 360
-                    },
-                    {
-                        "selectionId": 44143642,
-                        "handicap": 0,
-                        "runnerName": "Haywood Highsmith",
-                        "winRunnerOdds": 1000
-                    }
-                ]
-            },
-            {
-                "marketType": "FIRST_BASKET_(SAME_GAME_MULTIS)",
-                "externalMarketId": "42.467500447",
-                "runners": [
-                    {
-                        "selectionId": 13080925,
-                        "handicap": 0,
-                        "runnerName": "Jayson Tatum",
-                        "winRunnerOdds": 420
-                    },
-                    {
-                        "selectionId": 11339194,
-                        "handicap": 0,
-                        "runnerName": "Jaylen Brown",
-                        "winRunnerOdds": 500
-                    },
-                    {
-                        "selectionId": 14388955,
-                        "handicap": 0,
-                        "runnerName": "Bam Adebayo",
-                        "winRunnerOdds": 700
-                    },
-                    {
-                        "selectionId": 24701720,
-                        "handicap": 0,
-                        "runnerName": "Tyler Herro",
-                        "winRunnerOdds": 750
-                    },
-                    {
-                        "selectionId": 26799201,
-                        "handicap": 0,
-                        "runnerName": "Payton Pritchard",
-                        "winRunnerOdds": 750
-                    },
-                    {
-                        "selectionId": 21559329,
-                        "handicap": 0,
-                        "runnerName": "Derrick White",
-                        "winRunnerOdds": 850
-                    },
-                    {
-                        "selectionId": 26733620,
-                        "handicap": 0,
-                        "runnerName": "Duncan Robinson",
-                        "winRunnerOdds": 900
-                    },
-                    {
-                        "selectionId": 36981586,
-                        "handicap": 0,
-                        "runnerName": "Neemias Queta",
-                        "winRunnerOdds": 900
-                    },
-                    {
-                        "selectionId": 10092944,
-                        "handicap": 0,
-                        "runnerName": "Terry Rozier",
-                        "winRunnerOdds": 1100
-                    },
-                    {
-                        "selectionId": 44143642,
-                        "handicap": 0,
-                        "runnerName": "Haywood Highsmith",
-                        "winRunnerOdds": 1900
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467487640",
-                "runners": [
-                    {
-                        "selectionId": 7017823,
-                        "handicap": 217.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 7017824,
-                        "handicap": 217.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467119476",
-                "runners": [
-                    {
-                        "selectionId": 237486,
-                        "handicap": 8.5,
-                        "runnerName": "Miami Heat",
-                        "winRunnerOdds": -112
-                    },
-                    {
-                        "selectionId": 60427,
-                        "handicap": -8.5,
-                        "runnerName": "Boston Celtics",
-                        "winRunnerOdds": -108
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467119475",
-                "runners": [
-                    {
-                        "selectionId": 237486,
-                        "handicap": 0,
-                        "runnerName": "Miami Heat",
-                        "winRunnerOdds": 295
-                    },
-                    {
-                        "selectionId": 60427,
-                        "handicap": 0,
-                        "runnerName": "Boston Celtics",
-                        "winRunnerOdds": -370
-                    }
-                ]
-            }
-        ]
-    },
-    "33830565": {
-        "name": "New Orleans Pelicans @ Atlanta Hawks",
-        "markets": [
-            {
-                "marketType": "2+_MADE_THREES",
-                "externalMarketId": "42.467504444",
-                "runners": [
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": -310
-                    },
-                    {
-                        "selectionId": 12402326,
-                        "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": -150
-                    },
-                    {
-                        "selectionId": 23316222,
-                        "handicap": 0,
-                        "runnerName": "De'Andre Hunter",
-                        "winRunnerOdds": -150
-                    },
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 43430139,
-                        "handicap": 0,
-                        "runnerName": "Dyson Daniels",
+                        "runnerName": "Karl-Anthony Towns",
                         "winRunnerOdds": 140
                     },
                     {
-                        "selectionId": 69129509,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "Zaccharie Risacher",
-                        "winRunnerOdds": 145
-                    }
-                ]
-            },
-            {
-                "marketType": "3+_MADE_THREES",
-                "externalMarketId": "42.467504445",
-                "runners": [
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": -120
+                        "runnerName": "Scottie Barnes",
+                        "winRunnerOdds": 165
                     },
                     {
-                        "selectionId": 12402326,
+                        "selectionId": 24728965,
                         "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": 175
-                    },
-                    {
-                        "selectionId": 23316222,
-                        "handicap": 0,
-                        "runnerName": "De'Andre Hunter",
-                        "winRunnerOdds": 180
-                    },
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": 260
-                    },
-                    {
-                        "selectionId": 43430139,
-                        "handicap": 0,
-                        "runnerName": "Dyson Daniels",
-                        "winRunnerOdds": 410
-                    },
-                    {
-                        "selectionId": 69129509,
-                        "handicap": 0,
-                        "runnerName": "Zaccharie Risacher",
-                        "winRunnerOdds": 420
+                        "runnerName": "RJ Barrett",
+                        "winRunnerOdds": 210
                     }
                 ]
             },
             {
                 "marketType": "4+_MADE_THREES",
-                "externalMarketId": "42.467504446",
+                "externalMarketId": "42.468734896",
                 "runners": [
                     {
-                        "selectionId": 18970812,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": 190
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": 195
                     },
                     {
-                        "selectionId": 12402326,
+                        "selectionId": 49763863,
                         "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": 430
+                        "runnerName": "Gradey Dick",
+                        "winRunnerOdds": 230
                     },
                     {
-                        "selectionId": 23316222,
+                        "selectionId": 16012686,
                         "handicap": 0,
-                        "runnerName": "De'Andre Hunter",
-                        "winRunnerOdds": 440
+                        "runnerName": "OG Anunoby",
+                        "winRunnerOdds": 250
                     },
                     {
-                        "selectionId": 36981627,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": 650
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": 260
                     },
                     {
-                        "selectionId": 43430139,
+                        "selectionId": 9542187,
                         "handicap": 0,
-                        "runnerName": "Dyson Daniels",
-                        "winRunnerOdds": 1100
+                        "runnerName": "Karl-Anthony Towns",
+                        "winRunnerOdds": 340
                     },
                     {
-                        "selectionId": 69129509,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "Zaccharie Risacher",
-                        "winRunnerOdds": 1100
+                        "runnerName": "Scottie Barnes",
+                        "winRunnerOdds": 400
+                    },
+                    {
+                        "selectionId": 24728965,
+                        "handicap": 0,
+                        "runnerName": "RJ Barrett",
+                        "winRunnerOdds": 500
                     }
                 ]
             },
             {
                 "marketType": "5+_MADE_THREES",
-                "externalMarketId": "42.467504447",
+                "externalMarketId": "42.468734897",
                 "runners": [
                     {
-                        "selectionId": 18970812,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Trae Young",
+                        "runnerName": "Jalen Brunson",
                         "winRunnerOdds": 410
                     },
                     {
-                        "selectionId": 12402326,
+                        "selectionId": 49763863,
                         "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": 1000
+                        "runnerName": "Gradey Dick",
+                        "winRunnerOdds": 490
                     },
                     {
-                        "selectionId": 23316222,
+                        "selectionId": 16012686,
                         "handicap": 0,
-                        "runnerName": "De'Andre Hunter",
-                        "winRunnerOdds": 1000
-                    }
-                ]
-            },
-            {
-                "marketType": "6+_MADE_THREES",
-                "externalMarketId": "42.467504448",
-                "runners": [
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": 900
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_10+_POINTS",
-                "externalMarketId": "42.467504420",
-                "runners": [
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": -1150
-                    },
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": -1100
-                    },
-                    {
-                        "selectionId": 12402326,
-                        "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": -950
-                    },
-                    {
-                        "selectionId": 23316222,
-                        "handicap": 0,
-                        "runnerName": "De'Andre Hunter",
-                        "winRunnerOdds": -350
-                    },
-                    {
-                        "selectionId": 8946078,
-                        "handicap": 0,
-                        "runnerName": "Bogdan Bogdanovic",
-                        "winRunnerOdds": -240
-                    },
-                    {
-                        "selectionId": 43430139,
-                        "handicap": 0,
-                        "runnerName": "Dyson Daniels",
-                        "winRunnerOdds": -175
-                    },
-                    {
-                        "selectionId": 12387664,
-                        "handicap": 0,
-                        "runnerName": "Clint Capela",
-                        "winRunnerOdds": -120
-                    },
-                    {
-                        "selectionId": 69129509,
-                        "handicap": 0,
-                        "runnerName": "Zaccharie Risacher",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "selectionId": 28305698,
-                        "handicap": 0,
-                        "runnerName": "Onyeka Okongwu",
-                        "winRunnerOdds": -115
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_15+_POINTS",
-                "externalMarketId": "42.467504421",
-                "runners": [
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": -350
-                    },
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": -310
-                    },
-                    {
-                        "selectionId": 12402326,
-                        "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": -310
-                    },
-                    {
-                        "selectionId": 23316222,
-                        "handicap": 0,
-                        "runnerName": "De'Andre Hunter",
-                        "winRunnerOdds": -105
-                    },
-                    {
-                        "selectionId": 8946078,
-                        "handicap": 0,
-                        "runnerName": "Bogdan Bogdanovic",
-                        "winRunnerOdds": 140
-                    },
-                    {
-                        "selectionId": 43430139,
-                        "handicap": 0,
-                        "runnerName": "Dyson Daniels",
-                        "winRunnerOdds": 190
-                    },
-                    {
-                        "selectionId": 12387664,
-                        "handicap": 0,
-                        "runnerName": "Clint Capela",
-                        "winRunnerOdds": 290
-                    },
-                    {
-                        "selectionId": 69129509,
-                        "handicap": 0,
-                        "runnerName": "Zaccharie Risacher",
-                        "winRunnerOdds": 290
-                    },
-                    {
-                        "selectionId": 28305698,
-                        "handicap": 0,
-                        "runnerName": "Onyeka Okongwu",
-                        "winRunnerOdds": 300
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_20+_POINTS",
-                "externalMarketId": "42.467504422",
-                "runners": [
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": -140
-                    },
-                    {
-                        "selectionId": 12402326,
-                        "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": -130
-                    },
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "selectionId": 23316222,
-                        "handicap": 0,
-                        "runnerName": "De'Andre Hunter",
-                        "winRunnerOdds": 260
-                    },
-                    {
-                        "selectionId": 8946078,
-                        "handicap": 0,
-                        "runnerName": "Bogdan Bogdanovic",
-                        "winRunnerOdds": 410
-                    },
-                    {
-                        "selectionId": 43430139,
-                        "handicap": 0,
-                        "runnerName": "Dyson Daniels",
-                        "winRunnerOdds": 600
-                    },
-                    {
-                        "selectionId": 69129509,
-                        "handicap": 0,
-                        "runnerName": "Zaccharie Risacher",
-                        "winRunnerOdds": 900
-                    },
-                    {
-                        "selectionId": 28305698,
-                        "handicap": 0,
-                        "runnerName": "Onyeka Okongwu",
-                        "winRunnerOdds": 950
-                    },
-                    {
-                        "selectionId": 12387664,
-                        "handicap": 0,
-                        "runnerName": "Clint Capela",
-                        "winRunnerOdds": 1000
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_25+_POINTS",
-                "externalMarketId": "42.467504423",
-                "runners": [
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": 170
-                    },
-                    {
-                        "selectionId": 12402326,
-                        "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": 180
-                    },
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": 230
-                    },
-                    {
-                        "selectionId": 23316222,
-                        "handicap": 0,
-                        "runnerName": "De'Andre Hunter",
-                        "winRunnerOdds": 650
-                    },
-                    {
-                        "selectionId": 8946078,
-                        "handicap": 0,
-                        "runnerName": "Bogdan Bogdanovic",
-                        "winRunnerOdds": 1100
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_30+_POINTS",
-                "externalMarketId": "42.467504424",
-                "runners": [
-                    {
-                        "selectionId": 12402326,
-                        "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": 390
-                    },
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": 410
-                    },
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": 600
-                    },
-                    {
-                        "selectionId": 23316222,
-                        "handicap": 0,
-                        "runnerName": "De'Andre Hunter",
-                        "winRunnerOdds": 1700
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_4+_ASSISTS",
-                "externalMarketId": "42.467504437",
-                "runners": [
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": -30000
-                    },
-                    {
-                        "selectionId": 12402326,
-                        "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": -550
-                    },
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": -270
-                    },
-                    {
-                        "selectionId": 43430139,
-                        "handicap": 0,
-                        "runnerName": "Dyson Daniels",
-                        "winRunnerOdds": 190
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_6+_ASSISTS",
-                "externalMarketId": "42.467504438",
-                "runners": [
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": -1700
-                    },
-                    {
-                        "selectionId": 12402326,
-                        "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": -150
-                    },
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": 150
-                    },
-                    {
-                        "selectionId": 43430139,
-                        "handicap": 0,
-                        "runnerName": "Dyson Daniels",
-                        "winRunnerOdds": 950
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_4+_REBOUNDS",
-                "externalMarketId": "42.467504429",
-                "runners": [
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": -2000
-                    },
-                    {
-                        "selectionId": 12387664,
-                        "handicap": 0,
-                        "runnerName": "Clint Capela",
-                        "winRunnerOdds": -1250
-                    },
-                    {
-                        "selectionId": 12402326,
-                        "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": -370
-                    },
-                    {
-                        "selectionId": 43430139,
-                        "handicap": 0,
-                        "runnerName": "Dyson Daniels",
-                        "winRunnerOdds": -280
-                    },
-                    {
-                        "selectionId": 23316222,
-                        "handicap": 0,
-                        "runnerName": "De'Andre Hunter",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": 125
-                    },
-                    {
-                        "selectionId": 69129509,
-                        "handicap": 0,
-                        "runnerName": "Zaccharie Risacher",
-                        "winRunnerOdds": 140
-                    },
-                    {
-                        "selectionId": 8946078,
-                        "handicap": 0,
-                        "runnerName": "Bogdan Bogdanovic",
-                        "winRunnerOdds": 145
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_6+_REBOUNDS",
-                "externalMarketId": "42.467504430",
-                "runners": [
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": -650
-                    },
-                    {
-                        "selectionId": 12387664,
-                        "handicap": 0,
-                        "runnerName": "Clint Capela",
-                        "winRunnerOdds": -420
-                    },
-                    {
-                        "selectionId": 12402326,
-                        "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 43430139,
-                        "handicap": 0,
-                        "runnerName": "Dyson Daniels",
-                        "winRunnerOdds": 125
-                    },
-                    {
-                        "selectionId": 23316222,
-                        "handicap": 0,
-                        "runnerName": "De'Andre Hunter",
-                        "winRunnerOdds": 360
-                    },
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": 500
-                    },
-                    {
-                        "selectionId": 69129509,
-                        "handicap": 0,
-                        "runnerName": "Zaccharie Risacher",
+                        "runnerName": "OG Anunoby",
                         "winRunnerOdds": 550
                     },
                     {
-                        "selectionId": 8946078,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Bogdan Bogdanovic",
-                        "winRunnerOdds": 600
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_8+_REBOUNDS",
-                "externalMarketId": "42.467504431",
-                "runners": [
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": -210
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": 550
                     },
                     {
-                        "selectionId": 12387664,
+                        "selectionId": 9542187,
                         "handicap": 0,
-                        "runnerName": "Clint Capela",
-                        "winRunnerOdds": -180
+                        "runnerName": "Karl-Anthony Towns",
+                        "winRunnerOdds": 800
                     },
                     {
-                        "selectionId": 12402326,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": 260
-                    },
-                    {
-                        "selectionId": 43430139,
-                        "handicap": 0,
-                        "runnerName": "Dyson Daniels",
-                        "winRunnerOdds": 410
-                    },
-                    {
-                        "selectionId": 23316222,
-                        "handicap": 0,
-                        "runnerName": "De'Andre Hunter",
-                        "winRunnerOdds": 1500
-                    },
-                    {
-                        "selectionId": 69129509,
-                        "handicap": 0,
-                        "runnerName": "Zaccharie Risacher",
-                        "winRunnerOdds": 2000
-                    }
-                ]
-            },
-            {
-                "marketType": "FIRST_BASKET_(SAME_GAME_MULTIS)",
-                "externalMarketId": "42.467500473",
-                "runners": [
-                    {
-                        "selectionId": 18970812,
-                        "handicap": 0,
-                        "runnerName": "Trae Young",
-                        "winRunnerOdds": 480
-                    },
-                    {
-                        "selectionId": 12387664,
-                        "handicap": 0,
-                        "runnerName": "Clint Capela",
-                        "winRunnerOdds": 650
-                    },
-                    {
-                        "selectionId": 12402326,
-                        "handicap": 0,
-                        "runnerName": "Dejounte Murray",
-                        "winRunnerOdds": 700
-                    },
-                    {
-                        "selectionId": 36981627,
-                        "handicap": 0,
-                        "runnerName": "Jalen Johnson",
-                        "winRunnerOdds": 700
-                    },
-                    {
-                        "selectionId": 47452012,
-                        "handicap": 0,
-                        "runnerName": "Trey Murphy III",
-                        "winRunnerOdds": 750
-                    },
-                    {
-                        "selectionId": 69129509,
-                        "handicap": 0,
-                        "runnerName": "Zaccharie Risacher",
-                        "winRunnerOdds": 750
-                    },
-                    {
-                        "selectionId": 10780612,
-                        "handicap": 0,
-                        "runnerName": "CJ McCollum",
-                        "winRunnerOdds": 850
-                    },
-                    {
-                        "selectionId": 43430139,
-                        "handicap": 0,
-                        "runnerName": "Dyson Daniels",
+                        "runnerName": "Scottie Barnes",
                         "winRunnerOdds": 900
                     },
                     {
-                        "selectionId": 63209528,
+                        "selectionId": 24728965,
                         "handicap": 0,
-                        "runnerName": "Yves Missi",
-                        "winRunnerOdds": 1100
-                    },
-                    {
-                        "selectionId": 27758598,
-                        "handicap": 0,
-                        "runnerName": "Javonte Green",
+                        "runnerName": "RJ Barrett",
                         "winRunnerOdds": 1300
                     }
                 ]
             },
             {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467489253",
+                "marketType": "6+_MADE_THREES",
+                "externalMarketId": "42.468734898",
                 "runners": [
                     {
-                        "selectionId": 7017823,
-                        "handicap": 229.5,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
+                        "selectionId": 18970813,
+                        "handicap": 0,
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": 1300
                     },
                     {
-                        "selectionId": 7017824,
-                        "handicap": 229.5,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467119481",
-                "runners": [
-                    {
-                        "selectionId": 7379341,
-                        "handicap": 9.5,
-                        "runnerName": "New Orleans Pelicans",
-                        "winRunnerOdds": -112
+                        "selectionId": 16012686,
+                        "handicap": 0,
+                        "runnerName": "OG Anunoby",
+                        "winRunnerOdds": 1200
                     },
                     {
-                        "selectionId": 237490,
-                        "handicap": -9.5,
-                        "runnerName": "Atlanta Hawks",
-                        "winRunnerOdds": -108
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467119480",
-                "runners": [
-                    {
-                        "selectionId": 7379341,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "New Orleans Pelicans",
-                        "winRunnerOdds": 340
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": 850
                     },
                     {
-                        "selectionId": 237490,
+                        "selectionId": 49763863,
                         "handicap": 0,
-                        "runnerName": "Atlanta Hawks",
-                        "winRunnerOdds": -430
-                    }
-                ]
-            }
-        ]
-    },
-    "33830566": {
-        "name": "Los Angeles Lakers @ Minnesota Timberwolves",
-        "markets": [
-            {
-                "marketType": "2+_MADE_THREES",
-                "externalMarketId": "42.467504634",
-                "runners": [
-                    {
-                        "selectionId": 26799218,
-                        "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": -950
-                    },
-                    {
-                        "selectionId": 5253911,
-                        "handicap": 0,
-                        "runnerName": "Mike Conley",
-                        "winRunnerOdds": -175
-                    },
-                    {
-                        "selectionId": 4551513,
-                        "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": -125
-                    },
-                    {
-                        "selectionId": 8520906,
-                        "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 23316215,
-                        "handicap": 0,
-                        "runnerName": "Rui Hachimura",
-                        "winRunnerOdds": 120
-                    },
-                    {
-                        "selectionId": 26799204,
-                        "handicap": 0,
-                        "runnerName": "Jaden McDaniels",
-                        "winRunnerOdds": 135
-                    }
-                ]
-            },
-            {
-                "marketType": "3+_MADE_THREES",
-                "externalMarketId": "42.467504635",
-                "runners": [
-                    {
-                        "selectionId": 26799218,
-                        "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": -330
-                    },
-                    {
-                        "selectionId": 5253911,
-                        "handicap": 0,
-                        "runnerName": "Mike Conley",
-                        "winRunnerOdds": 150
-                    },
-                    {
-                        "selectionId": 4551513,
-                        "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": 220
-                    },
-                    {
-                        "selectionId": 8520906,
-                        "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": 250
-                    },
-                    {
-                        "selectionId": 23316215,
-                        "handicap": 0,
-                        "runnerName": "Rui Hachimura",
-                        "winRunnerOdds": 350
-                    },
-                    {
-                        "selectionId": 26799204,
-                        "handicap": 0,
-                        "runnerName": "Jaden McDaniels",
-                        "winRunnerOdds": 400
-                    }
-                ]
-            },
-            {
-                "marketType": "4+_MADE_THREES",
-                "externalMarketId": "42.467504636",
-                "runners": [
-                    {
-                        "selectionId": 26799218,
-                        "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": -145
-                    },
-                    {
-                        "selectionId": 5253911,
-                        "handicap": 0,
-                        "runnerName": "Mike Conley",
-                        "winRunnerOdds": 350
-                    },
-                    {
-                        "selectionId": 4551513,
-                        "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": 550
-                    },
-                    {
-                        "selectionId": 8520906,
-                        "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": 600
-                    },
-                    {
-                        "selectionId": 23316215,
-                        "handicap": 0,
-                        "runnerName": "Rui Hachimura",
-                        "winRunnerOdds": 900
-                    },
-                    {
-                        "selectionId": 26799204,
-                        "handicap": 0,
-                        "runnerName": "Jaden McDaniels",
+                        "runnerName": "Gradey Dick",
                         "winRunnerOdds": 1000
                     }
                 ]
             },
             {
-                "marketType": "5+_MADE_THREES",
-                "externalMarketId": "42.467504637",
-                "runners": [
-                    {
-                        "selectionId": 26799218,
-                        "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": 145
-                    },
-                    {
-                        "selectionId": 5253911,
-                        "handicap": 0,
-                        "runnerName": "Mike Conley",
-                        "winRunnerOdds": 800
-                    },
-                    {
-                        "selectionId": 4551513,
-                        "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": 1400
-                    },
-                    {
-                        "selectionId": 8520906,
-                        "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": 1500
-                    }
-                ]
-            },
-            {
-                "marketType": "6+_MADE_THREES",
-                "externalMarketId": "42.467504638",
-                "runners": [
-                    {
-                        "selectionId": 26799218,
-                        "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": 280
-                    }
-                ]
-            },
-            {
                 "marketType": "TO_SCORE_10+_POINTS",
-                "externalMarketId": "42.467504610",
+                "externalMarketId": "42.468734870",
                 "runners": [
                     {
-                        "selectionId": 26799218,
+                        "selectionId": 9542187,
                         "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": -9000
+                        "runnerName": "Karl-Anthony Towns",
+                        "winRunnerOdds": -5000
                     },
                     {
-                        "selectionId": 7582800,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Anthony Davis",
-                        "winRunnerOdds": -6000
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": -4500
                     },
                     {
-                        "selectionId": 8520906,
+                        "selectionId": 24728965,
                         "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": -1450
+                        "runnerName": "RJ Barrett",
+                        "winRunnerOdds": -1800
                     },
                     {
-                        "selectionId": 4551513,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": -1450
+                        "runnerName": "Scottie Barnes",
+                        "winRunnerOdds": -1200
                     },
                     {
-                        "selectionId": 62720048,
+                        "selectionId": 16012686,
                         "handicap": 0,
-                        "runnerName": "Dalton Knecht",
-                        "winRunnerOdds": -340
+                        "runnerName": "OG Anunoby",
+                        "winRunnerOdds": -850
                     },
                     {
-                        "selectionId": 23316215,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Rui Hachimura",
-                        "winRunnerOdds": -210
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": -800
                     },
                     {
-                        "selectionId": 27857529,
+                        "selectionId": 18098734,
                         "handicap": 0,
-                        "runnerName": "Naz Reid",
-                        "winRunnerOdds": -180
+                        "runnerName": "Jakob Poeltl",
+                        "winRunnerOdds": -440
                     },
                     {
-                        "selectionId": 7582840,
+                        "selectionId": 49763863,
                         "handicap": 0,
-                        "runnerName": "Rudy Gobert",
-                        "winRunnerOdds": -150
+                        "runnerName": "Gradey Dick",
+                        "winRunnerOdds": -450
                     },
                     {
-                        "selectionId": 5253911,
+                        "selectionId": 16421595,
                         "handicap": 0,
-                        "runnerName": "Mike Conley",
-                        "winRunnerOdds": -145
+                        "runnerName": "Josh Hart",
+                        "winRunnerOdds": -270
                     },
                     {
-                        "selectionId": 26799204,
+                        "selectionId": 36981575,
                         "handicap": 0,
-                        "runnerName": "Jaden McDaniels",
-                        "winRunnerOdds": -120
+                        "runnerName": "Ochai Agbaji",
+                        "winRunnerOdds": 160
                     },
                     {
-                        "selectionId": 19376885,
+                        "selectionId": 58130173,
                         "handicap": 0,
-                        "runnerName": "Donte DiVincenzo",
-                        "winRunnerOdds": -105
+                        "runnerName": "Ja'Kobe Walter",
+                        "winRunnerOdds": 270
+                    },
+                    {
+                        "selectionId": 36981613,
+                        "handicap": 0,
+                        "runnerName": "Davion Mitchell",
+                        "winRunnerOdds": 390
+                    },
+                    {
+                        "selectionId": 63811760,
+                        "handicap": 0,
+                        "runnerName": "Jonathan Mogbo",
+                        "winRunnerOdds": 480
                     }
                 ]
             },
             {
                 "marketType": "TO_SCORE_15+_POINTS",
-                "externalMarketId": "42.467504611",
+                "externalMarketId": "42.468734871",
                 "runners": [
                     {
-                        "selectionId": 26799218,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": -1200
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": -950
                     },
                     {
-                        "selectionId": 7582800,
+                        "selectionId": 9542187,
                         "handicap": 0,
-                        "runnerName": "Anthony Davis",
-                        "winRunnerOdds": -1000
+                        "runnerName": "Karl-Anthony Towns",
+                        "winRunnerOdds": -850
                     },
                     {
-                        "selectionId": 4551513,
+                        "selectionId": 24728965,
                         "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": -450
+                        "runnerName": "RJ Barrett",
+                        "winRunnerOdds": -490
                     },
                     {
-                        "selectionId": 8520906,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": -430
+                        "runnerName": "Scottie Barnes",
+                        "winRunnerOdds": -370
                     },
                     {
-                        "selectionId": 62720048,
+                        "selectionId": 16012686,
                         "handicap": 0,
-                        "runnerName": "Dalton Knecht",
-                        "winRunnerOdds": 105
+                        "runnerName": "OG Anunoby",
+                        "winRunnerOdds": -240
                     },
                     {
-                        "selectionId": 23316215,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Rui Hachimura",
-                        "winRunnerOdds": 160
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": -180
                     },
                     {
-                        "selectionId": 27857529,
+                        "selectionId": 49763863,
                         "handicap": 0,
-                        "runnerName": "Naz Reid",
-                        "winRunnerOdds": 195
+                        "runnerName": "Gradey Dick",
+                        "winRunnerOdds": -145
                     },
                     {
-                        "selectionId": 5253911,
+                        "selectionId": 18098734,
                         "handicap": 0,
-                        "runnerName": "Mike Conley",
-                        "winRunnerOdds": 240
+                        "runnerName": "Jakob Poeltl",
+                        "winRunnerOdds": -125
                     },
                     {
-                        "selectionId": 7582840,
+                        "selectionId": 16421595,
                         "handicap": 0,
-                        "runnerName": "Rudy Gobert",
-                        "winRunnerOdds": 260
+                        "runnerName": "Josh Hart",
+                        "winRunnerOdds": 130
                     },
                     {
-                        "selectionId": 26799204,
+                        "selectionId": 36981575,
                         "handicap": 0,
-                        "runnerName": "Jaden McDaniels",
-                        "winRunnerOdds": 320
+                        "runnerName": "Ochai Agbaji",
+                        "winRunnerOdds": 700
                     },
                     {
-                        "selectionId": 19376885,
+                        "selectionId": 58130173,
                         "handicap": 0,
-                        "runnerName": "Donte DiVincenzo",
-                        "winRunnerOdds": 410
+                        "runnerName": "Ja'Kobe Walter",
+                        "winRunnerOdds": 1300
                     }
                 ]
             },
             {
                 "marketType": "TO_SCORE_20+_POINTS",
-                "externalMarketId": "42.467504612",
+                "externalMarketId": "42.468734872",
                 "runners": [
                     {
-                        "selectionId": 26799218,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": -400
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": -350
                     },
                     {
-                        "selectionId": 7582800,
+                        "selectionId": 9542187,
                         "handicap": 0,
-                        "runnerName": "Anthony Davis",
-                        "winRunnerOdds": -380
+                        "runnerName": "Karl-Anthony Towns",
+                        "winRunnerOdds": -290
                     },
                     {
-                        "selectionId": 4551513,
+                        "selectionId": 24728965,
                         "handicap": 0,
-                        "runnerName": "LeBron James",
+                        "runnerName": "RJ Barrett",
                         "winRunnerOdds": -170
                     },
                     {
-                        "selectionId": 8520906,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": -140
+                        "runnerName": "Scottie Barnes",
+                        "winRunnerOdds": -130
                     },
                     {
-                        "selectionId": 62720048,
+                        "selectionId": 16012686,
                         "handicap": 0,
-                        "runnerName": "Dalton Knecht",
-                        "winRunnerOdds": 310
+                        "runnerName": "OG Anunoby",
+                        "winRunnerOdds": 120
                     },
                     {
-                        "selectionId": 23316215,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Rui Hachimura",
-                        "winRunnerOdds": 500
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": 165
                     },
                     {
-                        "selectionId": 27857529,
+                        "selectionId": 49763863,
                         "handicap": 0,
-                        "runnerName": "Naz Reid",
-                        "winRunnerOdds": 600
+                        "runnerName": "Gradey Dick",
+                        "winRunnerOdds": 195
                     },
                     {
-                        "selectionId": 5253911,
+                        "selectionId": 18098734,
                         "handicap": 0,
-                        "runnerName": "Mike Conley",
-                        "winRunnerOdds": 750
+                        "runnerName": "Jakob Poeltl",
+                        "winRunnerOdds": 240
                     },
                     {
-                        "selectionId": 7582840,
+                        "selectionId": 16421595,
                         "handicap": 0,
-                        "runnerName": "Rudy Gobert",
-                        "winRunnerOdds": 1000
-                    },
-                    {
-                        "selectionId": 26799204,
-                        "handicap": 0,
-                        "runnerName": "Jaden McDaniels",
-                        "winRunnerOdds": 1000
+                        "runnerName": "Josh Hart",
+                        "winRunnerOdds": 410
                     }
                 ]
             },
             {
                 "marketType": "TO_SCORE_25+_POINTS",
-                "externalMarketId": "42.467504613",
+                "externalMarketId": "42.468734873",
                 "runners": [
                     {
-                        "selectionId": 7582800,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Anthony Davis",
-                        "winRunnerOdds": -165
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": -140
                     },
                     {
-                        "selectionId": 26799218,
+                        "selectionId": 9542187,
                         "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": -160
+                        "runnerName": "Karl-Anthony Towns",
+                        "winRunnerOdds": -110
                     },
                     {
-                        "selectionId": 4551513,
+                        "selectionId": 24728965,
                         "handicap": 0,
-                        "runnerName": "LeBron James",
+                        "runnerName": "RJ Barrett",
                         "winRunnerOdds": 145
                     },
                     {
-                        "selectionId": 8520906,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": 190
+                        "runnerName": "Scottie Barnes",
+                        "winRunnerOdds": 195
                     },
                     {
-                        "selectionId": 62720048,
+                        "selectionId": 16012686,
                         "handicap": 0,
-                        "runnerName": "Dalton Knecht",
-                        "winRunnerOdds": 850
+                        "runnerName": "OG Anunoby",
+                        "winRunnerOdds": 330
                     },
                     {
-                        "selectionId": 23316215,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Rui Hachimura",
-                        "winRunnerOdds": 1600
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": 490
+                    },
+                    {
+                        "selectionId": 49763863,
+                        "handicap": 0,
+                        "runnerName": "Gradey Dick",
+                        "winRunnerOdds": 500
+                    },
+                    {
+                        "selectionId": 18098734,
+                        "handicap": 0,
+                        "runnerName": "Jakob Poeltl",
+                        "winRunnerOdds": 650
+                    },
+                    {
+                        "selectionId": 16421595,
+                        "handicap": 0,
+                        "runnerName": "Josh Hart",
+                        "winRunnerOdds": 1400
                     }
                 ]
             },
             {
                 "marketType": "TO_SCORE_30+_POINTS",
-                "externalMarketId": "42.467504614",
+                "externalMarketId": "42.468734874",
                 "runners": [
                     {
-                        "selectionId": 7582800,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Anthony Davis",
-                        "winRunnerOdds": 135
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": 165
                     },
                     {
-                        "selectionId": 26799218,
+                        "selectionId": 9542187,
                         "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": 145
+                        "runnerName": "Karl-Anthony Towns",
+                        "winRunnerOdds": 230
                     },
                     {
-                        "selectionId": 4551513,
+                        "selectionId": 24728965,
                         "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": 370
+                        "runnerName": "RJ Barrett",
+                        "winRunnerOdds": 360
                     },
                     {
-                        "selectionId": 8520906,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "Julius Randle",
+                        "runnerName": "Scottie Barnes",
                         "winRunnerOdds": 500
+                    },
+                    {
+                        "selectionId": 16012686,
+                        "handicap": 0,
+                        "runnerName": "OG Anunoby",
+                        "winRunnerOdds": 900
+                    },
+                    {
+                        "selectionId": 18970813,
+                        "handicap": 0,
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": 1400
+                    },
+                    {
+                        "selectionId": 49763863,
+                        "handicap": 0,
+                        "runnerName": "Gradey Dick",
+                        "winRunnerOdds": 1500
+                    },
+                    {
+                        "selectionId": 18098734,
+                        "handicap": 0,
+                        "runnerName": "Jakob Poeltl",
+                        "winRunnerOdds": 2200
                     }
                 ]
             },
             {
                 "marketType": "TO_RECORD_4+_ASSISTS",
-                "externalMarketId": "42.467504627",
+                "externalMarketId": "42.468734887",
                 "runners": [
                     {
-                        "selectionId": 4551513,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": -1800
+                        "runnerName": "Scottie Barnes",
+                        "winRunnerOdds": -1400
                     },
                     {
-                        "selectionId": 5253911,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Mike Conley",
-                        "winRunnerOdds": -290
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": -1100
                     },
                     {
-                        "selectionId": 26799218,
+                        "selectionId": 16421595,
                         "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": -210
+                        "runnerName": "Josh Hart",
+                        "winRunnerOdds": -400
                     },
                     {
-                        "selectionId": 8520906,
+                        "selectionId": 24728965,
                         "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": -145
+                        "runnerName": "RJ Barrett",
+                        "winRunnerOdds": -300
                     },
                     {
-                        "selectionId": 7582800,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Anthony Davis",
+                        "runnerName": "Mikal Bridges",
                         "winRunnerOdds": 120
+                    },
+                    {
+                        "selectionId": 9542187,
+                        "handicap": 0,
+                        "runnerName": "Karl-Anthony Towns",
+                        "winRunnerOdds": 155
+                    },
+                    {
+                        "selectionId": 18098734,
+                        "handicap": 0,
+                        "runnerName": "Jakob Poeltl",
+                        "winRunnerOdds": 230
                     }
                 ]
             },
             {
                 "marketType": "TO_RECORD_6+_ASSISTS",
-                "externalMarketId": "42.467504628",
+                "externalMarketId": "42.468734888",
                 "runners": [
                     {
-                        "selectionId": 4551513,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": -600
+                        "runnerName": "Scottie Barnes",
+                        "winRunnerOdds": -400
                     },
                     {
-                        "selectionId": 5253911,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Mike Conley",
-                        "winRunnerOdds": 120
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": -280
                     },
                     {
-                        "selectionId": 26799218,
+                        "selectionId": 16421595,
                         "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": 200
+                        "runnerName": "Josh Hart",
+                        "winRunnerOdds": -105
                     },
                     {
-                        "selectionId": 8520906,
+                        "selectionId": 24728965,
                         "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": 280
+                        "runnerName": "RJ Barrett",
+                        "winRunnerOdds": 130
                     },
                     {
-                        "selectionId": 7582800,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Anthony Davis",
+                        "runnerName": "Mikal Bridges",
                         "winRunnerOdds": 500
+                    },
+                    {
+                        "selectionId": 9542187,
+                        "handicap": 0,
+                        "runnerName": "Karl-Anthony Towns",
+                        "winRunnerOdds": 650
                     }
                 ]
             },
             {
                 "marketType": "TO_RECORD_4+_REBOUNDS",
-                "externalMarketId": "42.467504619",
+                "externalMarketId": "42.468734879",
                 "runners": [
                     {
-                        "selectionId": 7582800,
+                        "selectionId": 16421595,
                         "handicap": 0,
-                        "runnerName": "Anthony Davis",
-                        "winRunnerOdds": -7000
+                        "runnerName": "Josh Hart",
+                        "winRunnerOdds": -3500
                     },
                     {
-                        "selectionId": 8520906,
+                        "selectionId": 18098734,
                         "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": -1000
+                        "runnerName": "Jakob Poeltl",
+                        "winRunnerOdds": -4000
                     },
                     {
-                        "selectionId": 4551513,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": -950
-                    },
-                    {
-                        "selectionId": 26799218,
-                        "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": -350
-                    },
-                    {
-                        "selectionId": 23316215,
-                        "handicap": 0,
-                        "runnerName": "Rui Hachimura",
-                        "winRunnerOdds": -290
-                    },
-                    {
-                        "selectionId": 26799204,
-                        "handicap": 0,
-                        "runnerName": "Jaden McDaniels",
-                        "winRunnerOdds": 110
-                    },
-                    {
-                        "selectionId": 5253911,
-                        "handicap": 0,
-                        "runnerName": "Mike Conley",
-                        "winRunnerOdds": 160
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_6+_REBOUNDS",
-                "externalMarketId": "42.467504620",
-                "runners": [
-                    {
-                        "selectionId": 7582840,
-                        "handicap": 0,
-                        "runnerName": "Rudy Gobert",
+                        "runnerName": "Scottie Barnes",
                         "winRunnerOdds": -1500
                     },
                     {
-                        "selectionId": 7582800,
+                        "selectionId": 24728965,
                         "handicap": 0,
-                        "runnerName": "Anthony Davis",
-                        "winRunnerOdds": -1200
+                        "runnerName": "RJ Barrett",
+                        "winRunnerOdds": -600
                     },
                     {
-                        "selectionId": 4551513,
+                        "selectionId": 16012686,
                         "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": -270
+                        "runnerName": "OG Anunoby",
+                        "winRunnerOdds": -280
                     },
                     {
-                        "selectionId": 8520906,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": -250
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": -150
                     },
                     {
-                        "selectionId": 26799218,
+                        "selectionId": 36981575,
                         "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": 115
+                        "runnerName": "Ochai Agbaji",
+                        "winRunnerOdds": 120
                     },
                     {
-                        "selectionId": 23316215,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Rui Hachimura",
-                        "winRunnerOdds": 130
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": 160
                     },
                     {
-                        "selectionId": 26799204,
+                        "selectionId": 49763863,
                         "handicap": 0,
-                        "runnerName": "Jaden McDaniels",
-                        "winRunnerOdds": 480
-                    },
-                    {
-                        "selectionId": 5253911,
-                        "handicap": 0,
-                        "runnerName": "Mike Conley",
-                        "winRunnerOdds": 750
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_8+_REBOUNDS",
-                "externalMarketId": "42.467504621",
-                "runners": [
-                    {
-                        "selectionId": 7582840,
-                        "handicap": 0,
-                        "runnerName": "Rudy Gobert",
-                        "winRunnerOdds": -650
-                    },
-                    {
-                        "selectionId": 7582800,
-                        "handicap": 0,
-                        "runnerName": "Anthony Davis",
-                        "winRunnerOdds": -480
-                    },
-                    {
-                        "selectionId": 4551513,
-                        "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": 110
-                    },
-                    {
-                        "selectionId": 8520906,
-                        "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": 125
-                    },
-                    {
-                        "selectionId": 26799218,
-                        "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": 410
-                    },
-                    {
-                        "selectionId": 23316215,
-                        "handicap": 0,
-                        "runnerName": "Rui Hachimura",
-                        "winRunnerOdds": 420
-                    },
-                    {
-                        "selectionId": 26799204,
-                        "handicap": 0,
-                        "runnerName": "Jaden McDaniels",
-                        "winRunnerOdds": 2000
-                    }
-                ]
-            },
-            {
-                "marketType": "FIRST_BASKET_(SAME_GAME_MULTIS)",
-                "externalMarketId": "42.467500532",
-                "runners": [
-                    {
-                        "selectionId": 7582800,
-                        "handicap": 0,
-                        "runnerName": "Anthony Davis",
-                        "winRunnerOdds": 500
-                    },
-                    {
-                        "selectionId": 26799218,
-                        "handicap": 0,
-                        "runnerName": "Anthony Edwards",
-                        "winRunnerOdds": 550
-                    },
-                    {
-                        "selectionId": 8520906,
-                        "handicap": 0,
-                        "runnerName": "Julius Randle",
-                        "winRunnerOdds": 600
-                    },
-                    {
-                        "selectionId": 4551513,
-                        "handicap": 0,
-                        "runnerName": "LeBron James",
-                        "winRunnerOdds": 650
-                    },
-                    {
-                        "selectionId": 26799204,
-                        "handicap": 0,
-                        "runnerName": "Jaden McDaniels",
-                        "winRunnerOdds": 750
-                    },
-                    {
-                        "selectionId": 7582840,
-                        "handicap": 0,
-                        "runnerName": "Rudy Gobert",
-                        "winRunnerOdds": 800
-                    },
-                    {
-                        "selectionId": 23316215,
-                        "handicap": 0,
-                        "runnerName": "Rui Hachimura",
-                        "winRunnerOdds": 900
-                    },
-                    {
-                        "selectionId": 38197085,
-                        "handicap": 0,
-                        "runnerName": "Gabe Vincent",
-                        "winRunnerOdds": 1100
-                    },
-                    {
-                        "selectionId": 5253911,
-                        "handicap": 0,
-                        "runnerName": "Mike Conley",
-                        "winRunnerOdds": 1200
-                    },
-                    {
-                        "selectionId": 62720048,
-                        "handicap": 0,
-                        "runnerName": "Dalton Knecht",
-                        "winRunnerOdds": 1200
-                    }
-                ]
-            },
-            {
-                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467493904",
-                "runners": [
-                    {
-                        "selectionId": 7017823,
-                        "handicap": 219,
-                        "runnerName": "Over",
-                        "winRunnerOdds": -110
-                    },
-                    {
-                        "selectionId": 7017824,
-                        "handicap": 219,
-                        "runnerName": "Under",
-                        "winRunnerOdds": -110
-                    }
-                ]
-            },
-            {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467119485",
-                "runners": [
-                    {
-                        "selectionId": 5368712,
-                        "handicap": 0,
-                        "runnerName": "Los Angeles Lakers",
-                        "winRunnerOdds": 250
-                    },
-                    {
-                        "selectionId": 237478,
-                        "handicap": 0,
-                        "runnerName": "Minnesota Timberwolves",
-                        "winRunnerOdds": -310
-                    }
-                ]
-            },
-            {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467119486",
-                "runners": [
-                    {
-                        "selectionId": 5368712,
-                        "handicap": 7.5,
-                        "runnerName": "Los Angeles Lakers",
-                        "winRunnerOdds": -112
-                    },
-                    {
-                        "selectionId": 237478,
-                        "handicap": -7.5,
-                        "runnerName": "Minnesota Timberwolves",
-                        "winRunnerOdds": -108
-                    }
-                ]
-            }
-        ]
-    },
-    "33830567": {
-        "name": "Brooklyn Nets @ Chicago Bulls",
-        "markets": [
-            {
-                "marketType": "2+_MADE_THREES",
-                "externalMarketId": "42.467507507",
-                "runners": [
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": -550
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": -430
-                    },
-                    {
-                        "selectionId": 8659739,
-                        "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": -350
-                    },
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": -320
-                    },
-                    {
-                        "selectionId": 42683085,
-                        "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": -130
-                    },
-                    {
-                        "selectionId": 9019511,
-                        "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": -115
-                    },
-                    {
-                        "selectionId": 26799196,
-                        "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
-                        "winRunnerOdds": -105
-                    }
-                ]
-            },
-            {
-                "marketType": "3+_MADE_THREES",
-                "externalMarketId": "42.467507508",
-                "runners": [
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": -200
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": -155
-                    },
-                    {
-                        "selectionId": 8659739,
-                        "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": -130
-                    },
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": -120
-                    },
-                    {
-                        "selectionId": 42683085,
-                        "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": 200
-                    },
-                    {
-                        "selectionId": 9019511,
-                        "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": 240
-                    },
-                    {
-                        "selectionId": 26799196,
-                        "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
-                        "winRunnerOdds": 280
-                    }
-                ]
-            },
-            {
-                "marketType": "4+_MADE_THREES",
-                "externalMarketId": "42.467507509",
-                "runners": [
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": 105
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": 145
-                    },
-                    {
-                        "selectionId": 8659739,
-                        "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": 180
-                    },
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": 190
-                    },
-                    {
-                        "selectionId": 42683085,
-                        "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": 480
-                    },
-                    {
-                        "selectionId": 9019511,
-                        "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": 600
-                    },
-                    {
-                        "selectionId": 26799196,
-                        "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
-                        "winRunnerOdds": 700
-                    }
-                ]
-            },
-            {
-                "marketType": "5+_MADE_THREES",
-                "externalMarketId": "42.467507510",
-                "runners": [
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": 210
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": 300
-                    },
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": 380
-                    },
-                    {
-                        "selectionId": 8659739,
-                        "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": 400
-                    },
-                    {
-                        "selectionId": 42683085,
-                        "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": 1100
-                    },
-                    {
-                        "selectionId": 9019511,
-                        "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": 1500
-                    }
-                ]
-            },
-            {
-                "marketType": "6+_MADE_THREES",
-                "externalMarketId": "42.467507511",
-                "runners": [
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": 700
-                    },
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": 410
-                    },
-                    {
-                        "selectionId": 8659739,
-                        "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": 850
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": 600
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_10+_POINTS",
-                "externalMarketId": "42.467507483",
-                "runners": [
-                    {
-                        "selectionId": 8659739,
-                        "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": -2000
-                    },
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": -1450
-                    },
-                    {
-                        "selectionId": 9019511,
-                        "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": -1200
-                    },
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": -1000
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": -750
-                    },
-                    {
-                        "selectionId": 26799196,
-                        "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
-                        "winRunnerOdds": -360
-                    },
-                    {
-                        "selectionId": 42683085,
-                        "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": -250
-                    },
-                    {
-                        "selectionId": 38523566,
-                        "handicap": 0,
-                        "runnerName": "Josh Giddey",
-                        "winRunnerOdds": -220
-                    },
-                    {
-                        "selectionId": 44207763,
-                        "handicap": 0,
-                        "runnerName": "Nic Claxton",
-                        "winRunnerOdds": -195
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_15+_POINTS",
-                "externalMarketId": "42.467507484",
-                "runners": [
-                    {
-                        "selectionId": 8659739,
-                        "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": -650
-                    },
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": -460
-                    },
-                    {
-                        "selectionId": 9019511,
-                        "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": -310
-                    },
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": -310
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": -220
-                    },
-                    {
-                        "selectionId": 26799196,
-                        "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
-                        "winRunnerOdds": 110
-                    },
-                    {
-                        "selectionId": 42683085,
-                        "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": 125
-                    },
-                    {
-                        "selectionId": 38523566,
-                        "handicap": 0,
-                        "runnerName": "Josh Giddey",
-                        "winRunnerOdds": 150
-                    },
-                    {
-                        "selectionId": 44207763,
-                        "handicap": 0,
-                        "runnerName": "Nic Claxton",
+                        "runnerName": "Gradey Dick",
                         "winRunnerOdds": 175
                     }
                 ]
             },
             {
-                "marketType": "TO_SCORE_20+_POINTS",
-                "externalMarketId": "42.467507485",
+                "marketType": "TO_RECORD_6+_REBOUNDS",
+                "externalMarketId": "42.468734880",
                 "runners": [
                     {
-                        "selectionId": 8659739,
+                        "selectionId": 9542187,
                         "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": -210
+                        "runnerName": "Karl-Anthony Towns",
+                        "winRunnerOdds": -2100
                     },
                     {
-                        "selectionId": 9237937,
+                        "selectionId": 18098734,
                         "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": -165
+                        "runnerName": "Jakob Poeltl",
+                        "winRunnerOdds": -750
                     },
                     {
-                        "selectionId": 44674939,
+                        "selectionId": 16421595,
                         "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": -120
+                        "runnerName": "Josh Hart",
+                        "winRunnerOdds": -650
                     },
                     {
-                        "selectionId": 9019511,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": -105
+                        "runnerName": "Scottie Barnes",
+                        "winRunnerOdds": -390
                     },
                     {
-                        "selectionId": 23316206,
+                        "selectionId": 24728965,
                         "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": 135
-                    },
-                    {
-                        "selectionId": 26799196,
-                        "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
-                        "winRunnerOdds": 360
-                    },
-                    {
-                        "selectionId": 42683085,
-                        "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": 380
-                    },
-                    {
-                        "selectionId": 38523566,
-                        "handicap": 0,
-                        "runnerName": "Josh Giddey",
-                        "winRunnerOdds": 470
-                    },
-                    {
-                        "selectionId": 44207763,
-                        "handicap": 0,
-                        "runnerName": "Nic Claxton",
-                        "winRunnerOdds": 500
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_25+_POINTS",
-                "externalMarketId": "42.467507486",
-                "runners": [
-                    {
-                        "selectionId": 8659739,
-                        "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": 120
-                    },
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": 140
-                    },
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": 190
-                    },
-                    {
-                        "selectionId": 9019511,
-                        "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": 260
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": 360
-                    },
-                    {
-                        "selectionId": 42683085,
-                        "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": 1000
-                    },
-                    {
-                        "selectionId": 26799196,
-                        "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
-                        "winRunnerOdds": 1200
-                    },
-                    {
-                        "selectionId": 38523566,
-                        "handicap": 0,
-                        "runnerName": "Josh Giddey",
-                        "winRunnerOdds": 1500
-                    },
-                    {
-                        "selectionId": 44207763,
-                        "handicap": 0,
-                        "runnerName": "Nic Claxton",
-                        "winRunnerOdds": 1600
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_SCORE_30+_POINTS",
-                "externalMarketId": "42.467507487",
-                "runners": [
-                    {
-                        "selectionId": 8659739,
-                        "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": 290
-                    },
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": 320
-                    },
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": 440
-                    },
-                    {
-                        "selectionId": 9019511,
-                        "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": 650
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": 950
-                    },
-                    {
-                        "selectionId": 42683085,
-                        "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": 2900
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_4+_ASSISTS",
-                "externalMarketId": "42.467507500",
-                "runners": [
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": -1250
-                    },
-                    {
-                        "selectionId": 38523566,
-                        "handicap": 0,
-                        "runnerName": "Josh Giddey",
-                        "winRunnerOdds": -480
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": -155
-                    },
-                    {
-                        "selectionId": 26799196,
-                        "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
-                        "winRunnerOdds": -125
-                    },
-                    {
-                        "selectionId": 8659739,
-                        "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": -125
-                    },
-                    {
-                        "selectionId": 9019511,
-                        "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": 135
-                    },
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": 130
-                    },
-                    {
-                        "selectionId": 44207763,
-                        "handicap": 0,
-                        "runnerName": "Nic Claxton",
-                        "winRunnerOdds": 210
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_6+_ASSISTS",
-                "externalMarketId": "42.467507501",
-                "runners": [
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": -370
-                    },
-                    {
-                        "selectionId": 38523566,
-                        "handicap": 0,
-                        "runnerName": "Josh Giddey",
+                        "runnerName": "RJ Barrett",
                         "winRunnerOdds": -140
                     },
                     {
-                        "selectionId": 23316206,
+                        "selectionId": 16012686,
                         "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": 240
+                        "runnerName": "OG Anunoby",
+                        "winRunnerOdds": 140
                     },
                     {
-                        "selectionId": 8659739,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": 310
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": 290
                     },
                     {
-                        "selectionId": 26799196,
+                        "selectionId": 36981575,
                         "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
-                        "winRunnerOdds": 330
-                    },
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": 500
-                    },
-                    {
-                        "selectionId": 9019511,
-                        "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
+                        "runnerName": "Ochai Agbaji",
                         "winRunnerOdds": 550
                     },
                     {
-                        "selectionId": 44207763,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Nic Claxton",
-                        "winRunnerOdds": 900
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_4+_REBOUNDS",
-                "externalMarketId": "42.467507492",
-                "runners": [
-                    {
-                        "selectionId": 9019511,
-                        "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": -5000
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": 750
                     },
                     {
-                        "selectionId": 44207763,
+                        "selectionId": 49763863,
                         "handicap": 0,
-                        "runnerName": "Nic Claxton",
-                        "winRunnerOdds": -1450
-                    },
-                    {
-                        "selectionId": 38523566,
-                        "handicap": 0,
-                        "runnerName": "Josh Giddey",
-                        "winRunnerOdds": -430
-                    },
-                    {
-                        "selectionId": 42683085,
-                        "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": -360
-                    },
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": -270
-                    },
-                    {
-                        "selectionId": 8659739,
-                        "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": -220
-                    },
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": -150
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": 100
-                    },
-                    {
-                        "selectionId": 26799196,
-                        "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
-                        "winRunnerOdds": 105
-                    }
-                ]
-            },
-            {
-                "marketType": "TO_RECORD_6+_REBOUNDS",
-                "externalMarketId": "42.467507493",
-                "runners": [
-                    {
-                        "selectionId": 9019511,
-                        "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": -900
-                    },
-                    {
-                        "selectionId": 44207763,
-                        "handicap": 0,
-                        "runnerName": "Nic Claxton",
-                        "winRunnerOdds": -490
-                    },
-                    {
-                        "selectionId": 38523566,
-                        "handicap": 0,
-                        "runnerName": "Josh Giddey",
-                        "winRunnerOdds": -125
-                    },
-                    {
-                        "selectionId": 42683085,
-                        "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": -105
-                    },
-                    {
-                        "selectionId": 44674939,
-                        "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": 125
-                    },
-                    {
-                        "selectionId": 8659739,
-                        "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": 190
-                    },
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": 250
-                    },
-                    {
-                        "selectionId": 26799196,
-                        "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
-                        "winRunnerOdds": 460
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": 460
+                        "runnerName": "Gradey Dick",
+                        "winRunnerOdds": 850
                     }
                 ]
             },
             {
                 "marketType": "TO_RECORD_8+_REBOUNDS",
-                "externalMarketId": "42.467507494",
+                "externalMarketId": "42.468734881",
                 "runners": [
                     {
-                        "selectionId": 9019511,
+                        "selectionId": 9542187,
                         "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": -350
+                        "runnerName": "Karl-Anthony Towns",
+                        "winRunnerOdds": -750
                     },
                     {
-                        "selectionId": 44207763,
+                        "selectionId": 18098734,
                         "handicap": 0,
-                        "runnerName": "Nic Claxton",
+                        "runnerName": "Jakob Poeltl",
+                        "winRunnerOdds": -300
+                    },
+                    {
+                        "selectionId": 16421595,
+                        "handicap": 0,
+                        "runnerName": "Josh Hart",
                         "winRunnerOdds": -210
                     },
                     {
-                        "selectionId": 38523566,
+                        "selectionId": 36981603,
                         "handicap": 0,
-                        "runnerName": "Josh Giddey",
-                        "winRunnerOdds": 230
+                        "runnerName": "Scottie Barnes",
+                        "winRunnerOdds": -135
                     },
                     {
-                        "selectionId": 42683085,
+                        "selectionId": 24728965,
                         "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": 290
+                        "runnerName": "RJ Barrett",
+                        "winRunnerOdds": 220
                     },
                     {
-                        "selectionId": 44674939,
+                        "selectionId": 16012686,
                         "handicap": 0,
-                        "runnerName": "Cam Johnson",
-                        "winRunnerOdds": 420
+                        "runnerName": "OG Anunoby",
+                        "winRunnerOdds": 490
                     },
                     {
-                        "selectionId": 8659739,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Zach LaVine",
-                        "winRunnerOdds": 600
-                    },
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
-                        "winRunnerOdds": 950
-                    },
-                    {
-                        "selectionId": 23316206,
-                        "handicap": 0,
-                        "runnerName": "Coby White",
-                        "winRunnerOdds": 1900
-                    },
-                    {
-                        "selectionId": 26799196,
-                        "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
-                        "winRunnerOdds": 2000
+                        "runnerName": "Mikal Bridges",
+                        "winRunnerOdds": 1200
                     }
                 ]
             },
             {
                 "marketType": "FIRST_BASKET_(SAME_GAME_MULTIS)",
-                "externalMarketId": "42.467500567",
+                "externalMarketId": "42.468723394",
                 "runners": [
                     {
-                        "selectionId": 8659739,
+                        "selectionId": 21359550,
                         "handicap": 0,
-                        "runnerName": "Zach LaVine",
+                        "runnerName": "Jalen Brunson",
+                        "winRunnerOdds": 500
+                    },
+                    {
+                        "selectionId": 36981603,
+                        "handicap": 0,
+                        "runnerName": "Scottie Barnes",
+                        "winRunnerOdds": 600
+                    },
+                    {
+                        "selectionId": 24728965,
+                        "handicap": 0,
+                        "runnerName": "RJ Barrett",
                         "winRunnerOdds": 650
                     },
                     {
-                        "selectionId": 9019511,
+                        "selectionId": 18098734,
                         "handicap": 0,
-                        "runnerName": "Nikola Vucevic",
-                        "winRunnerOdds": 650
-                    },
-                    {
-                        "selectionId": 9237937,
-                        "handicap": 0,
-                        "runnerName": "Dennis Schroder",
+                        "runnerName": "Jakob Poeltl",
                         "winRunnerOdds": 700
                     },
                     {
-                        "selectionId": 44207763,
+                        "selectionId": 9542187,
                         "handicap": 0,
-                        "runnerName": "Nic Claxton",
+                        "runnerName": "Karl-Anthony Towns",
                         "winRunnerOdds": 700
                     },
                     {
-                        "selectionId": 44674939,
+                        "selectionId": 16012686,
                         "handicap": 0,
-                        "runnerName": "Cam Johnson",
+                        "runnerName": "OG Anunoby",
                         "winRunnerOdds": 750
                     },
                     {
-                        "selectionId": 42683085,
+                        "selectionId": 18970813,
                         "handicap": 0,
-                        "runnerName": "Jalen Wilson",
-                        "winRunnerOdds": 750
-                    },
-                    {
-                        "selectionId": 38523566,
-                        "handicap": 0,
-                        "runnerName": "Josh Giddey",
-                        "winRunnerOdds": 750
-                    },
-                    {
-                        "selectionId": 26799196,
-                        "handicap": 0,
-                        "runnerName": "Ayo Dosunmu",
+                        "runnerName": "Mikal Bridges",
                         "winRunnerOdds": 850
                     },
                     {
-                        "selectionId": 23316206,
+                        "selectionId": 49763863,
                         "handicap": 0,
-                        "runnerName": "Coby White",
+                        "runnerName": "Gradey Dick",
                         "winRunnerOdds": 950
                     },
                     {
-                        "selectionId": 36981619,
+                        "selectionId": 16421595,
                         "handicap": 0,
-                        "runnerName": "Trendon Watford",
-                        "winRunnerOdds": 1000
+                        "runnerName": "Josh Hart",
+                        "winRunnerOdds": 1100
+                    },
+                    {
+                        "selectionId": 36981575,
+                        "handicap": 0,
+                        "runnerName": "Ochai Agbaji",
+                        "winRunnerOdds": 1300
                     }
                 ]
             },
             {
                 "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.467119489",
+                "externalMarketId": "42.468367428",
                 "runners": [
                     {
-                        "selectionId": 6500320,
-                        "handicap": 8,
-                        "runnerName": "Brooklyn Nets",
-                        "winRunnerOdds": -106
+                        "selectionId": 237482,
+                        "handicap": -6.5,
+                        "runnerName": "New York Knicks",
+                        "winRunnerOdds": -108
                     },
                     {
-                        "selectionId": 237494,
-                        "handicap": -8,
-                        "runnerName": "Chicago Bulls",
-                        "winRunnerOdds": -114
+                        "selectionId": 237476,
+                        "handicap": 6.5,
+                        "runnerName": "Toronto Raptors",
+                        "winRunnerOdds": -112
                     }
                 ]
             },
             {
                 "marketType": "MONEY_LINE",
-                "externalMarketId": "42.467119488",
+                "externalMarketId": "42.468367427",
                 "runners": [
                     {
-                        "selectionId": 6500320,
+                        "selectionId": 237482,
                         "handicap": 0,
-                        "runnerName": "Brooklyn Nets",
-                        "winRunnerOdds": 265
+                        "runnerName": "New York Knicks",
+                        "winRunnerOdds": -255
                     },
                     {
-                        "selectionId": 237494,
+                        "selectionId": 237476,
                         "handicap": 0,
-                        "runnerName": "Chicago Bulls",
-                        "winRunnerOdds": -330
+                        "runnerName": "Toronto Raptors",
+                        "winRunnerOdds": 210
                     }
                 ]
             },
             {
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.467488308",
+                "externalMarketId": "42.468721030",
                 "runners": [
                     {
                         "selectionId": 7017823,
-                        "handicap": 232.5,
+                        "handicap": 232,
                         "runnerName": "Over",
                         "winRunnerOdds": -110
                     },
                     {
                         "selectionId": 7017824,
-                        "handicap": 232.5,
+                        "handicap": 232,
                         "runnerName": "Under",
                         "winRunnerOdds": -110
                     }

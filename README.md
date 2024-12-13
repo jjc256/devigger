@@ -2,6 +2,8 @@
 
 A Python application that analyzes betting odds from FanDuel and Pinnacle to find profitable betting opportunities using statistical arbitrage techniques.
 
+To use, run `python main.py [bankroll size]`
+
 ## Features
 
 - Scrapes real-time odds from FanDuel and Pinnacle sportsbooks

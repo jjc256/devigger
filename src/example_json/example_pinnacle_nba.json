@@ -1,1459 +1,17 @@
 {
-    "1601228943": {
-        "name": "Miami Heat @ Boston Celtics",
+    "1601918001": {
+        "name": "Dallas Mavericks @ Oklahoma City Thunder",
         "markets": [
-            {
-                "id": 1601582508,
-                "description": "Jayson Tatum (Double+Double)",
-                "prices": [
-                    {
-                        "points": 0.5,
-                        "price": -107,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 0.5,
-                        "price": -124,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601599808,
-                "description": "Tyler Herro (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 34.5,
-                        "price": -110,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 34.5,
-                        "price": -120,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601599820,
-                "description": "Bam Adebayo (Points)",
-                "prices": [
-                    {
-                        "points": 16.5,
-                        "price": -133,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 16.5,
-                        "price": 100,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601580285,
-                "description": "Miami Heat Points Odd/Even",
-                "prices": [
-                    {
-                        "price": -110,
-                        "designation": "yes"
-                    },
-                    {
-                        "price": -110,
-                        "designation": "no"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601599814,
-                "description": "Duncan Robinson (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 2.5,
-                        "price": -137,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 2.5,
-                        "price": 104,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601582505,
-                "description": "Jayson Tatum (Rebounds)",
-                "prices": [
-                    {
-                        "points": 8.5,
-                        "price": -147,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 8.5,
-                        "price": 110,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601599823,
-                "description": "Bam Adebayo (Assists)",
-                "prices": [
-                    {
-                        "points": 4.5,
-                        "price": -137,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 4.5,
-                        "price": 103,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601582499,
-                "description": "Jayson Tatum (Assists)",
-                "prices": [
-                    {
-                        "points": 6.5,
-                        "price": 112,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 6.5,
-                        "price": -149,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601599799,
-                "description": "Tyler Herro (Points)",
-                "prices": [
-                    {
-                        "points": 23.5,
-                        "price": -109,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 23.5,
-                        "price": -122,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601582502,
-                "description": "Jayson Tatum (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 3.5,
-                        "price": -109,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 3.5,
-                        "price": -121,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601582511,
-                "description": "Jayson Tatum (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 44.5,
-                        "price": -117,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 44.5,
-                        "price": -113,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601580256,
-                "description": "Winner/Total 219.5 Points"
-            },
-            {
-                "id": 1601580264,
-                "description": "1st Half Winner/Total 109.5 Points"
-            },
-            {
-                "id": 1601582496,
-                "description": "Jayson Tatum (Points)",
-                "prices": [
-                    {
-                        "points": 29.5,
-                        "price": -109,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 29.5,
-                        "price": -122,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601580231,
-                "description": "Total Points Odd/Even",
-                "prices": [
-                    {
-                        "price": -119,
-                        "designation": "yes"
-                    },
-                    {
-                        "price": -102,
-                        "designation": "no"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601599802,
-                "description": "Tyler Herro (Assists)",
-                "prices": [
-                    {
-                        "points": 4.5,
-                        "price": -133,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 4.5,
-                        "price": 101,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601580222,
-                "description": "Boston Celtics Points Odd/Even",
-                "prices": [
-                    {
-                        "price": -110,
-                        "designation": "yes"
-                    },
-                    {
-                        "price": -110,
-                        "designation": "no"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601599826,
-                "description": "Bam Adebayo (Rebounds)",
-                "prices": [
-                    {
-                        "points": 10.5,
-                        "price": -121,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 10.5,
-                        "price": -109,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601603230,
-                "description": "Tyler Herro (Rebounds)",
-                "prices": [
-                    {
-                        "points": 5.5,
-                        "price": -102,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 5.5,
-                        "price": -130,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601599811,
-                "description": "Duncan Robinson (Points)",
-                "prices": [
-                    {
-                        "points": 11.5,
-                        "price": -125,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 11.5,
-                        "price": -106,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601599817,
-                "description": "Duncan Robinson (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 17.5,
-                        "price": -105,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 17.5,
-                        "price": -126,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601599829,
-                "description": "Bam Adebayo (Double+Double)",
-                "prices": [
-                    {
-                        "points": 0.5,
-                        "price": -151,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 0.5,
-                        "price": 113,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601599805,
-                "description": "Tyler Herro (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 3.5,
-                        "price": -163,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 3.5,
-                        "price": 122,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601599832,
-                "description": "Bam Adebayo (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 32.5,
-                        "price": -127,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 32.5,
-                        "price": -104,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": -351
+                        "price": -172
                     },
                     {
                         "designation": "away",
-                        "price": 297
-                    }
-                ],
-                "limit": 2000
-            },
-            {
-                "description": "team total",
-                "team": "home",
-                "threshold": "113.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 113.5,
-                        "price": -102
-                    },
-                    {
-                        "designation": "under",
-                        "points": 113.5,
-                        "price": -115
-                    }
-                ],
-                "limit": 1000
-            },
-            {
-                "description": "team total",
-                "team": "away",
-                "threshold": "104.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 104.5,
-                        "price": -113
-                    },
-                    {
-                        "designation": "under",
-                        "points": 104.5,
-                        "price": -104
-                    }
-                ],
-                "limit": 1000
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -105,
-                        "handicap": -8.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": -105,
-                        "handicap": 8.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 3000
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -161,
-                        "handicap": -6.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": 141,
-                        "handicap": 6.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 3000
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -149,
-                        "handicap": -6.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": 131,
-                        "handicap": 6.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 3000
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -138,
-                        "handicap": -7.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": 122,
-                        "handicap": 7.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 3000
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -127,
-                        "handicap": -7.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": 113,
-                        "handicap": 7.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 3000
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -116,
-                        "handicap": -8.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": 104,
-                        "handicap": 8.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 3000
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 104,
-                        "handicap": -9.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": -116,
-                        "handicap": 9.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 3000
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 113,
-                        "handicap": -9.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": -127,
-                        "handicap": 9.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 3000
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 122,
-                        "handicap": -10.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": -139,
-                        "handicap": 10.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 3000
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 131,
-                        "handicap": -10.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": -150,
-                        "handicap": 10.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 3000
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 141,
-                        "handicap": -11.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": -162,
-                        "handicap": 11.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 3000
-            },
-            {
-                "description": "total points",
-                "threshold": "217.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 217.5,
-                        "price": -112
-                    },
-                    {
-                        "designation": "under",
-                        "points": 217.5,
-                        "price": -101
-                    }
-                ],
-                "limit": 2000
-            },
-            {
-                "description": "total points",
-                "threshold": "215.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 215.0,
-                        "price": -151
-                    },
-                    {
-                        "designation": "under",
-                        "points": 215.0,
-                        "price": 130
-                    }
-                ],
-                "limit": 2000
-            },
-            {
-                "description": "total points",
-                "threshold": "215.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 215.5,
-                        "price": -141
-                    },
-                    {
-                        "designation": "under",
-                        "points": 215.5,
-                        "price": 122
-                    }
-                ],
-                "limit": 2000
-            },
-            {
-                "description": "total points",
-                "threshold": "216.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 216.0,
-                        "price": -134
-                    },
-                    {
-                        "designation": "under",
-                        "points": 216.0,
-                        "price": 117
-                    }
-                ],
-                "limit": 2000
-            },
-            {
-                "description": "total points",
-                "threshold": "216.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 216.5,
-                        "price": -126
-                    },
-                    {
-                        "designation": "under",
-                        "points": 216.5,
-                        "price": 111
-                    }
-                ],
-                "limit": 2000
-            },
-            {
-                "description": "total points",
-                "threshold": "217.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 217.0,
-                        "price": -119
-                    },
-                    {
-                        "designation": "under",
-                        "points": 217.0,
-                        "price": 105
-                    }
-                ],
-                "limit": 2000
-            },
-            {
-                "description": "total points",
-                "threshold": "218.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 218.0,
-                        "price": -106
-                    },
-                    {
-                        "designation": "under",
-                        "points": 218.0,
-                        "price": -107
-                    }
-                ],
-                "limit": 2000
-            },
-            {
-                "description": "total points",
-                "threshold": "218.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 218.5,
-                        "price": -101
-                    },
-                    {
-                        "designation": "under",
-                        "points": 218.5,
-                        "price": -113
-                    }
-                ],
-                "limit": 2000
-            },
-            {
-                "description": "total points",
-                "threshold": "219.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 219.0,
-                        "price": 105
-                    },
-                    {
-                        "designation": "under",
-                        "points": 219.0,
-                        "price": -120
-                    }
-                ],
-                "limit": 2000
-            },
-            {
-                "description": "total points",
-                "threshold": "219.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 219.5,
-                        "price": 110
-                    },
-                    {
-                        "designation": "under",
-                        "points": 219.5,
-                        "price": -126
-                    }
-                ],
-                "limit": 2000
-            },
-            {
-                "description": "total points",
-                "threshold": "220.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 220.0,
-                        "price": 116
-                    },
-                    {
-                        "designation": "under",
-                        "points": 220.0,
-                        "price": -134
-                    }
-                ],
-                "limit": 2000
-            }
-        ]
-    },
-    "1601228266": {
-        "name": "New Orleans Pelicans @ Atlanta Hawks",
-        "markets": [
-            {
-                "id": 1601583823,
-                "description": "Dejounte Murray (Assists)",
-                "prices": [
-                    {
-                        "points": 6.5,
-                        "price": 105,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 6.5,
-                        "price": -139,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584022,
-                "description": "Jalen Johnson (Rebounds)",
-                "prices": [
-                    {
-                        "points": 9.5,
-                        "price": 108,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 9.5,
-                        "price": -144,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601583998,
-                "description": "Trae Young (Points)",
-                "prices": [
-                    {
-                        "points": 21.5,
-                        "price": -116,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 21.5,
-                        "price": -114,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601580230,
-                "description": "New Orleans Pelicans Points Odd/Even",
-                "prices": [
-                    {
-                        "price": -110,
-                        "designation": "yes"
-                    },
-                    {
-                        "price": -110,
-                        "designation": "no"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584055,
-                "description": "De'Andre Hunter (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 19.5,
-                        "price": -115,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 19.5,
-                        "price": -115,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584025,
-                "description": "Jalen Johnson (Double+Double)",
-                "prices": [
-                    {
-                        "points": 0.5,
-                        "price": -101,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 0.5,
-                        "price": -132,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584058,
-                "description": "Bogdan Bogdanovic (Points)",
-                "prices": [
-                    {
-                        "points": 12.5,
-                        "price": -110,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 12.5,
-                        "price": -120,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584064,
-                "description": "Bogdan Bogdanovic (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 17.5,
-                        "price": -113,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 17.5,
-                        "price": -117,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584034,
-                "description": "Dyson Daniels (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": 186,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": -257,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601580221,
-                "description": "1st Half Winner/Total 109.5 Points"
-            },
-            {
-                "id": 1601584031,
-                "description": "Dyson Daniels (Points)",
-                "prices": [
-                    {
-                        "points": 11.5,
-                        "price": -116,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 11.5,
-                        "price": -114,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584016,
-                "description": "Jalen Johnson (Assists)",
-                "prices": [
-                    {
-                        "points": 4.5,
-                        "price": -136,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 4.5,
-                        "price": 102,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584028,
-                "description": "Jalen Johnson (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 33.5,
-                        "price": -137,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 33.5,
-                        "price": 103,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601583832,
-                "description": "Dejounte Murray (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 31.5,
-                        "price": -128,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 31.5,
-                        "price": -103,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601583820,
-                "description": "Dejounte Murray (Points)",
-                "prices": [
-                    {
-                        "points": 19.5,
-                        "price": -143,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 19.5,
-                        "price": 108,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601580255,
-                "description": "Atlanta Hawks Points Odd/Even",
-                "prices": [
-                    {
-                        "price": -110,
-                        "designation": "yes"
-                    },
-                    {
-                        "price": -110,
-                        "designation": "no"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584037,
-                "description": "Dyson Daniels (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 19.5,
-                        "price": -113,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 19.5,
-                        "price": -117,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584167,
-                "description": "Onyeka Okongwu (Points)",
-                "prices": [
-                    {
-                        "points": 9.5,
-                        "price": -127,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 9.5,
-                        "price": -104,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584061,
-                "description": "Bogdan Bogdanovic (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 2.5,
-                        "price": 109,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 2.5,
-                        "price": -144,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584173,
-                "description": "Onyeka Okongwu (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 18.5,
-                        "price": -110,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 18.5,
-                        "price": -121,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601580236,
-                "description": "Winner/Total 219.5 Points"
-            },
-            {
-                "id": 1601584007,
-                "description": "Trae Young (Double+Double)",
-                "prices": [
-                    {
-                        "points": 0.5,
-                        "price": -309,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 0.5,
-                        "price": 218,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584019,
-                "description": "Jalen Johnson (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": -125,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": -105,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601583992,
-                "description": "Clint Capela (Double+Double)",
-                "prices": [
-                    {
-                        "points": 0.5,
-                        "price": 192,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 0.5,
-                        "price": -267,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584040,
-                "description": "Zaccharie Risacher (Points)",
-                "prices": [
-                    {
-                        "points": 10.5,
-                        "price": 101,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 10.5,
-                        "price": -134,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 500
-            },
-            {
-                "id": 1601584170,
-                "description": "Onyeka Okongwu (Rebounds)",
-                "prices": [
-                    {
-                        "points": 6.5,
-                        "price": -146,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 6.5,
-                        "price": 110,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584049,
-                "description": "De'Andre Hunter (Points)",
-                "prices": [
-                    {
-                        "points": 14.5,
-                        "price": -119,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 14.5,
-                        "price": -111,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584004,
-                "description": "Trae Young (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 2.5,
-                        "price": -117,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 2.5,
-                        "price": -113,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584046,
-                "description": "Zaccharie Risacher (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 14.5,
-                        "price": -115,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 14.5,
-                        "price": -115,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 500
-            },
-            {
-                "id": 1601583826,
-                "description": "Dejounte Murray (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": -170,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": 126,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601583995,
-                "description": "Clint Capela (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 20.5,
-                        "price": -110,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 20.5,
-                        "price": -120,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584043,
-                "description": "Zaccharie Risacher (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": 128,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": -171,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 500
-            },
-            {
-                "id": 1601583986,
-                "description": "Clint Capela (Points)",
-                "prices": [
-                    {
-                        "points": 9.5,
-                        "price": -126,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 9.5,
-                        "price": -105,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584052,
-                "description": "De'Andre Hunter (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": -175,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": 131,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584001,
-                "description": "Trae Young (Assists)",
-                "prices": [
-                    {
-                        "points": 11.5,
-                        "price": -134,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 11.5,
-                        "price": 101,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601583989,
-                "description": "Clint Capela (Rebounds)",
-                "prices": [
-                    {
-                        "points": 9.5,
-                        "price": -103,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 9.5,
-                        "price": -128,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601580284,
-                "description": "Total Points Odd/Even",
-                "prices": [
-                    {
-                        "price": -118,
-                        "designation": "yes"
-                    },
-                    {
-                        "price": -103,
-                        "designation": "no"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601583829,
-                "description": "Dejounte Murray (Rebounds)",
-                "prices": [
-                    {
-                        "points": 5.5,
-                        "price": -126,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 5.5,
-                        "price": -105,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584010,
-                "description": "Trae Young (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 36.5,
-                        "price": -115,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 36.5,
-                        "price": -115,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "id": 1601584013,
-                "description": "Jalen Johnson (Points)",
-                "prices": [
-                    {
-                        "points": 19.5,
-                        "price": -142,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 19.5,
-                        "price": 107,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 200
-            },
-            {
-                "description": "moneyline",
-                "prices": [
-                    {
-                        "designation": "home",
-                        "price": -406
-                    },
-                    {
-                        "designation": "away",
-                        "price": 338
+                        "price": 151
                     }
                 ],
                 "limit": 4000
@@ -1461,873 +19,20 @@
             {
                 "description": "team total",
                 "team": "home",
-                "threshold": "119.5",
+                "threshold": "115.5",
                 "prices": [
                     {
                         "designation": "over",
-                        "points": 119.5,
-                        "price": -106
+                        "points": 115.5,
+                        "price": -113
                     },
                     {
                         "designation": "under",
-                        "points": 119.5,
-                        "price": -110
+                        "points": 115.5,
+                        "price": -101
                     }
                 ],
-                "limit": 1000
-            },
-            {
-                "description": "team total",
-                "team": "away",
-                "threshold": "110.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 110.5,
-                        "price": -106
-                    },
-                    {
-                        "designation": "under",
-                        "points": 110.5,
-                        "price": -110
-                    }
-                ],
-                "limit": 1000
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -103,
-                        "handicap": -9.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": -107,
-                        "handicap": 9.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -158,
-                        "handicap": -7.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": 138,
-                        "handicap": 7.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -146,
-                        "handicap": -7.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": 128,
-                        "handicap": 7.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -136,
-                        "handicap": -8.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": 119,
-                        "handicap": 8.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -125,
-                        "handicap": -8.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": 111,
-                        "handicap": 8.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -114,
-                        "handicap": -9.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": 102,
-                        "handicap": 9.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 107,
-                        "handicap": -10.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": -119,
-                        "handicap": 10.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 116,
-                        "handicap": -10.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": -130,
-                        "handicap": 10.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 124,
-                        "handicap": -11.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": -142,
-                        "handicap": 11.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 134,
-                        "handicap": -11.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": -153,
-                        "handicap": 11.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 144,
-                        "handicap": -12.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": -165,
-                        "handicap": 12.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "total points",
-                "threshold": "229.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 229.5,
-                        "price": -110
-                    },
-                    {
-                        "designation": "under",
-                        "points": 229.5,
-                        "price": -102
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "227.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 227.0,
-                        "price": -147
-                    },
-                    {
-                        "designation": "under",
-                        "points": 227.0,
-                        "price": 126
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "227.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 227.5,
-                        "price": -137
-                    },
-                    {
-                        "designation": "under",
-                        "points": 227.5,
-                        "price": 120
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "228.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 228.0,
-                        "price": -131
-                    },
-                    {
-                        "designation": "under",
-                        "points": 228.0,
-                        "price": 114
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "228.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 228.5,
-                        "price": -123
-                    },
-                    {
-                        "designation": "under",
-                        "points": 228.5,
-                        "price": 109
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "229.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 229.0,
-                        "price": -117
-                    },
-                    {
-                        "designation": "under",
-                        "points": 229.0,
-                        "price": 103
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "230.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 230.0,
-                        "price": -105
-                    },
-                    {
-                        "designation": "under",
-                        "points": 230.0,
-                        "price": -108
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "230.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 230.5,
-                        "price": 100
-                    },
-                    {
-                        "designation": "under",
-                        "points": 230.5,
-                        "price": -114
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "231.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 231.0,
-                        "price": 106
-                    },
-                    {
-                        "designation": "under",
-                        "points": 231.0,
-                        "price": -121
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "231.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 231.5,
-                        "price": 111
-                    },
-                    {
-                        "designation": "under",
-                        "points": 231.5,
-                        "price": -128
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "232.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 232.0,
-                        "price": 117
-                    },
-                    {
-                        "designation": "under",
-                        "points": 232.0,
-                        "price": -136
-                    }
-                ],
-                "limit": 3500
-            }
-        ]
-    },
-    "1601228965": {
-        "name": "Brooklyn Nets @ Chicago Bulls",
-        "markets": [
-            {
-                "id": 1601582245,
-                "description": "Jalen Wilson (3 Point FG)"
-            },
-            {
-                "id": 1601582173,
-                "description": "Dennis Schroder (Pts+Rebs+Asts)"
-            },
-            {
-                "id": 1601582203,
-                "description": "Nic Claxton (Points)"
-            },
-            {
-                "id": 1601582134,
-                "description": "Nikola Vucevic (Points)",
-                "prices": [
-                    {
-                        "points": 19.5,
-                        "price": -106,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 19.5,
-                        "price": -125,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582224,
-                "description": "Ayo Dosunmu (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": -105,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": -127,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582215,
-                "description": "Nic Claxton (Pts+Rebs+Asts)"
-            },
-            {
-                "id": 1601582248,
-                "description": "Jalen Wilson (Rebounds)"
-            },
-            {
-                "id": 1601580731,
-                "description": "Brooklyn Nets Points Odd/Even",
-                "prices": [
-                    {
-                        "price": -108,
-                        "designation": "yes"
-                    },
-                    {
-                        "price": -108,
-                        "designation": "no"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582200,
-                "description": "Cameron Johnson (Pts+Rebs+Asts)"
-            },
-            {
-                "id": 1601582197,
-                "description": "Cameron Johnson (Rebounds)"
-            },
-            {
-                "id": 1601582140,
-                "description": "Nikola Vucevic (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": -128,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": -103,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601580756,
-                "description": "Chicago Bulls Points Odd/Even",
-                "prices": [
-                    {
-                        "price": -108,
-                        "designation": "yes"
-                    },
-                    {
-                        "price": -108,
-                        "designation": "no"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582146,
-                "description": "Nikola Vucevic (Double+Double)",
-                "prices": [
-                    {
-                        "points": 0.5,
-                        "price": -159,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 0.5,
-                        "price": 120,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582212,
-                "description": "Nic Claxton (Double+Double)"
-            },
-            {
-                "id": 1601582209,
-                "description": "Nic Claxton (Rebounds)"
-            },
-            {
-                "id": 1601582179,
-                "description": "Zach LaVine (Assists)",
-                "prices": [
-                    {
-                        "points": 3.5,
-                        "price": -151,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 3.5,
-                        "price": 113,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582188,
-                "description": "Cameron Johnson (Points)"
-            },
-            {
-                "id": 1601582182,
-                "description": "Zach LaVine (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 2.5,
-                        "price": -146,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 2.5,
-                        "price": 110,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582149,
-                "description": "Nikola Vucevic (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 33.5,
-                        "price": -111,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 33.5,
-                        "price": -119,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601580785,
-                "description": "Total Points Odd/Even",
-                "prices": [
-                    {
-                        "price": -116,
-                        "designation": "yes"
-                    },
-                    {
-                        "price": -101,
-                        "designation": "no"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582227,
-                "description": "Ayo Dosunmu (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 21.5,
-                        "price": -114,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 21.5,
-                        "price": -116,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582170,
-                "description": "Dennis Schroder (Double+Double)"
-            },
-            {
-                "id": 1601580722,
-                "description": "1st Half Winner/Total 109.5 Points"
-            },
-            {
-                "id": 1601582206,
-                "description": "Nic Claxton (Assists)"
-            },
-            {
-                "id": 1601582251,
-                "description": "Jalen Wilson (Pts+Rebs+Asts)"
-            },
-            {
-                "id": 1601580737,
-                "description": "Winner/Total 219.5 Points"
-            },
-            {
-                "id": 1601582191,
-                "description": "Cameron Johnson (Assists)"
-            },
-            {
-                "id": 1601582194,
-                "description": "Cameron Johnson (3 Point FG)"
-            },
-            {
-                "id": 1601582236,
-                "description": "Coby White (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 2.5,
-                        "price": -175,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 2.5,
-                        "price": 131,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582218,
-                "description": "Ayo Dosunmu (Points)",
-                "prices": [
-                    {
-                        "points": 14.5,
-                        "price": -102,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 14.5,
-                        "price": -129,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582167,
-                "description": "Dennis Schroder (3 Point FG)"
-            },
-            {
-                "id": 1601582176,
-                "description": "Zach LaVine (Points)",
-                "prices": [
-                    {
-                        "points": 22.5,
-                        "price": -121,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 22.5,
-                        "price": -110,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582185,
-                "description": "Zach LaVine (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 31.5,
-                        "price": -108,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 31.5,
-                        "price": -123,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582137,
-                "description": "Nikola Vucevic (Assists)",
-                "prices": [
-                    {
-                        "points": 3.5,
-                        "price": 128,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 3.5,
-                        "price": -171,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582221,
-                "description": "Ayo Dosunmu (Assists)",
-                "prices": [
-                    {
-                        "points": 3.5,
-                        "price": -142,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 3.5,
-                        "price": 107,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582143,
-                "description": "Nikola Vucevic (Rebounds)",
-                "prices": [
-                    {
-                        "points": 10.5,
-                        "price": -103,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 10.5,
-                        "price": -129,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582230,
-                "description": "Coby White (Points)",
-                "prices": [
-                    {
-                        "points": 17.5,
-                        "price": -112,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 17.5,
-                        "price": -118,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582164,
-                "description": "Dennis Schroder (Assists)"
-            },
-            {
-                "id": 1601582161,
-                "description": "Dennis Schroder (Points)"
-            },
-            {
-                "id": 1601582242,
-                "description": "Jalen Wilson (Points)"
-            },
-            {
-                "id": 1601582233,
-                "description": "Coby White (Assists)",
-                "prices": [
-                    {
-                        "points": 3.5,
-                        "price": -158,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 3.5,
-                        "price": 119,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601582239,
-                "description": "Coby White (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 25.5,
-                        "price": -105,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 25.5,
-                        "price": -126,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "description": "moneyline",
-                "prices": [
-                    {
-                        "designation": "home",
-                        "price": -301
-                    },
-                    {
-                        "designation": "away",
-                        "price": 259
-                    }
-                ],
-                "limit": 4000
-            },
-            {
-                "description": "team total",
-                "team": "home",
-                "threshold": "120.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 120.5,
-                        "price": -107
-                    },
-                    {
-                        "designation": "under",
-                        "points": 120.5,
-                        "price": -109
-                    }
-                ],
-                "limit": 1000
+                "limit": 750
             },
             {
                 "description": "team total",
@@ -2337,27 +42,27 @@
                     {
                         "designation": "over",
                         "points": 112.5,
-                        "price": -107
+                        "price": -106
                     },
                     {
                         "designation": "under",
                         "points": 112.5,
-                        "price": -109
+                        "price": -108
                     }
                 ],
-                "limit": 1000
+                "limit": 750
             },
             {
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": -102,
-                        "handicap": -8.0,
+                        "price": -105,
+                        "handicap": -4.0,
                         "team": "home"
                     },
                     {
-                        "price": -108,
-                        "handicap": 8.0,
+                        "price": -107,
+                        "handicap": 4.0,
                         "team": "away"
                     }
                 ],
@@ -2367,12 +72,124 @@
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": -157,
+                        "price": -159,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 136,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -149,
+                        "handicap": -2.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 128,
+                        "handicap": 2.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -139,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 120,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -128,
+                        "handicap": -3.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 111,
+                        "handicap": 3.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -116,
+                        "handicap": -3.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 103,
+                        "handicap": 3.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 104,
+                        "handicap": -4.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -118,
+                        "handicap": 4.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 113,
+                        "handicap": -5.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -129,
+                        "handicap": 5.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 121,
                         "handicap": -5.5,
                         "team": "home"
                     },
                     {
-                        "price": 137,
+                        "price": -141,
                         "handicap": 5.5,
                         "team": "away"
                     }
@@ -2383,12 +200,12 @@
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": -145,
+                        "price": 130,
                         "handicap": -6.0,
                         "team": "home"
                     },
                     {
-                        "price": 127,
+                        "price": -152,
                         "handicap": 6.0,
                         "team": "away"
                     }
@@ -2399,12 +216,12 @@
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": -135,
+                        "price": 140,
                         "handicap": -6.5,
                         "team": "home"
                     },
                     {
-                        "price": 118,
+                        "price": -164,
                         "handicap": 6.5,
                         "team": "away"
                     }
@@ -2412,133 +229,157 @@
                 "limit": 7500
             },
             {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -124,
-                        "handicap": -7.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": 110,
-                        "handicap": 7.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": -113,
-                        "handicap": -7.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": 101,
-                        "handicap": 7.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 107,
-                        "handicap": -8.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": -119,
-                        "handicap": 8.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 116,
-                        "handicap": -9.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": -131,
-                        "handicap": 9.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 125,
-                        "handicap": -9.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": -143,
-                        "handicap": 9.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 134,
-                        "handicap": -10.0,
-                        "team": "home"
-                    },
-                    {
-                        "price": -154,
-                        "handicap": 10.0,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
-                "description": "handicap",
-                "prices": [
-                    {
-                        "price": 145,
-                        "handicap": -10.5,
-                        "team": "home"
-                    },
-                    {
-                        "price": -166,
-                        "handicap": 10.5,
-                        "team": "away"
-                    }
-                ],
-                "limit": 7500
-            },
-            {
                 "description": "total points",
-                "threshold": "233.0",
+                "threshold": "228.5",
                 "prices": [
                     {
                         "designation": "over",
-                        "points": 233.0,
-                        "price": -106
+                        "points": 228.5,
+                        "price": -107
                     },
                     {
                         "designation": "under",
-                        "points": 233.0,
-                        "price": -106
+                        "points": 228.5,
+                        "price": -107
                     }
                 ],
-                "limit": 3500
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "226.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 226.0,
+                        "price": -141
+                    },
+                    {
+                        "designation": "under",
+                        "points": 226.0,
+                        "price": 119
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "226.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 226.5,
+                        "price": -133
+                    },
+                    {
+                        "designation": "under",
+                        "points": 226.5,
+                        "price": 113
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "227.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 227.0,
+                        "price": -126
+                    },
+                    {
+                        "designation": "under",
+                        "points": 227.0,
+                        "price": 108
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "227.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 227.5,
+                        "price": -119
+                    },
+                    {
+                        "designation": "under",
+                        "points": 227.5,
+                        "price": 103
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "228.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 228.0,
+                        "price": -113
+                    },
+                    {
+                        "designation": "under",
+                        "points": 228.0,
+                        "price": -102
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "229.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 229.0,
+                        "price": -102
+                    },
+                    {
+                        "designation": "under",
+                        "points": 229.0,
+                        "price": -113
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "229.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 229.5,
+                        "price": 103
+                    },
+                    {
+                        "designation": "under",
+                        "points": 229.5,
+                        "price": -119
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "230.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 230.0,
+                        "price": 108
+                    },
+                    {
+                        "designation": "under",
+                        "points": 230.0,
+                        "price": -127
+                    }
+                ],
+                "limit": 1500
             },
             {
                 "description": "total points",
@@ -2547,15 +388,15 @@
                     {
                         "designation": "over",
                         "points": 230.5,
-                        "price": -139
+                        "price": 113
                     },
                     {
                         "designation": "under",
                         "points": 230.5,
-                        "price": 120
+                        "price": -133
                     }
                 ],
-                "limit": 3500
+                "limit": 1500
             },
             {
                 "description": "total points",
@@ -2564,15 +405,1429 @@
                     {
                         "designation": "over",
                         "points": 231.0,
-                        "price": -132
+                        "price": 120
                     },
                     {
                         "designation": "under",
                         "points": 231.0,
-                        "price": 115
+                        "price": -142
                     }
                 ],
-                "limit": 3500
+                "limit": 1500
+            }
+        ]
+    },
+    "1601916597": {
+        "name": "Orlando Magic @ Milwaukee Bucks",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -348
+                    },
+                    {
+                        "designation": "away",
+                        "price": 286
+                    }
+                ],
+                "limit": 4000
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "110.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 110.5,
+                        "price": -113
+                    },
+                    {
+                        "designation": "under",
+                        "points": 110.5,
+                        "price": -101
+                    }
+                ],
+                "limit": 750
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "102.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 102.5,
+                        "price": -107
+                    },
+                    {
+                        "designation": "under",
+                        "points": 102.5,
+                        "price": -107
+                    }
+                ],
+                "limit": 750
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -104,
+                        "handicap": -8.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -108,
+                        "handicap": 8.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -160,
+                        "handicap": -6.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 137,
+                        "handicap": 6.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -148,
+                        "handicap": -6.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 127,
+                        "handicap": 6.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -138,
+                        "handicap": -7.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 118,
+                        "handicap": 7.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -126,
+                        "handicap": -7.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 110,
+                        "handicap": 7.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -115,
+                        "handicap": -8.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 101,
+                        "handicap": 8.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 105,
+                        "handicap": -9.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -119,
+                        "handicap": 9.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 114,
+                        "handicap": -9.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -131,
+                        "handicap": 9.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 123,
+                        "handicap": -10.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -143,
+                        "handicap": 10.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 132,
+                        "handicap": -10.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -154,
+                        "handicap": 10.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 142,
+                        "handicap": -11.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -166,
+                        "handicap": 11.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 7500
+            },
+            {
+                "description": "total points",
+                "threshold": "213.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 213.5,
+                        "price": -107
+                    },
+                    {
+                        "designation": "under",
+                        "points": 213.5,
+                        "price": -107
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "211.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 211.0,
+                        "price": -143
+                    },
+                    {
+                        "designation": "under",
+                        "points": 211.0,
+                        "price": 121
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "211.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 211.5,
+                        "price": -134
+                    },
+                    {
+                        "designation": "under",
+                        "points": 211.5,
+                        "price": 114
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "212.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 212.0,
+                        "price": -128
+                    },
+                    {
+                        "designation": "under",
+                        "points": 212.0,
+                        "price": 109
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "212.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 212.5,
+                        "price": -120
+                    },
+                    {
+                        "designation": "under",
+                        "points": 212.5,
+                        "price": 104
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "213.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 213.0,
+                        "price": -114
+                    },
+                    {
+                        "designation": "under",
+                        "points": 213.0,
+                        "price": -102
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "214.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 214.0,
+                        "price": -102
+                    },
+                    {
+                        "designation": "under",
+                        "points": 214.0,
+                        "price": -113
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "214.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 214.5,
+                        "price": 103
+                    },
+                    {
+                        "designation": "under",
+                        "points": 214.5,
+                        "price": -119
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "215.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 215.0,
+                        "price": 109
+                    },
+                    {
+                        "designation": "under",
+                        "points": 215.0,
+                        "price": -127
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "215.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 215.5,
+                        "price": 114
+                    },
+                    {
+                        "designation": "under",
+                        "points": 215.5,
+                        "price": -134
+                    }
+                ],
+                "limit": 1500
+            },
+            {
+                "description": "total points",
+                "threshold": "216.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 216.0,
+                        "price": 120
+                    },
+                    {
+                        "designation": "under",
+                        "points": 216.0,
+                        "price": -142
+                    }
+                ],
+                "limit": 1500
+            }
+        ]
+    },
+    "1601606297": {
+        "name": "New York Knicks @ Toronto Raptors",
+        "markets": [
+            {
+                "id": 1601935303,
+                "description": "Scottie Barnes (Pts+Rebs+Asts)",
+                "prices": [
+                    {
+                        "points": 36.5,
+                        "price": -128,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 36.5,
+                        "price": -103,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935252,
+                "description": "Jalen Brunson (Pts+Rebs+Asts)",
+                "prices": [
+                    {
+                        "points": 36.5,
+                        "price": -117,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 36.5,
+                        "price": -113,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935282,
+                "description": "Ochai Agbaji (3 Point FG)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": 182,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": -251,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935267,
+                "description": "RJ Barrett (Assists)",
+                "prices": [
+                    {
+                        "points": 4.5,
+                        "price": -155,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 4.5,
+                        "price": 117,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935315,
+                "description": "Davion Mitchell (Assists)",
+                "prices": [
+                    {
+                        "points": 3.5,
+                        "price": -106,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 3.5,
+                        "price": -124,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935219,
+                "description": "Jakob Poeltl (Rebounds)",
+                "prices": [
+                    {
+                        "points": 10.5,
+                        "price": -114,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 10.5,
+                        "price": -116,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935276,
+                "description": "RJ Barrett (Pts+Rebs+Asts)",
+                "prices": [
+                    {
+                        "points": 33.5,
+                        "price": -107,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 33.5,
+                        "price": -123,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935249,
+                "description": "Jalen Brunson (Double+Double)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 259,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -379,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935312,
+                "description": "Gradey Dick (Pts+Rebs+Asts)",
+                "prices": [
+                    {
+                        "points": 20.5,
+                        "price": -109,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 20.5,
+                        "price": -121,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935300,
+                "description": "Scottie Barnes (Double+Double)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -109,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -121,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935309,
+                "description": "Gradey Dick (3 Point FG)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 105,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -139,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935240,
+                "description": "Jalen Brunson (Points)",
+                "prices": [
+                    {
+                        "points": 25.5,
+                        "price": -123,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 25.5,
+                        "price": -108,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 500
+            },
+            {
+                "id": 1601935222,
+                "description": "Jakob Poeltl (Double+Double)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -130,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -102,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935279,
+                "description": "Ochai Agbaji (Points)",
+                "prices": [
+                    {
+                        "points": 7.5,
+                        "price": -124,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 7.5,
+                        "price": -107,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935273,
+                "description": "RJ Barrett (Rebounds)",
+                "prices": [
+                    {
+                        "points": 5.5,
+                        "price": -145,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 5.5,
+                        "price": 109,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935285,
+                "description": "Ochai Agbaji (Pts+Rebs+Asts)",
+                "prices": [
+                    {
+                        "points": 12.5,
+                        "price": -113,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 12.5,
+                        "price": -117,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935186,
+                "description": "Josh Hart (Assists)",
+                "prices": [
+                    {
+                        "points": 5.5,
+                        "price": -123,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 5.5,
+                        "price": -107,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935195,
+                "description": "Josh Hart (Double+Double)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": 140,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": -189,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935204,
+                "description": "Karl-Anthony Towns (3 Point FG)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 154,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -208,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935183,
+                "description": "Josh Hart (Points)",
+                "prices": [
+                    {
+                        "points": 13.5,
+                        "price": -102,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 13.5,
+                        "price": -130,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935237,
+                "description": "Mikal Bridges (Pts+Rebs+Asts)",
+                "prices": [
+                    {
+                        "points": 24.5,
+                        "price": 105,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 24.5,
+                        "price": -139,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935288,
+                "description": "Scottie Barnes (Points)",
+                "prices": [
+                    {
+                        "points": 20.5,
+                        "price": -123,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 20.5,
+                        "price": -108,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935216,
+                "description": "Jakob Poeltl (Points)",
+                "prices": [
+                    {
+                        "points": 15.5,
+                        "price": 104,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 15.5,
+                        "price": -138,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935270,
+                "description": "RJ Barrett (3 Point FG)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -152,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 114,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935210,
+                "description": "Karl-Anthony Towns (Double+Double)",
+                "prices": [
+                    {
+                        "points": 0.5,
+                        "price": -392,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 0.5,
+                        "price": 266,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935234,
+                "description": "Mikal Bridges (3 Point FG)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 114,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -152,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935198,
+                "description": "Josh Hart (Pts+Rebs+Asts)",
+                "prices": [
+                    {
+                        "points": 28.5,
+                        "price": -123,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 28.5,
+                        "price": -107,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935243,
+                "description": "Jalen Brunson (Assists)",
+                "prices": [
+                    {
+                        "points": 7.5,
+                        "price": 105,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 7.5,
+                        "price": -139,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935297,
+                "description": "Scottie Barnes (Rebounds)",
+                "prices": [
+                    {
+                        "points": 8.5,
+                        "price": 110,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 8.5,
+                        "price": -146,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935246,
+                "description": "Jalen Brunson (3 Point FG)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": -133,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": 100,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935294,
+                "description": "Scottie Barnes (3 Point FG)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": -153,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": 115,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935201,
+                "description": "Karl-Anthony Towns (Points)",
+                "prices": [
+                    {
+                        "points": 24.5,
+                        "price": 100,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 24.5,
+                        "price": -133,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935306,
+                "description": "Gradey Dick (Points)",
+                "prices": [
+                    {
+                        "points": 15.5,
+                        "price": -121,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 15.5,
+                        "price": -109,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935255,
+                "description": "OG Anunoby (Points)",
+                "prices": [
+                    {
+                        "points": 18.5,
+                        "price": 104,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 18.5,
+                        "price": -138,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935231,
+                "description": "Mikal Bridges (Assists)",
+                "prices": [
+                    {
+                        "points": 3.5,
+                        "price": 133,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 3.5,
+                        "price": -178,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935192,
+                "description": "Josh Hart (Rebounds)",
+                "prices": [
+                    {
+                        "points": 8.5,
+                        "price": -147,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 8.5,
+                        "price": 111,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935225,
+                "description": "Jakob Poeltl (Pts+Rebs+Asts)",
+                "prices": [
+                    {
+                        "points": 28.5,
+                        "price": -121,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 28.5,
+                        "price": -109,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935207,
+                "description": "Karl-Anthony Towns (Rebounds)",
+                "prices": [
+                    {
+                        "points": 12.5,
+                        "price": -114,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 12.5,
+                        "price": -116,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 500
+            },
+            {
+                "id": 1601935189,
+                "description": "Josh Hart (3 Point FG)",
+                "prices": [
+                    {
+                        "points": 1.5,
+                        "price": 117,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 1.5,
+                        "price": -155,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935264,
+                "description": "RJ Barrett (Points)",
+                "prices": [
+                    {
+                        "points": 21.5,
+                        "price": -129,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 21.5,
+                        "price": -102,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935261,
+                "description": "OG Anunoby (Pts+Rebs+Asts)",
+                "prices": [
+                    {
+                        "points": 25.5,
+                        "price": -122,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 25.5,
+                        "price": -108,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935228,
+                "description": "Mikal Bridges (Points)",
+                "prices": [
+                    {
+                        "points": 17.5,
+                        "price": -101,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 17.5,
+                        "price": -131,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935291,
+                "description": "Scottie Barnes (Assists)",
+                "prices": [
+                    {
+                        "points": 7.5,
+                        "price": -127,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 7.5,
+                        "price": -104,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935213,
+                "description": "Karl-Anthony Towns (Pts+Rebs+Asts)",
+                "prices": [
+                    {
+                        "points": 39.5,
+                        "price": -122,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 39.5,
+                        "price": -108,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "id": 1601935258,
+                "description": "OG Anunoby (3 Point FG)",
+                "prices": [
+                    {
+                        "points": 2.5,
+                        "price": 107,
+                        "designation": "over"
+                    },
+                    {
+                        "points": 2.5,
+                        "price": -142,
+                        "designation": "under"
+                    }
+                ],
+                "limit": 300
+            },
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 216
+                    },
+                    {
+                        "designation": "away",
+                        "price": -246
+                    }
+                ],
+                "limit": 2000
+            },
+            {
+                "description": "team total",
+                "team": "home",
+                "threshold": "112.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 112.5,
+                        "price": -108
+                    },
+                    {
+                        "designation": "under",
+                        "points": 112.5,
+                        "price": -106
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "team total",
+                "team": "away",
+                "threshold": "118.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 118.5,
+                        "price": -117
+                    },
+                    {
+                        "designation": "under",
+                        "points": 118.5,
+                        "price": 102
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -104,
+                        "handicap": 6.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -106,
+                        "handicap": -6.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 4000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -160,
+                        "handicap": 9.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 139,
+                        "handicap": -9.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 4000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -148,
+                        "handicap": 8.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 129,
+                        "handicap": -8.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 4000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -137,
+                        "handicap": 8.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 120,
+                        "handicap": -8.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 4000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -126,
+                        "handicap": 7.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 112,
+                        "handicap": -7.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 4000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -115,
+                        "handicap": 7.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 103,
+                        "handicap": -7.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 4000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 105,
+                        "handicap": 6.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -117,
+                        "handicap": -6.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 4000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 114,
+                        "handicap": 5.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -129,
+                        "handicap": -5.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 4000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 123,
+                        "handicap": 5.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -140,
+                        "handicap": -5.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 4000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 132,
+                        "handicap": 4.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -151,
+                        "handicap": -4.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 4000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 143,
+                        "handicap": 4.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -164,
+                        "handicap": -4.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 4000
             },
             {
                 "description": "total points",
@@ -2581,15 +1836,100 @@
                     {
                         "designation": "over",
                         "points": 231.5,
-                        "price": -125
+                        "price": -110
                     },
                     {
                         "designation": "under",
                         "points": 231.5,
-                        "price": 109
+                        "price": -102
                     }
                 ],
-                "limit": 3500
+                "limit": 2000
+            },
+            {
+                "description": "total points",
+                "threshold": "229.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 229.0,
+                        "price": -145
+                    },
+                    {
+                        "designation": "under",
+                        "points": 229.0,
+                        "price": 125
+                    }
+                ],
+                "limit": 2000
+            },
+            {
+                "description": "total points",
+                "threshold": "229.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 229.5,
+                        "price": -136
+                    },
+                    {
+                        "designation": "under",
+                        "points": 229.5,
+                        "price": 118
+                    }
+                ],
+                "limit": 2000
+            },
+            {
+                "description": "total points",
+                "threshold": "230.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 230.0,
+                        "price": -130
+                    },
+                    {
+                        "designation": "under",
+                        "points": 230.0,
+                        "price": 113
+                    }
+                ],
+                "limit": 2000
+            },
+            {
+                "description": "total points",
+                "threshold": "230.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 230.5,
+                        "price": -122
+                    },
+                    {
+                        "designation": "under",
+                        "points": 230.5,
+                        "price": 108
+                    }
+                ],
+                "limit": 2000
+            },
+            {
+                "description": "total points",
+                "threshold": "231.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 231.0,
+                        "price": -116
+                    },
+                    {
+                        "designation": "under",
+                        "points": 231.0,
+                        "price": 103
+                    }
+                ],
+                "limit": 2000
             },
             {
                 "description": "total points",
@@ -2598,15 +1938,15 @@
                     {
                         "designation": "over",
                         "points": 232.0,
-                        "price": -118
+                        "price": -105
                     },
                     {
                         "designation": "under",
                         "points": 232.0,
-                        "price": 104
+                        "price": -108
                     }
                 ],
-                "limit": 3500
+                "limit": 2000
             },
             {
                 "description": "total points",
@@ -2615,15 +1955,32 @@
                     {
                         "designation": "over",
                         "points": 232.5,
-                        "price": -112
+                        "price": 100
                     },
                     {
                         "designation": "under",
                         "points": 232.5,
-                        "price": -101
+                        "price": -114
                     }
                 ],
-                "limit": 3500
+                "limit": 2000
+            },
+            {
+                "description": "total points",
+                "threshold": "233.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 233.0,
+                        "price": 105
+                    },
+                    {
+                        "designation": "under",
+                        "points": 233.0,
+                        "price": -121
+                    }
+                ],
+                "limit": 2000
             },
             {
                 "description": "total points",
@@ -2632,15 +1989,15 @@
                     {
                         "designation": "over",
                         "points": 233.5,
-                        "price": -101
+                        "price": 110
                     },
                     {
                         "designation": "under",
                         "points": 233.5,
-                        "price": -112
+                        "price": -127
                     }
                 ],
-                "limit": 3500
+                "limit": 2000
             },
             {
                 "description": "total points",
@@ -2649,1353 +2006,246 @@
                     {
                         "designation": "over",
                         "points": 234.0,
-                        "price": 104
+                        "price": 116
                     },
                     {
                         "designation": "under",
                         "points": 234.0,
-                        "price": -118
+                        "price": -135
                     }
                 ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "234.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 234.5,
-                        "price": 109
-                    },
-                    {
-                        "designation": "under",
-                        "points": 234.5,
-                        "price": -125
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "235.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 235.0,
-                        "price": 115
-                    },
-                    {
-                        "designation": "under",
-                        "points": 235.0,
-                        "price": -132
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "235.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 235.5,
-                        "price": 120
-                    },
-                    {
-                        "designation": "under",
-                        "points": 235.5,
-                        "price": -139
-                    }
-                ],
-                "limit": 3500
+                "limit": 2000
             }
         ]
     },
-    "1601228966": {
-        "name": "Los Angeles Lakers @ Minnesota Timberwolves",
+    "1601938663": {
+        "name": "Golden State Warriors @ Houston Rockets",
         "markets": [
-            {
-                "id": 1601584546,
-                "description": "Anthony Davis (Points)",
-                "prices": [
-                    {
-                        "points": 25.5,
-                        "price": -147,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 25.5,
-                        "price": 110,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584621,
-                "description": "Anthony Edwards (Points)",
-                "prices": [
-                    {
-                        "points": 27.5,
-                        "price": -101,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 27.5,
-                        "price": -131,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584597,
-                "description": "Julius Randle (Assists)",
-                "prices": [
-                    {
-                        "points": 4.5,
-                        "price": 106,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 4.5,
-                        "price": -141,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584612,
-                "description": "Naz Reid (Points)",
-                "prices": [
-                    {
-                        "points": 11.5,
-                        "price": -122,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 11.5,
-                        "price": -108,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601594959,
-                "description": "Dalton Knecht (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 2.5,
-                        "price": -114,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 2.5,
-                        "price": -116,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601594843,
-                "description": "Naz Reid (Rebounds)",
-                "prices": [
-                    {
-                        "points": 5.5,
-                        "price": 116,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 5.5,
-                        "price": -154,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601580765,
-                "description": "1st Half Winner/Total 109.5 Points"
-            },
-            {
-                "id": 1601584570,
-                "description": "Mike Conley (Points)",
-                "prices": [
-                    {
-                        "points": 11.5,
-                        "price": -101,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 11.5,
-                        "price": -132,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584591,
-                "description": "Rudy Gobert (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 24.5,
-                        "price": -112,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 24.5,
-                        "price": -118,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584522,
-                "description": "LeBron James (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 38.5,
-                        "price": -114,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 38.5,
-                        "price": -116,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584549,
-                "description": "Anthony Davis (Assists)",
-                "prices": [
-                    {
-                        "points": 3.5,
-                        "price": 130,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 3.5,
-                        "price": -177,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584600,
-                "description": "Julius Randle (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": -115,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": -115,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584516,
-                "description": "LeBron James (Rebounds)",
-                "prices": [
-                    {
-                        "points": 7.5,
-                        "price": 117,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 7.5,
-                        "price": -155,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584537,
-                "description": "Rui Hachimura (Points)",
-                "prices": [
-                    {
-                        "points": 11.5,
-                        "price": -131,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 11.5,
-                        "price": -101,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584582,
-                "description": "Rudy Gobert (Points)",
-                "prices": [
-                    {
-                        "points": 10.5,
-                        "price": -107,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 10.5,
-                        "price": -124,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584648,
-                "description": "Nickeil Alexander-Walker (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": -109,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": -121,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601594956,
-                "description": "Dalton Knecht (Points)",
-                "prices": [
-                    {
-                        "points": 13.5,
-                        "price": -111,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 13.5,
-                        "price": -119,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584642,
-                "description": "Jaden McDaniels (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 15.5,
-                        "price": -106,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 15.5,
-                        "price": -125,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584558,
-                "description": "Anthony Davis (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 41.5,
-                        "price": -124,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 41.5,
-                        "price": -107,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584513,
-                "description": "LeBron James (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": -124,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": -107,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584567,
-                "description": "Donte DiVincenzo (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 2.5,
-                        "price": 127,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 2.5,
-                        "price": -169,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584510,
-                "description": "LeBron James (Assists)",
-                "prices": [
-                    {
-                        "points": 9.5,
-                        "price": 140,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 9.5,
-                        "price": -193,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584651,
-                "description": "Nickeil Alexander-Walker (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 13.5,
-                        "price": -148,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 13.5,
-                        "price": 112,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584627,
-                "description": "Anthony Edwards (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 3.5,
-                        "price": -141,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 3.5,
-                        "price": 106,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584606,
-                "description": "Julius Randle (Double+Double)",
-                "prices": [
-                    {
-                        "points": 0.5,
-                        "price": 324,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 0.5,
-                        "price": -503,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584564,
-                "description": "Donte DiVincenzo (Points)",
-                "prices": [
-                    {
-                        "points": 9.5,
-                        "price": -101,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 9.5,
-                        "price": -132,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584540,
-                "description": "Rui Hachimura (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": 145,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": -196,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584609,
-                "description": "Julius Randle (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 32.5,
-                        "price": 109,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 32.5,
-                        "price": -145,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584603,
-                "description": "Julius Randle (Rebounds)",
-                "prices": [
-                    {
-                        "points": 7.5,
-                        "price": 109,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 7.5,
-                        "price": -145,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584579,
-                "description": "Mike Conley (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 19.5,
-                        "price": -121,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 19.5,
-                        "price": -109,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584594,
-                "description": "Julius Randle (Points)",
-                "prices": [
-                    {
-                        "points": 20.5,
-                        "price": -109,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 20.5,
-                        "price": -121,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584615,
-                "description": "Naz Reid (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": -137,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": 103,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584573,
-                "description": "Mike Conley (Assists)",
-                "prices": [
-                    {
-                        "points": 5.5,
-                        "price": 102,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 5.5,
-                        "price": -135,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601580723,
-                "description": "Minnesota Timberwolves Points Odd/Even",
-                "prices": [
-                    {
-                        "price": -108,
-                        "designation": "yes"
-                    },
-                    {
-                        "price": -108,
-                        "designation": "no"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584534,
-                "description": "Austin Reaves (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 21.5,
-                        "price": -111,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 21.5,
-                        "price": -119,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601580757,
-                "description": "Winner/Total 219.5 Points"
-            },
-            {
-                "id": 1601580732,
-                "description": "Total Points Odd/Even",
-                "prices": [
-                    {
-                        "price": -115,
-                        "designation": "yes"
-                    },
-                    {
-                        "price": -102,
-                        "designation": "no"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584588,
-                "description": "Rudy Gobert (Double+Double)",
-                "prices": [
-                    {
-                        "points": 0.5,
-                        "price": -115,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 0.5,
-                        "price": -115,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584576,
-                "description": "Mike Conley (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 2.5,
-                        "price": 134,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 2.5,
-                        "price": -180,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584639,
-                "description": "Jaden McDaniels (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": 139,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": -187,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584525,
-                "description": "Austin Reaves (Points)",
-                "prices": [
-                    {
-                        "points": 13.5,
-                        "price": -120,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 13.5,
-                        "price": -110,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601594962,
-                "description": "Dalton Knecht (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 18.5,
-                        "price": -123,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 18.5,
-                        "price": -107,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584528,
-                "description": "Austin Reaves (Assists)",
-                "prices": [
-                    {
-                        "points": 4.5,
-                        "price": 113,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 4.5,
-                        "price": -150,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584633,
-                "description": "Anthony Edwards (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 37.5,
-                        "price": -108,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 37.5,
-                        "price": -123,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584552,
-                "description": "Anthony Davis (Rebounds)",
-                "prices": [
-                    {
-                        "points": 11.5,
-                        "price": -132,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 11.5,
-                        "price": -101,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584507,
-                "description": "LeBron James (Points)",
-                "prices": [
-                    {
-                        "points": 21.5,
-                        "price": -119,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 21.5,
-                        "price": -111,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584543,
-                "description": "Rui Hachimura (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 18.5,
-                        "price": -107,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 18.5,
-                        "price": -123,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584636,
-                "description": "Jaden McDaniels (Points)",
-                "prices": [
-                    {
-                        "points": 9.5,
-                        "price": -133,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 9.5,
-                        "price": 101,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584561,
-                "description": "Donte DiVincenzo (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 14.5,
-                        "price": -133,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 14.5,
-                        "price": 101,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584531,
-                "description": "Austin Reaves (3 Point FG)",
-                "prices": [
-                    {
-                        "points": 1.5,
-                        "price": -184,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 1.5,
-                        "price": 137,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584645,
-                "description": "Nickeil Alexander-Walker (Points)",
-                "prices": [
-                    {
-                        "points": 8.5,
-                        "price": -108,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 8.5,
-                        "price": -122,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584630,
-                "description": "Anthony Edwards (Rebounds)",
-                "prices": [
-                    {
-                        "points": 5.5,
-                        "price": 112,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 5.5,
-                        "price": -148,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584624,
-                "description": "Anthony Edwards (Assists)",
-                "prices": [
-                    {
-                        "points": 4.5,
-                        "price": -104,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 4.5,
-                        "price": -127,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584519,
-                "description": "LeBron James (Double+Double)",
-                "prices": [
-                    {
-                        "points": 0.5,
-                        "price": -138,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 0.5,
-                        "price": 104,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601580786,
-                "description": "Los Angeles Lakers Points Odd/Even",
-                "prices": [
-                    {
-                        "price": -108,
-                        "designation": "yes"
-                    },
-                    {
-                        "price": -108,
-                        "designation": "no"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584618,
-                "description": "Naz Reid (Pts+Rebs+Asts)",
-                "prices": [
-                    {
-                        "points": 17.5,
-                        "price": -130,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 17.5,
-                        "price": -102,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
-            {
-                "id": 1601584585,
-                "description": "Rudy Gobert (Rebounds)",
-                "prices": [
-                    {
-                        "points": 11.5,
-                        "price": -133,
-                        "designation": "over"
-                    },
-                    {
-                        "points": 11.5,
-                        "price": 100,
-                        "designation": "under"
-                    }
-                ],
-                "limit": 250
-            },
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": -286
+                        "price": -136
                     },
                     {
                         "designation": "away",
-                        "price": 247
+                        "price": 121
                     }
                 ],
-                "limit": 6500
+                "limit": 1500
             },
             {
                 "description": "team total",
                 "team": "home",
-                "threshold": "114.5",
+                "threshold": "111.5",
                 "prices": [
                     {
                         "designation": "over",
-                        "points": 114.5,
-                        "price": -108
+                        "points": 111.5,
+                        "price": -103
                     },
                     {
                         "designation": "under",
-                        "points": 114.5,
-                        "price": -108
+                        "points": 111.5,
+                        "price": -111
                     }
                 ],
-                "limit": 1500
+                "limit": 500
             },
             {
                 "description": "team total",
                 "team": "away",
-                "threshold": "105.5",
+                "threshold": "109.5",
                 "prices": [
                     {
                         "designation": "over",
-                        "points": 105.5,
-                        "price": -119
+                        "points": 109.5,
+                        "price": -108
                     },
                     {
                         "designation": "under",
-                        "points": 105.5,
-                        "price": 102
+                        "points": 109.5,
+                        "price": -106
                     }
                 ],
-                "limit": 1500
+                "limit": 500
             },
             {
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": -105,
-                        "handicap": -7.5,
+                        "price": -106,
+                        "handicap": -2.5,
                         "team": "home"
                     },
                     {
-                        "price": -105,
-                        "handicap": 7.5,
+                        "price": -106,
+                        "handicap": 2.5,
                         "team": "away"
                     }
                 ],
-                "limit": 12500
+                "limit": 3000
             },
             {
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": -161,
-                        "handicap": -5.0,
+                        "price": -154,
+                        "handicap": 1.5,
                         "team": "home"
                     },
                     {
-                        "price": 140,
-                        "handicap": 5.0,
+                        "price": 132,
+                        "handicap": -1.5,
                         "team": "away"
                     }
                 ],
-                "limit": 12500
+                "limit": 3000
             },
             {
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": -149,
-                        "handicap": -5.5,
+                        "price": -147,
+                        "handicap": 1.0,
                         "team": "home"
                     },
                     {
-                        "price": 131,
-                        "handicap": 5.5,
+                        "price": 126,
+                        "handicap": -1.0,
                         "team": "away"
                     }
                 ],
-                "limit": 12500
+                "limit": 3000
             },
             {
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": -138,
-                        "handicap": -6.0,
+                        "price": -134,
+                        "handicap": -1.0,
                         "team": "home"
                     },
                     {
-                        "price": 121,
-                        "handicap": 6.0,
+                        "price": 116,
+                        "handicap": 1.0,
                         "team": "away"
                     }
                 ],
-                "limit": 12500
+                "limit": 3000
             },
             {
                 "description": "handicap",
                 "prices": [
                     {
                         "price": -127,
-                        "handicap": -6.5,
+                        "handicap": -1.5,
                         "team": "home"
                     },
                     {
-                        "price": 113,
-                        "handicap": 6.5,
+                        "price": 111,
+                        "handicap": 1.5,
                         "team": "away"
                     }
                 ],
-                "limit": 12500
+                "limit": 3000
             },
             {
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": -116,
-                        "handicap": -7.0,
+                        "price": -117,
+                        "handicap": -2.0,
                         "team": "home"
                     },
                     {
-                        "price": 104,
-                        "handicap": 7.0,
+                        "price": 103,
+                        "handicap": 2.0,
                         "team": "away"
                     }
                 ],
-                "limit": 12500
+                "limit": 3000
             },
             {
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": 105,
-                        "handicap": -8.0,
+                        "price": 103,
+                        "handicap": -3.0,
                         "team": "home"
                     },
                     {
-                        "price": -116,
-                        "handicap": 8.0,
+                        "price": -117,
+                        "handicap": 3.0,
                         "team": "away"
                     }
                 ],
-                "limit": 12500
+                "limit": 3000
             },
             {
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": 113,
-                        "handicap": -8.5,
+                        "price": 112,
+                        "handicap": -3.5,
                         "team": "home"
                     },
                     {
                         "price": -128,
-                        "handicap": 8.5,
+                        "handicap": 3.5,
                         "team": "away"
                     }
                 ],
-                "limit": 12500
+                "limit": 3000
             },
             {
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": 122,
-                        "handicap": -9.0,
+                        "price": 120,
+                        "handicap": -4.0,
                         "team": "home"
                     },
                     {
-                        "price": -139,
-                        "handicap": 9.0,
+                        "price": -140,
+                        "handicap": 4.0,
                         "team": "away"
                     }
                 ],
-                "limit": 12500
+                "limit": 3000
             },
             {
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": 131,
-                        "handicap": -9.5,
+                        "price": 129,
+                        "handicap": -4.5,
                         "team": "home"
                     },
                     {
                         "price": -150,
-                        "handicap": 9.5,
+                        "handicap": 4.5,
                         "team": "away"
                     }
                 ],
-                "limit": 12500
+                "limit": 3000
             },
             {
                 "description": "handicap",
                 "prices": [
                     {
-                        "price": 141,
-                        "handicap": -10.0,
+                        "price": 139,
+                        "handicap": -5.0,
                         "team": "home"
                     },
                     {
-                        "price": -162,
-                        "handicap": 10.0,
+                        "price": -163,
+                        "handicap": 5.0,
                         "team": "away"
                     }
                 ],
-                "limit": 12500
-            },
-            {
-                "description": "total points",
-                "threshold": "220.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 220.0,
-                        "price": -103
-                    },
-                    {
-                        "designation": "under",
-                        "points": 220.0,
-                        "price": -109
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "217.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 217.5,
-                        "price": -140
-                    },
-                    {
-                        "designation": "under",
-                        "points": 217.5,
-                        "price": 120
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "218.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 218.0,
-                        "price": -132
-                    },
-                    {
-                        "designation": "under",
-                        "points": 218.0,
-                        "price": 115
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "218.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 218.5,
-                        "price": -124
-                    },
-                    {
-                        "designation": "under",
-                        "points": 218.5,
-                        "price": 108
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "219.0",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 219.0,
-                        "price": -117
-                    },
-                    {
-                        "designation": "under",
-                        "points": 219.0,
-                        "price": 103
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "219.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 219.5,
-                        "price": -110
-                    },
-                    {
-                        "designation": "under",
-                        "points": 219.5,
-                        "price": -104
-                    }
-                ],
-                "limit": 3500
-            },
-            {
-                "description": "total points",
-                "threshold": "220.5",
-                "prices": [
-                    {
-                        "designation": "over",
-                        "points": 220.5,
-                        "price": 102
-                    },
-                    {
-                        "designation": "under",
-                        "points": 220.5,
-                        "price": -116
-                    }
-                ],
-                "limit": 3500
+                "limit": 3000
             },
             {
                 "description": "total points",
@@ -4004,15 +2254,100 @@
                     {
                         "designation": "over",
                         "points": 221.0,
-                        "price": 108
+                        "price": -107
                     },
                     {
                         "designation": "under",
                         "points": 221.0,
-                        "price": -123
+                        "price": -107
                     }
                 ],
-                "limit": 3500
+                "limit": 1000
+            },
+            {
+                "description": "total points",
+                "threshold": "218.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 218.5,
+                        "price": -141
+                    },
+                    {
+                        "designation": "under",
+                        "points": 218.5,
+                        "price": 119
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "total points",
+                "threshold": "219.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 219.0,
+                        "price": -134
+                    },
+                    {
+                        "designation": "under",
+                        "points": 219.0,
+                        "price": 114
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "total points",
+                "threshold": "219.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 219.5,
+                        "price": -126
+                    },
+                    {
+                        "designation": "under",
+                        "points": 219.5,
+                        "price": 108
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "total points",
+                "threshold": "220.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 220.0,
+                        "price": -119
+                    },
+                    {
+                        "designation": "under",
+                        "points": 220.0,
+                        "price": 103
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "total points",
+                "threshold": "220.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 220.5,
+                        "price": -113
+                    },
+                    {
+                        "designation": "under",
+                        "points": 220.5,
+                        "price": -102
+                    }
+                ],
+                "limit": 1000
             },
             {
                 "description": "total points",
@@ -4021,15 +2356,15 @@
                     {
                         "designation": "over",
                         "points": 221.5,
-                        "price": 114
+                        "price": -102
                     },
                     {
                         "designation": "under",
                         "points": 221.5,
-                        "price": -130
+                        "price": -114
                     }
                 ],
-                "limit": 3500
+                "limit": 1000
             },
             {
                 "description": "total points",
@@ -4038,15 +2373,15 @@
                     {
                         "designation": "over",
                         "points": 222.0,
-                        "price": 120
+                        "price": 104
                     },
                     {
                         "designation": "under",
                         "points": 222.0,
-                        "price": -138
+                        "price": -120
                     }
                 ],
-                "limit": 3500
+                "limit": 1000
             },
             {
                 "description": "total points",
@@ -4055,15 +2390,49 @@
                     {
                         "designation": "over",
                         "points": 222.5,
-                        "price": 125
+                        "price": 108
                     },
                     {
                         "designation": "under",
                         "points": 222.5,
-                        "price": -145
+                        "price": -127
                     }
                 ],
-                "limit": 3500
+                "limit": 1000
+            },
+            {
+                "description": "total points",
+                "threshold": "223.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 223.0,
+                        "price": 115
+                    },
+                    {
+                        "designation": "under",
+                        "points": 223.0,
+                        "price": -134
+                    }
+                ],
+                "limit": 1000
+            },
+            {
+                "description": "total points",
+                "threshold": "223.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 223.5,
+                        "price": 120
+                    },
+                    {
+                        "designation": "under",
+                        "points": 223.5,
+                        "price": -142
+                    }
+                ],
+                "limit": 1000
             }
         ]
     }
