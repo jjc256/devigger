@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+credentials.json
+logged_bets.txt
