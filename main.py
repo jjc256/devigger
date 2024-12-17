@@ -9,6 +9,7 @@ import tkinter as tk
 from src.devig import DevigMethod
 from src.wager import *
 from plyer import notification
+import traceback
 
 LOG_FILE = 'logged_bets.txt'
 
@@ -23,7 +24,7 @@ def is_bet_logged(date_game):
 
 def log_bet(date_game):
     with open(LOG_FILE, 'a') as f:
-        f.write(date_game + '\n')
+        f.write(f"{date_game}\n")
 
 
 class BettingGUI:
@@ -31,12 +32,12 @@ class BettingGUI:
         self.root = root
         self.unit_size = unit_size
         self.root.title("Automated Betting Tracker")
-        self.root.geometry("600x650")
+        self.root.geometry("800x650")  # Increased width to accommodate 2 boxes
 
         self.frame = tk.Frame(self.root)
         self.frame.pack(padx=10, pady=10)
 
-        self.canvas = tk.Canvas(self.frame, height=500, width=580)
+        self.canvas = tk.Canvas(self.frame, height=500, width=780)  # Increased canvas width
         self.scrollbar = tk.Scrollbar(self.frame, orient="vertical", command=self.canvas.yview)
         self.scrollable_frame = tk.Frame(self.canvas)
 
@@ -53,27 +54,33 @@ class BettingGUI:
         self.processed_bets = set()
         self.bet_data = {}  # New dictionary to store bet data
 
-        # Status label
+        # Add reload button at the top
+        self.reload_button = tk.Button(root, text="Reload Odds", command=self.reload_odds)
+        self.reload_button.pack(pady=5)
+
+        # Status label (move after reload button)
         self.status_label = tk.Label(root, text="Monitoring for new bets...", pady=5)
         self.status_label.pack()
 
+        self.bet_frames = {}  # Store frames by wager text
         self.root.after(1000, self.check_for_new_bets)
 
     def on_mouse_wheel(self, event):
         self.canvas.yview_scroll(int(-1*(event.delta/120)), "units")
 
     def format_bet_text(self, wager, risk_percentage):
-        units = round((risk_percentage / 100 * BANKROLL) / self.unit_size, 1)
+        bet_amount = round(2 * (risk_percentage/100 * BANKROLL) + 0.25) / \
+            2  # Round up to nearest 0.5
+        units = bet_amount / self.unit_size
         return f"{wager.pretty()}\n{units}u @ {wager.fanduel_odds}"
 
     def copy_to_clipboard(self, text):
         self.root.clipboard_clear()
         self.root.clipboard_append(text)
-        messagebox.showinfo("Success", "Bet copied to clipboard!")
 
     def add_bet_to_display(self, wager, ev, risk_percentage, insert_at_top=True):
         bet_frame = tk.Frame(self.scrollable_frame, borderwidth=2,
-                             relief="groove", width=280, height=200, bg="#90ee90")
+                             relief="groove", width=360, height=200, bg="#90ee90")
 
         # Store the bet data for later use
         today = datetime.today().strftime("%m/%d/%Y")
@@ -81,17 +88,25 @@ class BettingGUI:
                     str(int(2 * risk_percentage / 100 * BANKROLL + 1) / 2)]
         self.bet_data[bet_frame] = row_data
 
+        # Calculate grid position
         if insert_at_top:
-            # Move all existing frames down one position
-            for widget in self.scrollable_frame.winfo_children():
-                current_row = widget.grid_info()['row']
-                widget.grid(row=current_row + 1)
-
-            bet_frame.grid(row=0, column=0, padx=5, pady=5)
+            # Get current widgets and their positions
+            widgets = self.scrollable_frame.grid_slaves()
+            # Move existing frames down
+            for widget in sorted(widgets, key=lambda w: w.grid_info()['row']):
+                grid_info = widget.grid_info()
+                current_row = grid_info['row']
+                current_col = grid_info['column']
+                widget.grid(row=current_row + 1, column=current_col)
+            # Place new frame at top-left or top-right based on existing top row
+            top_widgets = [w for w in widgets if w.grid_info()['row'] == 0]
+            new_col = 1 if top_widgets else 0
+            bet_frame.grid(row=0, column=new_col, padx=5, pady=5, sticky="nsew")
         else:
-            row = len(self.scrollable_frame.winfo_children()) // 2
-            col = len(self.scrollable_frame.winfo_children()) % 2
-            bet_frame.grid(row=row, column=col, padx=5, pady=5)
+            existing_frames = len(self.scrollable_frame.winfo_children())
+            row = existing_frames // 2
+            col = existing_frames % 2
+            bet_frame.grid(row=row, column=col, padx=5, pady=5, sticky="nsew")
 
         bet_frame.pack_propagate(False)
 
@@ -129,6 +144,7 @@ class BettingGUI:
         write_sheet_button.pack(side="left", padx=2)
 
         self.canvas.configure(scrollregion=self.canvas.bbox("all"))
+        return bet_frame  # Add this line to return the frame
 
     def write_bet_to_sheet(self, bet_frame):
         if (bet_frame in self.bet_data):
@@ -146,6 +162,15 @@ class BettingGUI:
                         widget.configure(bg="#D3D3D3")
             except Exception as e:
                 print(f"Error writing to sheet: {e}")
+
+    def update_bet_display(self, bet_frame, wager, ev, risk_percentage):
+        bet_label = bet_frame.winfo_children()[0]  # Get the label widget
+        bet_label.config(
+            text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}% (${int(2 * risk_percentage / 100 * BANKROLL + 1) / 2}0)"
+        )
+
+    def reload_odds(self):
+        self.check_for_new_bets()
 
     def check_for_new_bets(self):
         try:
@@ -169,7 +194,8 @@ class BettingGUI:
 
                 if not is_bet_logged(date_game) and date_game not in self.processed_bets:
                     # Add to GUI
-                    self.add_bet_to_display(wager, ev, risk_percentage, True)
+                    bet_frame = self.add_bet_to_display(wager, ev, risk_percentage, True)
+                    self.bet_frames[date_game] = bet_frame
                     new_bets_text.append(f"{wager.pretty()} ({wager.fanduel_odds})")
 
                     # Log the bet
@@ -188,16 +214,27 @@ class BettingGUI:
 
             current_time = datetime.now().strftime('%I:%M:%S %p')
             status_msg = f"Last check: {current_time} - " + \
-                ("New bets found!" if found_new_bet else "No new bets")
+                ("New bets found!" if found_new_bet else "No new bets found")
             print(f"{status_msg}\nWaiting 5 minutes before next check...")
             self.status_label.config(text=status_msg)
 
         except Exception as e:
-            error_msg = f"Error: {str(e)}"
+            error_msg = f"Error: {str(e)}\nType: {type(e).__name__}\nDetails: {str(e.__dict__)}"
             print(error_msg)
+            print("\nStack trace:")
+            print(traceback.format_exc())
             self.status_label.config(text=error_msg)
+            notification.notify(
+                title='Error in Betting App',
+                message=error_msg[:200] + '...' if len(error_msg) > 200 else error_msg,
+                app_icon=None,
+                timeout=10,
+            )
 
-        self.root.after(300000, self.check_for_new_bets)
+        # Schedule next check in 5 minutes
+        if hasattr(self, 'next_check'):
+            self.root.after_cancel(self.next_check)
+        self.next_check = self.root.after(300000, self.check_for_new_bets)
 
 
 def main():
