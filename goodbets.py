@@ -261,7 +261,6 @@ def wagers():
                     elif fanduel_category_template:
                         if category == "Goals" and N == 1:
                             for fanduel_wager in fanduel_game["markets"]:
-                                external_market_id
                                 if fanduel_wager["marketType"] != "ANY_TIME_GOAL_SCORER":
                                     continue
                                 for runner in fanduel_wager["runners"]:

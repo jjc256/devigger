@@ -88,25 +88,26 @@ class BettingGUI:
                     str(int(2 * risk_percentage / 100 * BANKROLL + 1) / 2)]
         self.bet_data[bet_frame] = row_data
 
-        # Calculate grid position
+        # Calculate grid position like in goodbets.py
         if insert_at_top:
-            # Get current widgets and their positions
-            widgets = self.scrollable_frame.grid_slaves()
-            # Move existing frames down
-            for widget in sorted(widgets, key=lambda w: w.grid_info()['row']):
+            # Move all existing frames down one row
+            existing_frames = len(self.scrollable_frame.winfo_children())
+            for widget in self.scrollable_frame.winfo_children():
                 grid_info = widget.grid_info()
-                current_row = grid_info['row']
-                current_col = grid_info['column']
-                widget.grid(row=current_row + 1, column=current_col)
-            # Place new frame at top-left or top-right based on existing top row
-            top_widgets = [w for w in widgets if w.grid_info()['row'] == 0]
-            new_col = 1 if top_widgets else 0
-            bet_frame.grid(row=0, column=new_col, padx=5, pady=5, sticky="nsew")
+                if grid_info:  # Check if widget is already in grid
+                    current_row = grid_info['row']
+                    current_col = grid_info['column']
+                    widget.grid(row=current_row + 1, column=current_col)
+
+            # Place new frame in top row
+            row = 0
+            col = existing_frames % 2  # Alternate between 0 and 1
         else:
             existing_frames = len(self.scrollable_frame.winfo_children())
             row = existing_frames // 2
             col = existing_frames % 2
-            bet_frame.grid(row=row, column=col, padx=5, pady=5, sticky="nsew")
+
+        bet_frame.grid(row=row, column=col, padx=5, pady=5, sticky="nsew")
 
         bet_frame.pack_propagate(False)
 
