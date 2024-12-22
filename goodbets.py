@@ -265,6 +265,7 @@ def wagers():
                                     continue
                                 for runner in fanduel_wager["runners"]:
                                     if runner["runnerName"] == player_name:
+                                        external_market_id = fanduel_wager["externalMarketId"]
                                         pinnacle_yes_odds = pinnacle_wager["prices"][0]["price"]
                                         pinnacle_no_odds = pinnacle_wager["prices"][1]["price"]
                                         fanduel_odds = runner["winRunnerOdds"]

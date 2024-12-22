@@ -72,7 +72,7 @@ def process_fanduel_rows(rows, data):
                 name = re.sub(r' \([^)]*\)', '', name)  # Remove anything in parentheses
                 event_date = datetime.datetime.fromisoformat(date.replace("Z", "+00:00"))
                 now = datetime.datetime.now(datetime.timezone.utc)
-                if event_date > now and event_date < (now + datetime.timedelta(hours=24)):
+                if now < event_date < (now + datetime.timedelta(hours=24)):
                     result[event_id] = {"name": name}
                     seen_event_ids.add(event_id)
     return result, seen_event_ids

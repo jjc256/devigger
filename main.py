@@ -53,6 +53,7 @@ class BettingGUI:
         self.canvas.bind_all("<MouseWheel>", self.on_mouse_wheel)
         self.processed_bets = set()
         self.bet_data = {}  # New dictionary to store bet data
+        self.displayed_games = {}  # Store displayed games and their frames
 
         # Add reload button at the top
         self.reload_button = tk.Button(root, text="Reload Odds", command=self.reload_odds)
@@ -69,8 +70,7 @@ class BettingGUI:
         self.canvas.yview_scroll(int(-1*(event.delta/120)), "units")
 
     def format_bet_text(self, wager, risk_percentage):
-        bet_amount = round(2 * (risk_percentage/100 * BANKROLL) + 0.25) / \
-            2  # Round up to nearest 0.5
+        bet_amount = int(2 * risk_percentage / 100 * BANKROLL + 1) / 2
         units = bet_amount / self.unit_size
         return f"{wager.pretty()}\n{units}u @ {wager.fanduel_odds}"
 
@@ -145,6 +145,7 @@ class BettingGUI:
         write_sheet_button.pack(side="left", padx=2)
 
         self.canvas.configure(scrollregion=self.canvas.bbox("all"))
+        self.displayed_games[wager.game] = bet_frame  # Track displayed games
         return bet_frame  # Add this line to return the frame
 
     def write_bet_to_sheet(self, bet_frame):
@@ -170,8 +171,84 @@ class BettingGUI:
             text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}% (${int(2 * risk_percentage / 100 * BANKROLL + 1) / 2}0)"
         )
 
+    def are_same_bet(self, wager1, wager2):
+        # Compare essential properties to determine if it's the same bet
+        return (wager1.game == wager2.game and
+                wager1.pretty() == wager2.pretty())
+
+    def process_new_bet(self, wager, ev, risk_percentage, today, notify=True):
+        game_name = wager.game
+        date_game = f"{today}-{game_name}"
+
+        if not is_bet_logged(date_game) and date_game not in self.processed_bets:
+            # Add to GUI
+            bet_frame = self.add_bet_to_display(wager, ev, risk_percentage, True)
+            self.bet_frames[date_game] = bet_frame
+
+            # Log the bet
+            log_bet(date_game)
+            self.processed_bets.add(date_game)
+            return True, wager.pretty() + f" ({wager.fanduel_odds})"
+        return False, None
+
     def reload_odds(self):
-        self.check_for_new_bets()
+        try:
+            print("\nReloading odds...")
+            self.status_label.config(text="Reloading odds...")
+            self.root.update()
+
+            good_bets = display_good_bets(DevigMethod.POWER)
+            found_updates = False
+            new_bets_text = []
+            today = datetime.today().strftime("%m/%d/%Y")
+
+            # Create a mapping of displayed bets for easier lookup
+            displayed_bets = {}
+            for frame, data in self.bet_data.items():
+                displayed_bets[data[1]] = frame  # Using bet name as key
+
+            # Process all bets from the new data
+            for wager, ev, risk_percentage in good_bets:
+                if wager.fanduel_odds > -120 or isinstance(wager, (PlayerProps, PlayerPropsYes)):
+                    continue
+
+                # Check if this bet already exists
+                found_match = False
+                for frame, data in list(self.bet_data.items()):
+                    if data[1] == wager.pretty():  # If same bet name
+                        # Update the display and stored data
+                        self.update_bet_display(frame, wager, ev, risk_percentage)
+                        self.bet_data[frame] = [today, wager.pretty(), str(wager.fanduel_odds),
+                                                str(int(2 * risk_percentage / 100 * BANKROLL + 1) / 2)]
+                        found_match = True
+                        found_updates = True
+                        break
+
+                # If it's a new bet, process it
+                if not found_match:
+                    is_new, bet_text = self.process_new_bet(wager, ev, risk_percentage, today)
+                    if is_new:
+                        found_updates = True
+                        new_bets_text.append(bet_text)
+
+            if new_bets_text:
+                notification.notify(
+                    title='New Betting Opportunities!',
+                    message='\n'.join(new_bets_text[:3]) +
+                    ('\n...' if len(new_bets_text) > 3 else ''),
+                    app_icon=None,
+                    timeout=10,
+                )
+
+            current_time = datetime.now().strftime('%I:%M:%S %p')
+            status_msg = f"Last reload: {current_time} - " + \
+                ("Odds updated!" if found_updates else "No changes in odds")
+            self.status_label.config(text=status_msg)
+
+        except Exception as e:
+            error_msg = f"Error reloading odds: {str(e)}"
+            print(error_msg)
+            self.status_label.config(text=error_msg)
 
     def check_for_new_bets(self):
         try:
@@ -190,19 +267,10 @@ class BettingGUI:
                 if wager.fanduel_odds > -120 or isinstance(wager, (PlayerProps, PlayerPropsYes)):
                     continue
 
-                game_name = wager.game
-                date_game = f"{today}-{game_name}"
-
-                if not is_bet_logged(date_game) and date_game not in self.processed_bets:
-                    # Add to GUI
-                    bet_frame = self.add_bet_to_display(wager, ev, risk_percentage, True)
-                    self.bet_frames[date_game] = bet_frame
-                    new_bets_text.append(f"{wager.pretty()} ({wager.fanduel_odds})")
-
-                    # Log the bet
-                    log_bet(date_game)
-                    self.processed_bets.add(date_game)
+                is_new, bet_text = self.process_new_bet(wager, ev, risk_percentage, today)
+                if is_new:
                     found_new_bet = True
+                    new_bets_text.append(bet_text)
 
             if found_new_bet:
                 notification.notify(
@@ -232,10 +300,10 @@ class BettingGUI:
                 timeout=10,
             )
 
-        # Schedule next check in 5 minutes
+        # Schedule next check in 30 minutes
         if hasattr(self, 'next_check'):
             self.root.after_cancel(self.next_check)
-        self.next_check = self.root.after(300000, self.check_for_new_bets)
+        self.next_check = self.root.after(1800000, self.check_for_new_bets)
 
 
 def main():
