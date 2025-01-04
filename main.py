@@ -88,26 +88,20 @@ class BettingGUI:
                     str(int(2 * risk_percentage / 100 * BANKROLL + 1) / 2)]
         self.bet_data[bet_frame] = row_data
 
-        # Calculate grid position like in goodbets.py
         if insert_at_top:
-            # Move all existing frames down one row
-            existing_frames = len(self.scrollable_frame.winfo_children())
+            # Move all existing frames down
             for widget in self.scrollable_frame.winfo_children():
                 grid_info = widget.grid_info()
-                if grid_info:  # Check if widget is already in grid
+                if grid_info:
                     current_row = grid_info['row']
                     current_col = grid_info['column']
                     widget.grid(row=current_row + 1, column=current_col)
-
-            # Place new frame in top row
-            row = 0
-            col = existing_frames % 2  # Alternate between 0 and 1
+            # Place new frame at top
+            bet_frame.grid(row=0, column=0, columnspan=2, padx=5, pady=5, sticky="nsew")
         else:
             existing_frames = len(self.scrollable_frame.winfo_children())
-            row = existing_frames // 2
-            col = existing_frames % 2
-
-        bet_frame.grid(row=row, column=col, padx=5, pady=5, sticky="nsew")
+            bet_frame.grid(row=existing_frames, column=0,
+                           columnspan=2, padx=5, pady=5, sticky="nsew")
 
         bet_frame.pack_propagate(False)
 
@@ -209,7 +203,7 @@ class BettingGUI:
 
             # Process all bets from the new data
             for wager, ev, risk_percentage in good_bets:
-                if wager.fanduel_odds > -120 or isinstance(wager, (PlayerProps, PlayerPropsYes)):
+                if wager.fanduel_odds > -120 or isinstance(wager, (PlayerProps, PlayerPropsYes, Spread)):
                     continue
 
                 # Check if this bet already exists
@@ -284,7 +278,7 @@ class BettingGUI:
             current_time = datetime.now().strftime('%I:%M:%S %p')
             status_msg = f"Last check: {current_time} - " + \
                 ("New bets found!" if found_new_bet else "No new bets found")
-            print(f"{status_msg}\nWaiting 5 minutes before next check...")
+            print(f"{status_msg}\nWaiting 30 minutes before next check...")
             self.status_label.config(text=status_msg)
 
         except Exception as e:

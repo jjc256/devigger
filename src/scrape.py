@@ -240,8 +240,9 @@ def fanduel_nhl(save_to_file=False):
 
     data = get_response(url, headers, params)
     if data:
-        rows = data.get("layout", {}).get("coupons", {}).get(
-            "35876", {}).get("display", [])[0].get("rows", [])
+        display = data.get("layout", {}).get("coupons", {}).get(
+            "35876", {}).get("display", [])
+        rows = display[0].get("rows", []) if display else []
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result)
