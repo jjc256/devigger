@@ -32,12 +32,12 @@ class BettingGUI:
         self.root = root
         self.unit_size = unit_size
         self.root.title("Automated Betting Tracker")
-        self.root.geometry("800x650")  # Increased width to accommodate 2 boxes
+        self.root.geometry("1200x650")  # Increased width for two columns
 
         self.frame = tk.Frame(self.root)
         self.frame.pack(padx=10, pady=10)
 
-        self.canvas = tk.Canvas(self.frame, height=500, width=780)  # Increased canvas width
+        self.canvas = tk.Canvas(self.frame, height=500, width=1180)  # Increased canvas width
         self.scrollbar = tk.Scrollbar(self.frame, orient="vertical", command=self.canvas.yview)
         self.scrollable_frame = tk.Frame(self.canvas)
 
@@ -65,6 +65,7 @@ class BettingGUI:
 
         self.bet_frames = {}  # Store frames by wager text
         self.root.after(1000, self.check_for_new_bets)
+        self.bet_counter = 0  # Add counter to track number of bets for column placement
 
     def on_mouse_wheel(self, event):
         self.canvas.yview_scroll(int(-1*(event.delta/120)), "units")
@@ -80,7 +81,7 @@ class BettingGUI:
 
     def add_bet_to_display(self, wager, ev, risk_percentage, insert_at_top=True):
         bet_frame = tk.Frame(self.scrollable_frame, borderwidth=2,
-                             relief="groove", width=360, height=200, bg="#90ee90")
+                             relief="groove", width=570, height=200, bg="#90ee90")  # Adjusted width for two columns
 
         # Store the bet data for later use
         today = datetime.today().strftime("%m/%d/%Y")
@@ -88,27 +89,30 @@ class BettingGUI:
                     str(int(2 * risk_percentage / 100 * BANKROLL + 1) / 2)]
         self.bet_data[bet_frame] = row_data
 
-        if insert_at_top:
-            # Move all existing frames down
-            for widget in self.scrollable_frame.winfo_children():
-                grid_info = widget.grid_info()
-                if grid_info:
-                    current_row = grid_info['row']
-                    current_col = grid_info['column']
-                    widget.grid(row=current_row + 1, column=current_col)
-            # Place new frame at top
-            bet_frame.grid(row=0, column=0, columnspan=2, padx=5, pady=5, sticky="nsew")
-        else:
-            existing_frames = len(self.scrollable_frame.winfo_children())
-            bet_frame.grid(row=existing_frames, column=0,
-                           columnspan=2, padx=5, pady=5, sticky="nsew")
+        # Store risk percentage for sorting
+        bet_frame.risk_percentage = risk_percentage
+
+        # Remove all frames and sort them
+        existing_frames = [w for w in self.scrollable_frame.winfo_children()]
+        for widget in existing_frames:
+            widget.grid_forget()
+
+        # Add new frame to list and sort all frames by risk percentage
+        existing_frames.append(bet_frame)
+        existing_frames.sort(key=lambda x: getattr(x, 'risk_percentage', 0), reverse=True)
+
+        # Re-grid all frames in two columns
+        for idx, frame in enumerate(existing_frames):
+            row = idx // 2  # Integer division for row number
+            col = idx % 2   # Remainder for column number
+            frame.grid(row=row, column=col, padx=5, pady=5, sticky="ew")
 
         bet_frame.pack_propagate(False)
 
         bet_label = tk.Label(
             bet_frame,
             text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}% (${int(2 * risk_percentage / 100 * BANKROLL + 1) / 2}0)",
-            wraplength=260,
+            wraplength=520,  # Adjusted wraplength for two columns
             justify="left",
             bg="#90ee90"
         )
@@ -192,6 +196,8 @@ class BettingGUI:
             self.root.update()
 
             good_bets = display_good_bets(DevigMethod.POWER)
+            # Sort bets by risk percentage before processing
+            good_bets.sort(key=lambda x: x[2], reverse=True)
             found_updates = False
             new_bets_text = []
             today = datetime.today().strftime("%m/%d/%Y")
@@ -258,7 +264,7 @@ class BettingGUI:
             new_bets_text = []
 
             for wager, ev, risk_percentage in good_bets:
-                if wager.fanduel_odds > -120 or isinstance(wager, (PlayerProps, PlayerPropsYes)):
+                if wager.fanduel_odds > -120 or isinstance(wager, (PlayerProps, PlayerPropsYes, Spread)):
                     continue
 
                 is_new, bet_text = self.process_new_bet(wager, ev, risk_percentage, today)

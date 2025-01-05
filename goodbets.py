@@ -327,7 +327,7 @@ def display_good_bets(devig_method=DevigMethod.POWER):
         if true_prob > fanduel_prob:
             ev = (true_prob - fanduel_prob) / fanduel_prob * 100
             kelly_percentage = kelly_criterion(true_prob, fanduel_prob) * 100
-            risk_percentage = min(5, kelly_percentage *
+            risk_percentage = min(2.5, kelly_percentage *
                                   get_confidence_value(wager.pinnacle_limit) / 10)
             good_bets.append((wager, ev, risk_percentage))
 
