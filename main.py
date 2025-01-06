@@ -81,7 +81,7 @@ class BettingGUI:
 
     def add_bet_to_display(self, wager, ev, risk_percentage, insert_at_top=True):
         bet_frame = tk.Frame(self.scrollable_frame, borderwidth=2,
-                             relief="groove", width=570, height=200, bg="#90ee90")  # Adjusted width for two columns
+                             relief="groove", width=570, height=200, bg="#90ee90")
 
         # Store the bet data for later use
         today = datetime.today().strftime("%m/%d/%Y")
@@ -89,23 +89,16 @@ class BettingGUI:
                     str(int(2 * risk_percentage / 100 * BANKROLL + 1) / 2)]
         self.bet_data[bet_frame] = row_data
 
-        # Store risk percentage for sorting
-        bet_frame.risk_percentage = risk_percentage
-
-        # Remove all frames and sort them
+        # Get existing frames and shift them down
         existing_frames = [w for w in self.scrollable_frame.winfo_children()]
         for widget in existing_frames:
-            widget.grid_forget()
+            current_row = widget.grid_info()['row']
+            current_col = widget.grid_info()['column']
+            widget.grid(row=current_row + 1 if current_col ==
+                        0 else current_row, column=current_col)
 
-        # Add new frame to list and sort all frames by risk percentage
-        existing_frames.append(bet_frame)
-        existing_frames.sort(key=lambda x: getattr(x, 'risk_percentage', 0), reverse=True)
-
-        # Re-grid all frames in two columns
-        for idx, frame in enumerate(existing_frames):
-            row = idx // 2  # Integer division for row number
-            col = idx % 2   # Remainder for column number
-            frame.grid(row=row, column=col, padx=5, pady=5, sticky="ew")
+        # Place new frame at the top
+        bet_frame.grid(row=0, column=0, padx=5, pady=5, sticky="ew")
 
         bet_frame.pack_propagate(False)
 
