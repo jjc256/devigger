@@ -40,7 +40,8 @@ def wagers():
         **pinnacle_turkish_super(),
         **pinnacle_j1(),
         **pinnacle_ligue1(),
-        **pinnacle_women_friendlies()
+        **pinnacle_women_friendlies(),
+        **pinnacle_greek_super()
     }
     fanduel = {
         # **fanduel_nba(),
@@ -56,7 +57,8 @@ def wagers():
         **fanduel_turkish_super(),
         **fanduel_j1(),
         **fanduel_ligue1(),
-        **fanduel_women_friendlies()
+        **fanduel_women_friendlies(),
+        **fanduel_greek_super()
     }
 
     common_wagers = []
