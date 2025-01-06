@@ -27,14 +27,14 @@ def game_names_equal(game1, game2):
 def wagers():
     # Fetch data from Pinnacle and Fanduel
     pinnacle = {
-        **pinnacle_nba(),
+        # **pinnacle_nba(),
         **pinnacle_nfl(),
-        **pinnacle_nhl(),
+        # **pinnacle_nhl(),
         **pinnacle_ncaaf(),
         **pinnacle_ncaab(),
         **pinnacle_ucl(),
         **pinnacle_epl(),
-        **pinnacle_shl(),
+        # **pinnacle_shl(),
         **pinnacle_nla(),
         **pinnacle_turkish_first(),
         **pinnacle_turkish_super(),
@@ -43,14 +43,14 @@ def wagers():
         **pinnacle_women_friendlies()
     }
     fanduel = {
-        **fanduel_nba(),
+        # **fanduel_nba(),
         **fanduel_nfl(),
-        **fanduel_nhl(),
+        # **fanduel_nhl(),
         **fanduel_ncaaf(),
         **fanduel_ncaab(),
         **fanduel_ucl(),
         **fanduel_epl(),
-        **fanduel_shl(),
+        # **fanduel_shl(),
         **fanduel_nla(),
         **fanduel_turkish_first(),
         **fanduel_turkish_super(),

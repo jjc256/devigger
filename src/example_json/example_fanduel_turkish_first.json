@@ -1,1 +1,31 @@
-{}
+{
+    "33903837": {
+        "name": "Sakaryaspor v Genclerbirligi",
+        "markets": [
+            {
+                "marketType": "WIN-DRAW-WIN",
+                "externalMarketId": "42.471615734",
+                "runners": [
+                    {
+                        "selectionId": 508781,
+                        "handicap": 0,
+                        "runnerName": "Sakaryaspor",
+                        "winRunnerOdds": 140
+                    },
+                    {
+                        "selectionId": 58805,
+                        "handicap": 0,
+                        "runnerName": "Draw",
+                        "winRunnerOdds": 210
+                    },
+                    {
+                        "selectionId": 50350,
+                        "handicap": 0,
+                        "runnerName": "Genclerbirligi",
+                        "winRunnerOdds": 185
+                    }
+                ]
+            }
+        ]
+    }
+}

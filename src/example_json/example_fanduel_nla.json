@@ -1,1 +1,61 @@
-{}
+{
+    "33910150": {
+        "name": "HC Lausanne v EV Zug",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.472185901",
+                "runners": [
+                    {
+                        "selectionId": 243253,
+                        "handicap": -0.5,
+                        "runnerName": "HC Lausanne",
+                        "winRunnerOdds": 136
+                    },
+                    {
+                        "selectionId": 243251,
+                        "handicap": 0.5,
+                        "runnerName": "EV Zug",
+                        "winRunnerOdds": -168
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.472185873",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 5.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -106
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 5.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -114
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.471944878",
+                "runners": [
+                    {
+                        "selectionId": 243253,
+                        "handicap": 0,
+                        "runnerName": "HC Lausanne",
+                        "winRunnerOdds": -120
+                    },
+                    {
+                        "selectionId": 243251,
+                        "handicap": 0,
+                        "runnerName": "EV Zug",
+                        "winRunnerOdds": -102
+                    }
+                ]
+            }
+        ]
+    }
+}
