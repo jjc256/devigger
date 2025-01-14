@@ -1,0 +1,120 @@
+{
+    "33939571": {
+        "name": "Liaoning Flying Leopards v Shanghai Sharks",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.473764012",
+                "runners": [
+                    {
+                        "selectionId": 16773209,
+                        "handicap": 0,
+                        "runnerName": "Liaoning Flying Leopards",
+                        "winRunnerOdds": -178
+                    },
+                    {
+                        "selectionId": 8995044,
+                        "handicap": 0,
+                        "runnerName": "Shanghai Sharks",
+                        "winRunnerOdds": 144
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.473764912",
+                "runners": [
+                    {
+                        "selectionId": 7017823,
+                        "handicap": 211.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -114
+                    },
+                    {
+                        "selectionId": 7017824,
+                        "handicap": 211.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -106
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.473764075",
+                "runners": [
+                    {
+                        "selectionId": 16773209,
+                        "handicap": -4.5,
+                        "runnerName": "Liaoning Flying Leopards",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "selectionId": 8995044,
+                        "handicap": 4.5,
+                        "runnerName": "Shanghai Sharks",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            }
+        ]
+    },
+    "33939572": {
+        "name": "Jiangsu Dragons v Xinjiang Flying Tigers",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.473764983",
+                "runners": [
+                    {
+                        "selectionId": 7017823,
+                        "handicap": 204.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "selectionId": 7017824,
+                        "handicap": 204.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.473764081",
+                "runners": [
+                    {
+                        "selectionId": 8926904,
+                        "handicap": 0,
+                        "runnerName": "Jiangsu Dragons",
+                        "winRunnerOdds": 920
+                    },
+                    {
+                        "selectionId": 26807907,
+                        "handicap": 0,
+                        "runnerName": "Xinjiang Flying Tigers",
+                        "winRunnerOdds": -2000
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.473764087",
+                "runners": [
+                    {
+                        "selectionId": 8926904,
+                        "handicap": 15.5,
+                        "runnerName": "Jiangsu Dragons",
+                        "winRunnerOdds": -106
+                    },
+                    {
+                        "selectionId": 26807907,
+                        "handicap": -15.5,
+                        "runnerName": "Xinjiang Flying Tigers",
+                        "winRunnerOdds": -114
+                    }
+                ]
+            }
+        ]
+    }
+}

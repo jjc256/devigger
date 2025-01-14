@@ -48,7 +48,7 @@ def get_response_no_params(url, headers):
         return None
 
 
-def process_fanduel_rows(rows, data):
+def process_fanduel_rows(rows, data, shorten_names=False):
     """
     Processes the rows of Fanduel data to extract event IDs and names.
 
@@ -70,6 +70,13 @@ def process_fanduel_rows(rows, data):
                 "events", {}).get(str(event_id), {}).get("openDate")
             if (" @ " in name or " v " in name):
                 name = re.sub(r' \([^)]*\)', '', name)  # Remove anything in parentheses
+                if shorten_names:
+                    if " @ " in name:
+                        name = name.split(" @ ")[0].split()[-1] + " @ " + \
+                            name.split(" @ ")[1].split()[-1]
+                    elif " v " in name:
+                        name = name.split(" v ")[0].split()[-1] + " v " + \
+                            name.split(" v ")[1].split()[-1]
                 event_date = datetime.datetime.fromisoformat(date.replace("Z", "+00:00"))
                 now = datetime.datetime.now(datetime.timezone.utc)
                 if now < event_date < (now + datetime.timedelta(hours=24)):
@@ -626,6 +633,45 @@ def fanduel_j1(save_to_file=False):
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_j1.json')
         return result
+
+
+def fanduel_ligue1(save_to_file=False):
+    """
+    Fetches and processes French Ligue 1 data from Fanduel.
+    """
+    url = 'https://sbapi.il.sportsbook.fanduel.com/api/competition-page'
+    api_key = os.getenv('FANDUEL_API_KEY')
+    params = {
+        '_ak': api_key,
+        'eventTypeId': '1',
+        'competitionId': '55'
+    }
+
+    headers = {
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9',
+        'dnt': '1',
+        'origin': 'https://sportsbook.fanduel.com',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    }
+
+    data = get_response(url, headers, params)
+    if data:
+        rows = list(data.get("attachments", {}).get("events", {}).values())
+        result, seen_event_ids = process_fanduel_rows(rows, data)
+        markets = data.get("attachments", {}).get("markets", {})
+        process_fanduel_markets(markets, seen_event_ids, result)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_ligue1.json')
+        return result
     return {}
 
 
@@ -710,7 +756,91 @@ def fanduel_greek_super(save_to_file=False):
     return {}
 
 
-def process_matchups(matchups_data, switch_home_away=False):
+def fanduel_cba(save_to_file=False):
+    """
+    Fetches and processes Chinese Basketball Association data from Fanduel.
+    """
+    url = 'https://sbapi.il.sportsbook.fanduel.com/api/competition-page'
+    api_key = os.getenv('FANDUEL_API_KEY')
+    params = {
+        '_ak': api_key,
+        'eventTypeId': '7522',
+        'competitionId': '11555430'
+    }
+
+    headers = {
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9',
+        'dnt': '1',
+        'origin': 'https://sportsbook.fanduel.com',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    }
+
+    data = get_response(url, headers, params)
+    if data:
+        rows = list(data.get("attachments", {}).get("events", {}).values())
+        result, seen_event_ids = process_fanduel_rows(rows, data)
+        markets = data.get("attachments", {}).get("markets", {})
+        process_fanduel_markets(markets, seen_event_ids, result)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_cba.json')
+        return result
+    return {}
+
+
+def fanduel_ao(save_to_file=False):
+    """
+    Fetches and processes Australian Open data from Fanduel.
+    """
+    url = 'https://sbapi.ny.sportsbook.fanduel.com/api/content-managed-page'
+    api_key = os.getenv('FANDUEL_API_KEY')
+    params = {
+        'page': 'CUSTOM',
+        'customPageId': 'australian-open',
+        'pbHorizontal': 'false',
+        '_ak': api_key,
+        'timezone': 'America/New_York'
+    }
+
+    headers = {
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+        'dnt': '1',
+        'if-none-match': 'W/"a73bb-bqV9yd4R3uJGX5TnE8+f776CCtc"',
+        'origin': 'https://sportsbook.fanduel.com',
+        'priority': 'u=1, i',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    }
+
+    data = get_response(url, headers, params)
+    if data:
+        rows = data.get("layout", {}).get("coupons", {}).get(
+            "39449", {}).get("display", [])[0].get("rows", [])
+        result, seen_event_ids = process_fanduel_rows(rows, data, shorten_names=True)
+        markets = data.get("attachments", {}).get("markets", {})
+        process_fanduel_markets(markets, seen_event_ids, result)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_ao.json')
+        return result
+
+
+def process_matchups(matchups_data, switch_home_away=False, shorten_names=False):
     """
     Processes the matchups data from Pinnacle to extract matchup IDs and names.
 
@@ -732,7 +862,9 @@ def process_matchups(matchups_data, switch_home_away=False):
 
             if home.get("alignment") == "home" and away.get("alignment") == "away":
                 matchup_id = matchup.get("id")
-                matchup_name = f"{away.get('name')} @ {home.get('name')}" if not switch_home_away else f"{home.get('name')} v {away.get('name')}"
+                home_name = home.get("name") if not shorten_names else home.get("name").split()[-1]
+                away_name = away.get("name") if not shorten_names else away.get("name").split()[-1]
+                matchup_name = f"{away_name} @ {home_name}" if not switch_home_away else f"{home_name} v {away_name}"
                 result[matchup_id] = {
                     "name": matchup_name,
                     "markets": []  # Add empty markets list
@@ -1250,46 +1382,6 @@ def pinnacle_j1(save_to_file=False):
     return {}
 
 
-def fanduel_ligue1(save_to_file=False):
-    """
-    Fetches and processes French Ligue 1 data from Fanduel.
-    """
-    url = 'https://sbapi.il.sportsbook.fanduel.com/api/competition-page'
-    api_key = os.getenv('FANDUEL_API_KEY')
-    params = {
-        '_ak': api_key,
-        'eventTypeId': '1',
-        'competitionId': '55'
-    }
-
-    headers = {
-        'accept': 'application/json',
-        'accept-language': 'en-US,en;q=0.9',
-        'dnt': '1',
-        'origin': 'https://sportsbook.fanduel.com',
-        'referer': 'https://sportsbook.fanduel.com/',
-        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
-        'sec-ch-ua-mobile': '?0',
-        'sec-ch-ua-platform': '"Windows"',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
-    }
-
-    data = get_response(url, headers, params)
-    if data:
-        rows = list(data.get("attachments", {}).get("events", {}).values())
-        result, seen_event_ids = process_fanduel_rows(rows, data)
-        markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
-
-        if save_to_file:
-            save_result_to_file(result, 'example_fanduel_ligue1.json')
-        return result
-    return {}
-
-
 def pinnacle_ligue1(save_to_file=False):
     """
     Fetches and processes French Ligue 1 data from Pinnacle.
@@ -1389,6 +1481,72 @@ def pinnacle_greek_super(save_to_file=False):
     return {}
 
 
+def pinnacle_cba(save_to_file=False):
+    """
+    Fetches and processes Chinese Basketball Association data from Pinnacle.
+    """
+    headers = {
+        'sec-ch-ua-platform': 'Windows',
+        'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
+        'Referer': 'https://www.pinnacle.com/',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'X-API-Key': os.getenv('PINNACLE_API_KEY'),
+        'sec-ch-ua-mobile': '?0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'DNT': '1',
+        'Content-Type': 'application/json'
+    }
+
+    matchups_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/303/matchups?brandId=0', headers)
+    markets_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/303/markets/straight', headers)
+
+    if matchups_data and markets_data:
+        result = process_matchups(matchups_data)
+        special_to_parent = process_specials(matchups_data, result)
+        process_markets(markets_data, result, special_to_parent)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_cba.json')
+        return result
+    return {}
+
+
+def pinnacle_ao(save_to_file=False):
+    """
+    Fetches and processes Australian Open tennis data from Pinnacle.
+    """
+    headers = {
+        'sec-ch-ua-platform': 'Windows',
+        'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
+        'Referer': 'https://www.pinnacle.com/',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'X-API-Key': os.getenv('PINNACLE_API_KEY'),
+        'sec-ch-ua-mobile': '?0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'DNT': '1',
+        'Content-Type': 'application/json'
+    }
+
+    matchups_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/sports/33/matchups?withSpecials=false&brandId=0', headers)
+    markets_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/sports/33/markets/straight?primaryOnly=false&withSpecials=false', headers)
+
+    if matchups_data and markets_data:
+        result = process_matchups(matchups_data, switch_home_away=True, shorten_names=True)
+        special_to_parent = process_specials(matchups_data, result)
+        process_markets(markets_data, result, special_to_parent)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_ao.json')
+        return result
+    return {}
+
+
 def print_market_types():
     """
     Prints all the possible market types in example_fanduel_nhl.json.
@@ -1424,7 +1582,9 @@ if __name__ == "__main__":
     # fanduel_j1(save_to_file=True)
     # fanduel_ligue1(save_to_file=True)
     # fanduel_women_friendlies(save_to_file=True)
-    fanduel_greek_super(save_to_file=True)
+    # fanduel_greek_super(save_to_file=True)
+    # fanduel_cba(save_to_file=True)
+    fanduel_ao(save_to_file=True)
 
     # pinnacle_nba(save_to_file=True)
     # pinnacle_nfl(save_to_file=True)
@@ -1440,4 +1600,6 @@ if __name__ == "__main__":
     # pinnacle_j1(save_to_file=True)
     # pinnacle_ligue1(save_to_file=True)
     # pinnacle_women_friendlies(save_to_file=True)
-    pinnacle_greek_super(save_to_file=True)
+    # pinnacle_greek_super(save_to_file=True)
+    # pinnacle_cba(save_to_file=True)
+    pinnacle_ao(save_to_file=True)

@@ -41,7 +41,8 @@ def wagers():
         **pinnacle_j1(),
         **pinnacle_ligue1(),
         **pinnacle_women_friendlies(),
-        **pinnacle_greek_super()
+        **pinnacle_greek_super(),
+        **pinnacle_cba()
     }
     fanduel = {
         # **fanduel_nba(),
@@ -58,7 +59,8 @@ def wagers():
         **fanduel_j1(),
         **fanduel_ligue1(),
         **fanduel_women_friendlies(),
-        **fanduel_greek_super()
+        **fanduel_greek_super(),
+        **fanduel_cba()
     }
 
     common_wagers = []
@@ -87,7 +89,7 @@ def wagers():
                     # Find the corresponding market in Fanduel game
                     for fanduel_wager in fanduel_game["markets"]:
                         external_market_id = fanduel_wager["externalMarketId"]
-                        if fanduel_wager["marketType"] == "MONEY_LINE":
+                        if fanduel_wager["marketType"] == "MONEY_LINE" or fanduel_wager["marketType"] == "MATCH_BETTING":
                             pinnacle_home_odds = pinnacle_wager["prices"][0]["price"]
                             pinnacle_away_odds = pinnacle_wager["prices"][1]["price"]
                             home_index = 1 if " @ " in name else 0

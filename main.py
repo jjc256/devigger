@@ -92,10 +92,12 @@ class BettingGUI:
         # Get existing frames and shift them down
         existing_frames = [w for w in self.scrollable_frame.winfo_children()]
         for widget in existing_frames:
-            current_row = widget.grid_info()['row']
-            current_col = widget.grid_info()['column']
-            widget.grid(row=current_row + 1 if current_col ==
-                        0 else current_row, column=current_col)
+            grid_info = widget.grid_info()
+            if grid_info:  # Check if widget has grid information
+                current_row = grid_info.get('row', 0)
+                current_col = grid_info.get('column', 0)
+                widget.grid(row=current_row + 1 if current_col ==
+                            0 else current_row, column=current_col)
 
         # Place new frame at the top
         bet_frame.grid(row=0, column=0, padx=5, pady=5, sticky="ew")
