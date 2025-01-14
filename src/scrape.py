@@ -72,11 +72,11 @@ def process_fanduel_rows(rows, data, shorten_names=False):
                 name = re.sub(r' \([^)]*\)', '', name)  # Remove anything in parentheses
                 if shorten_names:
                     if " @ " in name:
-                        name = name.split(" @ ")[0].split()[-1] + " @ " + \
-                            name.split(" @ ")[1].split()[-1]
+                        name = name.split(" @ ")[0].split(" ")[-1] + " @ " + \
+                            name.split(" @ ")[1].split(" ")[-1]
                     elif " v " in name:
-                        name = name.split(" v ")[0].split()[-1] + " v " + \
-                            name.split(" v ")[1].split()[-1]
+                        name = name.split(" v ")[0].split(" ")[-1] + " v " + \
+                            name.split(" v ")[1].split(" ")[-1]
                 event_date = datetime.datetime.fromisoformat(date.replace("Z", "+00:00"))
                 now = datetime.datetime.now(datetime.timezone.utc)
                 if now < event_date < (now + datetime.timedelta(hours=24)):
@@ -862,8 +862,10 @@ def process_matchups(matchups_data, switch_home_away=False, shorten_names=False)
 
             if home.get("alignment") == "home" and away.get("alignment") == "away":
                 matchup_id = matchup.get("id")
-                home_name = home.get("name") if not shorten_names else home.get("name").split()[-1]
-                away_name = away.get("name") if not shorten_names else away.get("name").split()[-1]
+                home_name = home.get("name") if not shorten_names else home.get(
+                    "name").split(" ")[-1]
+                away_name = away.get("name") if not shorten_names else away.get(
+                    "name").split(" ")[-1]
                 matchup_name = f"{away_name} @ {home_name}" if not switch_home_away else f"{home_name} v {away_name}"
                 result[matchup_id] = {
                     "name": matchup_name,

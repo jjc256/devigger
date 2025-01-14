@@ -23,6 +23,9 @@ To use, run `python main.py [bankroll size]`
   - Turkish Super League (Soccer)
   - J1 League (Soccer)
   - International Women's Friendlies (Soccer)
+  - Greek Super League (Soccer)
+  - CBA (Basketball)
+  - Australian Open (Tennis)
 
 - Analyzes various bet types:
   - Moneylines
