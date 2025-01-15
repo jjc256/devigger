@@ -4,7 +4,7 @@ from goodbets import open_betslip, display_good_bets, is_good_bet
 from src.sheet_operations import write_to_sheet
 import os.path
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 import tkinter as tk
 from src.devig import DevigMethod
 from src.wager import *
@@ -172,7 +172,7 @@ class BettingGUI:
     def process_new_bet(self, wager, ev, risk_percentage, today, notify=True):
         game_name = wager.game
         date_bet = f"{today}-{wager.pretty()}"
-        date_bet_yesterday = f"{(datetime.today() - datetime.timedelta(days=1)).strftime('%m/%d/%Y')}-{wager.pretty()}"
+        date_bet_yesterday = f"{(datetime.today() - timedelta(days=1)).strftime('%m/%d/%Y')}-{wager.pretty()}"
 
         if not is_bet_logged(date_bet) and (date_bet not in self.processed_bets
                                             and date_bet_yesterday not in self.processed_bets):
