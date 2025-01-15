@@ -171,16 +171,18 @@ class BettingGUI:
 
     def process_new_bet(self, wager, ev, risk_percentage, today, notify=True):
         game_name = wager.game
-        date_game = f"{today}-{game_name}"
+        date_bet = f"{today}-{wager.pretty()}"
+        date_bet_yesterday = f"{(datetime.today() - datetime.timedelta(days=1)).strftime('%m/%d/%Y')}-{wager.pretty()}"
 
-        if not is_bet_logged(date_game) and date_game not in self.processed_bets:
+        if not is_bet_logged(date_bet) and (date_bet not in self.processed_bets
+                                            and date_bet_yesterday not in self.processed_bets):
             # Add to GUI
             bet_frame = self.add_bet_to_display(wager, ev, risk_percentage, True)
-            self.bet_frames[date_game] = bet_frame
+            self.bet_frames[date_bet] = bet_frame
 
             # Log the bet
-            log_bet(date_game)
-            self.processed_bets.add(date_game)
+            log_bet(date_bet)
+            self.processed_bets.add(date_bet)
             return True, wager.pretty() + f" ({wager.fanduel_odds})"
         return False, None
 
