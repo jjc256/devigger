@@ -85,7 +85,7 @@ def process_fanduel_rows(rows, data, shorten_names=False):
     return result, seen_event_ids
 
 
-def process_fanduel_markets(markets, seen_event_ids, result):
+def process_fanduel_markets(markets, seen_event_ids, result, league):
     """
     Processes the Fanduel markets to extract market information for seen event IDs.
 
@@ -97,6 +97,7 @@ def process_fanduel_markets(markets, seen_event_ids, result):
     for _, market in markets.items():
         event_id = market.get("eventId")
         if event_id in seen_event_ids:
+            result[event_id]["league"] = league
             market_info = {
                 "marketType": market.get("marketType"),
                 "externalMarketId": market.get("associatedMarkets")[0].get("externalMarketId"),
@@ -164,7 +165,7 @@ def fanduel_nba(save_to_file=False):
             "32866", {}).get("display", [])[0].get("rows", [])
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "NBA")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_nba.json')
@@ -207,7 +208,7 @@ def fanduel_nfl(save_to_file=False):
         rows = list(data.get("attachments", {}).get("events", {}).values())[2:]
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "NFL")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_nfl.json')
@@ -252,7 +253,7 @@ def fanduel_nhl(save_to_file=False):
         rows = display[0].get("rows", []) if display else []
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "NHL")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_nhl.json')
@@ -301,7 +302,7 @@ def fanduel_ncaaf(save_to_file=False):
             rows = []
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "NCAAFB")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_ncaaf.json')
@@ -347,7 +348,7 @@ def fanduel_ncaab(save_to_file=False):
             rows.extend(display.get("rows", []))
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "NCAAB")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_ncaab.json')
@@ -387,7 +388,7 @@ def fanduel_ucl(save_to_file=False):
         rows = list(data.get("attachments", {}).get("events", {}).values())
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "UCL")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_ucl.json')
@@ -427,7 +428,7 @@ def fanduel_epl(save_to_file=False):
         rows = list(data.get("attachments", {}).get("events", {}).values())
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "EPL")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_epl.json')
@@ -467,7 +468,7 @@ def fanduel_shl(save_to_file=False):
         rows = list(data.get("attachments", {}).get("events", {}).values())
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "SHL")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_shl.json')
@@ -507,7 +508,7 @@ def fanduel_nla(save_to_file=False):
         rows = list(data.get("attachments", {}).get("events", {}).values())
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "NL")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_nla.json')
@@ -547,7 +548,7 @@ def fanduel_turkish_first(save_to_file=False):
         rows = list(data.get("attachments", {}).get("events", {}).values())
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "TFL")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_turkish_first.json')
@@ -588,7 +589,7 @@ def fanduel_turkish_super(save_to_file=False):
         rows = list(data.get("attachments", {}).get("events", {}).values())
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "TSL")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_turkish_super.json')
@@ -628,7 +629,7 @@ def fanduel_j1(save_to_file=False):
         rows = list(data.get("attachments", {}).get("events", {}).values())
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "J1")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_j1.json')
@@ -667,7 +668,7 @@ def fanduel_ligue1(save_to_file=False):
         rows = list(data.get("attachments", {}).get("events", {}).values())
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "L1")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_ligue1.json')
@@ -708,7 +709,7 @@ def fanduel_women_friendlies(save_to_file=False):
         rows = list(data.get("attachments", {}).get("events", {}).values())
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "IWF")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_women_friendlies.json')
@@ -748,7 +749,7 @@ def fanduel_greek_super(save_to_file=False):
         rows = list(data.get("attachments", {}).get("events", {}).values())
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "GSL")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_greek_super.json')
@@ -788,7 +789,7 @@ def fanduel_cba(save_to_file=False):
         rows = list(data.get("attachments", {}).get("events", {}).values())
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "CBA")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_cba.json')
@@ -833,7 +834,7 @@ def fanduel_ao(save_to_file=False):
             "39449", {}).get("display", [])[0].get("rows", [])
         result, seen_event_ids = process_fanduel_rows(rows, data, shorten_names=True)
         markets = data.get("attachments", {}).get("markets", {})
-        process_fanduel_markets(markets, seen_event_ids, result)
+        process_fanduel_markets(markets, seen_event_ids, result, "AO")
 
         if save_to_file:
             save_result_to_file(result, 'example_fanduel_ao.json')
@@ -1570,38 +1571,38 @@ def print_market_types():
 # Call all functions and save results when executed directly
 if __name__ == "__main__":
 
-    # fanduel_nba(save_to_file=True)
-    # fanduel_nfl(save_to_file=True)
-    # fanduel_nhl(save_to_file=True)
-    # fanduel_ncaaf(save_to_file=True)
-    # fanduel_ncaab(save_to_file=True)
-    # fanduel_ucl(save_to_file=True)
-    # fanduel_epl(save_to_file=True)
-    # fanduel_shl(save_to_file=True)
-    # fanduel_nla(save_to_file=True)
-    # fanduel_turkish_first(save_to_file=True)
-    # fanduel_turkish_super(save_to_file=True)
-    # fanduel_j1(save_to_file=True)
-    # fanduel_ligue1(save_to_file=True)
-    # fanduel_women_friendlies(save_to_file=True)
-    # fanduel_greek_super(save_to_file=True)
-    # fanduel_cba(save_to_file=True)
+    fanduel_nba(save_to_file=True)
+    fanduel_nfl(save_to_file=True)
+    fanduel_nhl(save_to_file=True)
+    fanduel_ncaaf(save_to_file=True)
+    fanduel_ncaab(save_to_file=True)
+    fanduel_ucl(save_to_file=True)
+    fanduel_epl(save_to_file=True)
+    fanduel_shl(save_to_file=True)
+    fanduel_nla(save_to_file=True)
+    fanduel_turkish_first(save_to_file=True)
+    fanduel_turkish_super(save_to_file=True)
+    fanduel_j1(save_to_file=True)
+    fanduel_ligue1(save_to_file=True)
+    fanduel_women_friendlies(save_to_file=True)
+    fanduel_greek_super(save_to_file=True)
+    fanduel_cba(save_to_file=True)
     fanduel_ao(save_to_file=True)
 
-    # pinnacle_nba(save_to_file=True)
-    # pinnacle_nfl(save_to_file=True)
-    # pinnacle_nhl(save_to_file=True)
-    # pinnacle_ncaaf(save_to_file=True)
-    # pinnacle_ncaab(save_to_file=True)
-    # pinnacle_ucl(save_to_file=True)
-    # pinnacle_epl(save_to_file=True)
-    # pinnacle_shl(save_to_file=True)
-    # pinnacle_nla(save_to_file=True)
-    # pinnacle_turkish_first(save_to_file=True)
-    # pinnacle_turkish_super(save_to_file=True)
-    # pinnacle_j1(save_to_file=True)
-    # pinnacle_ligue1(save_to_file=True)
-    # pinnacle_women_friendlies(save_to_file=True)
-    # pinnacle_greek_super(save_to_file=True)
-    # pinnacle_cba(save_to_file=True)
+    pinnacle_nba(save_to_file=True)
+    pinnacle_nfl(save_to_file=True)
+    pinnacle_nhl(save_to_file=True)
+    pinnacle_ncaaf(save_to_file=True)
+    pinnacle_ncaab(save_to_file=True)
+    pinnacle_ucl(save_to_file=True)
+    pinnacle_epl(save_to_file=True)
+    pinnacle_shl(save_to_file=True)
+    pinnacle_nla(save_to_file=True)
+    pinnacle_turkish_first(save_to_file=True)
+    pinnacle_turkish_super(save_to_file=True)
+    pinnacle_j1(save_to_file=True)
+    pinnacle_ligue1(save_to_file=True)
+    pinnacle_women_friendlies(save_to_file=True)
+    pinnacle_greek_super(save_to_file=True)
+    pinnacle_cba(save_to_file=True)
     pinnacle_ao(save_to_file=True)

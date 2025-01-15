@@ -81,6 +81,7 @@ def wagers():
                 break
 
         if fanduel_game:
+            league = fanduel_game["league"]
             # Iterate through each market in Pinnacle game
             for pinnacle_wager in pinnacle_game["markets"]:
                 if pinnacle_wager.get("prices") is None:
@@ -106,12 +107,14 @@ def wagers():
                             # Create home moneyline object
                             home_moneyline = Moneyline(
                                 name, fanduel_home_odds, pinnacle_home_odds, pinnacle_limit,
-                                home_team, away_team, pinnacle_away_odds, 0, external_market_id, home_selection_id)
+                                home_team, away_team, pinnacle_away_odds, 0, external_market_id,
+                                home_selection_id, league)
 
                             # Create away moneyline object
                             away_moneyline = Moneyline(
                                 name, fanduel_away_odds, pinnacle_away_odds, pinnacle_limit,
-                                away_team, home_team, pinnacle_home_odds, 0, external_market_id, away_selection_id)
+                                away_team, home_team, pinnacle_home_odds, 0, external_market_id,
+                                away_selection_id, league)
 
                             common_wagers.append(home_moneyline)
                             common_wagers.append(away_moneyline)
@@ -133,18 +136,18 @@ def wagers():
                             home_moneyline = Moneyline(
                                 name, fanduel_home_odds, pinnacle_home_odds, pinnacle_limit,
                                 home_team, away_team, pinnacle_away_odds, pinnacle_draw_odds,
-                                external_market_id, home_selection_id)
+                                external_market_id, home_selection_id, league)
 
                             # Create away moneyline object
                             away_moneyline = Moneyline(
                                 name, fanduel_away_odds, pinnacle_away_odds, pinnacle_limit,
                                 away_team, home_team, pinnacle_home_odds, pinnacle_draw_odds,
-                                external_market_id, away_selection_id)
+                                external_market_id, away_selection_id, league)
 
                             # Create draw moneyline object
                             draw_moneyline = Draw(
                                 name, fanduel_draw_odds, pinnacle_draw_odds, pinnacle_home_odds,
-                                pinnacle_away_odds, pinnacle_limit, external_market_id, draw_selection_id)
+                                pinnacle_away_odds, pinnacle_limit, external_market_id, draw_selection_id, league)
 
                             common_wagers.append(home_moneyline)
                             common_wagers.append(away_moneyline)
@@ -168,12 +171,14 @@ def wagers():
                             # Create home spread object
                             home_spread = Spread(
                                 name, fanduel_home_odds, pinnacle_home_odds, pinnacle_limit,
-                                home_team, away_team, home_handicap, pinnacle_away_odds, external_market_id, home_selection_id)
+                                home_team, away_team, home_handicap, pinnacle_away_odds, external_market_id, home_selection_id,
+                                league)
 
                             # Create away spread object
                             away_spread = Spread(
                                 name, fanduel_away_odds, pinnacle_away_odds, pinnacle_limit,
-                                away_team, home_team, -home_handicap, pinnacle_home_odds, external_market_id, away_selection_id)
+                                away_team, home_team, -home_handicap, pinnacle_home_odds, external_market_id, away_selection_id,
+                                league)
 
                             common_wagers.append(home_spread)
                             common_wagers.append(away_spread)
@@ -195,12 +200,12 @@ def wagers():
                             # Create over total points object
                             over_total_points = TotalPoints(
                                 name, fanduel_over_odds, pinnacle_over_odds, pinnacle_limit, OverUnder.OVER,
-                                threshold, pinnacle_under_odds, external_market_id, over_selection_id)
+                                threshold, pinnacle_under_odds, external_market_id, over_selection_id, league)
 
                             # Create under total points object
                             under_total_points = TotalPoints(
                                 name, fanduel_under_odds, pinnacle_under_odds, pinnacle_limit, OverUnder.UNDER,
-                                threshold, pinnacle_over_odds, external_market_id, under_selection_id)
+                                threshold, pinnacle_over_odds, external_market_id, under_selection_id, league)
 
                             common_wagers.append(over_total_points)
                             common_wagers.append(under_total_points)
@@ -259,7 +264,7 @@ def wagers():
                                         player_props_over = PlayerProps(
                                             name, fanduel_odds, pinnacle_over_odds, pinnacle_limit,
                                             player_name, stat_category, OverUnder.OVER, N, pinnacle_under_odds,
-                                            external_market_id, over_selection_id
+                                            external_market_id, over_selection_id, league
                                         )
                                         common_wagers.append(player_props_over)
                                         break
@@ -282,7 +287,8 @@ def wagers():
                                         # Create player props yes object
                                         player_props_yes = PlayerPropsYes(
                                             name, fanduel_odds, pinnacle_yes_odds, pinnacle_limit,
-                                            player_name, stat_category, pinnacle_no_odds, external_market_id, yes_selection_id
+                                            player_name, stat_category, pinnacle_no_odds, external_market_id,
+                                            yes_selection_id, league
                                         )
 
                                         common_wagers.append(player_props_yes)
@@ -306,7 +312,8 @@ def wagers():
                                             # Create player props yes object
                                             player_props_yes = PlayerPropsYes(
                                                 name, fanduel_odds, pinnacle_yes_odds, pinnacle_limit,
-                                                player_name, stat_category, pinnacle_no_odds, external_market_id, yes_selection_id
+                                                player_name, stat_category, pinnacle_no_odds, external_market_id,
+                                                yes_selection_id, league
                                             )
 
                                             common_wagers.append(player_props_yes)
@@ -391,6 +398,28 @@ def open_betslip(external_market_id, selection_id):
     webbrowser.open_new_tab(url)
 
 
+def is_good_bet(wager):
+    # Based on research, only certain leagues/markets are good. This function filters out the rest.
+    if isinstance(wager, Moneyline) and wager.league == "NCAAB":
+        return True
+    elif isinstance(wager, TotalPoints) and wager.league == "NCAAB":
+        return True
+    elif isinstance(wager, Moneyline) and wager.league == "NCAAFB" and wager.fanduel_odds <= -120:
+        return True
+    elif isinstance(wager, Moneyline) and wager.league == "NFL" and wager.fanduel_odds <= -120:
+        return True
+    elif isinstance(wager, Spread) and wager.league == "NHL" and wager.fanduel_odds <= -120:
+        return True
+    elif isinstance(wager, Spread) and wager.league == "NCAAFB" and wager.fanduel_odds <= -120:
+        return True
+    elif isinstance(wager, TotalPoints) and wager.league == "NHL" and wager.fanduel_odds <= -120:
+        return True
+    elif wager.league not in ["NBA", "NFL", "NHL", "NCAAB", "NCAAFB"]:
+        return True
+    else:
+        return False
+
+
 def reload_data(root, canvas, scrollable_frame, devig_method):
     for widget in scrollable_frame.winfo_children():
         widget.destroy()
@@ -404,7 +433,7 @@ def reload_data(root, canvas, scrollable_frame, devig_method):
         bet_frame = tk.Frame(scrollable_frame, borderwidth=2,
                              relief="groove", width=280, height=200)
         # Add background color if FanDuel odds meet condition
-        if wager.fanduel_odds <= -120 and not isinstance(wager, PlayerProps) and not isinstance(wager, PlayerPropsYes):
+        if is_good_bet(wager):
             bet_frame.configure(bg="#90ee90")
 
         bet_frame.grid(row=row, column=col, padx=5, pady=5)

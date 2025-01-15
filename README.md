@@ -6,22 +6,23 @@ To use, run `python main.py [bankroll size]`
 
 ## Features
 
-- Scrapes real-time odds from FanDuel and Pinnacle sportsbooks
-  - Because of rate limiting, certain sports have sleep time, so GUI should open in around 45 seconds
+- Scrapes real-time odds from FanDuel and Pinnacle sportsbooks by reverse-engineering their APIs
+  - Because of rate limiting, certain sports have sleep time, so GUI should open in around one minute
 - Only shows games from the current day to ensure Pinnacle's odds are closer to true market odds, reducing risk
 - Supports multiple sports:
   - NBA (Basketball)
   - NFL (American Football)
   - NHL (Hockey)
-  - NCAAF (College Football)
+  - NCAAFB (College Football)
   - NCAAB (College Basketball) 
   - UEFA Champions League (Soccer)
   - EPL (Soccer)
   - SHL (Hockey)
-  - NLA (Hockey)
+  - NL (Hockey)
   - Turkish First League (Soccer)
   - Turkish Super League (Soccer)
   - J1 League (Soccer)
+  - Ligue 1 (Soccer)
   - International Women's Friendlies (Soccer)
   - Greek Super League (Soccer)
   - CBA (Basketball)
@@ -44,4 +45,5 @@ To use, run `python main.py [bankroll size]`
   - Copy to clipboard functionality (formats data for spreadsheet with columns: date, bet info, odds, amount)
     - Rounds bet amounts up to nearest $0.50 to appear more natural
     - Bankroll is argument in command line interface (e.g. run `python main.py 1000`)
+  - Highlighted bets if they are profitable league/market (based on my research)
   - Refresh capabilities

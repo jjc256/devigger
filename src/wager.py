@@ -1,6 +1,26 @@
 from enum import Enum
 
 
+class League(Enum):
+    NBA = 1
+    NFL = 2
+    NHL = 3
+    NCAAFB = 4
+    NCAAB = 5
+    UCL = 6
+    EPL = 7
+    SHL = 8
+    NL = 9
+    TFL = 10
+    TSL = 11
+    J1 = 12
+    L1 = 13
+    IWF = 14
+    GSL = 15
+    CBA = 16
+    AO = 17
+
+
 class StatCategory(Enum):
     POINTS = 1
     REBOUNDS = 2
@@ -34,7 +54,7 @@ class OverUnder(Enum):
 
 class Wager:
     def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_opposing_odds: int,
-                 pinnacle_limit: int, external_market_id: str, selection_id: int):
+                 pinnacle_limit: int, external_market_id: str, selection_id: int, league: League):
         """
         Initialize a Wager object.
 
@@ -45,6 +65,7 @@ class Wager:
         :param pinnacle_limit: The limit from Pinnacle (integer).
         :param external_market_id: The external market ID (string).
         :param selection_id: The selection ID (integer).
+        :param league: The league (League).
         """
         self.game = game
         self.fanduel_odds = fanduel_odds
@@ -53,12 +74,13 @@ class Wager:
         self.pinnacle_limit = pinnacle_limit
         self.external_market_id = external_market_id
         self.selection_id = selection_id
+        self.league = league
 
 
 class Moneyline(Wager):
     def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int,
                  team: str, opponent: str, pinnacle_opposing_odds: int, pinnacle_draw_odds: int,
-                 external_market_id: str, selection_id: int):
+                 external_market_id: str, selection_id: int, league: League):
         """
         Initialize a Moneyline object, extending Wager with team and opponent fields.
 
@@ -72,9 +94,10 @@ class Moneyline(Wager):
         :param pinnacle_draw_odds: The draw odds from Pinnacle (integer). Default to 0 for no draw odds.
         :param external_market_id: The external market ID (string).
         :param selection_id: The selection ID (integer).
+        :param league: The league (League).
         """
         super().__init__(game, fanduel_odds, pinnacle_odds,
-                         pinnacle_opposing_odds, pinnacle_limit, external_market_id, selection_id)
+                         pinnacle_opposing_odds, pinnacle_limit, external_market_id, selection_id, league)
         self.team = team
         self.opponent = opponent
         self.pinnacle_draw_odds = pinnacle_draw_odds
@@ -87,7 +110,7 @@ class Moneyline(Wager):
                 f"fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
                 f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, " +
                 (f"pinnacle_draw_odds={self.pinnacle_draw_odds}, " if " v " in self.game else "") +
-                f"pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_limit={self.pinnacle_limit}, league={self.league})")
 
     def pretty(self):
         """
@@ -98,7 +121,7 @@ class Moneyline(Wager):
 
 class Draw(Wager):
     def __init__(self, game: str, fanduel_draw_odds: int, pinnacle_odds: int, pinnacle_home_odds: int, pinnacle_away_odds: int,
-                 pinnacle_limit: int, external_market_id: str, selection_id: int):
+                 pinnacle_limit: int, external_market_id: str, selection_id: int, league: League):
         """
         Initialize a Draw object, extending Wager with team and opponent fields.
 
@@ -111,9 +134,10 @@ class Draw(Wager):
         :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer). Set to 0 because there is no opposing team.
         :param external_market_id: The external market ID (string).
         :param selection_id: The selection ID (integer).
+        :param league: The league (League).
         """
         super().__init__(game, fanduel_draw_odds, pinnacle_odds,
-                         0, pinnacle_limit, external_market_id, selection_id)
+                         0, pinnacle_limit, external_market_id, selection_id, league)
         self.pinnacle_home_odds = pinnacle_home_odds
         self.pinnacle_away_odds = pinnacle_away_odds
 
@@ -123,7 +147,7 @@ class Draw(Wager):
         """
         return (f"Draw(game={self.game}, fanduel_draw_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
                 f"pinnacle_home_odds={self.pinnacle_home_odds}, pinnacle_away_odds={self.pinnacle_away_odds}, "
-                f"pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_limit={self.pinnacle_limit}, league={self.league})")
 
     def pretty(self):
         """
@@ -135,7 +159,7 @@ class Draw(Wager):
 class PlayerProps(Wager):
     def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, player: str,
                  stat: StatCategory, over_under: OverUnder, value: float, pinnacle_opposing_odds: int,
-                 external_market_id: str, selection_id: int):
+                 external_market_id: str, selection_id: int, league: League):
         """
         Initialize a PlayerProps object, extending Wager with player, over_under, and value fields.
 
@@ -152,9 +176,10 @@ class PlayerProps(Wager):
         :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
         :param external_market_id: The external market ID (string).
         :param selection_id: The selection ID (integer).
+        :param league: The league (League).
         """
         super().__init__(game, fanduel_odds, pinnacle_odds,
-                         pinnacle_opposing_odds, pinnacle_limit, external_market_id, selection_id)
+                         pinnacle_opposing_odds, pinnacle_limit, external_market_id, selection_id, league)
         self.player = player
         self.over_under = over_under
         self.stat = stat
@@ -166,7 +191,7 @@ class PlayerProps(Wager):
         """
         return (f"PlayerProps(game={self.game}, player={self.player}, stat={self.stat}, over_under={self.over_under}, "
                 f"value={self.value}, fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
-                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit}, league={self.league})")
 
     def pretty(self):
         """
@@ -177,7 +202,7 @@ class PlayerProps(Wager):
 
 class PlayerPropsYes(Wager):
     def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, player: str,
-                 stat: StatCategory, pinnacle_opposing_odds: int, external_market_id: str, selection_id: int):
+                 stat: StatCategory, pinnacle_opposing_odds: int, external_market_id: str, selection_id: int, league: League):
         """
         Initialize a PlayerPropsYesNo object, extending Wager with player and yes_no fields.
 
@@ -191,9 +216,10 @@ class PlayerPropsYes(Wager):
         :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
         :param external_market_id: The external market ID (string).
         :param selection_id: The selection ID (integer).
+        :param league: The league (League).
         """
         super().__init__(game, fanduel_odds, pinnacle_odds,
-                         pinnacle_opposing_odds, pinnacle_limit, external_market_id, selection_id)
+                         pinnacle_opposing_odds, pinnacle_limit, external_market_id, selection_id, league)
         self.player = player
         self.stat = stat
 
@@ -203,7 +229,7 @@ class PlayerPropsYes(Wager):
         """
         return (f"PlayerPropsYesNo(game={self.game}, player={self.player}, stat={self.stat}, "
                 f"fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
-                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit}, league={self.league})")
 
     def pretty(self):
         """
@@ -214,7 +240,7 @@ class PlayerPropsYes(Wager):
 
 class TeamTotal(Wager):
     def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int, team: str,
-                 over_under: OverUnder, value: float, pinnacle_opposing_odds: int, external_market_id: str, selection_id: int):
+                 over_under: OverUnder, value: float, pinnacle_opposing_odds: int, external_market_id: str, selection_id: int, league: League):
         """
         Initialize a TeamTotal object, extending Wager with team, over_under, and value fields.
 
@@ -228,9 +254,10 @@ class TeamTotal(Wager):
         :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
         :param external_market_id: The external market ID (string).
         :param selection_id: The selection ID (integer).
+        :param league: The league (League).
         """
         super().__init__(game, fanduel_odds, pinnacle_odds,
-                         pinnacle_opposing_odds, pinnacle_limit, external_market_id, selection_id)
+                         pinnacle_opposing_odds, pinnacle_limit, external_market_id, selection_id, league)
         self.team = team
         self.over_under = over_under
         self.value = value
@@ -241,7 +268,7 @@ class TeamTotal(Wager):
         """
         return (f"TeamTotal(game={self.game}, team={self.team}, over_under={self.over_under}, "
                 f"value={self.value}, fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
-                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit}, league={self.league})")
 
     def pretty(self):
         """
@@ -252,7 +279,7 @@ class TeamTotal(Wager):
 
 class Spread(Wager):
     def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int,
-                 team: str, opponent: str, spread: float, pinnacle_opposing_odds: int, external_market_id: str, selection_id: int):
+                 team: str, opponent: str, spread: float, pinnacle_opposing_odds: int, external_market_id: str, selection_id: int, league: League):
         """
         Initialize a Spread object, extending Wager with team, opponent, and spread fields.
 
@@ -266,9 +293,10 @@ class Spread(Wager):
         :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
         :param external_market_id: The external market ID (string).
         :param selection_id: The selection ID (integer).
+        :param league: The league (League).
         """
         super().__init__(game, fanduel_odds, pinnacle_odds,
-                         pinnacle_opposing_odds, pinnacle_limit, external_market_id, selection_id)
+                         pinnacle_opposing_odds, pinnacle_limit, external_market_id, selection_id, league)
         self.team = team
         self.opponent = opponent
         self.spread = spread
@@ -279,7 +307,7 @@ class Spread(Wager):
         """
         return (f"Spread(game={self.game}, team={self.team}, opponent={self.opponent}, "
                 f"spread={self.spread}, fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
-                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit}, league={self.league})")
 
     def pretty(self):
         """
@@ -290,7 +318,7 @@ class Spread(Wager):
 
 class TotalPoints(Wager):
     def __init__(self, game: str, fanduel_odds: int, pinnacle_odds: int, pinnacle_limit: int,
-                 over_under: OverUnder, value: float, pinnacle_opposing_odds: int, external_market_id: str, selection_id: int):
+                 over_under: OverUnder, value: float, pinnacle_opposing_odds: int, external_market_id: str, selection_id: int, league: League):
         """
         Initialize a TotalPoints object, extending Wager with over_under and value fields.
 
@@ -303,9 +331,10 @@ class TotalPoints(Wager):
         :param pinnacle_opposing_odds: The opposing odds from Pinnacle (integer).
         :param external_market_id: The external market ID (string).
         :param selection_id: The selection ID (integer).
+        :param league: The league (League).
         """
         super().__init__(game, fanduel_odds, pinnacle_odds,
-                         pinnacle_opposing_odds, pinnacle_limit, external_market_id, selection_id)
+                         pinnacle_opposing_odds, pinnacle_limit, external_market_id, selection_id, league)
         self.over_under = over_under
         self.value = value
 
@@ -315,7 +344,7 @@ class TotalPoints(Wager):
         """
         return (f"TotalPoints(game={self.game}, over_under={self.over_under}, "
                 f"value={self.value}, fanduel_odds={self.fanduel_odds}, pinnacle_odds={self.pinnacle_odds}, "
-                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit})")
+                f"pinnacle_opposing_odds={self.pinnacle_opposing_odds}, pinnacle_limit={self.pinnacle_limit}, league={self.league})")
 
     def pretty(self):
         """

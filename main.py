@@ -1,6 +1,6 @@
 import sys
 from tkinter import messagebox
-from goodbets import open_betslip, display_good_bets
+from goodbets import open_betslip, display_good_bets, is_good_bet
 from src.sheet_operations import write_to_sheet
 import os.path
 import time
@@ -204,7 +204,7 @@ class BettingGUI:
 
             # Process all bets from the new data
             for wager, ev, risk_percentage in good_bets:
-                if wager.fanduel_odds > -120 or isinstance(wager, (PlayerProps, PlayerPropsYes, Spread)):
+                if is_good_bet:
                     continue
 
                 # Check if this bet already exists
@@ -259,7 +259,7 @@ class BettingGUI:
             new_bets_text = []
 
             for wager, ev, risk_percentage in good_bets:
-                if wager.fanduel_odds > -120 or isinstance(wager, (PlayerProps, PlayerPropsYes, Spread)):
+                if is_good_bet:
                     continue
 
                 is_new, bet_text = self.process_new_bet(wager, ev, risk_percentage, today)

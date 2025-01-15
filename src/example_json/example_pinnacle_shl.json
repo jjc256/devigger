@@ -1,131 +1,131 @@
 {
-    "1602733535": {
-        "name": "Timra IK v Vaxjo Lakers",
+    "1603042194": {
+        "name": "MODO Hockey v Linkopings HC",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": -155
+                        "price": -124
                     },
                     {
                         "designation": "away",
-                        "price": 122
+                        "price": -102
                     }
                 ],
                 "limit": 250
             }
         ]
     },
-    "1602733536": {
-        "name": "Lulea v Leksands IF",
+    "1603043246": {
+        "name": "Skelleftea AIK v Vaxjo Lakers",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": -247
+                        "price": -137
                     },
                     {
                         "designation": "away",
-                        "price": 184
+                        "price": 109
                     }
                 ],
                 "limit": 250
             }
         ]
     },
-    "1602740742": {
-        "name": "Rogle BK v HC Orebro",
+    "1603033758": {
+        "name": "Timra IK v Malmo IF",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": -149
+                        "price": -305
                     },
                     {
                         "designation": "away",
-                        "price": 117
+                        "price": 218
                     }
                 ],
                 "limit": 250
             }
         ]
     },
-    "1602746020": {
-        "name": "MODO Hockey v Skelleftea AIK",
+    "1603042196": {
+        "name": "Leksands IF v HC Orebro",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": 178
+                        "price": -176
                     },
                     {
                         "designation": "away",
-                        "price": -239
+                        "price": 137
                     }
                 ],
                 "limit": 250
             }
         ]
     },
-    "1602740741": {
-        "name": "Linkopings HC v Brynas IF",
+    "1603043248": {
+        "name": "Lulea v Brynas IF",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": 110
+                        "price": -147
                     },
                     {
                         "designation": "away",
-                        "price": -138
+                        "price": 116
                     }
                 ],
                 "limit": 250
             }
         ]
     },
-    "1602733533": {
-        "name": "HV 71 v Frolunda HC",
+    "1603033757": {
+        "name": "HV 71 v Farjestads BK",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": -121
+                        "price": 116
                     },
                     {
                         "designation": "away",
-                        "price": -103
+                        "price": -147
                     }
                 ],
                 "limit": 250
             }
         ]
     },
-    "1602740745": {
-        "name": "Farjestads BK v Malmo IF",
+    "1603043247": {
+        "name": "Rogle BK v Frolunda HC",
         "markets": [
             {
                 "description": "moneyline",
                 "prices": [
                     {
                         "designation": "home",
-                        "price": -308
+                        "price": -110
                     },
                     {
                         "designation": "away",
-                        "price": 219
+                        "price": -114
                     }
                 ],
                 "limit": 250

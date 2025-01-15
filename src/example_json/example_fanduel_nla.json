@@ -1,58 +1,299 @@
 {
-    "33910150": {
-        "name": "HC Lausanne v EV Zug",
+    "33937923": {
+        "name": "EV Zug v EHC Kloten",
+        "league": "NL",
         "markets": [
             {
-                "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.472185901",
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.473635403",
                 "runners": [
                     {
-                        "selectionId": 243253,
-                        "handicap": -0.5,
-                        "runnerName": "HC Lausanne",
-                        "winRunnerOdds": 136
+                        "selectionId": 243251,
+                        "handicap": 0,
+                        "runnerName": "EV Zug",
+                        "winRunnerOdds": -290
                     },
                     {
-                        "selectionId": 243251,
-                        "handicap": 0.5,
-                        "runnerName": "EV Zug",
-                        "winRunnerOdds": -168
+                        "selectionId": 11669962,
+                        "handicap": 0,
+                        "runnerName": "EHC Kloten",
+                        "winRunnerOdds": 225
                     }
                 ]
             },
             {
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.472185873",
+                "externalMarketId": "42.473636019",
                 "runners": [
                     {
                         "selectionId": 7017911,
                         "handicap": 5.5,
                         "runnerName": "Over",
-                        "winRunnerOdds": -106
+                        "winRunnerOdds": -110
                     },
                     {
                         "selectionId": 7017912,
                         "handicap": 5.5,
                         "runnerName": "Under",
-                        "winRunnerOdds": -114
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.473636020",
+                "runners": [
+                    {
+                        "selectionId": 243251,
+                        "handicap": -1.5,
+                        "runnerName": "EV Zug",
+                        "winRunnerOdds": 104
+                    },
+                    {
+                        "selectionId": 11669962,
+                        "handicap": 1.5,
+                        "runnerName": "EHC Kloten",
+                        "winRunnerOdds": -128
+                    }
+                ]
+            }
+        ]
+    },
+    "33937924": {
+        "name": "SCL Tigers Langnau v EHC Biel",
+        "league": "NL",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.473635973",
+                "runners": [
+                    {
+                        "selectionId": 40726967,
+                        "handicap": -0.5,
+                        "runnerName": "SCL Tigers Langnau",
+                        "winRunnerOdds": 138
+                    },
+                    {
+                        "selectionId": 3428437,
+                        "handicap": 0.5,
+                        "runnerName": "EHC Biel",
+                        "winRunnerOdds": -170
                     }
                 ]
             },
             {
                 "marketType": "MONEY_LINE",
-                "externalMarketId": "42.471944878",
+                "externalMarketId": "42.473635407",
                 "runners": [
+                    {
+                        "selectionId": 40726967,
+                        "handicap": 0,
+                        "runnerName": "SCL Tigers Langnau",
+                        "winRunnerOdds": -120
+                    },
+                    {
+                        "selectionId": 3428437,
+                        "handicap": 0,
+                        "runnerName": "EHC Biel",
+                        "winRunnerOdds": -102
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.473635983",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 4.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": 100
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 4.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -122
+                    }
+                ]
+            }
+        ]
+    },
+    "33937925": {
+        "name": "SC Rapperswil-Jona Lakers v HC Ajoie Porrentruy",
+        "league": "NL",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.473635412",
+                "runners": [
+                    {
+                        "selectionId": 22416987,
+                        "handicap": 0,
+                        "runnerName": "SC Rapperswil-Jona Lakers",
+                        "winRunnerOdds": -340
+                    },
+                    {
+                        "selectionId": 40512757,
+                        "handicap": 0,
+                        "runnerName": "HC Ajoie Porrentruy",
+                        "winRunnerOdds": 260
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.473635946",
+                "runners": [
+                    {
+                        "selectionId": 22416987,
+                        "handicap": -1.5,
+                        "runnerName": "SC Rapperswil-Jona Lakers",
+                        "winRunnerOdds": -112
+                    },
+                    {
+                        "selectionId": 40512757,
+                        "handicap": 1.5,
+                        "runnerName": "HC Ajoie Porrentruy",
+                        "winRunnerOdds": -108
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.473635940",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 5.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 5.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            }
+        ]
+    },
+    "33937926": {
+        "name": "HC Fribourg-Gotteron v HC Lausanne",
+        "league": "NL",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.473635420",
+                "runners": [
+                    {
+                        "selectionId": 7719276,
+                        "handicap": 0,
+                        "runnerName": "HC Fribourg-Gotteron",
+                        "winRunnerOdds": -134
+                    },
                     {
                         "selectionId": 243253,
                         "handicap": 0,
                         "runnerName": "HC Lausanne",
-                        "winRunnerOdds": -120
+                        "winRunnerOdds": 110
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.473636090",
+                "runners": [
+                    {
+                        "selectionId": 7719276,
+                        "handicap": -0.5,
+                        "runnerName": "HC Fribourg-Gotteron",
+                        "winRunnerOdds": 124
                     },
                     {
-                        "selectionId": 243251,
+                        "selectionId": 243253,
+                        "handicap": 0.5,
+                        "runnerName": "HC Lausanne",
+                        "winRunnerOdds": -152
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.473636084",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 4.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -148
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 4.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": 120
+                    }
+                ]
+            }
+        ]
+    },
+    "33937930": {
+        "name": "SC Bern v HC Ambri-Piotta",
+        "league": "NL",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.473636055",
+                "runners": [
+                    {
+                        "selectionId": 248670,
+                        "handicap": -0.5,
+                        "runnerName": "SC Bern",
+                        "winRunnerOdds": -144
+                    },
+                    {
+                        "selectionId": 7719432,
+                        "handicap": 0.5,
+                        "runnerName": "HC Ambri-Piotta",
+                        "winRunnerOdds": 116
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.473636038",
+                "runners": [
+                    {
+                        "selectionId": 7017911,
+                        "handicap": 5.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": 100
+                    },
+                    {
+                        "selectionId": 7017912,
+                        "handicap": 5.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -122
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.473635628",
+                "runners": [
+                    {
+                        "selectionId": 248670,
                         "handicap": 0,
-                        "runnerName": "EV Zug",
-                        "winRunnerOdds": -102
+                        "runnerName": "SC Bern",
+                        "winRunnerOdds": -235
+                    },
+                    {
+                        "selectionId": 7719432,
+                        "handicap": 0,
+                        "runnerName": "HC Ambri-Piotta",
+                        "winRunnerOdds": 186
                     }
                 ]
             }

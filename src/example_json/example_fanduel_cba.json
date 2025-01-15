@@ -1,117 +1,359 @@
 {
-    "33939571": {
-        "name": "Liaoning Flying Leopards v Shanghai Sharks",
+    "33942567": {
+        "name": "Shenzhen Leopards v Nanjing Monkey Kings",
+        "league": "CBA",
         "markets": [
             {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.473764012",
-                "runners": [
-                    {
-                        "selectionId": 16773209,
-                        "handicap": 0,
-                        "runnerName": "Liaoning Flying Leopards",
-                        "winRunnerOdds": -178
-                    },
-                    {
-                        "selectionId": 8995044,
-                        "handicap": 0,
-                        "runnerName": "Shanghai Sharks",
-                        "winRunnerOdds": 144
-                    }
-                ]
-            },
-            {
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.473764912",
+                "externalMarketId": "42.473956741",
                 "runners": [
                     {
                         "selectionId": 7017823,
-                        "handicap": 211.5,
+                        "handicap": 216.5,
                         "runnerName": "Over",
-                        "winRunnerOdds": -114
+                        "winRunnerOdds": -106
                     },
                     {
                         "selectionId": 7017824,
-                        "handicap": 211.5,
+                        "handicap": 216.5,
                         "runnerName": "Under",
-                        "winRunnerOdds": -106
+                        "winRunnerOdds": -114
                     }
                 ]
             },
             {
                 "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.473764075",
+                "externalMarketId": "42.473956488",
                 "runners": [
                     {
-                        "selectionId": 16773209,
-                        "handicap": -4.5,
-                        "runnerName": "Liaoning Flying Leopards",
+                        "selectionId": 15945897,
+                        "handicap": -2.5,
+                        "runnerName": "Shenzhen Leopards",
                         "winRunnerOdds": -110
                     },
                     {
-                        "selectionId": 8995044,
-                        "handicap": 4.5,
-                        "runnerName": "Shanghai Sharks",
+                        "selectionId": 26790837,
+                        "handicap": 2.5,
+                        "runnerName": "Nanjing Monkey Kings",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.473956446",
+                "runners": [
+                    {
+                        "selectionId": 15945897,
+                        "handicap": 0,
+                        "runnerName": "Shenzhen Leopards",
+                        "winRunnerOdds": -140
+                    },
+                    {
+                        "selectionId": 26790837,
+                        "handicap": 0,
+                        "runnerName": "Nanjing Monkey Kings",
+                        "winRunnerOdds": 114
+                    }
+                ]
+            }
+        ]
+    },
+    "33942568": {
+        "name": "Qingdao Eagles v Jilin Northeast Tigers",
+        "league": "CBA",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.473956706",
+                "runners": [
+                    {
+                        "selectionId": 7017823,
+                        "handicap": 212.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -112
+                    },
+                    {
+                        "selectionId": 7017824,
+                        "handicap": 212.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -108
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.473956482",
+                "runners": [
+                    {
+                        "selectionId": 15904935,
+                        "handicap": -13.5,
+                        "runnerName": "Qingdao Eagles",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "selectionId": 8995031,
+                        "handicap": 13.5,
+                        "runnerName": "Jilin Northeast Tigers",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.473956450",
+                "runners": [
+                    {
+                        "selectionId": 15904935,
+                        "handicap": 0,
+                        "runnerName": "Qingdao Eagles",
+                        "winRunnerOdds": -1300
+                    },
+                    {
+                        "selectionId": 8995031,
+                        "handicap": 0,
+                        "runnerName": "Jilin Northeast Tigers",
+                        "winRunnerOdds": 730
+                    }
+                ]
+            }
+        ]
+    },
+    "33942569": {
+        "name": "Shandong Kirin v Zhejiang Golden Bulls",
+        "league": "CBA",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.473956454",
+                "runners": [
+                    {
+                        "selectionId": 66808018,
+                        "handicap": 0,
+                        "runnerName": "Shandong Kirin",
+                        "winRunnerOdds": -235
+                    },
+                    {
+                        "selectionId": 8995032,
+                        "handicap": 0,
+                        "runnerName": "Zhejiang Golden Bulls",
+                        "winRunnerOdds": 186
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.473956515",
+                "runners": [
+                    {
+                        "selectionId": 66808018,
+                        "handicap": -5.5,
+                        "runnerName": "Shandong Kirin",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "selectionId": 8995032,
+                        "handicap": 5.5,
+                        "runnerName": "Zhejiang Golden Bulls",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.473956803",
+                "runners": [
+                    {
+                        "selectionId": 7017823,
+                        "handicap": 212.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "selectionId": 7017824,
+                        "handicap": 212.5,
+                        "runnerName": "Under",
                         "winRunnerOdds": -110
                     }
                 ]
             }
         ]
     },
-    "33939572": {
-        "name": "Jiangsu Dragons v Xinjiang Flying Tigers",
+    "33942570": {
+        "name": "Shanxi Loongs v Tianjin Pioneers",
+        "league": "CBA",
         "markets": [
             {
                 "marketType": "TOTAL_POINTS_(OVER/UNDER)",
-                "externalMarketId": "42.473764983",
+                "externalMarketId": "42.473956760",
                 "runners": [
                     {
                         "selectionId": 7017823,
-                        "handicap": 204.5,
+                        "handicap": 227.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -106
+                    },
+                    {
+                        "selectionId": 7017824,
+                        "handicap": 227.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -114
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.473956463",
+                "runners": [
+                    {
+                        "selectionId": 26760067,
+                        "handicap": 0,
+                        "runnerName": "Shanxi Loongs",
+                        "winRunnerOdds": -3000
+                    },
+                    {
+                        "selectionId": 27046665,
+                        "handicap": 0,
+                        "runnerName": "Tianjin Pioneers",
+                        "winRunnerOdds": 1120
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.473956496",
+                "runners": [
+                    {
+                        "selectionId": 26760067,
+                        "handicap": -17.5,
+                        "runnerName": "Shanxi Loongs",
+                        "winRunnerOdds": -114
+                    },
+                    {
+                        "selectionId": 27046665,
+                        "handicap": 17.5,
+                        "runnerName": "Tianjin Pioneers",
+                        "winRunnerOdds": -106
+                    }
+                ]
+            }
+        ]
+    },
+    "33942571": {
+        "name": "Ningbo Rockets v Zhejiang Lions",
+        "league": "CBA",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.473956476",
+                "runners": [
+                    {
+                        "selectionId": 49486303,
+                        "handicap": 0,
+                        "runnerName": "Ningbo Rockets",
+                        "winRunnerOdds": 880
+                    },
+                    {
+                        "selectionId": 15035805,
+                        "handicap": 0,
+                        "runnerName": "Zhejiang Lions",
+                        "winRunnerOdds": -1800
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.473956661",
+                "runners": [
+                    {
+                        "selectionId": 7017823,
+                        "handicap": 201.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -114
+                    },
+                    {
+                        "selectionId": 7017824,
+                        "handicap": 201.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -106
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.473956477",
+                "runners": [
+                    {
+                        "selectionId": 49486303,
+                        "handicap": 14.5,
+                        "runnerName": "Ningbo Rockets",
+                        "winRunnerOdds": -114
+                    },
+                    {
+                        "selectionId": 15035805,
+                        "handicap": -14.5,
+                        "runnerName": "Zhejiang Lions",
+                        "winRunnerOdds": -106
+                    }
+                ]
+            }
+        ]
+    },
+    "33942573": {
+        "name": "Beijing Ducks v Beijing Royal Fighters",
+        "league": "CBA",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.473956523",
+                "runners": [
+                    {
+                        "selectionId": 12273246,
+                        "handicap": 0,
+                        "runnerName": "Beijing Ducks",
+                        "winRunnerOdds": -152
+                    },
+                    {
+                        "selectionId": 26754185,
+                        "handicap": 0,
+                        "runnerName": "Beijing Royal Fighters",
+                        "winRunnerOdds": 124
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.473956828",
+                "runners": [
+                    {
+                        "selectionId": 7017823,
+                        "handicap": 195.5,
                         "runnerName": "Over",
                         "winRunnerOdds": -110
                     },
                     {
                         "selectionId": 7017824,
-                        "handicap": 204.5,
+                        "handicap": 195.5,
                         "runnerName": "Under",
                         "winRunnerOdds": -110
                     }
                 ]
             },
             {
-                "marketType": "MONEY_LINE",
-                "externalMarketId": "42.473764081",
-                "runners": [
-                    {
-                        "selectionId": 8926904,
-                        "handicap": 0,
-                        "runnerName": "Jiangsu Dragons",
-                        "winRunnerOdds": 920
-                    },
-                    {
-                        "selectionId": 26807907,
-                        "handicap": 0,
-                        "runnerName": "Xinjiang Flying Tigers",
-                        "winRunnerOdds": -2000
-                    }
-                ]
-            },
-            {
                 "marketType": "MATCH_HANDICAP_(2-WAY)",
-                "externalMarketId": "42.473764087",
+                "externalMarketId": "42.473956518",
                 "runners": [
                     {
-                        "selectionId": 8926904,
-                        "handicap": 15.5,
-                        "runnerName": "Jiangsu Dragons",
-                        "winRunnerOdds": -106
+                        "selectionId": 12273246,
+                        "handicap": -3.5,
+                        "runnerName": "Beijing Ducks",
+                        "winRunnerOdds": -104
                     },
                     {
-                        "selectionId": 26807907,
-                        "handicap": -15.5,
-                        "runnerName": "Xinjiang Flying Tigers",
-                        "winRunnerOdds": -114
+                        "selectionId": 26754185,
+                        "handicap": 3.5,
+                        "runnerName": "Beijing Royal Fighters",
+                        "winRunnerOdds": -118
                     }
                 ]
             }
