@@ -206,7 +206,7 @@ class BettingGUI:
 
             # Process all bets from the new data
             for wager, ev, risk_percentage in good_bets:
-                if is_good_bet:
+                if not is_good_bet:
                     continue
 
                 # Check if this bet already exists
@@ -261,7 +261,7 @@ class BettingGUI:
             new_bets_text = []
 
             for wager, ev, risk_percentage in good_bets:
-                if is_good_bet:
+                if not is_good_bet:
                     continue
 
                 is_new, bet_text = self.process_new_bet(wager, ev, risk_percentage, today)
