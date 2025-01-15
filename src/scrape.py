@@ -863,11 +863,18 @@ def process_matchups(matchups_data, switch_home_away=False, shorten_names=False)
 
             if home.get("alignment") == "home" and away.get("alignment") == "away":
                 matchup_id = matchup.get("id")
-                home_name = home.get("name") if not shorten_names else home.get(
+                drop_beginning = shorten_names and " /" not in home.get("name")
+                home_name = home.get("name") if not drop_beginning else home.get(
                     "name").split(" ")[-1]
-                away_name = away.get("name") if not shorten_names else away.get(
+                away_name = away.get("name") if not drop_beginning else away.get(
                     "name").split(" ")[-1]
                 matchup_name = f"{away_name} @ {home_name}" if not switch_home_away else f"{home_name} v {away_name}"
+                if " /" in matchup_name and " v " in matchup_name:
+                    # Tennis doubles
+                    matchup_name = matchup_name.split(" v ")[0].split("/")[0].replace(" ", "") + "/" + \
+                        matchup_name.split(" v ")[0].split("/")[1].replace(" ", "") + " v " + \
+                        matchup_name.split(" v ")[1].split("/")[0].replace(" ", "") + "/" + \
+                        matchup_name.split(" v ")[1].split("/")[1].replace(" ", "")
                 result[matchup_id] = {
                     "name": matchup_name,
                     "markets": []  # Add empty markets list
@@ -1571,38 +1578,38 @@ def print_market_types():
 # Call all functions and save results when executed directly
 if __name__ == "__main__":
 
-    fanduel_nba(save_to_file=True)
-    fanduel_nfl(save_to_file=True)
-    fanduel_nhl(save_to_file=True)
-    fanduel_ncaaf(save_to_file=True)
-    fanduel_ncaab(save_to_file=True)
-    fanduel_ucl(save_to_file=True)
-    fanduel_epl(save_to_file=True)
-    fanduel_shl(save_to_file=True)
-    fanduel_nla(save_to_file=True)
-    fanduel_turkish_first(save_to_file=True)
-    fanduel_turkish_super(save_to_file=True)
-    fanduel_j1(save_to_file=True)
-    fanduel_ligue1(save_to_file=True)
-    fanduel_women_friendlies(save_to_file=True)
-    fanduel_greek_super(save_to_file=True)
-    fanduel_cba(save_to_file=True)
+    # fanduel_nba(save_to_file=True)
+    # fanduel_nfl(save_to_file=True)
+    # fanduel_nhl(save_to_file=True)
+    # fanduel_ncaaf(save_to_file=True)
+    # fanduel_ncaab(save_to_file=True)
+    # fanduel_ucl(save_to_file=True)
+    # fanduel_epl(save_to_file=True)
+    # fanduel_shl(save_to_file=True)
+    # fanduel_nla(save_to_file=True)
+    # fanduel_turkish_first(save_to_file=True)
+    # fanduel_turkish_super(save_to_file=True)
+    # fanduel_j1(save_to_file=True)
+    # fanduel_ligue1(save_to_file=True)
+    # fanduel_women_friendlies(save_to_file=True)
+    # fanduel_greek_super(save_to_file=True)
+    # fanduel_cba(save_to_file=True)
     fanduel_ao(save_to_file=True)
 
-    pinnacle_nba(save_to_file=True)
-    pinnacle_nfl(save_to_file=True)
-    pinnacle_nhl(save_to_file=True)
-    pinnacle_ncaaf(save_to_file=True)
-    pinnacle_ncaab(save_to_file=True)
-    pinnacle_ucl(save_to_file=True)
-    pinnacle_epl(save_to_file=True)
-    pinnacle_shl(save_to_file=True)
-    pinnacle_nla(save_to_file=True)
-    pinnacle_turkish_first(save_to_file=True)
-    pinnacle_turkish_super(save_to_file=True)
-    pinnacle_j1(save_to_file=True)
-    pinnacle_ligue1(save_to_file=True)
-    pinnacle_women_friendlies(save_to_file=True)
-    pinnacle_greek_super(save_to_file=True)
-    pinnacle_cba(save_to_file=True)
+    # pinnacle_nba(save_to_file=True)
+    # pinnacle_nfl(save_to_file=True)
+    # pinnacle_nhl(save_to_file=True)
+    # pinnacle_ncaaf(save_to_file=True)
+    # pinnacle_ncaab(save_to_file=True)
+    # pinnacle_ucl(save_to_file=True)
+    # pinnacle_epl(save_to_file=True)
+    # pinnacle_shl(save_to_file=True)
+    # pinnacle_nla(save_to_file=True)
+    # pinnacle_turkish_first(save_to_file=True)
+    # pinnacle_turkish_super(save_to_file=True)
+    # pinnacle_j1(save_to_file=True)
+    # pinnacle_ligue1(save_to_file=True)
+    # pinnacle_women_friendlies(save_to_file=True)
+    # pinnacle_greek_super(save_to_file=True)
+    # pinnacle_cba(save_to_file=True)
     pinnacle_ao(save_to_file=True)
