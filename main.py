@@ -66,6 +66,7 @@ class BettingGUI:
         self.bet_frames = {}  # Store frames by wager text
         self.root.after(1000, self.check_for_new_bets)
         self.bet_counter = 0  # Add counter to track number of bets for column placement
+        self.total_bets = 0  # Add this line to track total bets
 
     def on_mouse_wheel(self, event):
         self.canvas.yview_scroll(int(-1*(event.delta/120)), "units")
@@ -83,24 +84,33 @@ class BettingGUI:
         bet_frame = tk.Frame(self.scrollable_frame, borderwidth=2,
                              relief="groove", width=570, height=200, bg="#90ee90")
 
+        if insert_at_top:
+            # Shift all existing frames down
+            for widget in self.scrollable_frame.winfo_children():
+                grid_info = widget.grid_info()
+                if grid_info:
+                    position = grid_info['row'] * 2 + grid_info['column']
+                    new_position = position + 1
+                    new_row = new_position // 2
+                    new_col = new_position % 2
+                    widget.grid(row=new_row, column=new_col, padx=5, pady=5, sticky="ew")
+
+            # Place new frame at position 0
+            bet_frame.grid(row=0, column=0, padx=5, pady=5, sticky="ew")
+            self.total_bets += 1
+        else:
+            # For non-top insertions, add to next available position
+            position = self.total_bets
+            row = position // 2
+            col = position % 2
+            bet_frame.grid(row=row, column=col, padx=5, pady=5, sticky="ew")
+            self.total_bets += 1
+
         # Store the bet data for later use
         today = datetime.today().strftime("%m/%d/%Y")
         row_data = [today, wager.pretty(), str(wager.fanduel_odds),
                     str(int(2 * risk_percentage / 100 * BANKROLL + 1) / 2)]
         self.bet_data[bet_frame] = row_data
-
-        # Get existing frames and shift them down
-        existing_frames = [w for w in self.scrollable_frame.winfo_children()]
-        for widget in existing_frames:
-            grid_info = widget.grid_info()
-            if grid_info:  # Check if widget has grid information
-                current_row = grid_info.get('row', 0)
-                current_col = grid_info.get('column', 0)
-                widget.grid(row=current_row + 1 if current_col ==
-                            0 else current_row, column=current_col)
-
-        # Place new frame at the top
-        bet_frame.grid(row=0, column=0, padx=5, pady=5, sticky="ew")
 
         bet_frame.pack_propagate(False)
 
