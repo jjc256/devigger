@@ -74,7 +74,8 @@ class BettingGUI:
     def format_bet_text(self, wager, risk_percentage):
         bet_amount = int(2 * risk_percentage / 100 * BANKROLL + 1) / 2
         units = bet_amount / self.unit_size
-        return f"{wager.pretty()}\n{units}u @ {wager.fanduel_odds}"
+        odds_str = f"+{wager.fanduel_odds}" if wager.fanduel_odds > 0 else str(wager.fanduel_odds)
+        return f"{wager.pretty()}\n{units}u @ {odds_str}"
 
     def copy_to_clipboard(self, text):
         self.root.clipboard_clear()
