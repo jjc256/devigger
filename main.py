@@ -185,8 +185,8 @@ class BettingGUI:
         date_bet = f"{today}-{wager.pretty()}"
         date_bet_yesterday = f"{(datetime.today() - timedelta(days=1)).strftime('%m/%d/%Y')}-{wager.pretty()}"
 
-        if not is_bet_logged(date_bet) and (date_bet not in self.processed_bets
-                                            and date_bet_yesterday not in self.processed_bets):
+        if (not is_bet_logged(date_bet) and
+                not is_bet_logged(date_bet_yesterday)) and date_bet not in self.processed_bets:
             # Add to GUI
             bet_frame = self.add_bet_to_display(wager, ev, risk_percentage, True)
             self.bet_frames[date_bet] = bet_frame
@@ -217,7 +217,7 @@ class BettingGUI:
 
             # Process all bets from the new data
             for wager, ev, risk_percentage in good_bets:
-                if not is_good_bet:
+                if not is_good_bet(wager):
                     continue
 
                 # Check if this bet already exists
@@ -272,7 +272,7 @@ class BettingGUI:
             new_bets_text = []
 
             for wager, ev, risk_percentage in good_bets:
-                if not is_good_bet:
+                if not is_good_bet(wager):
                     continue
 
                 is_new, bet_text = self.process_new_bet(wager, ev, risk_percentage, today)
