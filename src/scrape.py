@@ -863,13 +863,13 @@ def process_matchups(matchups_data, switch_home_away=False, shorten_names=False)
 
             if home.get("alignment") == "home" and away.get("alignment") == "away":
                 matchup_id = matchup.get("id")
-                drop_beginning = shorten_names and " /" not in home.get("name")
+                drop_beginning = shorten_names and "/" not in home.get("name")
                 home_name = home.get("name") if not drop_beginning else home.get(
                     "name").split(" ")[-1]
                 away_name = away.get("name") if not drop_beginning else away.get(
                     "name").split(" ")[-1]
                 matchup_name = f"{away_name} @ {home_name}" if not switch_home_away else f"{home_name} v {away_name}"
-                if " /" in matchup_name and " v " in matchup_name:
+                if "/" in matchup_name and " v " in matchup_name:
                     # Tennis doubles
                     matchup_name = matchup_name.split(" v ")[0].split("/")[0].replace(" ", "") + "/" + \
                         matchup_name.split(" v ")[0].split("/")[1].replace(" ", "") + " v " + \

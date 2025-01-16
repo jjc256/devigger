@@ -408,8 +408,6 @@ def is_good_bet(wager):
         return True
     elif isinstance(wager, Moneyline) and wager.league == "NFL" and wager.fanduel_odds <= -120:
         return True
-    elif isinstance(wager, Spread) and wager.league == "NHL" and wager.fanduel_odds <= -120:
-        return True
     elif isinstance(wager, Spread) and wager.league == "NCAAFB" and wager.fanduel_odds <= -120:
         return True
     elif isinstance(wager, TotalPoints) and wager.league == "NHL" and wager.fanduel_odds <= -120:
