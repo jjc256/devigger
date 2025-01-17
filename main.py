@@ -292,7 +292,7 @@ class BettingGUI:
             current_time = datetime.now().strftime('%I:%M:%S %p')
             status_msg = f"Last check: {current_time} - " + \
                 ("New bets found!" if found_new_bet else "No new bets found")
-            print(f"{status_msg}\nWaiting 30 minutes before next check...")
+            print(f"{status_msg}\nWaiting 60 minutes before next check...")
             self.status_label.config(text=status_msg)
 
         except Exception as e:
@@ -308,10 +308,10 @@ class BettingGUI:
                 timeout=10,
             )
 
-        # Schedule next check in 30 minutes
+        # Schedule next check in 60 minutes
         if hasattr(self, 'next_check'):
             self.root.after_cancel(self.next_check)
-        self.next_check = self.root.after(1800000, self.check_for_new_bets)
+        self.next_check = self.root.after(3600000, self.check_for_new_bets)
 
 
 def main():
