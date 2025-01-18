@@ -412,7 +412,7 @@ def is_good_bet(wager):
         return True
     elif isinstance(wager, TotalPoints) and wager.league == "NHL" and wager.fanduel_odds <= -120:
         return True
-    elif wager.league not in ["NBA", "NFL", "NHL", "NCAAB", "NCAAFB"]:
+    elif wager.league not in ["NBA", "NFL", "NHL", "NCAAB", "NCAAFB", "SHL", "NL", "AO"]:
         return True
     else:
         return False
