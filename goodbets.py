@@ -402,7 +402,7 @@ def is_good_bet(wager):
     # Based on research, only certain leagues/markets are good. This function filters out the rest.
     if isinstance(wager, Moneyline) and wager.league == "NCAAB":
         return True
-    elif isinstance(wager, TotalPoints) and wager.league == "NCAAB":
+    elif isinstance(wager, TotalPoints) and wager.league == "NCAAB" and wager.fanduel_odds <= -120:
         return True
     elif isinstance(wager, Moneyline) and wager.league == "NCAAFB" and wager.fanduel_odds <= -120:
         return True
