@@ -254,7 +254,27 @@ class TeamTotal(Wager):
         """
         Provide a pretty string representation of the TeamTotal object.
         """
-        return f"{self.team} {self.over_under.name.capitalize()} {self.value} points {self.game}"
+
+        unit_map = {
+            "NFL": "Points",
+            "NHL": "Goals",
+            "NCAAFB": "Points",
+            "NCAAB": "Points",
+            "UCL": "Goals",
+            "EPL": "Goals",
+            "SHL": "Goals",
+            "NL": "Goals",
+            "TFL": "Goals",
+            "TSL": "Goals",
+            "J1": "Goals",
+            "L1": "Goals",
+            "IWF": "Goals",
+            "GSL": "Goals",
+            "CBA": "Points",
+            "AO": "Points"
+        }
+
+        return f"{self.team} {self.over_under.name.capitalize()} {self.value} {unit_map.get(self.league)} {self.game}"
 
 
 class Spread(Wager):
@@ -330,4 +350,24 @@ class TotalPoints(Wager):
         """
         Provide a pretty string representation of the TotalPoints object.
         """
-        return f"{self.over_under.name.capitalize()} {self.value} Total Points {self.game}"
+
+        unit_map = {
+            "NFL": "Points",
+            "NHL": "Goals",
+            "NCAAFB": "Points",
+            "NCAAB": "Points",
+            "UCL": "Goals",
+            "EPL": "Goals",
+            "SHL": "Goals",
+            "NL": "Goals",
+            "TFL": "Goals",
+            "TSL": "Goals",
+            "J1": "Goals",
+            "L1": "Goals",
+            "IWF": "Goals",
+            "GSL": "Goals",
+            "CBA": "Points",
+            "AO": "Points"
+        }
+
+        return f"{self.over_under.name.capitalize()} {self.value} Total {unit_map.get(self.league)} {self.game}"
