@@ -203,7 +203,18 @@ class BettingGUI:
             self.status_label.config(text="Reloading odds...")
             self.root.update()
 
-            good_bets = display_good_bets(DevigMethod.POWER)
+            good_bets, EMPTY_SCRAPE = display_good_bets(DevigMethod.POWER)
+            if EMPTY_SCRAPE:
+                error_msg = "No data was scraped. The site may be down or experiencing issues."
+                print(error_msg)
+                self.status_label.config(text=error_msg)
+                notification.notify(
+                    title='Scraping Error',
+                    message=error_msg,
+                    app_icon=None,
+                    timeout=10,
+                )
+                return
             # Sort bets by risk percentage before processing
             good_bets.sort(key=lambda x: x[2], reverse=True)
             found_updates = False
@@ -264,7 +275,18 @@ class BettingGUI:
             self.status_label.config(text="Scraping data...")
             self.root.update()
 
-            good_bets = display_good_bets(DevigMethod.POWER)
+            good_bets, EMPTY_SCRAPE = display_good_bets(DevigMethod.POWER)
+            if EMPTY_SCRAPE:
+                error_msg = "No data was scraped. The site may be down or experiencing issues."
+                print(error_msg)
+                self.status_label.config(text=error_msg)
+                notification.notify(
+                    title='Scraping Error',
+                    message=error_msg,
+                    app_icon=None,
+                    timeout=10,
+                )
+                return
             good_bets.sort(key=lambda x: x[2], reverse=True)
 
             today = datetime.today().strftime("%m/%d/%Y")

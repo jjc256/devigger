@@ -367,7 +367,8 @@ class TotalPoints(Wager):
             "IWF": "Goals",
             "GSL": "Goals",
             "CBA": "Points",
-            "AO": "Points"
+            "AO": "Points",
+            "NBB": "Points"
         }
 
         return f"{self.over_under.name.capitalize()} {self.value} Total {unit_map.get(self.league)} {self.game}"

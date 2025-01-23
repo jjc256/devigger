@@ -65,6 +65,8 @@ def wagers():
         **fanduel_ao()
     }
 
+    EMPTY_SCRAPE = pinnacle == {} or fanduel == {}
+
     common_wagers = []
 
     # Iterate through each game in Pinnacle data
@@ -318,11 +320,11 @@ def wagers():
 
                                             common_wagers.append(player_props_yes)
                                             break
-    return common_wagers
+    return common_wagers, EMPTY_SCRAPE
 
 
 def display_good_bets(devig_method=DevigMethod.POWER):
-    common_wagers = wagers()
+    common_wagers, EMPTY_SCRAPE = wagers()
     good_bets = []
 
     for wager in common_wagers:
@@ -344,7 +346,7 @@ def display_good_bets(devig_method=DevigMethod.POWER):
                                   get_confidence_value(wager.pinnacle_limit) / 10)
             good_bets.append((wager, ev, risk_percentage))
 
-    return good_bets
+    return good_bets, EMPTY_SCRAPE
 
 
 def change_devig_method(devig_method, common_wagers):
