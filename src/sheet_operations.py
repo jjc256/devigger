@@ -18,3 +18,18 @@ def write_to_sheet(values):
         global CLIENT
         CLIENT = gspread.authorize(CREDS)
         SHEET.append_row(values)
+
+
+def write_to_column(column, value):
+    try:
+        # Get all values in the column
+        col_values = SHEET.col_values(column)
+        # Find first empty row
+        next_row = len(col_values) + 1
+        # Write value to next empty cell
+        SHEET.update_cell(next_row, column, value)
+    except gspread.exceptions.APIError:
+        # Refresh credentials if expired
+        global CLIENT
+        CLIENT = gspread.authorize(CREDS)
+        write_to_column(column, value)

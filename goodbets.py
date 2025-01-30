@@ -26,44 +26,56 @@ def game_names_equal(game1, game2):
 
 def wagers():
     # Fetch data from Pinnacle and Fanduel
-    pinnacle = {
-        # **pinnacle_nba(),
-        **pinnacle_nfl(),
-        **pinnacle_nhl(),
-        **pinnacle_ncaaf(),
-        **pinnacle_ncaab(),
-        **pinnacle_ucl(),
-        **pinnacle_epl(),
-        **pinnacle_shl(),
-        **pinnacle_nla(),
-        **pinnacle_turkish_first(),
-        **pinnacle_turkish_super(),
-        **pinnacle_j1(),
-        **pinnacle_ligue1(),
-        **pinnacle_women_friendlies(),
-        **pinnacle_greek_super(),
-        **pinnacle_cba(),
-        **pinnacle_ao()
-    }
-    fanduel = {
-        # **fanduel_nba(),
-        **fanduel_nfl(),
-        **fanduel_nhl(),
-        **fanduel_ncaaf(),
-        **fanduel_ncaab(),
-        **fanduel_ucl(),
-        **fanduel_epl(),
-        **fanduel_shl(),
-        **fanduel_nla(),
-        **fanduel_turkish_first(),
-        **fanduel_turkish_super(),
-        **fanduel_j1(),
-        **fanduel_ligue1(),
-        **fanduel_women_friendlies(),
-        **fanduel_greek_super(),
-        **fanduel_cba(),
-        **fanduel_ao()
-    }
+    # Initialize empty dictionaries
+    pinnacle = {}
+    fanduel = {}
+
+    # Function to safely update dictionary
+    def safe_update(base_dict, new_dict, league=""):
+        if new_dict is not None:
+            base_dict.update(new_dict)
+        else:
+            print(f"{league} returned empty dictionary")
+
+    # Pinnacle
+    safe_update(pinnacle, pinnacle_nba(), "NBA")
+    safe_update(pinnacle, pinnacle_nfl(), "NFL")
+    safe_update(pinnacle, pinnacle_nhl(), "NHL")
+    safe_update(pinnacle, pinnacle_ncaaf(), "NCAAF")
+    safe_update(pinnacle, pinnacle_ncaab(), "NCAAB")
+    safe_update(pinnacle, pinnacle_ucl(), "UCL")
+    safe_update(pinnacle, pinnacle_epl(), "EPL")
+    safe_update(pinnacle, pinnacle_shl(), "SHL")
+    safe_update(pinnacle, pinnacle_nla(), "NL")
+    safe_update(pinnacle, pinnacle_turkish_first(), "Turkish First")
+    safe_update(pinnacle, pinnacle_turkish_super(), "Turkish Super")
+    safe_update(pinnacle, pinnacle_j1(), "J1")
+    safe_update(pinnacle, pinnacle_ligue1(), "Ligue 1")
+    safe_update(pinnacle, pinnacle_women_friendlies(), "Women Friendlies")
+    safe_update(pinnacle, pinnacle_greek_super(), "Greek Super")
+    safe_update(pinnacle, pinnacle_cba(), "CBA")
+    safe_update(pinnacle, pinnacle_ao(), "AO")
+    safe_update(pinnacle, pinnacle_nbb(), "NBB")
+
+    # Fanduel
+    safe_update(fanduel, fanduel_nba(), "NBA")
+    safe_update(fanduel, fanduel_nfl(), "NFL")
+    safe_update(fanduel, fanduel_nhl(), "NHL")
+    safe_update(fanduel, fanduel_ncaaf(), "NCAAF")
+    safe_update(fanduel, fanduel_ncaab(), "NCAAB")
+    safe_update(fanduel, fanduel_ucl(), "UCL")
+    safe_update(fanduel, fanduel_epl(), "EPL")
+    safe_update(fanduel, fanduel_shl(), "SHL")
+    safe_update(fanduel, fanduel_nla(), "NL")
+    safe_update(fanduel, fanduel_turkish_first(), "Turkish First")
+    safe_update(fanduel, fanduel_turkish_super(), "Turkish Super")
+    safe_update(fanduel, fanduel_j1(), "J1")
+    safe_update(fanduel, fanduel_ligue1(), "Ligue 1")
+    safe_update(fanduel, fanduel_women_friendlies(), "Women Friendlies")
+    safe_update(fanduel, fanduel_greek_super(), "Greek Super")
+    safe_update(fanduel, fanduel_cba(), "CBA")
+    safe_update(fanduel, fanduel_ao(), "AO")
+    safe_update(fanduel, fanduel_nbb(), "NBB")
 
     EMPTY_SCRAPE = pinnacle == {} or fanduel == {}
 
@@ -396,7 +408,8 @@ def copy_to_clipboard(root, text):
 
 
 def open_betslip(external_market_id, selection_id):
-    url = f"https://sportsbook.fanduel.com/addToBetslip?marketId[0]={external_market_id}&selectionId[0]={selection_id}"
+    url = f"https://sportsbook.fanduel.com/addToBetslip?marketId[0]={
+        external_market_id}&selectionId[0]={selection_id}"
     webbrowser.open_new_tab(url)
 
 
@@ -424,7 +437,9 @@ def reload_data(root, canvas, scrollable_frame, devig_method):
     for widget in scrollable_frame.winfo_children():
         widget.destroy()
 
-    good_bets = display_good_bets(devig_method)
+    good_bets, EMPTY_SCRAPE = display_good_bets(devig_method)
+    if EMPTY_SCRAPE:
+        print("No data found. Please try again later.")
     good_bets.sort(key=lambda x: x[2], reverse=True)  # Sort by risk_percentage
 
     row = 0
@@ -440,7 +455,8 @@ def reload_data(root, canvas, scrollable_frame, devig_method):
         bet_frame.pack_propagate(False)
 
         bet_label = tk.Label(
-            bet_frame, text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}% (${int(2 * risk_percentage / 100 * BANKROLL + 1) / 2}0)",
+            bet_frame, text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {
+                risk_percentage:.2f}% (${int(2 * risk_percentage / 100 * BANKROLL + 1) / 2}0)",
             wraplength=260, justify="left",
             bg=bet_frame.cget("bg"))  # Match label background to frame
         bet_label.pack(expand=True)

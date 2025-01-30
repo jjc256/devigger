@@ -344,7 +344,7 @@ def fanduel_ncaab(save_to_file=False):
     if data:
         # Get all events from the attachments section
         rows = []
-        for display in data.get("layout", {}).get("coupons", {}).get("9411", {}).get("display", []):
+        for display in data.get("layout", {}).get("coupons", {}).get("37884", {}).get("display", []):
             rows.extend(display.get("rows", []))
         result, seen_event_ids = process_fanduel_rows(rows, data)
         markets = data.get("attachments", {}).get("markets", {})
@@ -830,8 +830,9 @@ def fanduel_ao(save_to_file=False):
 
     data = get_response(url, headers, params)
     if data:
-        rows = data.get("layout", {}).get("coupons", {}).get(
-            "39449", {}).get("display", [])[0].get("rows", [])
+        display = data.get("layout", {}).get("coupons", {}).get(
+            "39449", {}).get("display", [])
+        rows = display[0].get("rows", []) if display else []
         result, seen_event_ids = process_fanduel_rows(rows, data, shorten_names=True)
         markets = data.get("attachments", {}).get("markets", {})
         process_fanduel_markets(markets, seen_event_ids, result, "AO")
@@ -908,7 +909,8 @@ def process_matchups(matchups_data, switch_home_away=False, shorten_names=False)
                     "name").split(" ")[-1]
                 away_name = away.get("name") if not drop_beginning else away.get(
                     "name").split(" ")[-1]
-                matchup_name = f"{away_name} @ {home_name}" if not switch_home_away else f"{home_name} v {away_name}"
+                matchup_name = f"{
+                    away_name} @ {home_name}" if not switch_home_away else f"{home_name} v {away_name}"
                 if "/" in matchup_name and " v " in matchup_name:
                     # Tennis doubles
                     matchup_name = matchup_name.split(" v ")[0].split("/")[0].replace(" ", "") + "/" + \
@@ -1667,7 +1669,8 @@ if __name__ == "__main__":
     # fanduel_women_friendlies(save_to_file=True)
     # fanduel_greek_super(save_to_file=True)
     # fanduel_cba(save_to_file=True)
-    fanduel_ao(save_to_file=True)
+    # fanduel_ao(save_to_file=True)
+    fanduel_nbb(save_to_file=True)
 
     # pinnacle_nba(save_to_file=True)
     # pinnacle_nfl(save_to_file=True)
@@ -1685,4 +1688,5 @@ if __name__ == "__main__":
     # pinnacle_women_friendlies(save_to_file=True)
     # pinnacle_greek_super(save_to_file=True)
     # pinnacle_cba(save_to_file=True)
-    pinnacle_ao(save_to_file=True)
+    # pinnacle_ao(save_to_file=True)
+    pinnacle_nbb(save_to_file=True)

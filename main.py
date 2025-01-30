@@ -1,7 +1,7 @@
 import sys
 from tkinter import messagebox
 from goodbets import open_betslip, display_good_bets, is_good_bet
-from src.sheet_operations import write_to_sheet
+from src.sheet_operations import write_to_sheet, write_to_column
 import os.path
 import time
 from datetime import datetime, timedelta
@@ -111,13 +111,14 @@ class BettingGUI:
         today = datetime.today().strftime("%m/%d/%Y")
         row_data = [today, wager.pretty(), str(wager.fanduel_odds),
                     str(int(2 * risk_percentage / 100 * BANKROLL + 1) / 2)]
-        self.bet_data[bet_frame] = row_data
+        self.bet_data[bet_frame] = row_data, wager.league
 
         bet_frame.pack_propagate(False)
 
         bet_label = tk.Label(
             bet_frame,
-            text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}% (${int(2 * risk_percentage / 100 * BANKROLL + 1) / 2}0)",
+            text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {
+                risk_percentage:.2f}% (${int(2 * risk_percentage / 100 * BANKROLL + 1) / 2}0)",
             wraplength=520,  # Adjusted wraplength for two columns
             justify="left",
             bg="#90ee90"
@@ -154,9 +155,10 @@ class BettingGUI:
 
     def write_bet_to_sheet(self, bet_frame):
         if (bet_frame in self.bet_data):
-            row_data = self.bet_data[bet_frame]
+            row_data, league = self.bet_data[bet_frame]
             try:
                 write_to_sheet(row_data)
+                write_to_column(8, league)
                 bet_frame.configure(bg="#D3D3D3")  # Change color to indicate written
                 for widget in bet_frame.winfo_children():
                     if isinstance(widget, tk.Frame):
@@ -172,7 +174,8 @@ class BettingGUI:
     def update_bet_display(self, bet_frame, wager, ev, risk_percentage):
         bet_label = bet_frame.winfo_children()[0]  # Get the label widget
         bet_label.config(
-            text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {risk_percentage:.2f}% (${int(2 * risk_percentage / 100 * BANKROLL + 1) / 2}0)"
+            text=f"{wager.pretty()}\nFanduel Odds: {wager.fanduel_odds}\nEV: {ev:.2f}%\nRisk: {
+                risk_percentage:.2f}% (${int(2 * risk_percentage / 100 * BANKROLL + 1) / 2}0)"
         )
 
     def are_same_bet(self, wager1, wager2):
@@ -183,7 +186,8 @@ class BettingGUI:
     def process_new_bet(self, wager, ev, risk_percentage, today, notify=True):
         game_name = wager.game
         date_bet = f"{today}-{wager.pretty()}"
-        date_bet_yesterday = f"{(datetime.today() - timedelta(days=1)).strftime('%m/%d/%Y')}-{wager.pretty()}"
+        date_bet_yesterday = f"{(datetime.today() - timedelta(days=1)
+                                 ).strftime('%m/%d/%Y')}-{wager.pretty()}"
 
         if (not is_bet_logged(date_bet) and
                 not is_bet_logged(date_bet_yesterday)) and date_bet not in self.processed_bets:
