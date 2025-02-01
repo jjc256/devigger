@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 credentials.json
 logged_bets.txt
+sports_to_add.txt
+results.txt
