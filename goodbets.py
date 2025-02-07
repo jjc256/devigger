@@ -56,6 +56,7 @@ def wagers():
     safe_update(pinnacle, pinnacle_cba(), "CBA")
     safe_update(pinnacle, pinnacle_ao(), "AO")
     safe_update(pinnacle, pinnacle_nbb(), "NBB")
+    safe_update(pinnacle, pinnacle_euroleague(), "EuroLeague")
 
     # Fanduel
     safe_update(fanduel, fanduel_nba(), "NBA")
@@ -76,6 +77,7 @@ def wagers():
     safe_update(fanduel, fanduel_cba(), "CBA")
     safe_update(fanduel, fanduel_ao(), "AO")
     safe_update(fanduel, fanduel_nbb(), "NBB")
+    safe_update(fanduel, fanduel_euroleague(), "EuroLeague")
 
     EMPTY_SCRAPE = pinnacle == {} or fanduel == {}
 

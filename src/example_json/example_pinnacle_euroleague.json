@@ -1,0 +1,1530 @@
+{
+    "1604034567": {
+        "name": "Paris @ Virtus Bologna",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 120
+                    },
+                    {
+                        "designation": "away",
+                        "price": -137
+                    }
+                ],
+                "limit": 3000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 100,
+                        "handicap": 2.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -115,
+                        "handicap": -2.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 148,
+                        "handicap": -2.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -176,
+                        "handicap": 2.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 137,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -163,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 131,
+                        "handicap": -1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -154,
+                        "handicap": 1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 117,
+                        "handicap": 1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -137,
+                        "handicap": -1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 111,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -128,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -111,
+                        "handicap": 2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -104,
+                        "handicap": -2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -121,
+                        "handicap": 3.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 104,
+                        "handicap": -3.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -130,
+                        "handicap": 3.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 111,
+                        "handicap": -3.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -140,
+                        "handicap": 4.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 118,
+                        "handicap": -4.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -149,
+                        "handicap": 4.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 126,
+                        "handicap": -4.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "168.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 168.5,
+                        "price": -104
+                    },
+                    {
+                        "designation": "under",
+                        "points": 168.5,
+                        "price": -110
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "166.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 166.0,
+                        "price": -135
+                    },
+                    {
+                        "designation": "under",
+                        "points": 166.0,
+                        "price": 118
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "166.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 166.5,
+                        "price": -129
+                    },
+                    {
+                        "designation": "under",
+                        "points": 166.5,
+                        "price": 113
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "167.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 167.0,
+                        "price": -123
+                    },
+                    {
+                        "designation": "under",
+                        "points": 167.0,
+                        "price": 107
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "167.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 167.5,
+                        "price": -116
+                    },
+                    {
+                        "designation": "under",
+                        "points": 167.5,
+                        "price": 102
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "168.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 168.0,
+                        "price": -110
+                    },
+                    {
+                        "designation": "under",
+                        "points": 168.0,
+                        "price": -104
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "169.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 169.0,
+                        "price": 102
+                    },
+                    {
+                        "designation": "under",
+                        "points": 169.0,
+                        "price": -117
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "169.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 169.5,
+                        "price": 108
+                    },
+                    {
+                        "designation": "under",
+                        "points": 169.5,
+                        "price": -123
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "170.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 170.0,
+                        "price": 113
+                    },
+                    {
+                        "designation": "under",
+                        "points": 170.0,
+                        "price": -130
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "170.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 170.5,
+                        "price": 119
+                    },
+                    {
+                        "designation": "under",
+                        "points": 170.5,
+                        "price": -137
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "171.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 171.0,
+                        "price": 125
+                    },
+                    {
+                        "designation": "under",
+                        "points": 171.0,
+                        "price": -143
+                    }
+                ],
+                "limit": 6000
+            }
+        ]
+    },
+    "1604052470": {
+        "name": "Olympiakos BC @ Barcelona",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": 104
+                    },
+                    {
+                        "designation": "away",
+                        "price": -120
+                    }
+                ],
+                "limit": 3000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -102,
+                        "handicap": 1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -113,
+                        "handicap": -1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 148,
+                        "handicap": -3.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -175,
+                        "handicap": 3.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 139,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -164,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 128,
+                        "handicap": -2.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -151,
+                        "handicap": 2.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 118,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -138,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 112,
+                        "handicap": -1.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -129,
+                        "handicap": 1.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -109,
+                        "handicap": 1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -106,
+                        "handicap": -1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -121,
+                        "handicap": 2.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 104,
+                        "handicap": -2.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -133,
+                        "handicap": 2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 113,
+                        "handicap": -2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -142,
+                        "handicap": 3.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 121,
+                        "handicap": -3.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -152,
+                        "handicap": 3.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 128,
+                        "handicap": -3.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "170.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 170.0,
+                        "price": -109
+                    },
+                    {
+                        "designation": "under",
+                        "points": 170.0,
+                        "price": -105
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "167.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 167.5,
+                        "price": -142
+                    },
+                    {
+                        "designation": "under",
+                        "points": 167.5,
+                        "price": 124
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "168.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 168.0,
+                        "price": -135
+                    },
+                    {
+                        "designation": "under",
+                        "points": 168.0,
+                        "price": 118
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "168.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 168.5,
+                        "price": -129
+                    },
+                    {
+                        "designation": "under",
+                        "points": 168.5,
+                        "price": 112
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "169.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 169.0,
+                        "price": -122
+                    },
+                    {
+                        "designation": "under",
+                        "points": 169.0,
+                        "price": 107
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "169.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 169.5,
+                        "price": -116
+                    },
+                    {
+                        "designation": "under",
+                        "points": 169.5,
+                        "price": 101
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "170.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 170.5,
+                        "price": -103
+                    },
+                    {
+                        "designation": "under",
+                        "points": 170.5,
+                        "price": -111
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "171.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 171.0,
+                        "price": 103
+                    },
+                    {
+                        "designation": "under",
+                        "points": 171.0,
+                        "price": -118
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "171.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 171.5,
+                        "price": 108
+                    },
+                    {
+                        "designation": "under",
+                        "points": 171.5,
+                        "price": -124
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "172.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 172.0,
+                        "price": 114
+                    },
+                    {
+                        "designation": "under",
+                        "points": 172.0,
+                        "price": -130
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "172.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 172.5,
+                        "price": 119
+                    },
+                    {
+                        "designation": "under",
+                        "points": 172.5,
+                        "price": -137
+                    }
+                ],
+                "limit": 6000
+            }
+        ]
+    },
+    "1604034568": {
+        "name": "Maccabi Tel-Aviv @ Baskonia Vitoria Gasteiz",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -312
+                    },
+                    {
+                        "designation": "away",
+                        "price": 262
+                    }
+                ],
+                "limit": 3000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -117,
+                        "handicap": -7.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 102,
+                        "handicap": 7.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 122,
+                        "handicap": -9.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -143,
+                        "handicap": 9.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 114,
+                        "handicap": -9.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -135,
+                        "handicap": 9.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 107,
+                        "handicap": -8.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -126,
+                        "handicap": 8.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -100,
+                        "handicap": -8.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -116,
+                        "handicap": 8.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -108,
+                        "handicap": -7.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -107,
+                        "handicap": 7.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -129,
+                        "handicap": -6.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 111,
+                        "handicap": 6.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -140,
+                        "handicap": -6.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 120,
+                        "handicap": 6.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -152,
+                        "handicap": -5.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 128,
+                        "handicap": 5.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -163,
+                        "handicap": -5.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 138,
+                        "handicap": 5.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -174,
+                        "handicap": -4.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 147,
+                        "handicap": 4.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "176.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 176.0,
+                        "price": -113
+                    },
+                    {
+                        "designation": "under",
+                        "points": 176.0,
+                        "price": -101
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "173.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 173.5,
+                        "price": -147
+                    },
+                    {
+                        "designation": "under",
+                        "points": 173.5,
+                        "price": 128
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "174.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 174.0,
+                        "price": -140
+                    },
+                    {
+                        "designation": "under",
+                        "points": 174.0,
+                        "price": 122
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "174.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 174.5,
+                        "price": -133
+                    },
+                    {
+                        "designation": "under",
+                        "points": 174.5,
+                        "price": 116
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "175.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 175.0,
+                        "price": -126
+                    },
+                    {
+                        "designation": "under",
+                        "points": 175.0,
+                        "price": 110
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "175.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 175.5,
+                        "price": -120
+                    },
+                    {
+                        "designation": "under",
+                        "points": 175.5,
+                        "price": 105
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "176.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 176.5,
+                        "price": -106
+                    },
+                    {
+                        "designation": "under",
+                        "points": 176.5,
+                        "price": -108
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "177.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 177.0,
+                        "price": -101
+                    },
+                    {
+                        "designation": "under",
+                        "points": 177.0,
+                        "price": -114
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "177.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 177.5,
+                        "price": 105
+                    },
+                    {
+                        "designation": "under",
+                        "points": 177.5,
+                        "price": -120
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "178.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 178.0,
+                        "price": 110
+                    },
+                    {
+                        "designation": "under",
+                        "points": 178.0,
+                        "price": -126
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "178.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 178.5,
+                        "price": 115
+                    },
+                    {
+                        "designation": "under",
+                        "points": 178.5,
+                        "price": -132
+                    }
+                ],
+                "limit": 6000
+            }
+        ]
+    },
+    "1604052440": {
+        "name": "KK Partizan Belgrade @ AS Monaco",
+        "markets": [
+            {
+                "description": "moneyline",
+                "prices": [
+                    {
+                        "designation": "home",
+                        "price": -196
+                    },
+                    {
+                        "designation": "away",
+                        "price": 169
+                    }
+                ],
+                "limit": 3000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -110,
+                        "handicap": -4.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -105,
+                        "handicap": 4.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 130,
+                        "handicap": -6.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -154,
+                        "handicap": 6.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 122,
+                        "handicap": -6.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -144,
+                        "handicap": 6.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 114,
+                        "handicap": -5.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -135,
+                        "handicap": 5.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": 107,
+                        "handicap": -5.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": -124,
+                        "handicap": 5.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -101,
+                        "handicap": -4.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": -114,
+                        "handicap": 4.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -120,
+                        "handicap": -3.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 104,
+                        "handicap": 3.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -131,
+                        "handicap": -3.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 112,
+                        "handicap": 3.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -141,
+                        "handicap": -2.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 120,
+                        "handicap": 2.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -154,
+                        "handicap": -2.0,
+                        "team": "home"
+                    },
+                    {
+                        "price": 130,
+                        "handicap": 2.0,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "handicap",
+                "prices": [
+                    {
+                        "price": -166,
+                        "handicap": -1.5,
+                        "team": "home"
+                    },
+                    {
+                        "price": 140,
+                        "handicap": 1.5,
+                        "team": "away"
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "166.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 166.5,
+                        "price": -104
+                    },
+                    {
+                        "designation": "under",
+                        "points": 166.5,
+                        "price": -110
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "164.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 164.0,
+                        "price": -135
+                    },
+                    {
+                        "designation": "under",
+                        "points": 164.0,
+                        "price": 118
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "164.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 164.5,
+                        "price": -129
+                    },
+                    {
+                        "designation": "under",
+                        "points": 164.5,
+                        "price": 113
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "165.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 165.0,
+                        "price": -123
+                    },
+                    {
+                        "designation": "under",
+                        "points": 165.0,
+                        "price": 107
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "165.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 165.5,
+                        "price": -116
+                    },
+                    {
+                        "designation": "under",
+                        "points": 165.5,
+                        "price": 102
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "166.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 166.0,
+                        "price": -110
+                    },
+                    {
+                        "designation": "under",
+                        "points": 166.0,
+                        "price": -104
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "167.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 167.0,
+                        "price": 102
+                    },
+                    {
+                        "designation": "under",
+                        "points": 167.0,
+                        "price": -117
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "167.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 167.5,
+                        "price": 108
+                    },
+                    {
+                        "designation": "under",
+                        "points": 167.5,
+                        "price": -123
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "168.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 168.0,
+                        "price": 114
+                    },
+                    {
+                        "designation": "under",
+                        "points": 168.0,
+                        "price": -130
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "168.5",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 168.5,
+                        "price": 119
+                    },
+                    {
+                        "designation": "under",
+                        "points": 168.5,
+                        "price": -137
+                    }
+                ],
+                "limit": 6000
+            },
+            {
+                "description": "total points",
+                "threshold": "169.0",
+                "prices": [
+                    {
+                        "designation": "over",
+                        "points": 169.0,
+                        "price": 125
+                    },
+                    {
+                        "designation": "under",
+                        "points": 169.0,
+                        "price": -143
+                    }
+                ],
+                "limit": 6000
+            }
+        ]
+    }
+}

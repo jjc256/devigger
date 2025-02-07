@@ -1,0 +1,242 @@
+{
+    "34009724": {
+        "name": "Baskonia Vitoria-Gasteiz v Maccabi Tel-Aviv",
+        "league": "EUROLEAGUE",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.478151237",
+                "runners": [
+                    {
+                        "selectionId": 25201575,
+                        "handicap": 0,
+                        "runnerName": "Baskonia Vitoria-Gasteiz",
+                        "winRunnerOdds": -350
+                    },
+                    {
+                        "selectionId": 26163427,
+                        "handicap": 0,
+                        "runnerName": "Maccabi Tel-Aviv",
+                        "winRunnerOdds": 260
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.478151497",
+                "runners": [
+                    {
+                        "selectionId": 7017823,
+                        "handicap": 176.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -108
+                    },
+                    {
+                        "selectionId": 7017824,
+                        "handicap": 176.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.478151336",
+                "runners": [
+                    {
+                        "selectionId": 25201575,
+                        "handicap": -7.5,
+                        "runnerName": "Baskonia Vitoria-Gasteiz",
+                        "winRunnerOdds": -116
+                    },
+                    {
+                        "selectionId": 26163427,
+                        "handicap": 7.5,
+                        "runnerName": "Maccabi Tel-Aviv",
+                        "winRunnerOdds": -106
+                    }
+                ]
+            }
+        ]
+    },
+    "34009725": {
+        "name": "FC Barcelona v BC Olympiakos Piraeus",
+        "league": "EUROLEAGUE",
+        "markets": [
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.478151240",
+                "runners": [
+                    {
+                        "selectionId": 278533,
+                        "handicap": 0,
+                        "runnerName": "FC Barcelona",
+                        "winRunnerOdds": 104
+                    },
+                    {
+                        "selectionId": 63566864,
+                        "handicap": 0,
+                        "runnerName": "BC Olympiakos Piraeus",
+                        "winRunnerOdds": -126
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.478151304",
+                "runners": [
+                    {
+                        "selectionId": 278533,
+                        "handicap": 1.5,
+                        "runnerName": "FC Barcelona",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "selectionId": 63566864,
+                        "handicap": -1.5,
+                        "runnerName": "BC Olympiakos Piraeus",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.478151505",
+                "runners": [
+                    {
+                        "selectionId": 7017823,
+                        "handicap": 169.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -116
+                    },
+                    {
+                        "selectionId": 7017824,
+                        "handicap": 169.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -106
+                    }
+                ]
+            }
+        ]
+    },
+    "34009727": {
+        "name": "AS Monaco v KK Partizan Belgrade",
+        "league": "EUROLEAGUE",
+        "markets": [
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.478151311",
+                "runners": [
+                    {
+                        "selectionId": 41361232,
+                        "handicap": -4.5,
+                        "runnerName": "AS Monaco",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "selectionId": 63566865,
+                        "handicap": 4.5,
+                        "runnerName": "KK Partizan Belgrade",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.478151466",
+                "runners": [
+                    {
+                        "selectionId": 7017823,
+                        "handicap": 166.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "selectionId": 7017824,
+                        "handicap": 166.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -112
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.478151248",
+                "runners": [
+                    {
+                        "selectionId": 41361232,
+                        "handicap": 0,
+                        "runnerName": "AS Monaco",
+                        "winRunnerOdds": -205
+                    },
+                    {
+                        "selectionId": 63566865,
+                        "handicap": 0,
+                        "runnerName": "KK Partizan Belgrade",
+                        "winRunnerOdds": 166
+                    }
+                ]
+            }
+        ]
+    },
+    "34009731": {
+        "name": "Virtus Bologna v Paris Basketball",
+        "league": "EUROLEAGUE",
+        "markets": [
+            {
+                "marketType": "TOTAL_POINTS_(OVER/UNDER)",
+                "externalMarketId": "42.478151487",
+                "runners": [
+                    {
+                        "selectionId": 7017823,
+                        "handicap": 168.5,
+                        "runnerName": "Over",
+                        "winRunnerOdds": -110
+                    },
+                    {
+                        "selectionId": 7017824,
+                        "handicap": 168.5,
+                        "runnerName": "Under",
+                        "winRunnerOdds": -110
+                    }
+                ]
+            },
+            {
+                "marketType": "MATCH_HANDICAP_(2-WAY)",
+                "externalMarketId": "42.478151348",
+                "runners": [
+                    {
+                        "selectionId": 259330,
+                        "handicap": 2.5,
+                        "runnerName": "Virtus Bologna",
+                        "winRunnerOdds": -116
+                    },
+                    {
+                        "selectionId": 21068248,
+                        "handicap": -2.5,
+                        "runnerName": "Paris Basketball",
+                        "winRunnerOdds": -106
+                    }
+                ]
+            },
+            {
+                "marketType": "MONEY_LINE",
+                "externalMarketId": "42.478151349",
+                "runners": [
+                    {
+                        "selectionId": 259330,
+                        "handicap": 0,
+                        "runnerName": "Virtus Bologna",
+                        "winRunnerOdds": 112
+                    },
+                    {
+                        "selectionId": 21068248,
+                        "handicap": 0,
+                        "runnerName": "Paris Basketball",
+                        "winRunnerOdds": -138
+                    }
+                ]
+            }
+        ]
+    }
+}

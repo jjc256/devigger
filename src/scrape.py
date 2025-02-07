@@ -882,6 +882,47 @@ def fanduel_nbb(save_to_file=False):
     return {}
 
 
+def fanduel_euroleague(save_to_file=False):
+    """
+    Fetches and processes EuroLeague basketball data from Fanduel.
+    """
+    url = 'https://sbapi.ny.sportsbook.fanduel.com/api/competition-page'
+    api_key = os.getenv('FANDUEL_API_KEY')
+    params = {
+        '_ak': api_key,
+        'eventTypeId': '7522',
+        'competitionId': '10534437'
+    }
+
+    headers = {
+        'accept': 'application/json',
+        'accept-language': 'en-US,en;q=0.9',
+        'dnt': '1',
+        'origin': 'https://sportsbook.fanduel.com',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    }
+
+    data = get_response(url, headers, params)
+    if data:
+        # Get all events from the events section
+        rows = list(data.get("attachments", {}).get("events", {}).values())
+        result, seen_event_ids = process_fanduel_rows(rows, data)
+        markets = data.get("attachments", {}).get("markets", {})
+        process_fanduel_markets(markets, seen_event_ids, result, "EUROLEAGUE")
+
+        if save_to_file:
+            save_result_to_file(result, 'example_fanduel_euroleague.json')
+        return result
+    return {}
+
+
 def process_matchups(matchups_data, switch_home_away=False, shorten_names=False):
     """
     Processes the matchups data from Pinnacle to extract matchup IDs and names.
@@ -1632,6 +1673,39 @@ def pinnacle_nbb(save_to_file=False):
     return {}
 
 
+def pinnacle_euroleague(save_to_file=False):
+    """
+    Fetches and processes EuroLeague basketball data from Pinnacle.
+    """
+    headers = {
+        'sec-ch-ua-platform': 'Windows',
+        'X-Device-UUID': os.getenv('PINNACLE_DEVICE_UUID'),
+        'Referer': 'https://www.pinnacle.com/',
+        'sec-ch-ua': 'Chromium";v="131", "Google Chrome";v="131", "Not?A_Brand";v="24"',
+        'X-API-Key': os.getenv('PINNACLE_API_KEY'),
+        'sec-ch-ua-mobile': '?0',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'application/json',
+        'DNT': '1',
+        'Content-Type': 'application/json'
+    }
+
+    matchups_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/382/matchups?brandId=0', headers)
+    markets_data = get_response_no_params(
+        'https://guest.api.arcadia.pinnacle.com/0.1/leagues/382/markets/straight', headers)
+
+    if matchups_data and markets_data:
+        result = process_matchups(matchups_data)
+        special_to_parent = process_specials(matchups_data, result)
+        process_markets(markets_data, result, special_to_parent)
+
+        if save_to_file:
+            save_result_to_file(result, 'example_pinnacle_euroleague.json')
+        return result
+    return {}
+
+
 def print_market_types():
     """
     Prints all the possible market types in example_fanduel_nhl.json.
@@ -1670,7 +1744,8 @@ if __name__ == "__main__":
     # fanduel_greek_super(save_to_file=True)
     # fanduel_cba(save_to_file=True)
     # fanduel_ao(save_to_file=True)
-    fanduel_nbb(save_to_file=True)
+    # fanduel_nbb(save_to_file=True)
+    fanduel_euroleague(save_to_file=True)
 
     # pinnacle_nba(save_to_file=True)
     # pinnacle_nfl(save_to_file=True)
@@ -1689,4 +1764,5 @@ if __name__ == "__main__":
     # pinnacle_greek_super(save_to_file=True)
     # pinnacle_cba(save_to_file=True)
     # pinnacle_ao(save_to_file=True)
-    pinnacle_nbb(save_to_file=True)
+    # pinnacle_nbb(save_to_file=True)
+    pinnacle_euroleague(save_to_file=True)
