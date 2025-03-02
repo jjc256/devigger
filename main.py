@@ -74,6 +74,7 @@ class BettingGUI:
     def format_bet_text(self, wager, risk_percentage):
         bet_amount = int(2 * risk_percentage / 100 * BANKROLL + 1) / 2
         units = bet_amount / self.unit_size
+        units = round(units, 1)
         odds_str = f"+{wager.fanduel_odds}" if wager.fanduel_odds > 0 else str(wager.fanduel_odds)
         return f"{wager.pretty()}\n{units}u @ {odds_str}"
 
